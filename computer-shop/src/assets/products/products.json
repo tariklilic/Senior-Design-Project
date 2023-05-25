@@ -1,0 +1,1736 @@
+[
+    {
+        "type": "Graphic Card",
+        "name": "ANVIDIA GeForce RTX 3080",
+        "manufacturer": "NVIDIA",
+        "shortdescription": "Powerful graphics card for gaming enthusiasts.",
+        "price": 1499.99,
+        "rating": 4.8,
+        "quantity": 20,
+        "longdescription": "The NVIDIA GeForce RTX 3080 is a high-performance graphics card powered by NVIDIA's Ampere architecture. With its 8704 CUDA cores and 10 GB of GDDR6X memory, it delivers exceptional gaming performance and supports real-time ray tracing. The RTX 3080 features advanced cooling solutions, supports the latest connectivity standards, and offers impressive specifications, making it a top choice for gamers and professionals seeking cutting-edge graphics capabilities.",
+        "images": [
+            "Graphic Card1.png",
+            "Graphic Card2.png",
+            "Graphic Card3.png",
+            "Graphic Card4.png"
+        ],
+        "cover": "https://storage-asset.msi.com/global/picture/image/feature/vga/NVIDIA/VGA-2020/image/KV-3080X.png"
+    },
+    {
+        "type": "Graphic Card",
+        "name": "BAMD Radeon RX 6800 XT",
+        "manufacturer": "AMD",
+        "shortdescription": "High-performance graphics card for gaming and content creation.",
+        "price": 999.99,
+        "rating": 4.7,
+        "quantity": 15,
+        "longdescription": "The AMD Radeon RX 6800 XT is a high-performance graphics card built on AMD's RDNA 2 architecture. With 4608 stream Processors and 16 GB of GDDR6 memory, it delivers impressive gaming performance and supports real-time ray tracing. The RX 6800 XT features AMD Infinity Cache technology for optimized memory bandwidth and AMD Smart Access Memory for improved performance with compatible Processors. Its robust cooling solution ensures efficient heat dissipation, while the customizable RGB lighting adds a touch of personalization to your setup. Overall, the RX 6800 XT is a powerhouse graphics card that offers exceptional visuals and performance for gamers and content creators.",
+        "images": [
+            "Graphic Card5.png",
+            "Graphic Card6.png",
+            "Graphic Card7.png",
+            "Graphic Card8.png"
+        ],
+        "cover": "https://www.amd.com/system/files/2020-10/579976-amd-radeon-6800-1260x709.png"
+    },
+    {
+        "type": "Graphic Card",
+        "name": "CNVIDIA GeForce RTX 3070",
+        "manufacturer": "NVIDIA",
+        "shortdescription": "Mid-range graphics card with excellent performance-to-price ratio.",
+        "price": 799.99,
+        "rating": 4.6,
+        "quantity": 25,
+        "longdescription": "The NVIDIA GeForce RTX 3070 is a high-performance graphics card designed for gamers and content creators. With 5888 CUDA cores and 8 GB of GDDR6 memory, it offers excellent gaming performance and supports real-time ray tracing for enhanced visuals. The RTX 3070 is built on NVIDIA's Ampere architecture, delivering exceptional power efficiency and advanced AI capabilities. Its sleek design features dual fans and a robust cooling system to ensure optimal thermal performance. With its impressive specifications and competitive pricing, the RTX 3070 is a popular choice for gamers seeking a balance of performance and value.",
+        "images": [
+            "Graphic Card9.png",
+            "Graphic Card10.png",
+            "Graphic Card11.png",
+            "Graphic Card12.png"
+        ],
+        "cover": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/1635/innergigabyteimages/kf-img.png"
+    },
+    {
+        "type": "Graphic Card",
+        "name": "DAMD Radeon RX 6700 XT",
+        "manufacturer": "AMD",
+        "shortdescription": "High-performance graphics card for 1440p gaming.",
+        "price": 549.99,
+        "rating": 4.5,
+        "quantity": 18,
+        "longdescription": "The AMD Radeon RX 6700 XT is a high-performance graphics card designed for gaming enthusiasts. With 2560 stream Processors and 12 GB of GDDR6 memory, it delivers excellent gaming performance and supports real-time ray tracing for realistic visuals. The RX 6700 XT is built on AMD's RDNA 2 architecture, offering advanced features and power efficiency. Its cooling solution ensures optimal thermal performance even during intense gaming sessions. With its competitive pricing and impressive performance, the RX 6700 XT is a compelling choice for gamers looking to experience smooth gameplay at high resolutions.",
+        "images": [
+            "Graphic Card13.png",
+            "Graphic Card14.png",
+            "Graphic Card15.png",
+            "Graphic Card16.png"
+        ],
+        "cover": "https://www.asrock.com/Graphics-Card/photo/Radeon%20RX%206700%20XT%20Challenger%20D%2012GB(M1).png"
+    },
+    {
+        "type": "Graphic Card",
+        "name": "ENVIDIA GeForce RTX 3060 Ti",
+        "manufacturer": "NVIDIA",
+        "shortdescription": "Value-oriented graphics card for 1080p gaming.",
+        "price": 699.99,
+        "rating": 4.4,
+        "quantity": 30,
+        "longdescription": "The NVIDIA GeForce RTX 3060 Ti is a powerful graphics card designed for gamers and content creators. With 4864 CUDA cores and 8 GB of GDDR6 memory, it offers impressive gaming performance and supports real-time ray tracing for enhanced visuals. The RTX 3060 Ti is built on NVIDIA's Ampere architecture, delivering exceptional power efficiency and advanced features. Its compact design and dual fan cooling system ensure efficient heat dissipation for consistent performance. With its competitive pricing and strong performance, the RTX 3060 Ti is a popular choice for gamers seeking high-quality graphics at a more affordable price point.",
+        "images": [
+            "Graphic Card17.png",
+            "Graphic Card18.png",
+            "Graphic Card19.png",
+            "Graphic Card20.png"
+        ],
+        "cover": "https://static.gigabyte.com/StaticFile/Image/Global/30100f4ad87002ca4b484e32d5ee3929/Product/29348/Png"
+    },
+    {
+        "type": "Graphic Card",
+        "name": "FAMD Radeon RX 6600 XT",
+        "manufacturer": "AMD",
+        "shortdescription": "Entry-level graphics card for 1080p gaming.",
+        "price": 349.99,
+        "rating": 4.2,
+        "quantity": 22,
+        "longdescription": "The AMD Radeon RX 6600 XT is a mid-range graphics card designed for gamers. With 2048 stream Processors and 8 GB of GDDR6 memory, it offers solid gaming performance at 1080p resolution. The RX 6600 XT is built on AMD's RDNA 2 architecture, providing efficient power consumption and advanced features. Its compact design and efficient cooling system ensure reliable performance during gaming sessions. With its competitive pricing and good performance in 1080p gaming, the RX 6600 XT is a suitable choice for gamers looking for a balance between affordability and solid graphics performance.",
+        "images": [
+            "Graphic Card21.png",
+            "Graphic Card22.png",
+            "Graphic Card23.png",
+            "Graphic Card24.png"
+        ],
+        "cover": "https://images.anandtech.com/doci/17007/RX6600_Car2_678x452.png"
+    },
+    {
+        "type": "GGraphic Card",
+        "name": "NVIDIA GeForce GTX 1660 Super",
+        "manufacturer": "NVIDIA",
+        "shortdescription": "Budget-friendly graphics card for 1080p gaming.",
+        "price": 299.99,
+        "rating": 4.1,
+        "quantity": 35,
+        "longdescription": "The NVIDIA GeForce GTX 1660 Super is a popular graphics card designed for gamers on a budget. With 1408 CUDA cores and 6 GB of GDDR6 memory, it offers solid gaming performance at 1080p resolution. The GTX 1660 Super is built on NVIDIA's Turing architecture, providing efficient power consumption and reliable performance. Its compact design and dual fan cooling system ensure optimal thermal management. With its affordable price and good performance in 1080p gaming, the GTX 1660 Super is a reliable choice for gamers looking for a budget-friendly graphics card without sacrificing too much performance.",
+        "images": [
+            "Graphic Card25.png",
+            "Graphic Card26.png",
+            "Graphic Card27.png",
+            "Graphic Card28.png"
+        ],
+        "cover": "https://asset.msi.com/resize/image/global/product/product_4_20191016165654_5da6db5683982.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
+    },
+    {
+        "type": "Graphic Card",
+        "name": "HAMD Radeon RX 6900 XT",
+        "manufacturer": "AMD",
+        "shortdescription": "Flagship graphics card for extreme gaming and content creation.",
+        "price": 999.99,
+        "rating": 4.9,
+        "quantity": 8,
+        "longdescription": "The AMD Radeon RX 6900 XT is a flagship graphics card designed for hardcore gamers and professionals. With 5120 stream Processors and 16 GB of GDDR6 memory, it delivers exceptional gaming performance and supports real-time ray tracing for stunning visuals. The RX 6900 XT is built on AMD's RDNA 2 architecture, offering advanced features and power efficiency. Its robust cooling solution ensures optimal thermal performance even during demanding gaming sessions. With its competitive pricing and top-tier performance, the RX 6900 XT is a top choice for gamers and professionals seeking the best graphics performance available.",
+        "images": [
+            "Graphic Card29.png",
+            "Graphic Card30.png",
+            "Graphic Card31.png",
+            "Graphic Card32.png"
+        ],
+        "cover": "https://dlcdnwebimgs.asus.com/gain/27460038-5a52-466d-9037-7677f903ab2e/"
+    },
+    {
+        "type": "Graphic Card",
+        "name": "INVIDIA GeForce RTX 3090",
+        "manufacturer": "NVIDIA",
+        "shortdescription": "Extreme-performance graphics card for gaming and creative work.",
+        "price": 1999.99,
+        "rating": 5.0,
+        "quantity": 5,
+        "longdescription": "The NVIDIA GeForce RTX 3090 is a flagship graphics card designed for extreme gaming and professional workloads. With a massive 10496 CUDA cores and 24 GB of GDDR6X memory, it offers unparalleled gaming performance and supports real-time ray tracing for lifelike visuals. The RTX 3090 is built on NVIDIA's Ampere architecture, delivering exceptional power efficiency and advanced features. Its triple-fan cooling system and robust design ensure efficient heat dissipation and quiet operation. With its top-tier specifications and massive memory capacity, the RTX 3090 is the ultimate choice for gamers, content creators, and professionals working with demanding applications.",
+        "images": [
+            "Graphic Card33.png",
+            "Graphic Card34.png",
+            "Graphic Card35.png",
+            "Graphic Card36.png"
+        ],
+        "cover": "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ampere/rtx-3090/geforce-rtx-3090-shop-630-d@2x.png"
+    },
+    {
+        "type": "Graphic Card",
+        "name": "JAMD Radeon RX 6800",
+        "manufacturer": "AMD",
+        "shortdescription": "High-performance graphics card for enthusiast gamers.",
+        "price": 1299.99,
+        "rating": 4.7,
+        "quantity": 12,
+        "longdescription": "The AMD Radeon RX 6800 is a high-performance graphics card designed for gamers and content creators. With 3840 stream Processors and 16 GB of GDDR6 memory, it delivers excellent gaming performance and supports real-time ray tracing for enhanced visuals. The RX 6800 is built on AMD's RDNA 2 architecture, offering advanced features and power efficiency. Its robust cooling solution ensures optimal thermal performance even during intense gaming sessions. With its competitive pricing and strong performance in both gaming and content creation, the RX 6800 is a compelling choice for users looking for high-quality graphics and productivity capabilities.",
+        "images": [
+            "Graphic Card37.png",
+            "Graphic Card38.png",
+            "Graphic Card39.png",
+            "Graphic Card40.png"
+        ],
+        "cover": "https://www.amd.com/system/files/2020-10/579976-amd-radeon-6800-1260x709.png"
+    },
+    {
+        "type": "Graphic Card",
+        "name": "KNVIDIA GeForce GTX 1050 Ti",
+        "manufacturer": "NVIDIA",
+        "shortdescription": "Entry-level graphics card for casual gaming and multimedia tasks.",
+        "price": 199.99,
+        "rating": 4.0,
+        "quantity": 40,
+        "longdescription": "The NVIDIA GeForce GTX 1050 Ti is a budget-friendly graphics card designed for entry-level gaming and multimedia tasks. With 768 CUDA cores and 4 GB of GDDR5 memory, it offers decent gaming performance at 1080p resolution. The GTX 1050 Ti is built on NVIDIA's Pascal architecture, providing power efficiency and reliable performance for casual gaming. Its compact design and single fan cooling system make it suitable for small form factor systems. With its affordable price and satisfactory performance for 1080p gaming, the GTX 1050 Ti is a popular choice for budget-conscious gamers and casual users.",
+        "images": [
+            "Graphic Card41.png",
+            "Graphic Card42.png",
+            "Graphic Card43.png",
+            "Graphic Card44.png"
+        ],
+        "cover": "https://asset.msi.com/resize/image/global/product/product_10_20180411113818_5acd832ad9d87.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
+    },
+    {
+        "type": "Processor",
+        "name": "AMD Ryzen 9 5950X",
+        "manufacturer": "AMD",
+        "shortdescription": "High-performance Processor for multitasking and gaming.",
+        "price": 549.99,
+        "rating": 4.9,
+        "quantity": 15,
+        "longdescription": "The AMD Ryzen 9 5950X is a high-end desktop Processor designed for demanding workloads and gaming. With its 16 cores and 32 threads, it offers exceptional multi-threaded performance, making it ideal for content creation, video editing, 3D rendering, and other CPU-intensive tasks. The Ryzen 9 5950X is built on AMD's Zen 3 architecture, delivering significant improvements in instructions per clock and power efficiency compared to its predecessors. With its high core count and advanced features like Precision Boost 2 and AMD StoreMI technology, it provides exceptional performance and responsiveness across a wide range of applications. The Ryzen 9 5950X is a top choice for professionals and enthusiasts seeking uncompromising performance and multitasking capabilities.",
+        "images": [
+            "cpu1.png",
+            "cpu2.png",
+            "cpu3.png",
+            "cpu4.png"
+        ],
+        "cover": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png"
+    },
+    {
+        "type": "Processor",
+        "name": "Intel Core i9-10900K",
+        "manufacturer": "Intel",
+        "shortdescription": "Flagship Processor for gaming and overclocking enthusiasts.",
+        "price": 529.99,
+        "rating": 4.7,
+        "quantity": 10,
+        "longdescription": "The Intel Core i9-10900K is a high-performance desktop Processor aimed at enthusiasts and gamers. With its 10 cores and 20 threads, it delivers impressive multi-threaded performance and can handle demanding tasks with ease. The i9-10900K is based on Intel's Comet Lake architecture and offers high clock speeds, making it suitable for tasks that require strong single-threaded performance, such as gaming. It supports Intel Turbo Boost technology, which dynamically increases the clock speed when needed for optimal performance.",
+        "images": [
+            "cpu5.png",
+            "cpu6.png",
+            "cpu7.png",
+            "cpu8.png"
+        ],
+        "cover": "https://cdn.originpc.com/img/landing/2021/intel-core-11th-gen-processors-desktop/intel-core-processor.png"
+    },
+    {
+        "type": "Processor",
+        "name": "AMD Ryzen 7 5800X",
+        "manufacturer": "AMD",
+        "shortdescription": "High-performance Processor for gaming and content creation.",
+        "price": 429.99,
+        "rating": 4.8,
+        "quantity": 20,
+        "longdescription": "The AMD Ryzen 7 5800X is a high-performance desktop Processor built for gaming and content creation. With its 8 cores and 16 threads, it delivers exceptional multi-threaded performance. The Processor is based on AMD's Zen 3 architecture, providing improved instructions per clock and power efficiency. With a base clock speed of 3.8 GHz and a boost clock speed of 4.7 GHz, it offers fast and responsive performance. The Ryzen 7 5800X is a compelling choice for users seeking a powerful CPU for gaming and productivity tasks.",
+        "images": [
+            "cpu9.png",
+            "cpu10.png",
+            "cpu11.png",
+            "cpu12.png"
+        ],
+        "cover": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png"
+    },
+    {
+        "type": "Processor",
+        "name": "Intel Core i7-11700K",
+        "manufacturer": "Intel",
+        "shortdescription": "High-performance Processor for gaming and productivity.",
+        "price": 399.99,
+        "rating": 4.6,
+        "quantity": 18,
+        "longdescription": "The Intel Core i7-11700K is a high-performance desktop Processor designed for gaming and productivity tasks. With its 8 cores and 16 threads, it offers strong multi-threaded performance, making it suitable for demanding applications and content creation. The i7-11700K is based on Intel's Rocket Lake architecture, delivering improved instructions per clock and enhanced gaming performance compared to previous generations. It features a base clock speed of 3.6 GHz and can boost up to 5.0 GHz for quick and responsive performance. The Processor supports Intel Turbo Boost Max Technology 3.0, which optimizes performance by automatically boosting the clock speed of the fastest cores. With its solid performance and features, the Intel Core i7-11700K is a reliable choice for users who prioritize gaming and productivity tasks.",
+        "images": [
+            "cpu13.png",
+            "cpu14.png",
+            "cpu15.png",
+            "cpu16.png"
+        ],
+        "cover": "https://cdn.originpc.com/img/landing/2021/intel-core-11th-gen-processors-desktop/intel-core-processor.png"
+    },
+    {
+        "type": "Processor",
+        "name": "AMD Ryzen 5 5600X",
+        "manufacturer": "AMD",
+        "shortdescription": "Mid-range Processor for gaming and multitasking.",
+        "price": 299.99,
+        "rating": 4.5,
+        "quantity": 25,
+        "longdescription": "The AMD Ryzen 5 5600X is a high-performance desktop Processor designed for gaming and productivity. With 6 cores and 12 threads, it offers strong multi-threaded performance. Built on AMD's Zen 3 architecture, it delivers improved instructions per clock and power efficiency. The Processor operates at a base clock speed of 3.7 GHz, with a boost clock speed of up to 4.6 GHz. With its affordable price and strong performance in gaming and productivity tasks, the AMD Ryzen 5 5600X is a compelling choice for users seeking a reliable and efficient CPU.",
+        "images": [
+            "cpu17.png",
+            "cpu18.png",
+            "cpu19.png",
+            "cpu20.png"
+        ],
+        "cover": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png"
+    },
+    {
+        "type": "Processor",
+        "name": "Intel Core i5-11600K",
+        "manufacturer": "Intel",
+        "shortdescription": "Mid-range Processor for gaming and productivity.",
+        "price": 269.99,
+        "rating": 4.4,
+        "quantity": 22,
+        "longdescription": "The Intel Core i5-11600K is a high-performance desktop Processor designed for gaming and productivity tasks. With its 6 cores and 12 threads, it offers strong multi-threaded performance, making it suitable for demanding applications. The i5-11600K is based on Intel's Rocket Lake architecture, delivering improved instructions per clock and enhanced gaming performance compared to previous generations. It features a base clock speed of 3.9 GHz and can boost up to 4.9 GHz for quick and responsive performance. The Processor supports Intel Turbo Boost Max Technology 3.0, which optimizes performance by automatically boosting the clock speed of the fastest cores. With its solid performance and features, the Intel Core i5-11600K is a reliable choice for users who prioritize gaming and productivity tasks.",
+        "images": [
+            "cpu21.png",
+            "cpu22.png",
+            "cpu23.png",
+            "cpu24.png"
+        ],
+        "cover": "https://cdn.originpc.com/img/landing/2021/intel-core-11th-gen-processors-desktop/intel-core-processor.png"
+    },
+    {
+        "type": "Processor",
+        "name": "AMD Ryzen 9 5900X",
+        "manufacturer": "AMD",
+        "shortdescription": "High-performance Processor for gaming and content creation.",
+        "price": 749.99,
+        "rating": 4.8,
+        "quantity": 15,
+        "longdescription": "The AMD Ryzen 9 5900X is a high-end desktop Processor designed for gaming and demanding workloads. With its 12 cores and 24 threads, it offers exceptional multi-threaded performance, making it ideal for content creation, video editing, and other CPU-intensive tasks. The Ryzen 9 5900X is built on AMD's Zen 3 architecture, delivering improved instructions per clock and power efficiency compared to its predecessors. It features a base clock speed of 3.7 GHz and can boost up to 4.8 GHz for fast and responsive performance. With its high core count and advanced features like Precision Boost 2 and AMD StoreMI technology, it provides unmatched performance and multitasking capabilities. The Ryzen 9 5900X is a top choice for professionals and enthusiasts seeking uncompromising performance and productivity.",
+        "images": [
+            "cpu25.png",
+            "cpu26.png",
+            "cpu27.png",
+            "cpu28.png"
+        ],
+        "cover": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png"
+    },
+    {
+        "type": "Processor",
+        "name": "Intel Core i9-11900K",
+        "manufacturer": "Intel",
+        "shortdescription": "Flagship Processor for gaming and high-performance computing.",
+        "price": 529.99,
+        "rating": 4.9,
+        "quantity": 8,
+        "longdescription": "The Intel Core i9-11900K is a flagship desktop Processor designed for high-performance gaming and demanding workloads. With its 8 cores and 16 threads, it offers powerful multi-threaded performance, making it suitable for tasks such as content creation, video editing, and 3D rendering. The i9-11900K is based on Intel's Rocket Lake architecture, delivering improved instructions per clock and enhanced gaming performance compared to its predecessors. It features a base clock speed of 3.5 GHz and can boost up to 5.3 GHz with Intel Thermal Velocity Boost technology for exceptional responsiveness. The Processor supports Intel Turbo Boost Max Technology 3.0, which optimizes performance by automatically boosting the clock speed of the fastest cores. With its advanced features and strong performance, the Intel Core i9-11900K is a top choice for enthusiasts and professionals who demand the best in gaming and productivity.",
+        "images": [
+            "cpu29.png",
+            "cpu30.png",
+            "cpu31.png",
+            "cpu32.png"
+        ],
+        "cover": "https://cdn.originpc.com/img/landing/2021/intel-core-11th-gen-processors-desktop/intel-core-processor.png"
+    },
+    {
+        "type": "Processor",
+        "name": "AMD Ryzen 7 3700X",
+        "manufacturer": "AMD",
+        "shortdescription": "High-performance Processor for gaming and productivity.",
+        "price": 399.99,
+        "rating": 4.7,
+        "quantity": 12,
+        "longdescription": "The AMD Ryzen 7 3700X is a high-performance desktop Processor designed for gaming and productivity. With its 8 cores and 16 threads, it offers strong multi-threaded performance, making it suitable for demanding tasks such as content creation and video editing. The Ryzen 7 3700X is built on AMD's Zen 2 architecture, delivering improved instructions per clock and power efficiency compared to its predecessors. It features a base clock speed of 3.6 GHz and can boost up to 4.4 GHz for smooth and responsive performance. With its advanced features like Precision Boost 2 and AMD StoreMI technology, it provides excellent performance and efficiency. The Ryzen 7 3700X is a great choice for users seeking a powerful and versatile CPU for both gaming and productivity tasks.",
+        "images": [
+            "cpu33.png",
+            "cpu34.png",
+            "cpu35.png",
+            "cpu36.png"
+        ],
+        "cover": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png"
+    },
+    {
+        "type": "Processor",
+        "name": "Intel Core i7-10700K",
+        "manufacturer": "Intel",
+        "shortdescription": "High-performance Processor for gaming and content creation.",
+        "price": 379.99,
+        "rating": 4.6,
+        "quantity": 10,
+        "longdescription": "The Intel Core i7-10700K is a high-performance desktop Processor designed for gaming and productivity tasks. With its 8 cores and 16 threads, it offers strong multi-threaded performance, making it suitable for demanding applications and content creation. The i7-10700K is based on Intel's Comet Lake architecture, delivering improved instructions per clock and enhanced gaming performance compared to previous generations. It features a base clock speed of 3.8 GHz and can boost up to 5.1 GHz for quick and responsive performance. The Processor supports Intel Turbo Boost Max Technology 3.0, which optimizes performance by automatically boosting the clock speed of the fastest cores. With its solid performance and features, the Intel Core i7-10700K is a reliable choice for users who prioritize gaming and productivity tasks.",
+        "images": [
+            "cpu37.png",
+            "cpu38.png",
+            "cpu39.png",
+            "cpu40.png"
+        ],
+        "cover": "https://cdn.originpc.com/img/landing/2021/intel-core-11th-gen-processors-desktop/intel-core-processor.png"
+    },
+    {
+        "type": "Processor",
+        "name": "AMD Ryzen 5 3600X",
+        "manufacturer": "AMD",
+        "shortdescription": "Mid-range Processor for gaming and multitasking.",
+        "price": 179.99,
+        "rating": 4.4,
+        "quantity": 20,
+        "longdescription": "The AMD Ryzen 5 3600X is a powerful desktop Processor designed for gaming and productivity. With its 6 cores and 12 threads, it offers strong multi-threaded performance, making it capable of handling demanding tasks. The Ryzen 5 3600X is built on AMD's Zen 2 architecture, providing improved instructions per clock and power efficiency compared to previous generations. It features a base clock speed of 3.8 GHz and can boost up to 4.4 GHz, delivering fast and responsive performance. With its advanced features like Precision Boost 2 and AMD StoreMI technology, it provides excellent performance and efficiency. The Ryzen 5 3600X is a popular choice for gamers and content creators looking for a reliable and affordable Processor that delivers strong performance.",
+        "images": [
+            "cpu41.png",
+            "cpu42.png",
+            "cpu43.png",
+            "cpu44.png"
+        ],
+        "cover": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png"
+    },
+    {
+        "type": "Motherboard",
+        "name": "ASUS ROG Strix X570-E Gaming",
+        "manufacturer": "ASUS",
+        "shortdescription": "High-end Motherboard with extensive features for gaming enthusiasts.",
+        "price": 349.99,
+        "rating": 4.8,
+        "quantity": 15,
+        "longdescription": "The ASUS ROG Strix X570-E Gaming is a feature-rich Motherboard designed for gaming enthusiasts and PC builders seeking high-performance and customization options. With its AM4 socket and compatibility with AMD Ryzen Processors, it offers excellent performance for gaming and content creation tasks. The Motherboard supports PCIe 4.0, allowing for faster data transfer speeds and support for the latest graphics cards and storage devices..",
+        "images": [
+            "Motherboard1.png",
+            "Motherboard2.png",
+            "Motherboard3.png",
+            "Motherboard4.png"
+        ],
+        "cover": "https://thumbor.arvutitark.ee/oqMGAGRIMi0_7W6xFjVoDYV5xtI=/trim/fit-in/800x800/https%3A%2F%2Fstorage.googleapis.com%2Farvutitark-prod%2Fpublic%2Fmedia-hub-olev%2F2023%2F01%2F336312%2Foriginal.png"
+    },
+    {
+        "type": "Motherboard",
+        "name": "GIGABYTE B550 AORUS Elite",
+        "manufacturer": "GIGABYTE",
+        "shortdescription": "Mid-range Motherboard with strong performance and affordability.",
+        "price": 199.99,
+        "rating": 4.6,
+        "quantity": 12,
+        "longdescription": "The GIGABYTE B550 AORUS Elite is a high-performance Motherboard designed for gaming and content creation. It supports AMD Ryzen Processors and features the B550 chipset, which offers excellent stability and overclocking capabilities. With its robust power delivery and efficient thermal design, this Motherboard ensures reliable performance even during demanding tasks. It boasts a range of connectivity options, including PCIe 4.0 slots, USB 3.2 Gen 2 ports, and high-speed Ethernet, providing gamers and professionals with the necessary tools to build a powerful and versatile system. The Motherboard also offers RGB lighting and customizable aesthetics, allowing users to personalize their setups to match their style.",
+        "images": [
+            "Motherboard5.png",
+            "Motherboard6.png",
+            "Motherboard7.png",
+            "Motherboard8.png"
+        ],
+        "cover": "https://static.gigabyte.com/StaticFile/Image/Global/265ff2afea56bc84d7d6af0ab6c605df/Product/25234"
+    },
+    {
+        "type": "Motherboard",
+        "name": "MSI MPG Z590 GAMING EDGE WIFI",
+        "manufacturer": "MSI",
+        "shortdescription": "Feature-rich Motherboard with excellent connectivity and gaming-oriented design.",
+        "price": 129.99,
+        "rating": 4.7,
+        "quantity": 10,
+        "longdescription": "The MSI MPG Z590 GAMING EDGE WIFI is a feature-packed Motherboard that caters to gamers and PC enthusiasts. Designed for Intel's 11th and 10th generation Processors, it utilizes the Z590 chipset, which provides robust performance and overclocking capabilities. This Motherboard offers reliable connectivity options, including built-in Wi-Fi 6E and Bluetooth 5.2, ensuring fast and stable network connections. It supports PCIe 4.0 slots, USB 3.2 Gen 2 ports, and ample storage options, allowing users to expand their system with high-speed peripherals and devices. With its striking design and customizable RGB lighting, the MPG Z590 GAMING EDGE WIFI adds a visually appealing touch to any gaming setup.",
+        "images": [
+            "Motherboard9.png",
+            "Motherboard10.png",
+            "Motherboard11.png",
+            "Motherboard12.png"
+        ],
+        "cover": "https://asset.msi.com/resize/image/global/product/product_161183470830a6e5d4f07ec005a35be58464d9f1d3.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
+    },
+    {
+        "type": "Motherboard",
+        "name": "ASRock B450M PRO4",
+        "manufacturer": "ASRock",
+        "shortdescription": "Budget-friendly Motherboard with reliable performance.",
+        "price": 139.99,
+        "rating": 4.4,
+        "quantity": 20,
+        "longdescription": "The ASRock B450M PRO4 is a micro ATX Motherboard designed for budget-conscious builders seeking a reliable and functional option. It supports AMD Ryzen Processors and utilizes the B450 chipset, providing a stable foundation for mid-range systems. The Motherboard features PCIe 3.0 slots, allowing for expansion cards such as graphics cards or Wi-Fi adapters. It offers multiple USB ports, including USB 3.1 Gen1 and USB 2.0, for convenient connectivity. The B450M PRO4 also includes M.2 slots for fast storage options and supports dual-channel DDR4 memory for efficient multitasking. Overall, it is a solid choice for those looking for a cost-effective solution without compromising essential features.",
+        "images": [
+            "Motherboard13.png",
+            "Motherboard14.png",
+            "Motherboard15.png",
+            "Motherboard16.png"
+        ],
+        "cover": "https://www.asrock.com/mb/photo/B450M%20Pro4(M1).png"
+    },
+    {
+        "type": "Motherboard",
+        "name": "ASUS Prime X570-P",
+        "manufacturer": "ASUS",
+        "shortdescription": "Mid-range Motherboard with solid performance and durability.",
+        "price": 109.99,
+        "rating": 4.5,
+        "quantity": 18,
+        "longdescription": "The ASUS Prime X570-P is a reliable and feature-rich Motherboard designed for high-performance computing. It supports AMD Ryzen Processors and utilizes the X570 chipset, offering robust power delivery and extensive connectivity options. The Motherboard features PCIe 4.0 slots, enabling support for the latest graphics cards and storage devices. It also includes M.2 slots for ultra-fast NVMe SSDs and supports dual-channel DDR4 memory for optimal system performance. The Prime X570-P offers comprehensive cooling options to keep temperatures in check during demanding tasks. With its sleek design and ASUS Aura Sync RGB lighting, it adds a touch of style to any build. Overall, it is an excellent choice for gamers, content creators, and enthusiasts looking for a reliable and future-proof Motherboard.",
+        "images": [
+            "Motherboard17.png",
+            "Motherboard18.png",
+            "Motherboard19.png",
+            "Motherboard20.png"
+        ],
+        "cover": "https://dlcdnwebimgs.asus.com/gain/08413d73-0bc2-4ec4-9b0e-1631143c38f9/w800"
+    },
+    {
+        "type": "Motherboard",
+        "name": "GIGABYTE Z590 AORUS PRO AX",
+        "manufacturer": "GIGABYTE",
+        "shortdescription": "High-performance Motherboard with advanced features and connectivity options.",
+        "price": 249.99,
+        "rating": 4.9,
+        "quantity": 8,
+        "longdescription": "The GIGABYTE Z590 AORUS PRO AX is a high-end Motherboard designed for gaming and professional use. It supports Intel's 11th and 10th generation Processors and features the Z590 chipset, offering excellent performance and advanced features. The Motherboard boasts PCIe 4.0 slots, allowing for high-speed data transfer and compatibility with the latest graphics cards and storage devices. It offers robust power delivery and efficient thermal design, ensuring stable performance even during intense workloads. The Z590 AORUS PRO AX provides a range of connectivity options, including Wi-Fi 6E, Bluetooth 5.2, and multiple USB ports, making it ideal for seamless networking and device integration. With its premium build quality and stunning aesthetics, this Motherboard delivers both style and substance for demanding users.",
+        "images": [
+            "Motherboard21.png",
+            "Motherboard22.png",
+            "Motherboard23.png",
+            "Motherboard24.png"
+        ],
+        "cover": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/1739/innergigabyteimages/Motherboard.png"
+    },
+    {
+        "type": "Motherboard",
+        "name": "ASRock X570 Phantom Gaming 4",
+        "manufacturer": "ASRock",
+        "shortdescription": "Affordable Motherboard with solid performance and essential features.",
+        "price": 179.99,
+        "rating": 4.3,
+        "quantity": 25,
+        "longdescription": "The ASRock X570 Phantom Gaming 4 is a reliable and affordable Motherboard designed for gamers and PC enthusiasts. It supports AMD Ryzen Processors and utilizes the X570 chipset, providing a solid foundation for high-performance systems. The Motherboard features PCIe 4.0 slots, allowing for fast data transfer and compatibility with the latest graphics cards and storage devices. It offers multiple USB ports, including USB 3.2 Gen2, for convenient connectivity. The X570 Phantom Gaming 4 also includes M.2 slots for ultra-fast storage options and supports dual-channel DDR4 memory for efficient multitasking. With its sleek design and customizable RGB lighting, it adds a touch of style to any gaming setup. Overall, it is a great choice for budget-conscious builders who still want essential features and reliable performance.",
+        "images": [
+            "Motherboard29.png",
+            "Motherboard30.png",
+            "Motherboard31.png",
+            "Motherboard32.png"
+        ],
+        "cover": "https://pg.asrock.com/mb/photo/X570%20Phantom%20Gaming%204(L4).png"
+    },
+    {
+        "type": "Motherboard",
+        "name": "MSI B450 TOMAHAWK MAX",
+        "manufacturer": "MSI",
+        "shortdescription": "Mid-range Motherboard with excellent compatibility and performance.",
+        "price": 149.99,
+        "rating": 4.6,
+        "quantity": 15,
+        "longdescription": "The MSI B450 TOMAHAWK MAX is a highly regarded Motherboard that offers exceptional performance and features at a competitive price point. It supports AMD Ryzen Processors and utilizes the B450 chipset, providing a stable foundation for mid-range gaming systems. The Motherboard features robust power delivery and efficient thermal design, ensuring reliable performance even during demanding tasks. It offers PCIe 3.0 slots for expansion cards like graphics cards or Wi-Fi adapters, and multiple USB ports for convenient connectivity. The B450 TOMAHAWK MAX also supports dual-channel DDR4 memory for efficient multitasking. With its sleek black and grey design, it exudes a modern and stylish aesthetic that complements any build. Overall, it is a popular choice among gamers and PC enthusiasts looking for a reliable and cost-effective Motherboard.",
+        "images": [
+            "Motherboard33.png",
+            "Motherboard34.png",
+            "Motherboard35.png",
+            "Motherboard36.png"
+        ],
+        "cover": "https://asset.msi.com/resize/image/global/product/product_2_20190704114826_5d1d770a68811.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
+    },
+    {
+        "type": "Motherboard",
+        "name": "ASUS TUF Gaming X570-Plus",
+        "manufacturer": "ASUS",
+        "shortdescription": "Durable Motherboard with gaming-oriented features and stability.",
+        "price": 139.99,
+        "rating": 4.7,
+        "quantity": 12,
+        "longdescription": "The ASUS TUF Gaming X570-Plus is a feature-packed Motherboard designed for gamers and PC enthusiasts seeking a balance between performance, durability, and affordability. It supports AMD Ryzen Processors and utilizes the X570 chipset, providing robust power delivery and advanced features. The Motherboard features PCIe 4.0 slots, allowing for high-speed data transfer and compatibility with the latest graphics cards and storage devices. It offers multiple USB ports, including USB 3.2 Gen 2, for convenient connectivity options. The TUF Gaming X570-Plus also includes M.2 slots for fast storage options and supports dual-channel DDR4 memory for efficient multitasking. With its rugged and durable design, enhanced cooling solutions, and customizable RGB lighting, it combines both style and functionality. Overall, it is a reliable choice for gamers looking for a Motherboard that can handle intense gaming sessions and future upgrades.",
+        "images": [
+            "Motherboard37.png",
+            "Motherboard38.png",
+            "Motherboard39.png",
+            "Motherboard40.png"
+        ],
+        "cover": "https://www.asus.com/media/global/gallery/vd7pofnyusetrpeq_setting_xxx_0_90_end_2000.png"
+    },
+    {
+        "type": "Motherboard",
+        "name": "GIGABYTE B450 AORUS ELITE",
+        "manufacturer": "GIGABYTE",
+        "shortdescription": "Budget-friendly Motherboard with solid performance and features.",
+        "price": 189.99,
+        "rating": 4.4,
+        "quantity": 20,
+        "longdescription": "The GIGABYTE B450 AORUS ELITE is a solid and affordable Motherboard designed for gaming and productivity tasks. It supports AMD Ryzen Processors and utilizes the B450 chipset, offering a stable foundation for mid-range systems. The Motherboard features PCIe 3.0 slots, allowing for expansion cards such as graphics cards or Wi-Fi adapters. It offers multiple USB ports, including USB 3.1 Gen2, for convenient connectivity options. The B450 AORUS ELITE also includes M.2 slots for fast storage options and supports dual-channel DDR4 memory for efficient multitasking. With its sleek design and RGB lighting accents, it adds a touch of style to any build. Overall, it is a reliable choice for budget-conscious builders looking for essential features and decent performance.",
+        "images": [
+            "Motherboard41.png",
+            "Motherboard42.png",
+            "Motherboard43.png",
+            "Motherboard44.png"
+        ],
+        "cover": "https://procomp.ba/11879-thickbox_default/gigabyte-b450-aorus-elite-socket-am4-4x-ddr4.jpg"
+    },
+    {
+        "type": "Hard Drive",
+        "name": "Seagate BarraCuda 2TB",
+        "manufacturer": "Seagate",
+        "shortdescription": "2TB 3.5-inch internal hard drive with 7200 RPM and SATA 6Gb/s interface.",
+        "rating": 4.7,
+        "quantity": 20,
+        "longdescription": "The Seagate BarraCuda 2TB is a popular internal hard drive known for its reliability and storage capacity. With its 2TB (terabyte) capacity, it offers ample space for storing a wide range of files, including documents, photos, videos, games, and more. The BarraCuda series is known for its fast data transfer speeds, making it suitable for tasks such as data backup, multimedia storage, and gaming. It utilizes a 3.5-inch form factor, which is compatible with most desktop computers. Whether you need additional storage for your personal computer or a work-related setup, the Seagate BarraCuda 2TB provides a cost-effective and efficient solution.",
+        "images": [
+            "hdd1.png",
+            "hdd2.png",
+            "hdd3.png",
+            "hdd4.png"
+        ],
+        "price": 79.99,
+        "cover": "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/internal-products/desktop%20hard/barracuda-3-5/barracuda-2tb-dm008-hero-left-270x270.png"
+    },
+    {
+        "type": "Hard Drive",
+        "name": "WD Blue 1TB",
+        "manufacturer": "Western Digital",
+        "shortdescription": "1TB 2.5-inch internal hard drive with 5400 RPM and SATA 6Gb/s interface.",
+        "rating": 4.6,
+        "quantity": 18,
+        "longdescription": "The WD Blue 1TB is a reliable and popular internal hard drive from Western Digital. With its 1TB (terabyte) storage capacity, it offers a decent amount of space for storing various files, including documents, photos, videos, and applications. The WD Blue series is known for its reliability, durability, and consistent performance. It utilizes a 3.5-inch form factor, making it compatible with most desktop computers. The drive operates at 7200 RPM (rotations per minute) for fast data access and transfer speeds. Whether you need additional storage for your personal or professional needs, the WD Blue 1TB is a dependable choice that delivers reliable performance at an affordable price.",
+        "images": [
+            "hdd5.png",
+            "hdd6.png",
+            "hdd7.png",
+            "hdd8.png"
+        ],
+        "price": 49.99,
+        "cover": "https://pcscomputers.com.ph/wp-content/uploads/2022/01/wd-blue-pc-desktop-hard-drive-1tb.png.wdthumb.1280.1280.webp"
+    },
+    {
+        "type": "Hard Drive",
+        "name": "Samsung 870 EVO 500GB",
+        "manufacturer": "Samsung",
+        "shortdescription": "500GB 2.5-inch SATA SSD with fast read/write speeds and reliable performance.",
+        "rating": 4.9,
+        "quantity": 25,
+        "longdescription": "The Samsung 870 EVO 500GB is a high-performance solid-state drive (SSD) designed for fast and reliable storage. With its 500GB capacity, it offers a decent amount of space for storing your files, applications, and operating system. The 870 EVO series from Samsung is known for its exceptional performance and durability. It utilizes the SATA III interface and features Samsung's V-NAND technology, which enhances the drive's speed and endurance. The SSD delivers faster boot times, quicker file transfers, and improved overall system responsiveness compared to traditional hard drives. It is also equipped with advanced data encryption features for enhanced security. If you're looking to upgrade your system with a reliable and high-performing SSD, the Samsung 870 EVO 500GB is an excellent choice.",
+        "images": [
+            "hdd9.png",
+            "hdd10.png",
+            "hdd11.png",
+            "hdd12.png"
+        ],
+        "price": 89.99,
+        "cover": "https://images.samsung.com/is/image/samsung/p6pim/za/mz-77e500bw/gallery/za-870-evo-sata-3-2-5-ssd-mz-77e500bw-thumb-380737363?$480_480_PNG$"
+    },
+    {
+        "type": "Hard Drive",
+        "name": "Crucial MX500 1TB",
+        "manufacturer": "Crucial",
+        "shortdescription": "1TB 2.5-inch SATA SSD with sequential read/write speeds and advanced features.",
+        "rating": 4.8,
+        "quantity": 30,
+        "longdescription": "The Crucial MX500 1TB is a reliable and high-performance solid-state drive (SSD) that offers generous storage capacity and fast data transfer speeds. With its 1TB capacity, it provides ample space for storing your files, applications, and operating system. The MX500 series from Crucial is known for its excellent performance and reliability. It utilizes the SATA III interface and features Micron 3D NAND technology, which enhances both speed and endurance. The SSD delivers faster boot times, quicker file transfers, and improved overall system responsiveness compared to traditional hard drives. It also incorporates advanced features like hardware-based encryption for data security. If you're looking for a dependable and efficient SSD upgrade, the Crucial MX500 1TB is a solid choice.",
+        "images": [
+            "hdd13.png",
+            "hdd14.png",
+            "hdd15.png",
+            "hdd16.png"
+        ],
+        "price": 99.99,
+        "cover": "https://eu.crucial.com/content/dam/crucial/marketing-assets/china-etail/12_12/products/crucial-mx500-2-5inch-product-dynamic-2-v2-image.psd.transform/small-png/img.png"
+    },
+    {
+        "type": "Hard Drive",
+        "name": "Seagate FireCuda 2TB",
+        "manufacturer": "Seagate",
+        "shortdescription": "2TB 2.5-inch hybrid hard drive with SSD cache and 5400 RPM.",
+        "rating": 4.7,
+        "quantity": 22,
+        "longdescription": "The Seagate FireCuda 2TB is a hybrid solid-state drive (SSHD) that combines the speed of an SSD with the capacity of a traditional hard drive. It offers a storage capacity of 2TB, providing ample space for storing your files, games, and multimedia content. The FireCuda series from Seagate is designed specifically for gaming and high-performance applications. It utilizes flash memory technology for faster data access and improved performance compared to traditional hard drives. The drive also features an integrated 8GB NAND flash cache, which dynamically stores frequently accessed data for faster load times. With its combination of speed and capacity, the Seagate FireCuda 2TB is an excellent choice for gamers and users who require both storage space and enhanced performance.",
+        "images": [
+            "hdd17.png",
+            "hdd18.png",
+            "hdd19.png",
+            "hdd20.png"
+        ],
+        "price": 109.99,
+        "cover": "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/internal-products/desktop%20hard/firecuda-3-5/firecuda-3-5-sshd-left-hero-270x270.png"
+    },
+    {
+        "type": "Hard Drive",
+        "name": "WD Black SN750 1TB",
+        "manufacturer": "Western Digital",
+        "shortdescription": "1TB M.2 NVMe SSD with fast read/write speeds and gaming-focused features.",
+        "rating": 4.9,
+        "quantity": 20,
+        "longdescription": "The WD Black SN750 1TB is a high-performance NVMe solid-state drive (SSD) designed for gamers and content creators. It offers a 1TB capacity, providing ample space for storing your games, applications, and multimedia files. The WD Black series is known for its exceptional speed and reliability. The SN750 utilizes NVMe technology, which delivers blazing-fast read and write speeds for quicker load times and seamless performance. It is built with a PCIe Gen3 interface and supports the M.2 2280 form factor. The drive also incorporates WD's proprietary SSD Dashboard software for Monitoring and optimizing performance. With its impressive speed and capacity, the WD Black SN750 1TB is an excellent choice for users seeking high-performance storage solutions for demanding workloads and gaming experiences.",
+        "images": [
+            "hdd21.png",
+            "hdd22.png",
+            "hdd23.png",
+            "hdd24.png"
+        ],
+        "price": 159.99,
+        "cover": "https://images.anandtech.com/doci/13760/heatsink-comp.png"
+    },
+    {
+        "type": "Hard Drive",
+        "name": "Samsung 980 PRO 500GB",
+        "manufacturer": "Samsung",
+        "shortdescription": "500GB M.2 NVMe SSD with PCIe 4.0 interface and exceptional performance.",
+        "rating": 4.9,
+        "quantity": 18,
+        "longdescription": "The Samsung 980 PRO 500GB is a cutting-edge NVMe solid-state drive (SSD) that offers blazing-fast speed and exceptional performance. With its 500GB capacity, it provides ample storage space for your files, applications, and games. The 980 PRO series from Samsung is designed for high-end users and enthusiasts who demand top-tier performance. It utilizes PCIe 4.0 interface and features Samsung's V-NAND and Elpis controller technology, enabling lightning-fast read and write speeds. This drive delivers significantly faster load times, quicker data transfers, and improved overall system responsiveness compared to previous-generation SSDs. It also incorporates advanced features such as hardware-based encryption for data security. If you're looking for uncompromising speed and performance, the Samsung 980 PRO 500GB is an excellent choice for your storage needs.",
+        "images": [
+            "hdd25.png",
+            "hdd26.png",
+            "hdd27.png",
+            "hdd28.png"
+        ],
+        "price": 129.99,
+        "cover": "https://images.samsung.com/is/image/samsung/sg-980-pro-nvme-m2-ssd-mz-v8p500bw-frontblack-293274400?$650_519_PNG$"
+    },
+    {
+        "type": "Hard Drive",
+        "name": "Crucial P2 1TB",
+        "manufacturer": "Crucial",
+        "shortdescription": "1TB M.2 NVMe SSD with fast read/write speeds and reliable performance.",
+        "rating": 4.8,
+        "quantity": 25,
+        "longdescription": "The Crucial P2 1TB is a high-performance NVMe solid-state drive (SSD) that offers fast storage and ample capacity. With its 1TB storage capacity, it provides plenty of space for storing your files, games, and applications. The Crucial P2 series is designed to deliver speedy performance at an affordable price point. It utilizes the NVMe PCIe Gen3 interface, which enables faster data transfer speeds compared to traditional SATA-based SSDs. The P2 SSD delivers rapid read and write speeds, ensuring quick system boot times and snappy application loading. It also supports features like dynamic write acceleration and error correction technology for enhanced reliability. If you're looking for a cost-effective SSD upgrade that offers both speed and capacity, the Crucial P2 1TB is a solid choice.",
+        "images": [
+            "hdd29.png",
+            "hdd30.png",
+            "hdd31.png",
+            "hdd32.png"
+        ],
+        "price": 94.99,
+        "cover": "https://content.crucial.com/content/dam/crucial/ssd-products/P2/images/product/crucial-p2-flat-front-1000GB-image.psd.transform/medium-png/image.png"
+    },
+    {
+        "type": "Hard Drive",
+        "name": "Seagate IronWolf 4TB",
+        "manufacturer": "Seagate",
+        "shortdescription": "4TB 3.5-inch internal hard drive designed for NAS systems with enhanced reliability.",
+        "rating": 4.7,
+        "quantity": 22,
+        "longdescription": "The Seagate IronWolf 4TB is a high-capacity hard disk drive (HDD) specifically designed for use in NAS (Network Attached Storage) systems. With its 4TB storage capacity, it offers ample space for storing and accessing large amounts of data. The IronWolf series from Seagate is built for NAS environments, offering enhanced reliability, durability, and performance for 24/7 operation. The drive features rotational vibration (RV) sensors, which help maintain optimal performance and minimize potential disruptions in multi-drive NAS setups. It also comes equipped with AgileArray technology, which ensures efficient data management and power utilization. The IronWolf 4TB is an ideal choice for users seeking a robust and reliable storage solution for their home or small business NAS system.",
+        "images": [
+            "hdd33.png",
+            "hdd34.png",
+            "hdd35.png",
+            "hdd36.png"
+        ],
+        "price": 129.99,
+        "cover": "https://intellcom.net/files/product_imgs/big/1539091653446.png"
+    },
+    {
+        "type": "Hard Drive",
+        "name": "WD Red 6TB",
+        "manufacturer": "Western Digital",
+        "shortdescription": "6TB 3.5-inch internal hard drive designed for NAS systems with NASware technology.",
+        "rating": 4.8,
+        "quantity": 20,
+        "longdescription": "The WD Red 6TB is a high-capacity hard disk drive (HDD) designed specifically for network-attached storage (NAS) systems. With its 6TB storage capacity, it offers ample space for storing and accessing large amounts of data in a NAS environment. The WD Red series from Western Digital is optimized for 24/7 operation, providing reliability, durability, and efficient power management. It features NASware technology, which enhances compatibility, reliability, and performance in NAS systems. The drive is designed to handle multiple simultaneous users, data-intensive tasks, and RAID configurations commonly used in NAS setups. Whether you're building a home or small business NAS, the WD Red 6TB is a reliable choice that provides efficient and dependable storage for your networked devices.",
+        "images": [
+            "hdd37.png",
+            "hdd38.png",
+            "hdd39.png",
+            "hdd40.png"
+        ],
+        "price": 189.99,
+        "cover": "https://cdn.cs.1worldsync.com/syndication/feeds/wd/inline-content/10/B8E585C237164C9038E44B1E938D71441C58F3FA_WDRED356TB_w_400_hero.png"
+    },
+    {
+        "type": "Ram Memory",
+        "name": "Corsair Vengeance RGB Pro 16GB (2 x 8GB)",
+        "manufacturer": "Corsair",
+        "shortdescription": "16GB DDR4 RAM kit with stylish RGB lighting and high-performance capabilities.",
+        "rating": 4.9,
+        "quantity": 20,
+        "longdescription": "The Corsair Vengeance RGB Pro is a high-performance memory kit designed for gamers and PC enthusiasts. This particular kit includes two 8GB DDR4 modules, totaling 16GB of memory capacity. The Vengeance RGB Pro series combines both style and performance, featuring customizable RGB lighting that can be synchronized with other Corsair RGB components. The modules operate at high speeds and offer low latencies, providing optimal performance for gaming, content creation, and multitasking. They are also equipped with an aluminum heatspreader for improved heat dissipation and stability. The Corsair Vengeance RGB Pro 16GB kit is an excellent choice for those seeking both aesthetics and reliable performance in their system.",
+        "images": [
+            "ram1.png",
+            "ram2.png",
+            "ram3.png",
+            "ram4.png"
+        ],
+        "price": 129.99,
+        "cover": "https://cwsmgmt.corsair.com/pdp/vengeance-rgb-pro/Content/Vengeance_RGB_Pro_PDP_White_04.png"
+    },
+    {
+        "type": "Ram Memory",
+        "name": "Crucial Ballistix 32GB (2 x 16GB)",
+        "manufacturer": "Crucial",
+        "shortdescription": "32GB DDR4 RAM kit with high-speed performance and reliable stability.",
+        "rating": 4.8,
+        "quantity": 18,
+        "longdescription": "The Crucial Ballistix 32GB kit is a high-performance memory solution designed for demanding applications, such as gaming, content creation, and heavy multitasking. This kit includes two 16GB DDR4 modules, totaling 32GB of memory capacity. The Ballistix series from Crucial is known for its exceptional performance, reliability, and overclocking capabilities. The modules are built with high-quality components and feature an aggressive design with an integrated heatspreader for enhanced heat dissipation and stability. They operate at high speeds and low latencies, delivering fast and responsive performance. The Crucial Ballistix 32GB kit is an excellent choice for users who require ample memory capacity and top-tier performance for their intensive workloads.",
+        "images": [
+            "ram5.png",
+            "ram6.png",
+            "ram7.png",
+            "ram8.png"
+        ],
+        "price": 199.99,
+        "cover": "https://a-power.com/app/uploads/2021/04/86188870_8936272881.png"
+    },
+    {
+        "type": "Ram Memory",
+        "name": "G.Skill Trident Z Neo 64GB (4 x 16GB)",
+        "manufacturer": "G.Skill",
+        "shortdescription": "64GB DDR4 RAM kit with extreme speed and optimized compatibility for AMD Ryzen Processors.",
+        "rating": 4.9,
+        "quantity": 25,
+        "longdescription": "The G.Skill Trident Z Neo 64GB kit is a high-capacity and high-performance memory solution designed for enthusiasts and professionals. This kit includes four 16GB DDR4 modules, totaling 64GB of memory capacity. The Trident Z Neo series from G.Skill is optimized for AMD Ryzen Processors and offers excellent compatibility and performance on Ryzen-based systems. The modules are built with high-quality components and feature a sleek and stylish design with customizable RGB lighting. They operate at high frequencies and low latencies, delivering exceptional performance for demanding applications such as gaming, content creation, and professional workloads. The G.Skill Trident Z Neo 64GB kit is an excellent choice for users who require large memory capacity and top-tier performance for their high-end systems.",
+        "images": [
+            "ram9.png",
+            "ram10.png",
+            "ram11.png",
+            "ram12.png"
+        ],
+        "price": 349.99,
+        "cover": "https://www.gskill.com/_upload/images/156283985713.png"
+    },
+    {
+        "type": "Ram Memory",
+        "name": "Kingston HyperX Fury 8GB (1 x 8GB)",
+        "manufacturer": "Kingston",
+        "shortdescription": "8GB DDR4 RAM module with reliable performance and low-profile design.",
+        "rating": 4.7,
+        "quantity": 30,
+        "longdescription": "The Kingston HyperX Fury 8GB module is a reliable and affordable memory solution suitable for entry-level gaming and general computing tasks. This module provides 8GB of DDR4 memory capacity. The HyperX Fury series from Kingston is known for its solid performance and compatibility. The module operates at standard frequencies and is designed for easy installation and setup. While it may not offer the highest capacity or extreme performance, the HyperX Fury 8GB module is a cost-effective choice for users looking to upgrade their system with additional memory for smoother multitasking and improved overall performance.",
+        "images": [
+            "ram13.png",
+            "ram14.png",
+            "ram15.png",
+            "ram16.png"
+        ],
+        "price": 59.99,
+        "cover": "https://sltechie.lk/wp-content/uploads/2021/05/1441-20200722231459-Untitled-1-2.png"
+    },
+    {
+        "type": "Ram Memory",
+        "name": "Team T-FORCE Delta RGB 32GB (2 x 16GB)",
+        "manufacturer": "Team",
+        "shortdescription": "32GB DDR4 RAM kit with customizable RGB lighting and exceptional performance.",
+        "rating": 4.8,
+        "quantity": 22,
+        "longdescription": "The Team T-FORCE Delta RGB 32GB kit is a high-capacity and visually appealing memory solution designed for gamers and enthusiasts. This kit includes two 16GB DDR4 modules, totaling 32GB of memory capacity. The T-FORCE Delta RGB series from Team is known for its vibrant RGB lighting and stylish design. The modules feature a unique and asymmetrical design with customizable RGB lighting effects that can be synchronized with other compatible components. In terms of performance, they operate at high frequencies and low latencies, delivering reliable and responsive performance for gaming, content creation, and multitasking. The Team T-FORCE Delta RGB 32GB kit is a great choice for users who prioritize both aesthetics and performance in their system.",
+        "images": [
+            "ram17.png",
+            "ram18.png",
+            "ram19.png",
+            "ram20.png"
+        ],
+        "price": 179.99,
+        "cover": "https://cwsmgmt.corsair.com/pdp/vengeance-rgb-pro/tuff/Vengeance_RGB_PRO_TUF_03_1UP.png"
+    },
+    {
+        "type": "Ram Memory",
+        "name": "Corsair Dominator Platinum RGB 64GB (4 x 16GB)",
+        "manufacturer": "Corsair",
+        "shortdescription": "64GB DDR4 RAM kit with premium aesthetics, high-speed performance, and advanced cooling.",
+        "rating": 4.9,
+        "quantity": 20,
+        "longdescription": "The Corsair Dominator Platinum RGB 64GB kit is a high-performance and premium memory solution designed for enthusiasts and professionals who require exceptional performance and aesthetics. This kit includes four 16GB DDR4 modules, totaling 64GB of memory capacity. The Dominator Platinum RGB series from Corsair is known for its top-tier performance, superior build quality, and customizable RGB lighting. The modules feature an iconic design with a polished aluminum heatspreader and customizable RGB lighting that can be synchronized with other Corsair RGB components. They operate at high frequencies and low latencies, delivering outstanding performance for demanding applications, including gaming, content creation, and professional workloads. The Corsair Dominator Platinum RGB 64GB kit is an excellent choice for users who seek premium performance and aesthetics in their high-end systems.",
+        "images": [
+            "ram21.png",
+            "ram22.png",
+            "ram23.png",
+            "ram24.png"
+        ],
+        "price": 499.99,
+        "cover": "https://cwsmgmt.corsair.com/pdp/vengeance-rgb-pro/tuff/Vengeance_RGB_PRO_TUF_03_1UP.png"
+    },
+    {
+        "type": "Ram Memory",
+        "name": "Crucial DDR3 16GB (2 x 8GB)",
+        "manufacturer": "Crucial",
+        "shortdescription": "16GB DDR3 RAM kit with reliable performance and compatibility for older systems.",
+        "rating": 4.7,
+        "quantity": 25,
+        "longdescription": "The Crucial DDR3 16GB kit is a memory solution designed for systems that support DDR3 technology. This kit includes two 8GB DDR3 modules, totaling 16GB of memory capacity. Crucial is a reputable brand known for reliable and compatible memory modules. DDR3 memory is a previous-generation technology that is still used in older systems that do not support DDR4. The modules operate at standard DDR3 frequencies and offer decent performance for general computing tasks and light multitasking. They are built with quality components and are designed for easy installation. If you have a system that supports DDR3 memory and you need to upgrade your memory capacity, the Crucial DDR3 16GB kit is a suitable and cost-effective choice.",
+        "images": [
+            "ram25.png",
+            "ram26.png",
+            "ram27.png",
+            "ram28.png"
+        ],
+        "price": 89.99,
+        "cover": "https://content.crucial.com/content/dam/crucial/dram-products/desktop/images/product/crucial-ddr3-4gb-dimm-kit2-image.psd.transform/medium-png/image.png"
+    },
+    {
+        "type": "Ram Memory",
+        "name": "G.Skill Ripjaws V 32GB (2 x 16GB)",
+        "manufacturer": "G.Skill",
+        "shortdescription": "32GB DDR4 RAM kit with sleek design, high-speed performance, and optimized compatibility.",
+        "rating": 4.8,
+        "quantity": 22,
+        "longdescription": "The G.Skill Ripjaws V 32GB kit is a high-performance memory solution designed for gamers, content creators, and professionals. This kit includes two 16GB DDR4 modules, totaling 32GB of memory capacity. The Ripjaws V series from G.Skill is known for its excellent performance, reliability, and compatibility. The modules operate at high frequencies and low latencies, delivering fast and responsive performance for demanding applications and multitasking. They feature a sleek design with an aluminum heatspreader for improved heat dissipation and stability. The G.Skill Ripjaws V 32GB kit is a great choice for users who require ample memory capacity and top-tier performance for their gaming or professional workloads.",
+        "images": [
+            "ram29.png",
+            "ram30.png",
+            "ram31.png",
+            "ram32.png"
+        ],
+        "price": 149.99,
+        "cover": "https://www.gskill.com/_upload/images/153611092211.png"
+    },
+    {
+        "type": "Ram Memory",
+        "name": "HyperX Predator RGB 64GB (4 x 16GB)",
+        "manufacturer": "HyperX",
+        "shortdescription": "64GB DDR4 RAM kit with aggressive styling, high-performance capabilities, and customizable RGB lighting.",
+        "rating": 4.9,
+        "quantity": 20,
+        "longdescription": "The HyperX Predator RGB 64GB kit is a high-capacity and high-performance memory solution designed for enthusiasts and professionals who require exceptional performance and aesthetics. This kit includes four 16GB DDR4 modules, totaling 64GB of memory capacity. The HyperX Predator RGB series from Kingston is known for its aggressive design, customizable RGB lighting, and top-tier performance. The modules operate at high frequencies and low latencies, delivering reliable and responsive performance for demanding applications, gaming, and content creation. They feature an aluminum heatspreader for improved heat dissipation and stability. The HyperX Predator RGB 64GB kit not only provides ample memory capacity but also adds a visually stunning element to your system with customizable RGB lighting effects, making it a great choice for users who want both performance and visual appeal.",
+        "images": [
+            "ram33.png",
+            "ram34.png",
+            "ram35.png",
+            "ram36.png"
+        ],
+        "price": 319.99,
+        "cover": "https://rebelgaming.co.za/wp-content/uploads/2021/08/ME-KD4836RF17X2-KINGSTON-HYPERX-FURY-RGB-16GB-2X-8GB-3600MHZ-DDR4-RAM.png"
+    },
+    {
+        "type": "Ram Memory",
+        "name": "Corsair Vengeance LPX 16GB (2 x 8GB)",
+        "manufacturer": "Corsair",
+        "shortdescription": "16GB DDR4 RAM kit with low-profile design, high-speed performance, and excellent overclocking potential.",
+        "rating": 4.8,
+        "quantity": 25,
+        "longdescription": "The Corsair Vengeance LPX 16GB kit is a high-performance memory solution designed for gaming, content creation, and multitasking. This kit includes two 8GB DDR4 modules, totaling 16GB of memory capacity. The Vengeance LPX series from Corsair is known for its reliable performance and compatibility. The modules operate at high frequencies and low latencies, delivering fast and responsive performance for demanding applications. They feature a low-profile design that fits well in compact systems and offers compatibility with large CPU coolers. The Corsair Vengeance LPX 16GB kit is a great choice for users who require a moderate amount of memory capacity and excellent performance for their gaming or multitasking needs.",
+        "images": [
+            "ram37.png",
+            "ram38.png",
+            "ram39.png",
+            "ram40.png"
+        ],
+        "price": 109.99,
+        "cover": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/content/CML4GX3M1A1600C9-VENGLP-B-01.png"
+    },
+    {
+        "type": "Headset",
+        "name": "HyperX Cloud II",
+        "manufacturer": "HyperX",
+        "shortdescription": "Wired gaming Headset with 7.1 surround sound and detachable microphone.",
+        "rating": 4.7,
+        "quantity": 20,
+        "longdescription": "The HyperX Cloud II is a popular gaming Headset known for its comfort, audio quality, and versatile features. It features a sturdy and durable design with memory foam ear cups that provide excellent comfort, even during long gaming sessions. The Headset utilizes 53mm drivers that deliver rich and immersive sound, allowing you to fully experience the audio details in your games, movies, and music. It also features virtual 7.1 surround sound for enhanced positional audio, giving you a competitive edge in gaming. The HyperX Cloud II comes with a detachable noise-canceling microphone that provides clear voice communication and can be easily removed when not in use. Additionally, it offers convenient in-line audio controls for adjusting volume and microphone settings on the fly. The HyperX Cloud II is highly regarded by gamers for its comfort, audio quality, and versatile features, making it an excellent choice for those seeking a high-quality gaming Headset.",
+        "images": [
+            "Headset1.png",
+            "Headset2.png",
+            "Headset3.png",
+            "Headset4.png"
+        ],
+        "price": 99.99,
+        "cover": "https://www.pngall.com/wp-content/uploads/5/Hyperx-Cloud-II-Gaming-Headset-PNG-Picture.png"
+    },
+    {
+        "type": "Headset",
+        "name": "SteelSeries Arctis Pro",
+        "manufacturer": "SteelSeries",
+        "shortdescription": "Wired gaming Headset with high-resolution audio and swappable DAC.",
+        "rating": 4.9,
+        "quantity": 18,
+        "longdescription": "The SteelSeries Arctis Pro is a premium gaming Headset known for its exceptional audio quality, comfort, and advanced features. It features high-resolution audio with its Hi-Res certified speaker drivers, delivering detailed and immersive sound for gaming, music, and multimedia content. The Headset uses a lightweight and adjustable ski goggle suspension headband, providing a comfortable fit for long gaming sessions. It also features premium materials and a sleek design. The Arctis Pro includes a ClearCast bidirectional microphone that provides clear and accurate voice communication with noise cancellation technology. It also offers customizable RGB lighting on the ear cups for added visual flair. Additionally, the Arctis Pro offers additional features like DTS Headphone:X v2.0 surround sound, ChatMix control for balancing game audio and chat volume, and swappable speaker plates for customization. The SteelSeries Arctis Pro is a top-tier gaming Headset that delivers excellent audio performance, comfort, and advanced features, making it a popular choice among gamers and audio enthusiasts.",
+        "images": [
+            "Headset5.png",
+            "Headset6.png",
+            "Headset7.png",
+            "Headset8.png"
+        ],
+        "price": 179.99,
+        "cover": "https://media.steelseriescdn.com/thumbs/catalogue/products/00946-arctis-pro-wireless/a41ddd67a5d84418b0a7e1fa2e13488f.png.500x400_q100_crop-fit_optimize.png"
+    },
+    {
+        "type": "Headset",
+        "name": "Razer Kraken Tournament Edition",
+        "manufacturer": "Razer",
+        "shortdescription": "Wired gaming Headset with THX Spatial Audio and cooling gel-infused ear cushions.",
+        "rating": 4.8,
+        "quantity": 25,
+        "longdescription": "The Razer Kraken Tournament Edition is a gaming Headset designed for immersive audio and comfortable gaming sessions. It features large, custom-tuned 50mm drivers that deliver powerful and detailed sound, allowing you to fully experience your games, movies, and music. The Headset comes with a USB audio controller that enables THX Spatial Audio technology, providing 360-degree surround sound for enhanced positional audio cues. This helps you accurately locate in-game sounds and gain a competitive edge. The Kraken Tournament Edition features a comfortable and adjustable headband with cooling gel-infused ear cushions for long-lasting comfort. It also includes a retractable noise-canceling microphone for clear and crisp voice communication, and it has in-line audio controls for quick adjustments to volume and microphone settings. The Headset is also compatible with various platforms, including PC, consoles, and mobile devices. With its immersive sound, comfort, and convenient features, the Razer Kraken Tournament Edition is a popular choice among gamers looking for a reliable gaming Headset.",
+        "images": [
+            "Headset9.png",
+            "Headset10.png",
+            "Headset11.png",
+            "Headset12.png"
+        ],
+        "price": 99.99,
+        "cover": "https://i5.walmartimages.com/asr/0487185b-b599-45b2-bfa2-c01f2f725b84_9.ef821a96a6a63dfce8d3b5940453fb74.png"
+    },
+    {
+        "type": "Headset",
+        "name": "Logitech G Pro X",
+        "manufacturer": "Logitech",
+        "shortdescription": "Wired gaming Headset with Blue Voice technology and customizable sound profiles.",
+        "rating": 4.9,
+        "quantity": 22,
+        "longdescription": "The Logitech G Pro X is a professional-grade gaming Headset designed to deliver exceptional audio quality and customization options. It features Logitech's advanced Pro-G 50mm drivers, which offer precise and immersive sound for a highly immersive gaming experience. The Headset comes with a detachable Blue VO!CE microphone, which utilizes real-time microphone filters and voice modulation to provide crystal-clear communication with customizable sound profiles. The G Pro X also features a durable and lightweight build with memory foam ear cups for long-lasting comfort during extended gaming sessions. It includes a USB external sound card for advanced audio processing and supports surround sound for enhanced positional audio. The Headset is compatible with PC, consoles, and mobile devices, making it versatile for various gaming platforms. With its high-quality audio, customizable microphone, and comfortable design, the Logitech G Pro X is a popular choice among professional gamers and esports enthusiasts.",
+        "images": [
+            "Headset13.png",
+            "Headset14.png",
+            "Headset15.png",
+            "Headset16.png"
+        ],
+        "price": 129.99,
+        "cover": "https://resource.logitech.com/content/dam/gaming/en/products/pro-x/pro-Headset-gallery-1.png"
+    },
+    {
+        "type": "Headset",
+        "name": "Corsair HS70 Pro",
+        "manufacturer": "Corsair",
+        "shortdescription": "Wireless gaming Headset with virtual 7.1 surround sound and detachable microphone.",
+        "rating": 4.7,
+        "quantity": 20,
+        "longdescription": "The Corsair HS70 Pro is a wireless gaming Headset that offers a combination of comfort, convenience, and quality sound for gamers. It features 50mm neodymium speaker drivers that provide immersive audio with clear highs and rich bass. The Headset utilizes a wireless connection with a range of up to 40 feet, allowing freedom of movement without being tethered to your gaming device. It also offers a detachable unidirectional microphone with noise-cancelling technology for clear and precise voice communication. The HS70 Pro is designed for comfort with adjustable ear cups and plush memory foam earpads, providing a comfortable fit even during long gaming sessions. The Headset has intuitive on-ear controls for quick adjustments to volume and microphone mute. The Corsair HS70 Pro is compatible with PC, PlayStation, and other devices with a USB or 3.5mm audio connection. With its wireless convenience, quality sound, and comfortable design, the Corsair HS70 Pro is a popular choice for gamers seeking a reliable and hassle-free wireless gaming Headset.",
+        "images": [
+            "Headset17.png",
+            "Headset18.png",
+            "Headset19.png",
+            "Headset20.png"
+        ],
+        "price": 99.99,
+        "cover": "https://res.cloudinary.com/corsair-pwa/image/upload/akamai/pdp/hs-pro/hs70-pro/images/hs70_pro_crm_mic.png"
+    },
+    {
+        "type": "Headset",
+        "name": "Astro A50 Wireless",
+        "manufacturer": "Astro",
+        "shortdescription": "Premium wireless gaming Headset with Dolby Audio and Astro Audio V2.",
+        "rating": 4.8,
+        "quantity": 25,
+        "longdescription": "The Astro A50 Wireless is a premium gaming Headset known for its wireless convenience, immersive sound quality, and comfortable design. It utilizes a 2.4GHz wireless connection, allowing you to move freely without being tethered to your gaming device. The Headset features Astro's signature Dolby Digital surround sound technology, providing a highly immersive audio experience with accurate positional audio for gaming. The A50 Wireless includes large 40mm drivers that deliver clear and powerful sound, ensuring you can hear every detail in your games. It also comes with a high-quality microphone that offers clear voice communication with flip-to-mute functionality. The Headset is designed with comfort in mind, featuring lightweight construction, memory foam ear cushions, and an adjustable headband for a personalized fit. Additionally, the A50 Wireless offers convenient on-ear controls for easy adjustments to volume and audio settings. The Astro A50 Wireless is compatible with multiple gaming platforms, including PC, PlayStation, and Xbox. It is a popular choice among gamers who value wireless freedom, exceptional sound quality, and comfort during extended gaming sessions.",
+        "images": [
+            "Headset21.png",
+            "Headset22.png",
+            "Headset23.png",
+            "Headset24.png"
+        ],
+        "price": 299.99,
+        "cover": "https://resource.astrogaming.com/content/dam/astro/en/products/a50-Headset-with-base-station-gen4/a50-gallery-xbox-01.png"
+    },
+    {
+        "type": "Headset",
+        "name": "Sennheiser GSP 600",
+        "manufacturer": "Sennheiser",
+        "shortdescription": "Wired gaming Headset with high-end audio quality and ergonomic design.",
+        "rating": 4.9,
+        "quantity": 20,
+        "longdescription": "The Sennheiser GSP 600 is a high-end gaming Headset known for its exceptional audio quality, durability, and comfort. It features large dynamic drivers that deliver powerful and detailed sound reproduction, ensuring an immersive gaming experience. The Headset utilizes a closed-back design to provide excellent noise isolation, allowing you to focus on your game without distractions. The GSP 600 is built with durability in mind, featuring a solid metal hinge system and an adjustable split headband for a comfortable and secure fit. The ear cushions are made of memory foam and covered with a soft leatherette material, providing long-lasting comfort even during extended gaming sessions. The Headset also includes a noise-cancelling microphone with a flexible boom arm for clear and precise voice communication. The microphone can be easily muted by simply lifting the boom arm. With its exceptional audio quality, durability, and comfortable design, the Sennheiser GSP 600 is a top choice for gamers who want a high-performance Headset for immersive gaming experiences.",
+        "images": [
+            "Headset25.png",
+            "Headset26.png",
+            "Headset27.png",
+            "Headset28.png"
+        ],
+        "price": 249.99,
+        "cover": "https://www.eposaudio.com/globalassets/__pim/products/gsp-series/gsp-600/45508f88-19b4-460f-b6e0-dba6f52a27fe_21130_gsp-600_a7_3d-view_fullsizepng.png?width=860"
+    },
+    {
+        "type": "Headset",
+        "name": "HyperX Cloud Flight",
+        "manufacturer": "HyperX",
+        "shortdescription": "Wireless gaming Headset with long battery life and comfortable memory foam ear cushions.",
+        "rating": 4.8,
+        "quantity": 22,
+        "longdescription": "The HyperX Cloud Flight is a wireless gaming Headset known for its comfort, long battery life, and reliable wireless performance. It offers the freedom of a wireless connection while providing a comfortable and immersive gaming experience. The Headset features large 50mm drivers that deliver clear and detailed sound, allowing you to hear every nuance in your games, movies, and music. The Cloud Flight boasts an impressive battery life of up to 30 hours, ensuring you can enjoy uninterrupted gaming sessions without needing to recharge frequently. It also features convenient on-ear controls for quick adjustments to volume and microphone settings. The Headset is designed with comfort in mind, with memory foam ear cushions and an adjustable headband that provides a secure and comfortable fit. The detachable noise-cancelling microphone ensures clear and crisp voice communication, and it can be easily removed when not in use. The HyperX Cloud Flight is compatible with PC, PlayStation, and other devices with a USB or 3.5mm audio connection. With its wireless convenience, long battery life, and comfort, the HyperX Cloud Flight is a popular choice among gamers looking for a reliable wireless gaming Headset.",
+        "images": [
+            "Headset29.png",
+            "Headset30.png",
+            "Headset31.png",
+            "Headset32.png"
+        ],
+        "price": 139.99,
+        "cover": "https://www.pngall.com/wp-content/uploads/5/Hyperx-Cloud-II-Gaming-Headset-PNG-Picture.png"
+    },
+    {
+        "type": "Headset",
+        "name": "Corsair VOID RGB Elite",
+        "manufacturer": "Corsair",
+        "shortdescription": "Wireless gaming Headset with customizable RGB lighting and immersive audio.",
+        "rating": 4.7,
+        "quantity": 25,
+        "longdescription": "The Corsair VOID RGB Elite is a gaming Headset known for its immersive sound, comfortable design, and customizable RGB lighting. It features custom-tuned 50mm neodymium speaker drivers that deliver rich and detailed audio for an enhanced gaming experience. The Headset utilizes a durable construction with plush memory foam ear cushions and an adjustable headband, providing long-lasting comfort during extended gaming sessions. The VOID RGB Elite also includes a noise-cancelling microphone that helps deliver clear and accurate voice communication. The microphone can be easily flipped up to mute when not in use. One of the standout features of the VOID RGB Elite is its customizable RGB lighting, allowing you to personalize the Headset's appearance to match your gaming setup. The lighting effects can be controlled and synchronized with other Corsair RGB products using Corsair's iCUE software. The Headset is compatible with various platforms, including PC, Xbox, and PlayStation. With its immersive sound, comfort, and customizable RGB lighting, the Corsair VOID RGB Elite is a popular choice among gamers seeking a versatile and stylish gaming Headset.",
+        "images": [
+            "Headset33.png",
+            "Headset34.png",
+            "Headset35.png",
+            "Headset36.png"
+        ],
+        "price": 99.99,
+        "cover": "https://res.cloudinary.com/dvv9fvblr/image/upload/v1571217290/qz9hlvhonzcy7l4hhc0x.png"
+    },
+    {
+        "type": "Headset",
+        "name": "Logitech G533",
+        "manufacturer": "Logitech",
+        "shortdescription": "Wireless gaming Headset with DTS Headphone:X 7.1 surround sound and long-range wireless connection.",
+        "rating": 4.8,
+        "quantity": 22,
+        "longdescription": "The Logitech G533 is a wireless gaming Headset known for its reliable wireless connection, immersive sound, and long-lasting comfort. It utilizes Logitech's advanced Pro-G audio drivers, which deliver rich and detailed sound for a captivating gaming experience. The Headset offers DTS Headphone:X 7.1 surround sound technology, providing accurate positional audio to enhance your gaming awareness. The G533 features a durable and lightweight design with adjustable headband and breathable ear cushions, ensuring a comfortable fit even during extended gaming sessions. It also includes a noise-cancelling microphone that can be folded up to mute when not in use. The Headset offers convenient on-ear controls for quick adjustments to volume and microphone settings. The G533 uses a 2.4GHz wireless connection with a range of up to 15 meters, providing a reliable and lag-free connection. With its wireless convenience, immersive sound, and comfortable design, the Logitech G533 is a popular choice among gamers who value a high-quality wireless gaming Headset.",
+        "images": [
+            "Headset37.png",
+            "Headset38.png",
+            "Headset39.png",
+            "Headset40.png"
+        ],
+        "price": 149.99,
+        "cover": "https://sm.ign.com/ign_me/screenshot/default/g533-prodigy-wireless-gaming-Headset-1_4c5s.png"
+    },
+    {
+        "type": "Monitor",
+        "name": "ASUS ROG Swift PG279Q",
+        "manufacturer": "ASUS",
+        "shortdescription": "27-inch gaming Monitor with IPS panel and 165Hz refresh rate.",
+        "rating": 4.7,
+        "quantity": 20,
+        "longdescription": "The ASUS ROG Swift PG279Q is a high-end gaming Monitor known for its impressive display quality, high refresh rate, and adaptive sync technology. It features a 27-inch IPS panel with a WQHD (2560x1440) resolution, delivering sharp and vibrant visuals with excellent color accuracy and wide viewing angles. The Monitor supports a refresh rate of up to 165Hz, providing smooth and fluid motion during fast-paced gaming. It also supports NVIDIA G-SYNC technology, which synchronizes the Monitor's refresh rate with compatible NVIDIA graphics cards to eliminate screen tearing and minimize input lag for a more immersive gaming experience. The ROG Swift PG279Q has a stylish and ergonomic design with slim bezels, a customizable RGB lighting feature, and adjustable stand options for comfortable positioning. It also includes gaming-centric features such as GamePlus overlays, GameVisual presets, and ASUS Eye Care technology to reduce eye strain during long gaming sessions. With its impressive display quality, high refresh rate, and adaptive sync technology, the ASUS ROG Swift PG279Q is a popular choice among gamers looking for a premium gaming Monitor with excellent performance and features.",
+        "images": [
+            "Monitor1.png",
+            "Monitor2.png",
+            "Monitor3.png",
+            "Monitor4.png"
+        ],
+        "price": 699.99,
+        "cover": "https://images10.newegg.com/BizIntell/item/24/236/24-236-660/c0.png"
+    },
+    {
+        "type": "Monitor",
+        "name": "Dell Alienware AW3418DW",
+        "manufacturer": "Dell",
+        "shortdescription": "34-inch ultrawide gaming Monitor with curved display and 120Hz refresh rate.",
+        "rating": 4.9,
+        "quantity": 18,
+        "longdescription": "The Dell Alienware AW3418DW is a high-performance gaming Monitor that offers an immersive ultrawide gaming experience. It features a 34-inch curved IPS display with a resolution of 3440x1440, providing stunning visuals and enhanced peripheral vision. The Monitor supports a fast refresh rate of 120Hz and NVIDIA G-SYNC technology, ensuring smooth and tear-free gaming with reduced input lag. The AW3418DW boasts a wide color gamut and excellent color accuracy, making it suitable for both gaming and content creation tasks. It also has a low response time for minimal motion blur in fast-paced games. The Monitor's design features thin bezels, customizable AlienFX RGB lighting, and an adjustable stand for ergonomic positioning. It offers a variety of connectivity options, including DisplayPort, HDMI, and USB ports. With its ultrawide aspect ratio, high refresh rate, and advanced features, the Dell Alienware AW3418DW is a top choice for gamers who want an immersive and high-performance gaming Monitor.",
+        "images": [
+            "Monitor5.png",
+            "Monitor6.png",
+            "Monitor7.png",
+            "Monitor8.png"
+        ],
+        "price": 999.99,
+        "cover": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/peripherals/output-devices/dell/Monitors/alienware-aw3418dw/spi/Monitor-alienware-aw3418dw-relsize-500-ng.psd?fmt=png-alpha&wid=500&hei=500&fit=constrain%2C1&qlt=95"
+    },
+    {
+        "type": "Monitor",
+        "name": "LG 27GN950-B",
+        "manufacturer": "LG",
+        "shortdescription": "27-inch 4K gaming Monitor with Nano IPS display and 144Hz refresh rate.",
+        "rating": 4.8,
+        "quantity": 25,
+        "longdescription": "The LG 27GN950-B is a high-end gaming Monitor that offers impressive display specifications and features. It features a 27-inch Nano IPS panel with a 4K UHD resolution of 3840x2160, delivering sharp and detailed visuals with vibrant colors and wide viewing angles. The Monitor boasts a fast 144Hz refresh rate, which can be overclocked to 160Hz, providing smooth and fluid motion in games. It also supports NVIDIA G-SYNC compatibility, ensuring tear-free gaming with reduced stuttering and input lag. The 27GN950-B supports HDR content with VESA DisplayHDR 600 certification, offering improved contrast and brightness for more realistic and dynamic visuals. The Monitor has a sleek and modern design with slim bezels and an adjustable stand for optimal positioning. It offers a variety of connectivity options, including DisplayPort, HDMI, and USB ports. The LG 27GN950-B is a top choice for gamers and content creators who want a high-resolution display, fast refresh rate, and advanced features for an immersive and enjoyable gaming or multimedia experience.",
+        "images": [
+            "Monitor9.png",
+            "Monitor10.png",
+            "Monitor11.png",
+            "Monitor12.png"
+        ],
+        "price": 1299.99,
+        "cover": "https://media.croma.com/image/upload/v1683209610/Croma%20Assets/Computers%20Peripherals/Monitor/Images/263396_0_hepaqw.png"
+    },
+    {
+        "type": "Monitor",
+        "name": "Samsung Odyssey G9",
+        "manufacturer": "Samsung",
+        "shortdescription": "49-inch super ultrawide gaming Monitor with 1000R curvature and 240Hz refresh rate.",
+        "rating": 4.9,
+        "quantity": 22,
+        "longdescription": "The Samsung Odyssey G9 is an ultra-wide gaming Monitor that stands out for its impressive specifications and futuristic design. It features a massive 49-inch curved display with a Dual Quad High-Definition (DQHD) resolution of 5120x1440, providing an incredibly immersive and panoramic gaming experience. The Monitor's high 240Hz refresh rate ensures smooth and fluid motion, while its 1ms response time minimizes motion blur for fast-paced gaming. The Odyssey G9 also supports HDR1000 and is VESA DisplayHDR 1000 certified, offering vivid colors, high contrast, and stunning brightness levels for a more lifelike visual experience. It features Quantum Dot technology for enhanced color reproduction and deeper blacks. The Monitor includes multiple gaming features, such as AMD FreeSync 2 and NVIDIA G-SYNC compatibility, to eliminate tearing and stuttering for smooth gameplay. The Odyssey G9 has a distinctive design with a futuristic white exterior, an infinity core lighting system on the back, and customizable ambient lighting on the front. It also has a highly adjustable stand for ergonomic positioning. With its impressive size, high refresh rate, HDR support, and striking design, the Samsung Odyssey G9 is a top choice for gamers who want an ultra-wide and immersive gaming Monitor.",
+        "images": [
+            "Monitor13.png",
+            "Monitor14.png",
+            "Monitor15.png",
+            "Monitor16.png"
+        ],
+        "price": 1799.99,
+        "cover": "https://images.samsung.com/is/image/samsung/p6pim/uk/ls49ag950nuxxu/gallery/uk-odyssey-neo-g9-g95na-ls49ag950nuxxu-469786311?$650_519_PNG$"
+    },
+    {
+        "type": "Monitor",
+        "name": "Acer Predator X27",
+        "manufacturer": "Acer",
+        "shortdescription": "27-inch gaming Monitor with 4K UHD resolution and HDR support.",
+        "rating": 4.8,
+        "quantity": 20,
+        "longdescription": "The Acer Predator X27 is a high-end gaming Monitor designed for gamers seeking the ultimate visual experience. It features a 27-inch IPS panel with a 4K UHD resolution of 3840x2160, providing incredibly sharp and detailed visuals. The Monitor supports a fast 144Hz refresh rate, which can be overclocked to 165Hz, offering smooth and fluid gameplay with reduced motion blur. It is also equipped with NVIDIA G-SYNC HDR technology, ensuring tear-free gaming with high dynamic range and improved color accuracy. The Predator X27 supports VESA DisplayHDR 1000 certification, offering stunning brightness levels and a wide color gamut for lifelike and immersive visuals. It includes Quantum Dot technology for enhanced color reproduction and deeper blacks. The Monitor's design features slim bezels, an adjustable stand for ergonomic positioning, and customizable RGB lighting on the back. It offers various connectivity options, including DisplayPort, HDMI, and USB ports. With its impressive 4K resolution, high refresh rate, HDR support, and advanced gaming features, the Acer Predator X27 is a top choice for gamers who demand exceptional visual quality and performance.",
+        "images": [
+            "Monitor17.png",
+            "Monitor18.png",
+            "Monitor19.png",
+            "Monitor20.png"
+        ],
+        "price": 1499.99,
+        "cover": "https://cdn.vox-cdn.com/thumbor/tOVhjlUY_kfIIJfdoYIiDjIAKTk=/0x0:1000x954/1000x954/filters:focal(500x477:501x478)/cdn1.vox-cdn.com/uploads/chorus_asset/file/8419397/Predator_Z1_03.png"
+    },
+    {
+        "type": "Monitor",
+        "name": "BenQ EX2780Q",
+        "manufacturer": "BenQ",
+        "shortdescription": "27-inch gaming Monitor with HDRi technology and 144Hz refresh rate.",
+        "rating": 4.7,
+        "quantity": 25,
+        "longdescription": "The BenQ EX2780Q is a high-quality gaming Monitor that offers a combination of impressive display specifications and immersive audio features. It features a 27-inch IPS panel with a QHD (2560x1440) resolution, delivering sharp and detailed visuals with vibrant colors and wide viewing angles. The Monitor supports a fast 144Hz refresh rate, ensuring smooth and fluid gameplay. It also supports AMD FreeSync technology, which helps reduce screen tearing and stuttering for a more enjoyable gaming experience. The EX2780Q incorporates HDRi technology, enhancing contrast and color performance for more vivid and lifelike visuals. It includes built-in speakers with a 2.1 channel audio system, featuring a subwoofer for deep and immersive sound. The Monitor's design is sleek and minimalist, with thin bezels and an adjustable stand for optimal positioning. It offers multiple connectivity options, including DisplayPort, HDMI, and USB ports. The BenQ EX2780Q is a great choice for gamers who prioritize both visual quality and audio immersion in their gaming setup.",
+        "images": [
+            "Monitor21.png",
+            "Monitor22.png",
+            "Monitor23.png",
+            "Monitor24.png"
+        ],
+        "price": 499.99,
+        "cover": "https://image.benq.com/is/image/benqco/ex2780q-thumb-3?$ResponsivePreset$&fmt=png-alpha"
+    },
+    {
+        "type": "Monitor",
+        "name": "ViewSonic Elite XG270QG",
+        "manufacturer": "ViewSonic",
+        "shortdescription": "27-inch gaming Monitor with IPS Nano Color and 165Hz refresh rate.",
+        "rating": 4.8,
+        "quantity": 22,
+        "longdescription": "The ViewSonic Elite XG270QG is a premium gaming Monitor designed to deliver excellent performance and visual quality. It features a 27-inch IPS panel with a QHD (2560x1440) resolution, providing crisp and detailed visuals with accurate colors and wide viewing angles. The Monitor supports a fast 165Hz refresh rate, ensuring smooth and fluid motion in games. It also features NVIDIA G-SYNC technology, which helps eliminate screen tearing and reduces input lag for a seamless gaming experience. The XG270QG is VESA DisplayHDR 400 certified, offering improved contrast and brightness for more realistic and immersive visuals. The Monitor's design is sleek and modern, with thin bezels and an adjustable stand for ergonomic positioning. It also includes customizable RGB lighting on the back to enhance the overall aesthetic. The XG270QG offers multiple connectivity options, including DisplayPort and HDMI ports, as well as USB ports for easy peripheral connectivity. With its high refresh rate, G-SYNC compatibility, and accurate color reproduction, the ViewSonic Elite XG270QG is an excellent choice for gamers who prioritize smooth gameplay and visual fidelity.",
+        "images": [
+            "Monitor25.png",
+            "Monitor26.png",
+            "Monitor27.png",
+            "Monitor28.png"
+        ],
+        "price": 699.99,
+        "cover": "https://www.viewsonic.com/vsAssetFile/hk-en/img/product-rc/_lcd_display_(new)/XG270QG/kv.png"
+    },
+    {
+        "type": "Monitor",
+        "name": "AOC CQ32G1",
+        "manufacturer": "AOC",
+        "shortdescription": "31.5-inch curved gaming Monitor with QHD resolution and 144Hz refresh rate.",
+        "rating": 4.7,
+        "quantity": 25,
+        "longdescription": "The AOC CQ32G1 is a curved gaming Monitor that offers an immersive gaming experience at an affordable price point. It features a large 32-inch VA panel with a QHD (2560x1440) resolution, delivering sharp and detailed visuals with good color accuracy. The Monitor has a curvature of 1800R, which wraps the display around your field of view, providing a more immersive gaming experience. It supports a 144Hz refresh rate, ensuring smooth and fluid gameplay with reduced motion blur. The CQ32G1 also incorporates AMD FreeSync technology, which synchronizes the Monitor's refresh rate with compatible AMD graphics cards to eliminate screen tearing and stuttering. The Monitor has a slim bezel design and an adjustable stand for ergonomic positioning. It offers multiple connectivity options, including DisplayPort, HDMI, and VGA ports, as well as audio output for convenient connectivity to external speakers or headphones. Overall, the AOC CQ32G1 is a budget-friendly curved gaming Monitor that offers a good balance of size, resolution, and gaming features for an immersive gaming experience.",
+        "images": [
+            "Monitor29.png",
+            "Monitor30.png",
+            "Monitor31.png",
+            "Monitor32.png"
+        ],
+        "price": 349.99,
+        "cover": "https://storage.eu.aoc.com/assets/2022/11/asset-bxo0xn-large.png"
+    },
+    {
+        "type": "Monitor",
+        "name": "MSI Optix MAG321CQR",
+        "manufacturer": "MSI",
+        "shortdescription": "32-inch curved gaming Monitor with QHD resolution and 165Hz refresh rate.",
+        "rating": 4.8,
+        "quantity": 20,
+        "longdescription": "The MSI Optix MAG321CQR is a curved gaming Monitor that offers a combination of immersive visuals and gaming features. It features a 32-inch VA panel with a QHD (2560x1440) resolution, delivering sharp and detailed images with vibrant colors and wide viewing angles. The Monitor has a curvature of 1800R, which helps to provide a more immersive viewing experience. It supports a fast 144Hz refresh rate, ensuring smooth and fluid motion during gaming, while also reducing motion blur. The Optix MAG321CQR incorporates AMD FreeSync technology, which helps to eliminate screen tearing and stuttering for a seamless and tear-free gaming experience when paired with compatible AMD graphics cards. The Monitor also includes MSI's proprietary Mystic Light RGB lighting system, allowing you to customize the lighting effects to match your gaming setup. It has a slim bezel design and an adjustable stand for comfortable positioning. Connectivity options include DisplayPort, HDMI, and USB ports for convenient connectivity with various devices. Overall, the MSI Optix MAG321CQR is a solid choice for gamers looking for a curved gaming Monitor with a high refresh rate, immersive visuals, and gaming-centric features.",
+        "images": [
+            "Monitor33.png",
+            "Monitor34.png",
+            "Monitor35.png",
+            "Monitor36.png"
+        ],
+        "price": 449.99,
+        "cover": "https://asset.msi.com/resize/image/global/product/product_7_20181015114810_5bc40dfaef8ca.png62405b38c58fe0f07fcef2367d8a9ba1/600.png"
+    },
+    {
+        "type": "Monitor",
+        "name": "LG 34GN850-B",
+        "manufacturer": "LG",
+        "shortdescription": "34-inch ultrawide gaming Monitor with Nano IPS display and 144Hz refresh rate.",
+        "rating": 4.9,
+        "quantity": 22,
+        "longdescription": "The LG 34GN850-B is a high-performance gaming Monitor that offers a wide display and impressive features. It features a 34-inch Nano IPS panel with an ultra-wide QHD (3440x1440) resolution, providing a vast and immersive viewing experience with crisp and detailed visuals. The Monitor supports a fast 144Hz refresh rate, which can be overclocked to 160Hz, ensuring smooth and fluid gameplay. It also supports NVIDIA G-SYNC compatibility, reducing screen tearing and stuttering for a more seamless gaming experience. The 34GN850-B has excellent color accuracy and wide color gamut, making it suitable for both gaming and content creation tasks. It features HDR10 support for enhanced contrast and vibrant colors in HDR content. The Monitor has a sleek design with slim bezels and an adjustable stand for ergonomic positioning. It offers multiple connectivity options, including DisplayPort, HDMI, and USB ports. With its ultra-wide aspect ratio, high refresh rate, and advanced features, the LG 34GN850-B is a top choice for gamers and professionals seeking an immersive and high-performance Monitor.",
+        "images": [
+            "Monitor37.png",
+            "Monitor38.png",
+            "Monitor39.png",
+            "Monitor40.png"
+        ],
+        "price": 999.99,
+        "cover": "https://media.croma.com/image/upload/v1683209610/Croma%20Assets/Computers%20Peripherals/Monitor/Images/263396_0_hepaqw.png"
+    },
+    {
+        "type": "Laptop",
+        "name": "Dell XPS 15",
+        "manufacturer": "Dell",
+        "shortdescription": "15.6-inch Laptop with 4K OLED display and Intel Core i7 Processor.",
+        "rating": 4.8,
+        "quantity": 20,
+        "longdescription": "The Dell XPS 15 is a high-end Laptop that combines premium design, powerful performance, and excellent display quality. It features a sleek and compact design with an aluminum chassis and slim bezels, giving it a modern and professional look. The XPS 15 is equipped with a high-resolution 15.6-inch InfinityEdge display, available in both Full HD and 4K UHD options. The display offers vibrant colors, sharp details, and wide viewing angles, making it ideal for multimedia, content creation, and productivity tasks. The Laptop is powered by Intel Core Processors, providing strong performance for demanding applications and multitasking. It also offers a range of storage options, including SSDs for fast boot times and quick file access. The XPS 15 is known for its excellent Keyboard and touchpad, providing a comfortable and responsive typing experience. It includes a variety of connectivity options, such as USB ports, HDMI, Thunderbolt 3, and an SD card slot. The Laptop also features a long-lasting battery, enabling extended usage on the go. With its premium build quality, powerful performance, and impressive display, the Dell XPS 15 is a popular choice for professionals and power users who require a reliable and versatile Laptop.",
+        "images": [
+            "Laptop1.png",
+            "Laptop2.png",
+            "Laptop3.png",
+            "Laptop4.png"
+        ],
+        "price": 1799.99,
+        "cover": "https://upload.wikimedia.org/wikipedia/commons/d/df/Dell_XPS_15_%282017%29.png"
+    },
+    {
+        "type": "Laptop",
+        "name": "MacBook Pro 16",
+        "manufacturer": "Apple",
+        "shortdescription": "16-inch Laptop with Retina display and Intel Core i9 Processor.",
+        "rating": 4.9,
+        "quantity": 18,
+        "longdescription": "The MacBook Pro 16 is Apple's high-end Laptop that caters to professionals and power users who require top-tier performance and a robust set of features. It boasts a sleek and premium design with a 16-inch Retina display that offers stunning visuals, vibrant colors, and sharp details. The Laptop is powered by Intel Core i7 or i9 Processors, providing exceptional performance for demanding tasks such as video editing, graphic design, and software development. It also offers ample storage options, including solid-state drives (SSD) with large capacities for fast and reliable data access. The MacBook Pro 16 features Apple's innovative Touch Bar, a dynamic OLED strip that provides contextual controls and shortcuts, enhancing productivity and workflow efficiency. It also includes a spacious trackpad and an improved Magic Keyboard with a comfortable typing experience. The Laptop offers an array of connectivity options, including Thunderbolt 3 ports, USB-C ports, and a headphone jack. It features a powerful audio system and advanced speakers for an immersive audio experience. Additionally, the MacBook Pro 16 offers an impressive battery life that allows for extended usage throughout the day. With its high-performance hardware, exceptional display, and premium build quality, the MacBook Pro 16 is a popular choice among professionals seeking a reliable and capable Laptop for their demanding workloads.",
+        "images": [
+            "Laptop5.png",
+            "Laptop6.png",
+            "Laptop7.png",
+            "Laptop8.png"
+        ],
+        "price": 2399.99,
+        "cover": "https://assets.stickpng.com/images/5ec26e0b6c295800046c81db.png"
+    },
+    {
+        "type": "Laptop",
+        "name": "ASUS ROG Zephyrus G14",
+        "manufacturer": "ASUS",
+        "shortdescription": "14-inch gaming Laptop with AMD Ryzen 9 Processor and NVIDIA GeForce RTX 3060 graphics.",
+        "rating": 4.8,
+        "quantity": 25,
+        "longdescription": "The ASUS ROG Zephyrus G14 is a powerful and compact gaming Laptop that offers a combination of portability, performance, and innovative features. It features a 14-inch IPS display with options for Full HD or QHD resolution, delivering sharp visuals with good color accuracy. The Laptop is powered by AMD Ryzen Processors, offering excellent performance for gaming and multitasking. It also includes dedicated NVIDIA GeForce graphics cards, ensuring smooth gameplay and graphic-intensive tasks. The Zephyrus G14 stands out for its unique AniMe Matrix LED display on the lid, which allows for customizable animations and visual effects. The Laptop has a sleek and lightweight design, making it highly portable for gamers on the go. It features a comfortable backlit Keyboard with good key travel and an accurate trackpad. The Zephyrus G14 offers a variety of connectivity options, including USB ports, HDMI, and a USB-C port with DisplayPort support. It also has a long-lasting battery life that provides extended usage away from the power outlet. Overall, the ASUS ROG Zephyrus G14 is a compelling choice for gamers who prioritize portability without compromising on performance and innovative features.",
+        "images": [
+            "Laptop9.png",
+            "Laptop10.png",
+            "Laptop11.png",
+            "Laptop12.png"
+        ],
+        "price": 1599.99,
+        "cover": "https://mobilnitelefoni.ba/wp-content/uploads/2021/08/90NR05S6-M03550_3.png"
+    },
+    {
+        "type": "Laptop",
+        "name": "HP Spectre x360",
+        "manufacturer": "HP",
+        "shortdescription": "13.3-inch 2-in-1 Laptop with OLED display and Intel Core i7 Processor.",
+        "rating": 4.7,
+        "quantity": 22,
+        "longdescription": "The HP Spectre x360 is a premium convertible Laptop that combines elegance, versatility, and high performance. It features a sleek and slim design with a 360-degree hinge, allowing it to transform between a traditional Laptop and a tablet mode. The Spectre x360 is available in different screen sizes, typically ranging from 13.3 inches to 15.6 inches, with options for Full HD or 4K UHD resolution displays. The Laptop is powered by Intel Core Processors, offering strong performance for productivity tasks and multimedia consumption. It also provides excellent battery life, allowing for extended usage without needing to recharge. The Spectre x360 is known for its high-quality build and premium materials, such as aluminum and carbon fiber, giving it a luxurious and durable feel. It features a comfortable backlit Keyboard and a precise touchpad for smooth navigation. Additionally, it offers a range of connectivity options, including USB-C, Thunderbolt 3, and USB-A ports, as well as an HDMI port and an SD card slot. The Spectre x360 includes advanced security features like a fingerprint reader and facial recognition for secure login. Overall, the HP Spectre x360 is a top choice for users who value style, versatility, and performance in a convertible Laptop.",
+        "images": [
+            "Laptop13.png",
+            "Laptop14.png",
+            "Laptop15.png",
+            "Laptop16.png"
+        ],
+        "price": 1299.99,
+        "cover": "https://store.hp.com/app/assets/images/uploads/prod/hp-spectre-x360-13t-Laptop-review-hero1540422566596.png"
+    },
+    {
+        "type": "Laptop",
+        "name": "Lenovo ThinkPad X1 Carbon",
+        "manufacturer": "Lenovo",
+        "shortdescription": "14-inch business Laptop with Intel Core i5 Processor and fingerprint reader.",
+        "rating": 4.8,
+        "quantity": 20,
+        "longdescription": "The Lenovo ThinkPad X1 Carbon is a highly regarded business Laptop known for its exceptional build quality, powerful performance, and robust security features. It features a slim and lightweight design with a 14-inch display, typically available in Full HD or WQHD resolution options. The X1 Carbon is constructed with a carbon fiber chassis, making it durable yet lightweight, perfect for professionals on the go. It is powered by Intel Core Processors, providing excellent performance for productivity tasks and multitasking. The Laptop offers a comfortable and spill-resistant Keyboard with the iconic ThinkPad TrackPoint pointing stick for precise cursor control. It also includes a range of security features, such as a fingerprint reader and optional IR camera for Windows Hello facial recognition, ensuring secure access to your device. The X1 Carbon offers a variety of connectivity options, including USB-C Thunderbolt 3 ports, USB-A ports, HDMI, and an SD card reader. It also boasts impressive battery life, allowing for extended usage without frequent charging. The X1 Carbon excels in the realm of security with features like dTPM 2.0 encryption, a physical shutter for the webcam, and optional privacy guard display. Overall, the Lenovo ThinkPad X1 Carbon is a top choice for professionals seeking a reliable, lightweight, and secure business Laptop without sacrificing performance or durability.",
+        "images": [
+            "Laptop17.png",
+            "Laptop18.png",
+            "Laptop19.png",
+            "Laptop20.png"
+        ],
+        "price": 1299.99,
+        "cover": "https://www.lenovo.com/medias/lenovo-Laptop-thinkpad-x1-carbon-gen-9-14-series-thumbnail.png?context=bWFzdGVyfHJvb3R8ODExMzV8aW1hZ2UvcG5nfGhjZC9oMGYvMTQwNzA2NzQ1ODc2NzgucG5nfDg2NTMzNzNlMThiMDI3ZGU0NzY1YmViNmQ4YmU2YjJjNjE3MmU2NDRmNWZlMTczMmY4Mzk5NTUwMGM1NzdjNDM"
+    },
+    {
+        "type": "Laptop",
+        "name": "Razer Blade 15",
+        "manufacturer": "Razer",
+        "shortdescription": "15.6-inch gaming Laptop with 144Hz display and NVIDIA GeForce RTX 3070 graphics.",
+        "rating": 4.9,
+        "quantity": 25,
+        "longdescription": "The Razer Blade 15 is a premium gaming Laptop that combines sleek design, powerful performance, and a high-quality display. It features a 15.6-inch Full HD or 4K UHD display with slim bezels, providing immersive visuals with vibrant colors and sharp details. The Laptop is powered by Intel Core Processors and offers dedicated NVIDIA GeForce graphics cards, delivering excellent gaming performance and rendering capabilities. It also includes fast and ample storage options, typically utilizing SSDs for quick boot times and fast data access. The Razer Blade 15 is known for its sleek and premium aluminum chassis, giving it a sleek and professional look. It features a backlit Keyboard with per-key RGB customization, allowing for personalized lighting effects. The Laptop offers a variety of connectivity options, including USB-C Thunderbolt 3 ports, USB-A ports, HDMI, and an SD card slot. It also includes advanced cooling systems to help maintain optimal performance during intensive gaming sessions. The Razer Blade 15 provides a smooth and responsive gaming experience with its high refresh rate displays and support for NVIDIA G-SYNC technology. It is a popular choice among gamers and content creators who require powerful hardware in a portable and stylish package.",
+        "images": [
+            "Laptop21.png",
+            "Laptop22.png",
+            "Laptop23.png",
+            "Laptop24.png"
+        ],
+        "price": 2099.99,
+        "cover": "https://assets3.razerzone.com/X_JIbJcZVdafCqHrPaAzvh_qaew=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh2d%2Fhe5%2F9392073998366%2Fblade15-ch8-fhd-2-500x500.png"
+    },
+    {
+        "type": "Laptop",
+        "name": "Microsoft Surface Laptop 4",
+        "manufacturer": "Microsoft",
+        "shortdescription": "13.5-inch touchscreen Laptop with AMD Ryzen 7 Processor and Windows Hello facial recognition.",
+        "rating": 4.7,
+        "quantity": 25,
+        "longdescription": "The Microsoft Surface Laptop 4 is a 13.5-inch touchscreen Laptop featuring an AMD Ryzen 7 Processor, 16GB RAM, 512GB SSD, AMD Radeon Graphics, and Windows 10 Home.",
+        "images": [
+            "Laptop25.png",
+            "Laptop26.png",
+            "Laptop27.png",
+            "Laptop28.png"
+        ],
+        "price": 1499.99,
+        "cover": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4LiWr?ver=4aed"
+    },
+    {
+        "type": "Laptop",
+        "name": "Acer Predator Helios 300",
+        "manufacturer": "Acer",
+        "shortdescription": "15.6-inch gaming Laptop with 144Hz display and NVIDIA GeForce RTX 3060 graphics.",
+        "rating": 4.8,
+        "quantity": 22,
+        "longdescription": "The Microsoft Surface Laptop 4 is a sleek and versatile Laptop that offers a balance of performance, portability, and premium design. It features a 13.5-inch or 15-inch PixelSense touchscreen display with a 3:2 aspect ratio, providing crisp and vibrant visuals. The Laptop is available with options for Intel Core Processors or AMD Ryzen Processors, offering solid performance for productivity tasks and everyday computing. It also provides a range of memory and storage configurations to suit different needs. The Surface Laptop 4 stands out for its elegant and lightweight design, with a durable aluminum chassis and a comfortable Keyboard for extended typing sessions. It includes a large glass trackpad for precise navigation and supports the Surface Pen for creative work and note-taking. The Laptop offers a variety of ports, including USB-A, USB-C, and a headphone jack, providing convenient connectivity options. It features excellent battery life, allowing for long hours of usage on a single charge. The Surface Laptop 4 runs on Windows 11 (or compatible with previous Windows versions) and integrates well with the Microsoft ecosystem, including seamless integration with Microsoft Office applications and cloud services. Overall, the Microsoft Surface Laptop 4 is a solid choice for users who prioritize a sleek design, a quality display, and reliable performance in a portable package.",
+        "images": [
+            "Laptop29.png",
+            "Laptop30.png",
+            "Laptop31.png",
+            "Laptop32.png"
+        ],
+        "price": 1499.99,
+        "cover": "https://images.acer.com/is/image/acer/Helios-300-PH315-53-BlRGB-01a-1?$Product-Cards-XL$"
+    },
+    {
+        "type": "Laptop",
+        "name": "Alienware m15 R4",
+        "manufacturer": "Alienware",
+        "shortdescription": "15.6-inch gaming Laptop with 300Hz display and NVIDIA GeForce RTX 3080 graphics.",
+        "rating": 4.9,
+        "quantity": 20,
+        "longdescription": "The Alienware m15 R4 is a high-performance gaming Laptop that combines powerful hardware, immersive visuals, and a premium design. It features a 15.6-inch Full HD or 4K UHD display with options for high refresh rates and NVIDIA G-SYNC technology, delivering smooth gameplay with vibrant colors and sharp details. The Laptop is powered by Intel Core Processors, offering exceptional gaming performance and multitasking capabilities. It includes dedicated NVIDIA GeForce graphics cards, ensuring smooth rendering and realistic graphics in the latest games. The m15 R4 is known for its sturdy build quality and Alienware's iconic design, featuring customizable RGB lighting zones and futuristic aesthetics. It provides a comfortable Keyboard with per-key RGB customization and a responsive trackpad. The Laptop offers a range of connectivity options, including USB-C Thunderbolt 3 ports, USB-A ports, HDMI, Ethernet, and an SD card reader. It features advanced cooling technology to maintain optimal performance during intense gaming sessions. The m15 R4 also includes Alienware's Command Center software, allowing users to customize system settings, RGB lighting, and performance profiles. Overall, the Alienware m15 R4 is a top choice for gamers who demand high-performance hardware, immersive visuals, and a premium gaming experience in a portable form factor.",
+        "images": [
+            "Laptop33.png",
+            "Laptop34.png",
+            "Laptop35.png",
+            "Laptop36.png"
+        ],
+        "price": 2499.99,
+        "cover": "https://www.notebookcheck.net/uploads/tx_nbc2/Alienwarem15R6__1__06.png"
+    },
+    {
+        "type": "Laptop",
+        "name": "Gigabyte Aero 15",
+        "manufacturer": "Gigabyte",
+        "shortdescription": "15.6-inch content creation Laptop with 4K OLED display and Intel Core i9 Processor.",
+        "rating": 4.8,
+        "quantity": 25,
+        "longdescription": "The Gigabyte Aero 15 is a 15.6-inch content creation Laptop featuring a 4K OLED display, Intel Core i9 Processor, 32GB RAM, 1TB SSD, NVIDIA GeForce RTX 3070 graphics, and Windows 10 Pro.",
+        "images": [
+            "Laptop37.png",
+            "Laptop38.png",
+            "Laptop39.png",
+            "Laptop40.png"
+        ],
+        "price": 2599.99,
+        "cover": "https://static.gigabyte.com/StaticFile/Image/Global/47a9cc6b9d82498b6d2645406488bc39/Product/24324/png/500"
+    },
+    {
+        "type": "Mouse",
+        "name": "Logitech G502 HERO",
+        "manufacturer": "Logitech",
+        "shortdescription": "Wired gaming Mouse with 16,000 DPI and customizable weights.",
+        "rating": 4.7,
+        "quantity": 20,
+        "longdescription": "The Logitech G502 HERO is a wired gaming Mouse with a high-precision 16,000 DPI sensor, customizable weights, 11 programmable buttons, and RGB lighting.",
+        "images": [
+            "Mouse1.png",
+            "Mouse2.png",
+            "Mouse3.png",
+            "Mouse4.png"
+        ],
+        "price": 79.99,
+        "cover": "https://resource.logitech.com/content/dam/gaming/en/non-braid/hyjal-g502-hero/g502-hero-gallery-1-nb.png"
+    },
+    {
+        "type": "Mouse",
+        "name": "Razer DeathAdder V2",
+        "manufacturer": "Razer",
+        "shortdescription": "Wired gaming Mouse with 20,000 DPI and 8 programmable buttons.",
+        "rating": 4.8,
+        "quantity": 18,
+        "longdescription": "The Razer DeathAdder V2 is a wired gaming Mouse with a high-precision 20,000 DPI sensor, 8 programmable buttons, ergonomic design, and customizable Chroma RGB lighting.",
+        "images": [
+            "Mouse5.png",
+            "Mouse6.png",
+            "Mouse7.png",
+            "Mouse8.png"
+        ],
+        "price": 69.99,
+        "cover": "https://assets2.razerzone.com/images/da10m/carousel/razer-death-adder-gallery-24.png"
+    },
+    {
+        "type": "Mouse",
+        "name": "SteelSeries Rival 600",
+        "manufacturer": "SteelSeries",
+        "shortdescription": "Wired gaming Mouse with TrueMove3+ dual optical sensor and customizable weight system.",
+        "rating": 4.7,
+        "quantity": 25,
+        "longdescription": "The SteelSeries Rival 600 is a wired gaming Mouse with a TrueMove3+ dual optical sensor, customizable weight system, 7 programmable buttons, and Prism RGB lighting.",
+        "images": [
+            "Mouse9.png",
+            "Mouse10.png",
+            "Mouse11.png",
+            "Mouse12.png"
+        ],
+        "price": 79.99,
+        "cover": "https://cdn.salla.sa/BvdpA/arvp71d7e1nrvQgsfQLScZGyjfYw7FXFaziPQsi4.png"
+    },
+    {
+        "type": "Mouse",
+        "name": "Corsair M65 RGB Elite",
+        "manufacturer": "Corsair",
+        "shortdescription": "Wired gaming Mouse with 18,000 DPI and customizable weight tuning.",
+        "rating": 4.6,
+        "quantity": 22,
+        "longdescription": "The Corsair M65 RGB Elite is a wired gaming Mouse with a high-precision 18,000 DPI sensor, adjustable weight tuning system, 8 programmable buttons, and customizable RGB lighting.",
+        "images": [
+            "Mouse13.png",
+            "Mouse14.png",
+            "Mouse15.png",
+            "Mouse16.png"
+        ],
+        "price": 59.99,
+        "cover": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/CH_9309111_NA_Gallery_M65_RGB_ELITE_WHT_04_0.png"
+    },
+    {
+        "type": "Mouse",
+        "name": "Logitech MX Master 3",
+        "manufacturer": "Logitech",
+        "shortdescription": "Wireless Mouse with 4,000 DPI and advanced ergonomic design.",
+        "rating": 4.8,
+        "quantity": 20,
+        "longdescription": "The Logitech MX Master 3 is a wireless Mouse with a high-precision 4,000 DPI sensor, advanced ergonomic design, customizable buttons, and cross-computer control.",
+        "images": [
+            "Mouse17.png",
+            "Mouse18.png",
+            "Mouse19.png",
+            "Mouse20.png"
+        ],
+        "price": 99.99,
+        "cover": "https://resource.logitech.com/content/dam/logitech/en/products/mice/mx-master-3-mac/gallery/mx-master-3-for-mac-gallery-top.png"
+    },
+    {
+        "type": "Mouse",
+        "name": "Microsoft Surface Precision Mouse",
+        "manufacturer": "Microsoft",
+        "shortdescription": "Wireless Mouse with 3 customizable buttons and ergonomic design.",
+        "rating": 4.7,
+        "quantity": 25,
+        "longdescription": "The Microsoft Surface Precision Mouse is a wireless Mouse with 3 customizable buttons, ergonomic design, smooth scrolling, and compatibility with multiple devices.",
+        "images": [
+            "Mouse21.png",
+            "Mouse22.png",
+            "Mouse23.png",
+            "Mouse24.png"
+        ],
+        "price": 79.99,
+        "cover": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1FJWY?ver=0545"
+    },
+    {
+        "type": "Mouse",
+        "name": "Razer Basilisk X Hyperspeed",
+        "manufacturer": "Razer",
+        "shortdescription": "Wireless gaming Mouse with 16,000 DPI and customizable scroll resistance.",
+        "rating": 4.7,
+        "quantity": 22,
+        "longdescription": "The Razer Basilisk X Hyperspeed is a wireless gaming Mouse with a high-precision 16,000 DPI sensor, customizable scroll resistance, 6 programmable buttons, and up to 450 hours of battery life.",
+        "images": [
+            "Mouse25.png",
+            "Mouse26.png",
+            "Mouse27.png",
+            "Mouse28.png"
+        ],
+        "price": 59.99,
+        "cover": "https://xprs.s3.eu-west-3.amazonaws.com/media/product_images/Razer_Basilisk_X_HyperSpeed_Wireless_Gaming_Mouse_2.png"
+    },
+    {
+        "type": "Mouse",
+        "name": "Corsair Harpoon RGB Wireless",
+        "manufacturer": "Corsair",
+        "shortdescription": "Wireless gaming Mouse with 10,000 DPI and 6 programmable buttons.",
+        "rating": 4.6,
+        "quantity": 25,
+        "longdescription": "The Corsair Harpoon RGB Wireless is a wireless gaming Mouse with a high-precision 10,000 DPI sensor, 6 programmable buttons, and customizable RGB lighting.",
+        "images": [
+            "Mouse29.png",
+            "Mouse30.png",
+            "Mouse31.png",
+            "Mouse32.png"
+        ],
+        "price": 49.99,
+        "cover": "https://res.cloudinary.com/corsair-pwa/image/upload/akamai/pdp/harpoon-rgb-pro/images/harpoon_rgb_pro_play_your_way.png"
+    },
+    {
+        "type": "Mouse",
+        "name": "Logitech G203 LIGHTSYNC",
+        "manufacturer": "Logitech",
+        "shortdescription": "Wired gaming Mouse with 8,000 DPI and LIGHTSYNC RGB lighting.",
+        "rating": 4.7,
+        "quantity": 20,
+        "longdescription": "The Logitech G203 LIGHTSYNC is a wired gaming Mouse with a high-precision 8,000 DPI sensor, 6 programmable buttons, and customizable LIGHTSYNC RGB lighting.",
+        "images": [
+            "Mouse33.png",
+            "Mouse34.png",
+            "Mouse35.png",
+            "Mouse36.png"
+        ],
+        "price": 39.99,
+        "cover": "https://resource.logitech.com/content/dam/gaming/en/products/refreshed-g203/g203-black-gallery-1.png"
+    },
+    {
+        "type": "Mouse",
+        "name": "SteelSeries Sensei Ten",
+        "manufacturer": "SteelSeries",
+        "shortdescription": "Wired gaming Mouse with 18,000 DPI and TrueMove Pro sensor.",
+        "rating": 4.8,
+        "quantity": 20,
+        "longdescription": "The SteelSeries Sensei Ten is a wired gaming Mouse with a high-precision 18,000 DPI TrueMove Pro sensor, customizable weight system, and 8 programmable buttons.",
+        "images": [
+            "Mouse37.png",
+            "Mouse38.png",
+            "Mouse39.png",
+            "Mouse40.png"
+        ],
+        "price": 69.99,
+        "cover": "https://media.steelseriescdn.com/thumbs/catalogue/products/01124-sensei-ten/77cd3ab65eca48eaa7aae3f24d81b083.png.500x400_q100_crop-fit_optimize.png"
+    },
+    {
+        "type": "Keyboard",
+        "name": "Logitech G915 LIGHTSPEED",
+        "manufacturer": "Logitech",
+        "shortdescription": "Wireless mechanical gaming Keyboard with RGB lighting and low-profile switches.",
+        "rating": 4.8,
+        "quantity": 20,
+        "longdescription": "The Logitech G915 LIGHTSPEED is a wireless mechanical gaming Keyboard with RGB lighting, low-profile mechanical switches, dedicated media keys, and programmable macros.",
+        "images": [
+            "Keyboard1.png",
+            "Keyboard2.png",
+            "Keyboard3.png",
+            "Keyboard4.png"
+        ],
+        "price": 249.99,
+        "cover": "https://resource.logitech.com/content/dam/gaming/en/products/g915/g915-gallery/uk-g915-wireless-gallery-topdown.png"
+    },
+    {
+        "type": "Keyboard",
+        "name": "Razer Huntsman Elite",
+        "manufacturer": "Razer",
+        "shortdescription": "Wired mechanical gaming Keyboard with opto-mechanical switches and customizable RGB lighting.",
+        "rating": 4.7,
+        "quantity": 18,
+        "longdescription": "The Razer Huntsman Elite is a wired mechanical gaming Keyboard with opto-mechanical switches, customizable RGB lighting, dedicated media keys, and wrist rest.",
+        "images": [
+            "Keyboard5.png",
+            "Keyboard6.png",
+            "Keyboard7.png",
+            "Keyboard8.png"
+        ],
+        "price": 199.99,
+        "cover": "https://dl.razerzone.com/src/2040-1-EN-v1.png"
+    },
+    {
+        "type": "Keyboard",
+        "name": "SteelSeries Apex Pro",
+        "manufacturer": "SteelSeries",
+        "shortdescription": "Wired mechanical gaming Keyboard with adjustable actuation and customizable RGB lighting.",
+        "rating": 4.8,
+        "quantity": 25,
+        "longdescription": "The SteelSeries Apex Pro is a wired mechanical gaming Keyboard with adjustable actuation, customizable RGB lighting, dedicated multimedia controls, and programmable macros.",
+        "images": [
+            "Keyboard9.png",
+            "Keyboard10.png",
+            "Keyboard11.png",
+            "Keyboard12.png"
+        ],
+        "price": 199.99,
+        "cover": "https://media.steelseriescdn.com/thumbs/filer_public/b1/d1/b1d1b0d3-30d5-4477-bb8f-bad442cfb894/webprim_apexpro.png__1200x627_crop-fit_optimize_subsampling-2.png"
+    },
+    {
+        "type": "Keyboard",
+        "name": "Corsair K95 RGB PLATINUM",
+        "manufacturer": "Corsair",
+        "shortdescription": "Wired mechanical gaming Keyboard with Cherry MX Speed switches and customizable RGB lighting.",
+        "rating": 4.7,
+        "quantity": 22,
+        "longdescription": "The Corsair K95 RGB PLATINUM is a wired mechanical gaming Keyboard with Cherry MX Speed switches, customizable RGB lighting, dedicated macro keys, and detachable wrist rest.",
+        "images": [
+            "Keyboard13.png",
+            "Keyboard14.png",
+            "Keyboard15.png",
+            "Keyboard16.png"
+        ],
+        "price": 199.99,
+        "cover": "https://content.invisioncic.com/p313717/monthly_2017_07/blog_K95RGBPLATINUM_CABLEMANAGEMENT-Content-1.png.ad0b4df00d73ce6aac7427d424a694ec.png"
+    },
+    {
+        "type": "Keyboard",
+        "name": "Ducky One 2 Mini",
+        "manufacturer": "Ducky",
+        "shortdescription": "60% compact mechanical gaming Keyboard with PBT keycaps and customizable RGB lighting.",
+        "rating": 4.8,
+        "quantity": 20,
+        "longdescription": "The Ducky One 2 Mini is a 60% compact mechanical gaming Keyboard with PBT keycaps, customizable RGB lighting, and detachable USB-C cable.",
+        "images": [
+            "Keyboard17.png",
+            "Keyboard18.png",
+            "Keyboard19.png",
+            "Keyboard20.png"
+        ],
+        "price": 119.99,
+        "cover": "https://www.duckychannel.com.tw/upload/2019_05_112/20190511120502dgnhbl7NU1.png"
+    },
+    {
+        "type": "Keyboard",
+        "name": "Logitech G513",
+        "manufacturer": "Logitech",
+        "shortdescription": "Wired mechanical gaming Keyboard with customizable RGB lighting and choice of switches.",
+        "rating": 4.7,
+        "quantity": 25,
+        "longdescription": "The Logitech G513 is a wired mechanical gaming Keyboard with customizable RGB lighting, choice of mechanical switches, and USB passthrough.",
+        "images": [
+            "Keyboard21.png",
+            "Keyboard22.png",
+            "Keyboard23.png",
+            "Keyboard24.png"
+        ],
+        "price": 149.99,
+        "cover": "https://resource.logitech.com/content/dam/gaming/en/products/g513/g513-carbon-gallery-1.png"
+    },
+    {
+        "type": "Keyboard",
+        "name": "Razer BlackWidow Elite",
+        "manufacturer": "Razer",
+        "shortdescription": "Wired mechanical gaming Keyboard with Razer Green switches and customizable RGB lighting.",
+        "rating": 4.7,
+        "quantity": 22,
+        "longdescription": "The Razer BlackWidow Elite is a wired mechanical gaming Keyboard with Razer Green switches, customizable RGB lighting, dedicated media keys, and ergonomic wrist rest.",
+        "images": [
+            "Keyboard25.png",
+            "Keyboard26.png",
+            "Keyboard27.png",
+            "Keyboard28.png"
+        ],
+        "price": 129.99,
+        "cover": "https://assets.razerzone.com/eeimages/support/products/1398/1398_blackwidowelite.png"
+    },
+    {
+        "type": "Keyboard",
+        "name": "Corsair K70 RGB MK.2",
+        "manufacturer": "Corsair",
+        "shortdescription": "Wired mechanical gaming Keyboard with Cherry MX switches and customizable RGB lighting.",
+        "rating": 4.6,
+        "quantity": 25,
+        "longdescription": "The Corsair K70 RGB MK.2 is a wired mechanical gaming Keyboard with Cherry MX switches, customizable RGB lighting, dedicated multimedia controls, and detachable wrist rest.",
+        "images": [
+            "Keyboard29.png",
+            "Keyboard30.png",
+            "Keyboard31.png",
+            "Keyboard32.png"
+        ],
+        "price": 159.99,
+        "cover": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/v1/akamai/pdp/k70-rgb-mk2/img/interest-Keyboard-front.png"
+    },
+    {
+        "type": "Keyboard",
+        "name": "HyperX Alloy FPS Pro",
+        "manufacturer": "HyperX",
+        "shortdescription": "Wired mechanical gaming Keyboard with compact design and red LED backlighting.",
+        "rating": 4.7,
+        "quantity": 20,
+        "longdescription": "The HyperX Alloy FPS Pro is a wired mechanical gaming Keyboard with a compact design, durable steel frame, red LED backlighting, and detachable cable.",
+        "images": [
+            "Keyboard33.png",
+            "Keyboard34.png",
+            "Keyboard35.png",
+            "Keyboard36.png"
+        ],
+        "price": 69.99,
+        "cover": "https://i0.wp.com/pcmarket.uz/wp-content/uploads/2021/06/HyperX-Alloy-FPS-Pro-Mechanical-Gaming-KeyboardMX-Red-RU-kopiya.png?fit=650%2C650&ssl=1"
+    },
+    {
+        "type": "Keyboard",
+        "name": "SteelSeries Apex 7 TKL",
+        "manufacturer": "SteelSeries",
+        "shortdescription": "Wired mechanical gaming Keyboard with OLED Smart Display and customizable RGB lighting.",
+        "rating": 4.8,
+        "quantity": 20,
+        "longdescription": "The SteelSeries Apex 7 TKL is a wired mechanical gaming Keyboard with an OLED Smart Display, customizable RGB lighting, dedicated multimedia controls, and programmable macros.",
+        "images": [
+            "Keyboard37.png",
+            "Keyboard38.png",
+            "Keyboard39.png",
+            "Keyboard40.png"
+        ],
+        "price": 159.99,
+        "cover": "https://media.steelseriescdn.com/thumbs/filer_public/1d/02/1d02dcec-68df-4427-a7ef-58d4c967ada7/buyimg_apex7tkl_006_uk.png__1920x1080_crop-fit_optimize_subsampling-2.png"
+    }
+]

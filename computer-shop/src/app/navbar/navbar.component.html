@@ -1,0 +1,68 @@
+<div class="bg-black shadow font-medium">
+    <div class="sm:ml-2 md:ml-5 lg:ml-10 xl:ml-20 sm:mr-2 md:mr-5 lg:mr-10 xl:mr-20 mx-auto md:px-2 lg:px-4">
+        <div class="flex items-center justify-start py-4">
+            <div>
+                <img routerLink="/homepage" alt="color" src="assets/images/logo-white.png"
+                    class="ml-3 sm:ml-0 h-7 sm:h-7 md:h-8 hover:cursor-pointer">
+            </div>
+            <div class="hidden sm:flex sm:items-center relative mx-auto text-gray-600">
+                <input [(ngModel)]="searchParam" (keyup.enter)="searchProducts()"
+                    class="border-2 border-gray-300 sm:ml-20 md:ml-20 bg-gray sm:w-40 md:w-60 sm:h-8 lg:h-8 lg:w-80 xl:w-112 px-3 pr-16 text-sm focus:outline-none"
+                    type="search" name="search" placeholder="Search">
+                <button (click)="searchProducts()" type="submit" class="absolute right-0 top-0 sm:mt-2 lg:mt-2 mr-4">
+                    <svg class="text-gray-600 h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
+                        viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;"
+                        xml:space="preserve" width="512px" height="512px">
+                        <path
+                            d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden sm:flex sm:items-center w-72">
+                <div class="hidden sm:flex sm:items-center ml-auto group">
+                    <button routerLink="/cart"
+                        class="w-20 sm:h-8 sm:w-22 bg-lime text-black flex items-center justify-center group-hover:bg-black">
+                        <span
+                            class="mx-auto relative text-sm group-hover:text-lime group-active:text-limeclick">CART</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="black"
+                            class="md:ml-14 w-12 h-10 ml-12 absolute opacity-10 group-hover:opacity-20 group-active:opacity-10 group-hover:stroke-lime group-active:stroke-limeclick">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="hidden sm:flex sm:items-center ml-2 md:ml-5 group">
+                    <button routerLink="/profile"
+                        class="w-20 sm:h-8 sm:w-22 bg-lime text-black flex items-center justify-center group-hover:bg-black">
+                        <span
+                            class="mx-auto relative text-sm group-hover:text-lime group-active:text-limeclick">PROFILE</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="black"
+                            class="md:ml-14 w-12 h-10 ml-12 absolute opacity-10 group-hover:opacity-20 group-hover:stroke-lime group-active:stroke-limeclick">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <button class="sm:hidden cursor-pointer ml-auto mr-2" id="dropdownDefaultButton" type="button"
+                data-dropdown-toggle="dropdown">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-9 h-9 text-white ">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
+        </div>
+        <div id="dropdown" class="inline-block sm:hidden bg-black border-t-2 py-2 w-screen">
+            <div class="flex flex-col-4 justify-center">
+                <a href="#" class="text-lime text-lg font-semibold mb-1">Cart</a>
+                <a href="#" class="text-lime text-lg font-semibold ml-3 mb-1">Profile</a>
+                <a href="#" class="text-lime text-lg font-semibold ml-3 mb-1">Log In</a>
+                <a href="#" class="text-lime text-lg font-semibold ml-3 mb-1">Register</a>
+            </div>
+        </div>
+    </div>
+</div>

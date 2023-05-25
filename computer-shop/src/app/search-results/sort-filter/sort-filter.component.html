@@ -1,0 +1,162 @@
+<div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-5">
+    <div class="cols-span-3 lg:col-span-2 lg:col-start-2">
+        <div class="md:text-base mb-3 lg:text-xl ml-3 flex items-center justify-between">
+            <div class="text-left ml-2">SORT BY</div>
+        </div>
+    </div>
+    <div class="xl:col-span-1">
+        <div class="flex items-center ml-auto group">
+            <button id="dropdownName" (click)="toggleDropdownName()"
+                class="h-8 w-22 bg-lime text-black flex items-center justify-center group-hover:bg-black">
+                <span
+                    class="mr-auto ml-2 lg:ml-0 xl:ml-2 relative text-xs group-hover:text-lime group-active:text-limeclick">NAME</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+                    stroke="currentColor"
+                    class="ml-10 xl:ml-12 w-10 h-8 lg:w-8 lg:h-6 xl:w-10 xl:h-8 absolute group-hover:stroke-lime group-active:stroke-limeclick">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+            </button>
+        </div>
+        <div id="namedatadropdown" [ngClass]="{'hidden': isDropdownHiddenName}"
+            class="z-10 hidden bg-lime text-black text-center shadow w-fit fixed">
+            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                <li>
+                    <a (click)="orderByName('ASC')"
+                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick">ASC</a>
+                </li>
+                <li>
+                    <a (click)="orderByName('DESC')"
+                        class="w-22 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick">DESC</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="xl:col-span-1">
+        <div class="flex items-center ml-auto group">
+            <button id="dropdownRating" (click)="toggleDropdownRating()"
+                class="h-8 w-22 bg-lime text-black flex items-center justify-center group-hover:bg-black">
+                <span
+                    class="mr-auto ml-2 lg:ml-0 xl:ml-2 relative text-xs group-hover:text-lime group-active:text-limeclick">RATING</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+                    stroke="currentColor"
+                    class="ml-11 xl:ml-12 w-10 h-8 lg:w-8 lg:h-6 xl:w-10 xl:h-8 absolute group-hover:stroke-lime group-active:stroke-limeclick">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+            </button>
+        </div>
+        <div id="ratingdatadropdown" [ngClass]="{'hidden': isDropdownHiddenRating}"
+            class="z-10 hidden bg-lime text-black text-center fixed shadow w-fit ">
+            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                <li>
+                    <a (click)="orderByRating('ASC')"
+                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick">ASC</a>
+                </li>
+                <li>
+                    <a (click)="orderByRating('DESC')"
+                        class="w-22 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick">DESC</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="xl:col-span-1">
+        <div class="flex items-center ml-auto group">
+            <button id="dropdownPrice" (click)="toggleDropdownPrice()"
+                class="h-8 w-22 bg-lime text-black flex items-center justify-center group-hover:bg-black">
+                <span
+                    class="mr-auto ml-2 lg:ml-0 xl:ml-2 relative text-xs group-hover:text-lime group-active:text-limeclick">PRICE</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+                    stroke="currentColor"
+                    class="ml-10 xl:ml-12 w-10 h-8 lg:w-8 lg:h-6 xl:w-10 xl:h-8 absolute group-hover:stroke-lime group-active:stroke-limeclick">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+            </button>
+        </div>
+        <div id="pricedatadropdown" [ngClass]="{'hidden': isDropdownHiddenPrice}"
+            class="z-10 hidden bg-lime text-black text-center fixed shadow w-fit ">
+            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                <li>
+                    <a (click)="orderByPrice('ASC')"
+                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick">ASC</a>
+                </li>
+                <li>
+                    <a (click)="orderByPrice('DESC')"
+                        class="w-22 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick">DESC</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="cols-span-3 lg:col-span-2 xl:col-start-7 xl:col-end-9">
+        <div class="md:text-base mb-3 lg:text-xl ml-3 flex items-center justify-between">
+            <div class="text-left ml-2">FILTER BY</div>
+        </div>
+    </div>
+    <div class="xl:col-span-1">
+        <div class=" flex items-center ml-auto">
+            <input (input)="updateMinPrice($event)" type="number" class="bg-gray h-8 w-24 text-black text-xs"
+                placeholder="Price From" min="0" max="9999">
+        </div>
+    </div>
+    <div class="xl:col-span-1">
+        <div class=" flex items-center ml-auto">
+            <input (input)="updateMaxPrice($event)" type="number" class="bg-gray h-8 w-24 text-black text-xs"
+                placeholder="Price To" min="0" max="9999">
+        </div>
+    </div>
+    <div class="xl:col-span-1">
+        <div class="flex items-center ml-auto group">
+            <button id="dropdownType" (click)="toggleDropdownType()"
+                class="h-8 w-22 bg-lime text-black flex items-center justify-center group-hover:bg-black">
+                <span
+                    class="mr-auto ml-auto relative text-xs group-hover:text-lime group-active:text-limeclick">{{activeComponent}}</span>
+            </button>
+        </div>
+        <div id="typedatadropdown" [ngClass]="{'hidden': isDropdownHiddenType}"
+            class="z-10 hidden bg-lime text-black text-center fixed shadow w-fit ">
+            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                <li>
+                    <a (click)="getComponent('Graphic Card')"
+                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">GRAPHIC
+                        CARD</a>
+                </li>
+                <li>
+                    <a (click)="getComponent('Processor')"
+                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">PROCESSOR</a>
+                </li>
+                <li>
+                    <a (click)="getComponent('Motherboard')"
+                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">MOTHERBOARD</a>
+                </li>
+                <li>
+                    <a (click)="getComponent('Ram Memory')"
+                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">RAM
+                        MEMORY</a>
+                </li>
+                <li>
+                    <a (click)="getComponent('Hard Drive')"
+                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">HARD
+                        DRIVE</a>
+                </li>
+                <li>
+                    <a (click)="getComponent('Headset')"
+                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">HEADSET</a>
+                </li>
+                <li>
+                    <a (click)="getComponent('Monitor')"
+                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">MONITOR</a>
+                </li>
+                <li>
+                    <a (click)="getComponent('Laptop')"
+                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">LAPTOP</a>
+                </li>
+                <li>
+                    <a (click)="getComponent('Mouse')"
+                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">MOUSE</a>
+                </li>
+                <li>
+                    <a (click)="getComponent('Keyboard')"
+                        class="w-22 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">KEYBOARD</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

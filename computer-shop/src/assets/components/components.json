@@ -1,0 +1,52 @@
+[
+    {
+        "component": "Graphic Card",
+        "title": "COMPONENT",
+        "svg": "../../assets/images/video-card-svgrepo-com.svg"
+    },
+    {
+        "component": "Processor",
+        "title": "COMPONENT",
+        "svg": "../../assets/images/cpu-z-svgrepo-com.svg"
+    },
+    {
+        "component": "Motherboard",
+        "title": "COMPONENT",
+        "svg": "../../assets/images/motherboard-svgrepo-com.svg"
+    },
+    {
+        "component": "Ram Memory",
+        "title": "COMPONENT",
+        "svg": "../../assets/images/ram-memory-svgrepo-com.svg"
+    },
+    {
+        "component": "Hard Drive",
+        "title": "COMPONENT",
+        "svg": "../../assets/images/hdd-svgrepo-com.svg"
+    },
+    {
+        "component": "Headset",
+        "title": "COMPONENT",
+        "svg": "../../assets/images/headset-svgrepo-com.svg"
+    },
+    {
+        "component": "Monitor",
+        "title": "COMPONENT",
+        "svg": "../../assets/images/monitor-svgrepo-com.svg"
+    },
+    {
+        "component": "Laptop",
+        "title": "COMPONENT",
+        "svg": "../../assets/images/laptop-material-4-svgrepo-com.svg"
+    },
+    {
+        "component": "Mouse",
+        "title": "COMPONENT",
+        "svg": "../../assets/images/mouse-svgrepo-com.svg"
+    },
+    {
+        "component": "Keyboard",
+        "title": "COMPONENT",
+        "svg": "../../assets/images/keyboard-svgrepo-com.svg"
+    }
+]

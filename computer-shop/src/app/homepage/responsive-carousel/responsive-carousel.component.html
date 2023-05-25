@@ -1,0 +1,90 @@
+<div id="carousel" class="text-white mr-0 ml-0 mt-2 sm:mr-2 sm:ml-2 md:mr-5 md:ml-5 md:mt-5 lg:mr-20 lg:ml-20 lg:mt-8">
+    <div class="text-base mb-3 sm:text-xl ml-3 flex items-center justify-between">
+        <div class="text-left ml-2">CATEGORIES</div>
+        <div class="text-right mr-5">
+            <div class="inline-block mr-3 group">
+                <button class="w-7 h-9 bg-lime text-black flex items-center justify-center group-hover:bg-light-black"
+                    (click)="prevSlide()">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-7 h-8 inline-block group-hover:stroke-lime group-active:stroke-limeclick">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                    </svg>
+                </button>
+            </div>
+            <div class="inline-block group">
+                <button class="w-7 h-9 bg-lime text-black flex items-center justify-center group-hover:bg-light-black"
+                    (click)="nextSlide()">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-7 h-8 inline-block group-hover:stroke-lime group-active:stroke-limeclick">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <ngx-slick-carousel class="text-black text-center font-semibold" [config]="slideConfig" #slickModal>
+        <div ngxSlickItem class="carousel-item slide">
+            <app-carousel-item [title]="'COMPONENT'" [component]="'Graphic Card'"
+                [svg]="'../../assets/images/video-card-svgrepo-com.svg'" (click)="getComponent('Graphic Card')"
+                routerLink="/search">
+            </app-carousel-item>
+        </div>
+        <div ngxSlickItem class="carousel-item slide">
+            <app-carousel-item [title]="'COMPONENT'" [component]="'Processor'"
+                [svg]="'../../assets/images/cpu-z-svgrepo-com.svg'" (click)="getComponent('Processor')"
+                routerLink="/search">
+            </app-carousel-item>
+        </div>
+        <div ngxSlickItem class="carousel-item slide">
+            <app-carousel-item [title]="'COMPONENT'" [component]="'Motherboard'"
+                [svg]="'../../assets/images/motherboard-svgrepo-com.svg'" (click)="getComponent('Motherboard')"
+                routerLink="/search">
+            </app-carousel-item>
+        </div>
+        <div ngxSlickItem class="carousel-item slide">
+            <app-carousel-item [title]="'COMPONENT'" [component]="'Ram Memory'"
+                [svg]="'../../assets/images/ram-memory-svgrepo-com.svg'" (click)="getComponent('Ram Memory')"
+                routerLink="/search">
+            </app-carousel-item>
+        </div>
+        <div ngxSlickItem class="carousel-item slide">
+            <app-carousel-item [title]="'COMPONENT'" [component]="'Hard Drive'"
+                [svg]="'../../assets/images/hdd-svgrepo-com.svg'" (click)="getComponent('Hard Drive')"
+                routerLink="/search">
+            </app-carousel-item>
+        </div>
+        <div ngxSlickItem class="carousel-item slide">
+            <app-carousel-item [title]="'COMPONENT'" [component]="'Headset'"
+                [svg]="'../../assets/images/headset-svgrepo-com.svg'" (click)="getComponent('Headset')"
+                routerLink="/search">
+            </app-carousel-item>
+        </div>
+        <div ngxSlickItem class="carousel-item slide">
+            <app-carousel-item [title]="'COMPONENT'" [component]="'Monitor'"
+                [svg]="'../../assets/images/monitor-svgrepo-com.svg'" (click)="getComponent('Monitor')"
+                routerLink="/search">
+            </app-carousel-item>
+        </div>
+        <div ngxSlickItem class="carousel-item slide">
+            <app-carousel-item [title]="'COMPONENT'" [component]="'Laptop'"
+                [svg]="'../../assets/images/laptop-material-4-svgrepo-com.svg'" (click)="getComponent('Laptop')"
+                routerLink="/search">
+            </app-carousel-item>
+        </div>
+        <div ngxSlickItem class="carousel-item slide">
+
+            <app-carousel-item [title]="'COMPONENT'" [component]="'Mouse'"
+                [svg]="'../../assets/images/mouse-svgrepo-com.svg'" (click)="getComponent('Mouse')"
+                routerLink="/search">
+            </app-carousel-item>
+        </div>
+        <div ngxSlickItem class="carousel-item slide">
+            <app-carousel-item [title]="'COMPONENT'" [component]="'Keyboard'"
+                [svg]="'../../assets/images/keyboard-svgrepo-com.svg'" (click)="getComponent('Keyboard')"
+                routerLink="/search">
+            </app-carousel-item>
+        </div>
+    </ngx-slick-carousel>
+</div>

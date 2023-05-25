@@ -1,0 +1,43 @@
+<div class="card col-span-1 h-37">
+    <div class="grid grid-cols-6 gap-5 h-full">
+        <div class="col-span-2 max-h-37 max-w-40 flex justify-center items-center">
+            <img rel="component image" src={{products?.cover}} class="max-h-32">
+        </div>
+        <div class="col-span-2">
+            <div class="mt-3 text-base sm:text-lg">
+                {{products?.name}}
+            </div>
+            <div class="mb-3 text-lime text-xs sm:text-base">
+                {{products?.manufacturer}}
+            </div>
+            <div class="text-xxs sm:text-xs">
+                > {{products?.shortdescription}}
+            </div>
+        </div>
+        <div class="col-span-2 flex justify-center">
+            <div class="text-center">
+                <div class="mt-3 sm:text-lg">
+                    ${{products?.price}}
+                </div>
+                <div class="mt-1 sm:text-base">
+                    Rating: {{products?.rating}}
+                </div>
+                <div class="mt-2">
+                    <div class="group">
+                        <button (click)="addToCart(products!.name)" routerLink='/cart'
+                            class="w-20 sm:h-8 sm:w-22 bg-lime text-black flex items-center justify-center group-hover:bg-black">
+                            <span class="mx-auto relative text-xs group-hover:text-lime group-active:text-limeclick">ADD
+                                TO CART</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="black"
+                                class="md:ml-14 w-12 h-10 ml-12 absolute opacity-10 group-hover:opacity-20 group-active:opacity-10 group-hover:stroke-lime group-active:stroke-limeclick">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+<app-responsive-carousel></app-responsive-carousel>
+<div id="carousel" class="text-white mr-0 ml-0 mt-2 sm:mr-2 sm:ml-2 md:mr-5 md:ml-5 md:mt-5 lg:mr-20 lg:ml-20 lg:mt-8">
+    <div class="text-base mb-5 sm:text-xl ml-3 mr-3 flex items-center justify-between">
+        <div class="grid grid-cols-3 gap-5 w-full">
+            <div class="hidden sm:inline sm:col-span-3 lg:col-span-2 align-center banner"
+                style="background-image: url(../../assets/images/cm.png);">
+            </div>
+            <div class="hidden lg:inline lg:col-span-1 banner"
+                style="background-image: url(../../assets/images/razer\ naga.jpg);">
+            </div>
+            <div class="col-span-3 sm:hidden text-center banner"
+                style="background-image: url(../../assets/images/nvidia.jpg);">
+            </div>
+        </div>
+    </div>
+    <div class="text-base mb-3 sm:text-xl ml-3 flex items-center justify-between">
+        <div class="text-left ml-2">FEATURED PRODUCTS</div>
+    </div>
+    <div class="mb-3 ml-3 mr-3 grid grid-cols-1 xl:grid-cols-2 gap-5">
+        <div *ngFor="let product of products" routerLink="/product" class="hover:cursor-pointer">
+            <app-item (click)="setActiveItem(product)" [products]="product"></app-item>
+        </div>
+    </div>
+    <div class="text-black mt-8 mb-8 text-center">
+        <app-pagination></app-pagination>
+    </div>
+</div>

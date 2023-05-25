@@ -1,0 +1,14 @@
+body {
+  font-family: 'Aldrich', 'sans-serif';
+}
+
+.content-container {
+  flex: 1;
+  flex-direction: column;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

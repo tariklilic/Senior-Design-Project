@@ -1,0 +1,46 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    background-color: lime;
+    color: black;
+    border: none;
+    padding: 4px 8px;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-toggle:hover {
+    background-color: black;
+    color: lime;
+}
+
+.arrow-icon {
+    width: 10px;
+    height: 8px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.dropdown-menu {
+    background-color: lime;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.dropdown-menu option {
+    background-color: lime;
+    color: black;
+}
+
+.dropdown-menu option:hover {
+    background-color: #eee;
+    color: #333;
+}

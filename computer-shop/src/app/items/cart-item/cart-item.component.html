@@ -1,0 +1,46 @@
+<div class="card col-span-1 h-37">
+    <div class="grid grid-cols-6 gap-5 h-full">
+        <div class="col-span-2 max-h-37 max-w-40 flex justify-center items-center">
+            <img rel="component image" src="{{Item.product.cover}}" class="max-h-32">
+        </div>
+        <div class="col-span-2">
+            <div class="mt-3 text-base sm:text-lg">
+                {{Item.product.name}}
+            </div>
+            <div class="mb-3 text-lime text-xs sm:text-base">
+                {{Item.product.manufacturer}}
+            </div>
+            <div class="text-xxs sm:text-xs">
+                > {{Item.product.shortdescription}}
+            </div>
+        </div>
+        <div class="col-span-2 flex justify-center">
+            <div>
+                <div class="mt-3 text-xxs sm:text-xs text-gray">
+                    UNIT PRICE: ${{Item.product.price}}
+                </div>
+                <div class="mt-1 text-base sm:text-xl text-white">
+                    {{Item.product.price * Item.quantity | number : '1.2-2'}}
+                </div>
+                <div class="mt-2 sm:mt-5 flex text-center">
+                    <input [value]="Item.quantity" type="number"
+                        class="bg-gray w-12 h-8 sm:h-8 sm:w-16 text-black text-xs" min="1">
+                    <div class="bg-lime w-8 h-8 sm:h-8 flex flex-col items-center justify-center">
+                        <div id="quanitityUp" (click)="increment()">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+                                stroke="currentColor" class="w-5 h-5 mt-2 text-black hover:text-limeclick">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+                            </svg>
+                        </div>
+                        <div id="quanitityDown" (click)="decrement()">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+                                stroke="currentColor" class="w-5 h-5 mb-2 text-black hover:text-limeclick">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

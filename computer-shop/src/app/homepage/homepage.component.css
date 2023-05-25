@@ -1,0 +1,11 @@
+.banner {
+    width: auto;
+    height: auto;
+    min-height: 250px;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    opacity: 1;
+    background-position: center;
+}
