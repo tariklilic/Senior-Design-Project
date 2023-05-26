@@ -40,11 +40,11 @@ namespace computershopAPI.Services.ProductService
 
             try
             {
-                Product character = await _context.Products
+                Product product = await _context.Products
                     .FirstOrDefaultAsync(c => c.Id == id);
-                if (character != null)
+                if (product != null)
                 {
-                    _context.Products.Remove(character);
+                    _context.Products.Remove(product);
                     await _context.SaveChangesAsync();
                     serviceResponse.Data = _context.Products
                         .Select(c => _mapper.Map<GetProductsDto>(c)).ToList();

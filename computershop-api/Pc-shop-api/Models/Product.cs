@@ -11,6 +11,8 @@
     public double Price { get; set; }
     public double Rating { get; set; }
     public string Cover { get; set; } = string.Empty;
+    public int ComponentId { get; set; }
+    
 
 }
 }

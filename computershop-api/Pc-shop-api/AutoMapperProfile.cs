@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using computershopAPI.Dtos.ComponentDtos;
 using computershopAPI.Dtos.ProductDtos;
 using computershopAPI.Models.Models;
 
@@ -10,6 +11,8 @@ namespace computershopAPI
         {
             CreateMap<Product, GetProductsDto>();
             CreateMap<AddProductDto, Product>();
+
+            CreateMap<Component, GetComponentDto>();
 
         }
     }

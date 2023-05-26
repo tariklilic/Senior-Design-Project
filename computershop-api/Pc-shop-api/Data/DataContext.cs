@@ -19,6 +19,6 @@ namespace computershopAPI.Data
         }
 
         public DbSet<Product> Products { get; set; }
-
+        public DbSet<Component> Components { get; set; }
     }
 }

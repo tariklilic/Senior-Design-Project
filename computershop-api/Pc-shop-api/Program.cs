@@ -5,6 +5,8 @@ using Microsoft.EntityFrameworkCore;
 using System.Text;
 using System.Reflection;
 using computershopAPI.Services.ProductService;
+using Microsoft.AspNetCore.Components;
+using computershopAPI.Services.ComponentService;
 
 var builder = WebApplication.CreateBuilder(args);
 ConfigurationManager configuration = builder.Configuration;
@@ -21,6 +23,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IComponentService, ComponentService>();
 
 builder.Services.AddCors(options => options.AddPolicy(name: "ApplicationOrigins",
     policy => {
