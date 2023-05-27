@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using computershopAPI.Data;
 using computershopAPI.Dtos.ProductDtos;
+using computershopAPI.Helper;
 using computershopAPI.Models.Models;
 using Microsoft.EntityFrameworkCore;
 using static System.Net.Mime.MediaTypeNames;
@@ -77,18 +78,81 @@ namespace computershopAPI.Services.ProductService
             return serviceResponse;
         }
 
-        public async Task<ServiceResponse<List<GetProductsDto>>> GetProducts()
+        public async Task<PaginationResponse> GetProducts(int page)
         {
-            var serviceResponse = new ServiceResponse<List<GetProductsDto>>();
+            IQueryable<Product> products = _context.Products;
 
-            var dbProducts = await _context.Products
-                .ToListAsync();
-            serviceResponse.Data = dbProducts.Select(a => _mapper.Map<GetProductsDto>(a))
-                .ToList();
+            var pageResults = 10f;
+            var pageCount = Math.Ceiling(products.Count() / pageResults);
+            products = products
+                .Skip((page - 1) * (int)pageResults)
+                .Take((int)pageResults);
 
-            return serviceResponse;
+            var paginationResponse = new PaginationResponse
+            {
+                Products = _mapper.Map<List<GetProductsDto>>(products),
+                CurrentPage = page,
+                Pages = (int)pageCount
+            };
+
+
+            return  paginationResponse;
         }
 
+        public Task<PaginationResponse> GetProductsSorted(int componentId, string? searchName, string? sort, int? priceLowest, int? priceHighest, int page)
+        {
+
+            if (priceHighest == null) priceHighest = 10000;
+            if (priceLowest == null) priceLowest = 0;
+
+            IQueryable<Product> products = _context.Products
+                .Where(a => a.ComponentId == componentId && a.Price >= priceLowest && a.Price <= priceHighest);
+
+            if (searchName != null) products = products.Where(s => s.Name.ToLower().StartsWith(searchName.ToLower()));
+
+
+
+            switch (sort)
+            {
+                case "ratingDesc":
+                    products = products.OrderByDescending(a => a.Rating);
+                    break;
+                case "ratingAsc":
+                    products = products.OrderBy(a => a.Id);
+                    break;
+                case "priceDesc":
+                    products = products.OrderByDescending(a => a.Price);
+                    break;
+                case "priceAsc":
+                    products = products.OrderBy(a => a.Price);
+                    break;
+                case "nameDesc":
+                    products = products.OrderByDescending(a => a.Name);
+                    break;
+                default:
+                    products = products.OrderBy(a => a.Name);
+                    break;
+
+            }
+
+
+            
+            var pageResults = 10f;
+            var pageCount = Math.Ceiling(products.Where(a => componentId == a.ComponentId && a.Price >= priceLowest && a.Price <= priceHighest).Count() / pageResults);
+            products = products
+                .Skip((page - 1) * (int)pageResults)
+                .Take((int)pageResults);
+
+            var paginationResponse = new PaginationResponse
+            {
+                Products = _mapper.Map<List<GetProductsDto>>(products),
+                CurrentPage = page,
+                Pages = (int)pageCount
+            };
+            return Task.FromResult(paginationResponse);
+
+
+        }
 
     }
 }

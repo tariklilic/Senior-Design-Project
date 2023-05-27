@@ -19,10 +19,10 @@ namespace computershopAPI.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> Get()
+        [HttpGet("{page}")]
+        public async Task<IActionResult> Get(int page)
         {
-            return Ok(await _productService.GetProducts());
+            return Ok(await _productService.GetProducts(page));
         }
 
         [HttpPost]
@@ -31,7 +31,7 @@ namespace computershopAPI.Controllers
             return Ok(await _productService.AddProduct(newProduct));
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("item/{id}")]
         public async Task<IActionResult> GetSingle(int id)
         {
             return Ok(await _productService.GetProductById(id));
@@ -41,6 +41,12 @@ namespace computershopAPI.Controllers
         public async Task<IActionResult> DeleteProduct(int id)
         {
             return Ok(await _productService.DeleteProduct(id));
+        }
+
+        [HttpGet("GetSorted/{page}")]
+        public async Task<IActionResult> GetProductsSorted(int componentId, string? searchName, string? sort, int? priceLowest, int? priceHighest, int page)
+        {
+            return Ok(await _productService.GetProductsSorted(componentId, searchName, sort, priceLowest, priceHighest, page));
         }
     }
 }

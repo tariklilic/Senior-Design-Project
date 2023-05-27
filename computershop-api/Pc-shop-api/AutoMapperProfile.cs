@@ -13,6 +13,7 @@ namespace computershopAPI
             CreateMap<AddProductDto, Product>();
 
             CreateMap<Component, GetComponentDto>();
+            CreateMap<AddComponentDto, Component>();
 
         }
     }
