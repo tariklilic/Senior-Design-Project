@@ -11,7 +11,7 @@ using computershopAPI.Data;
 namespace computershopAPI.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230527115137_initial")]
+    [Migration("20230527131558_initial")]
     partial class initial
     {
         /// <inheritdoc />
