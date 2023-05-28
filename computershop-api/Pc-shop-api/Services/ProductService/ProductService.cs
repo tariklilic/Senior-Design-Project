@@ -78,7 +78,7 @@ namespace computershopAPI.Services.ProductService
             return serviceResponse;
         }
 
-        public async Task<PaginationResponse> GetProducts(int page)
+        public Task<PaginationResponse> GetProducts(int page)
         {
             IQueryable<Product> products = _context.Products;
 
@@ -96,7 +96,7 @@ namespace computershopAPI.Services.ProductService
             };
 
 
-            return  paginationResponse;
+            return Task.FromResult(paginationResponse);
         }
 
         public Task<PaginationResponse> GetProductsSorted(int componentId, string? searchName, string? sort, int? priceLowest, int? priceHighest, int page)
@@ -117,7 +117,7 @@ namespace computershopAPI.Services.ProductService
                 case "ratingDesc":
                     products = products.OrderByDescending(a => a.Rating);
                     break;
-                case "ratingAsc":
+                case "ratingAsc":   
                     products = products.OrderBy(a => a.Id);
                     break;
                 case "priceDesc":
@@ -132,11 +132,11 @@ namespace computershopAPI.Services.ProductService
                 default:
                     products = products.OrderBy(a => a.Name);
                     break;
-
+                
             }
 
-
             
+
             var pageResults = 10f;
             var pageCount = Math.Ceiling(products.Where(a => componentId == a.ComponentId && a.Price >= priceLowest && a.Price <= priceHighest).Count() / pageResults);
             products = products
@@ -153,6 +153,9 @@ namespace computershopAPI.Services.ProductService
 
 
         }
+
+        
+
 
     }
 }

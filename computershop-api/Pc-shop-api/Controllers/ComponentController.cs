@@ -3,7 +3,6 @@ using computershopAPI.Services.ProductService;
 using computershopAPI.Dtos.ProductDtos;
 using AutoMapper;
 using computershopAPI.Services.ComponentService;
-using computershopAPI.Dtos.ComponentDtos;
 
 namespace computershopAPI.Controllers
 {
@@ -19,13 +18,6 @@ namespace computershopAPI.Controllers
         {
             _componentService = componentService;
             _mapper = mapper;
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Add(AddComponentDto newComponent)
-        {
-            return Ok(await _componentService.AddComponent(newComponent));
-
         }
 
         [HttpGet]

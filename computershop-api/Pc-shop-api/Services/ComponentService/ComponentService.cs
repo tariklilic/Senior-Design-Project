@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using computershopAPI.Data;
 using computershopAPI.Dtos.ComponentDtos;
-using computershopAPI.Dtos.ProductDtos;
 using computershopAPI.Models.Models;
 using Microsoft.EntityFrameworkCore;
 using static System.Net.Mime.MediaTypeNames;
@@ -44,20 +43,6 @@ namespace computershopAPI.Services.ComponentService
                 .ToListAsync();
             serviceResponse.Data = dbComponents.Select(a => _mapper.Map<GetComponentDto>(a))
                 .ToList();
-
-            return serviceResponse;
-        }
-
-        public async Task<ServiceResponse<List<GetComponentDto>>> AddComponent(AddComponentDto newComponent)
-        {
-            var serviceResponse = new ServiceResponse<List<GetComponentDto>>();
-
-            Component newComp = _mapper.Map<Component>(newComponent);
-            _context.Components.Add(newComp);
-            await _context.SaveChangesAsync();
-            serviceResponse.Data = await _context.Components
-                .Select(a => _mapper.Map<GetComponentDto>(a))
-                .ToListAsync();
 
             return serviceResponse;
         }

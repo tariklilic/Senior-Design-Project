@@ -2,6 +2,9 @@
 using computershopAPI.Services.ProductService;
 using computershopAPI.Dtos.ProductDtos;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
+
+using computershopAPI.Auth;
 
 namespace computershopAPI.Controllers
 {
@@ -19,13 +22,14 @@ namespace computershopAPI.Controllers
             _mapper = mapper;
         }
 
+
         [HttpGet("{page}")]
         public async Task<IActionResult> Get(int page)
         {
             return Ok(await _productService.GetProducts(page));
         }
 
-        [HttpPost]
+        [HttpPost, Authorize(Roles = UserRoles.Admin)]
         public async Task<IActionResult> Add(AddProductDto newProduct)
         {
             return Ok(await _productService.AddProduct(newProduct));
@@ -36,8 +40,8 @@ namespace computershopAPI.Controllers
         {
             return Ok(await _productService.GetProductById(id));
         }
-
-        [HttpDelete("{id}")]
+  
+        [HttpDelete("{id}"), Authorize(Roles = UserRoles.Admin)]
         public async Task<IActionResult> DeleteProduct(int id)
         {
             return Ok(await _productService.DeleteProduct(id));
