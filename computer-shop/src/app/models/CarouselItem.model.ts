@@ -1,12 +1,12 @@
 export class CarouselItem {
 
-    public title: string;
-    public component: string;
-    public svg: string;
+    public id: number;
+    public name: string;
+    public image: string;
 
-    constructor(title: string, component: string, svg: string) {
-        this.title = title;
-        this.component = component;
-        this.svg = svg;
+    constructor(id: number, name: string, image: string) {
+        this.id = id;
+        this.name = name;
+        this.image = image;
     }
 }

@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Product } from '../models/Product.model';
 import { ProductsService } from '../services/products.service';
-import { ComponentsService } from '../services/components.service';
+import { Product } from '../models/Product.model';
 
 @Component({
   selector: 'app-homepage',
@@ -9,25 +8,16 @@ import { ComponentsService } from '../services/components.service';
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent implements OnInit {
-
-  appItems: any[] = Array(10).fill({});
-
-  products: Product[] = [];
-
+  allProduct: Product[] = []
 
   constructor(private productService: ProductsService) {
-
   }
 
   ngOnInit(): void {
-    this.productService.getSearchedProducts();
+    this.productService.getAllProducts();
     this.productService.products.subscribe(result => {
-      this.products = result;
+      this.allProduct = result;
     })
-  }
-
-  setActiveItem(product: Product) {
-    this.productService.activeProduct.next([product]);
   }
 
 }

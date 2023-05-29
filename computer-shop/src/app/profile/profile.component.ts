@@ -9,14 +9,12 @@ import { CartItem } from '../models/CartItem.model';
 })
 export class ProfileComponent implements OnInit {
 
-  purchaseHistory: CartItem[] = [];
+  appItems: any[] = Array(10).fill({});
 
   constructor(private userService: UserService) { }
 
   ngOnInit(): void {
-    this.userService.purchaseHistory.subscribe(result => {
-      this.purchaseHistory = result;
-    })
+
   }
 
 }

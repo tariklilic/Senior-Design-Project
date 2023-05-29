@@ -25,65 +25,9 @@
         </div>
     </div>
     <ngx-slick-carousel class="text-black text-center font-semibold" [config]="slideConfig" #slickModal>
-        <div ngxSlickItem class="carousel-item slide">
-            <app-carousel-item [title]="'COMPONENT'" [component]="'Graphic Card'"
-                [svg]="'../../assets/images/video-card-svgrepo-com.svg'" (click)="getComponent('Graphic Card')"
-                routerLink="/search">
-            </app-carousel-item>
-        </div>
-        <div ngxSlickItem class="carousel-item slide">
-            <app-carousel-item [title]="'COMPONENT'" [component]="'Processor'"
-                [svg]="'../../assets/images/cpu-z-svgrepo-com.svg'" (click)="getComponent('Processor')"
-                routerLink="/search">
-            </app-carousel-item>
-        </div>
-        <div ngxSlickItem class="carousel-item slide">
-            <app-carousel-item [title]="'COMPONENT'" [component]="'Motherboard'"
-                [svg]="'../../assets/images/motherboard-svgrepo-com.svg'" (click)="getComponent('Motherboard')"
-                routerLink="/search">
-            </app-carousel-item>
-        </div>
-        <div ngxSlickItem class="carousel-item slide">
-            <app-carousel-item [title]="'COMPONENT'" [component]="'Ram Memory'"
-                [svg]="'../../assets/images/ram-memory-svgrepo-com.svg'" (click)="getComponent('Ram Memory')"
-                routerLink="/search">
-            </app-carousel-item>
-        </div>
-        <div ngxSlickItem class="carousel-item slide">
-            <app-carousel-item [title]="'COMPONENT'" [component]="'Hard Drive'"
-                [svg]="'../../assets/images/hdd-svgrepo-com.svg'" (click)="getComponent('Hard Drive')"
-                routerLink="/search">
-            </app-carousel-item>
-        </div>
-        <div ngxSlickItem class="carousel-item slide">
-            <app-carousel-item [title]="'COMPONENT'" [component]="'Headset'"
-                [svg]="'../../assets/images/headset-svgrepo-com.svg'" (click)="getComponent('Headset')"
-                routerLink="/search">
-            </app-carousel-item>
-        </div>
-        <div ngxSlickItem class="carousel-item slide">
-            <app-carousel-item [title]="'COMPONENT'" [component]="'Monitor'"
-                [svg]="'../../assets/images/monitor-svgrepo-com.svg'" (click)="getComponent('Monitor')"
-                routerLink="/search">
-            </app-carousel-item>
-        </div>
-        <div ngxSlickItem class="carousel-item slide">
-            <app-carousel-item [title]="'COMPONENT'" [component]="'Laptop'"
-                [svg]="'../../assets/images/laptop-material-4-svgrepo-com.svg'" (click)="getComponent('Laptop')"
-                routerLink="/search">
-            </app-carousel-item>
-        </div>
-        <div ngxSlickItem class="carousel-item slide">
-
-            <app-carousel-item [title]="'COMPONENT'" [component]="'Mouse'"
-                [svg]="'../../assets/images/mouse-svgrepo-com.svg'" (click)="getComponent('Mouse')"
-                routerLink="/search">
-            </app-carousel-item>
-        </div>
-        <div ngxSlickItem class="carousel-item slide">
-            <app-carousel-item [title]="'COMPONENT'" [component]="'Keyboard'"
-                [svg]="'../../assets/images/keyboard-svgrepo-com.svg'" (click)="getComponent('Keyboard')"
-                routerLink="/search">
+        <div ngxSlickItem *ngFor="let component of carouselItems" class="carousel-item slide">
+            <app-carousel-item [title]="'COMPONENT'" [component]="component.name" [svg]="component.image"
+                (click)="getComponent(component.id)" routerLink="/search">
             </app-carousel-item>
         </div>
     </ngx-slick-carousel>

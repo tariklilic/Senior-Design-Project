@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductsService } from '../services/products.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-pagination',
@@ -7,31 +8,32 @@ import { ProductsService } from '../services/products.service';
   styleUrls: ['./pagination.component.css']
 })
 export class PaginationComponent implements OnInit {
-  totalItems: number = 0;
-  currentPage: number = 1;
+  totalPages: number = 1;
   paginationArray: number[] = [];
 
+  appItems: any[] = Array(10).fill({});
 
-  constructor(private productService: ProductsService) { }
+  constructor(private productService: ProductsService, private router: Router) { }
 
   ngOnInit(): void {
-    this.productService.totalItems.subscribe(result => {
-      this.totalItems = result;
-      this.createNumberArray(Math.ceil(result / 10));
+    this.productService.pages.subscribe(result => {
+      this.totalPages = result;
+      this.createNumberArray(result);
     })
-    this.productService.currentPage.subscribe(result => {
-      this.currentPage = result;
-    })
-
   }
 
   createNumberArray(num: number) {
     this.paginationArray = Array.from({ length: num }, (_, index) => index + 1);
   }
 
-  setPageNumber(number: number) {
-    this.productService.currentPage.next(number);
-    this.productService.getSearchedProducts();
+  setPageNumber(num: number) {
+    this.productService.currentPage.next(num);
+    var url = this.router.url;
+    if (url === '/search') {
+      this.productService.getSortedProducts();
+    } else {
+      this.productService.getAllProducts();
+    }
   }
 
 }

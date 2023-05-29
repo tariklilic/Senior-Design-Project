@@ -9,17 +9,13 @@ import { Router } from '@angular/router';
 })
 export class NavbarComponent implements OnInit {
 
-  public searchParam: string = '';
-
   constructor(private productsService: ProductsService, private router: Router) { }
 
   ngOnInit(): void {
   }
 
   searchProducts() {
-    this.productsService.searchParam = this.searchParam;
-    this.productsService.getSearchedProducts();
-    this.router.navigate(['/search']);
+
   }
 
 }

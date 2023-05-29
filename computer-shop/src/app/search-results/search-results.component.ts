@@ -8,21 +8,15 @@ import { ProductsService } from '../services/products.service';
   styleUrls: ['./search-results.component.css']
 })
 export class SearchResultsComponent implements OnInit {
-
-  appItems: any[] = Array(10).fill({});
-
-  products: Product[] = [];
+  searchedProduct: Product[] = []
 
   constructor(private productService: ProductsService) { }
 
   ngOnInit(): void {
+    this.productService.getSortedProducts();
     this.productService.products.subscribe(result => {
-      this.products = result;
+      this.searchedProduct = result;
     })
-  }
-
-  setActiveItem(product: Product) {
-    this.productService.activeProduct.next([product]);
   }
 
 }

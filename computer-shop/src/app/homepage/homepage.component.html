@@ -17,8 +17,8 @@
         <div class="text-left ml-2">FEATURED PRODUCTS</div>
     </div>
     <div class="mb-3 ml-3 mr-3 grid grid-cols-1 xl:grid-cols-2 gap-5">
-        <div *ngFor="let product of products" routerLink="/product" class="hover:cursor-pointer">
-            <app-item (click)="setActiveItem(product)" [products]="product"></app-item>
+        <div *ngFor="let product of allProduct" routerLink="/product" class="hover:cursor-pointer">
+            <app-item [product]="product"></app-item>
         </div>
     </div>
     <div class="text-black mt-8 mb-8 text-center">

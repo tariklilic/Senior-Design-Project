@@ -12,6 +12,7 @@ import { ProductsService } from 'src/app/services/products.service';
 })
 export class ResponsiveCarouselComponent implements OnInit {
   @ViewChild('slickModal', { static: true }) slickModal!: SlickCarouselComponent;
+  carouselItems: CarouselItem[] = [];
 
   slideConfig = {
     "slidesToShow": 6,
@@ -42,13 +43,11 @@ export class ResponsiveCarouselComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.componentsService.getComponents();
+    this.componentsService.getAllComponents();
     this.componentsService.components.subscribe(result => {
       this.carouselItems = result;
     })
   }
-
-  carouselItems: CarouselItem[] = [];
 
   prevSlide() {
     this.slickModal.slickPrev();
@@ -58,11 +57,9 @@ export class ResponsiveCarouselComponent implements OnInit {
     this.slickModal.slickNext();
   }
 
-  getComponent(component: string) {
+  getComponent(id: number) {
+    this.productsService.componentId.next(id);
     this.productsService.currentPage.next(1);
-    this.productsService.activeComponent.next(component);
-    this.productsService.getSearchedProducts();
-    this.router.navigate(['/search']);
-
+    this.productsService.getSortedProducts();
   }
 }

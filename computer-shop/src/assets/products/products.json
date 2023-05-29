@@ -14,7 +14,8 @@
             "Graphic Card3.png",
             "Graphic Card4.png"
         ],
-        "cover": "https://storage-asset.msi.com/global/picture/image/feature/vga/NVIDIA/VGA-2020/image/KV-3080X.png"
+        "cover": "https://storage-asset.msi.com/global/picture/image/feature/vga/NVIDIA/VGA-2020/image/KV-3080X.png",
+        "componentId": 1
     },
     {
         "type": "Graphic Card",
@@ -31,7 +32,8 @@
             "Graphic Card7.png",
             "Graphic Card8.png"
         ],
-        "cover": "https://www.amd.com/system/files/2020-10/579976-amd-radeon-6800-1260x709.png"
+        "cover": "https://www.amd.com/system/files/2020-10/579976-amd-radeon-6800-1260x709.png",
+        "componentId": 1
     },
     {
         "type": "Graphic Card",
@@ -48,7 +50,8 @@
             "Graphic Card11.png",
             "Graphic Card12.png"
         ],
-        "cover": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/1635/innergigabyteimages/kf-img.png"
+        "cover": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/1635/innergigabyteimages/kf-img.png",
+        "componentId": 1
     },
     {
         "type": "Graphic Card",
@@ -65,7 +68,8 @@
             "Graphic Card15.png",
             "Graphic Card16.png"
         ],
-        "cover": "https://www.asrock.com/Graphics-Card/photo/Radeon%20RX%206700%20XT%20Challenger%20D%2012GB(M1).png"
+        "cover": "https://www.asrock.com/Graphics-Card/photo/Radeon%20RX%206700%20XT%20Challenger%20D%2012GB(M1).png",
+        "componentId": 1
     },
     {
         "type": "Graphic Card",
@@ -82,7 +86,8 @@
             "Graphic Card19.png",
             "Graphic Card20.png"
         ],
-        "cover": "https://static.gigabyte.com/StaticFile/Image/Global/30100f4ad87002ca4b484e32d5ee3929/Product/29348/Png"
+        "cover": "https://static.gigabyte.com/StaticFile/Image/Global/30100f4ad87002ca4b484e32d5ee3929/Product/29348/Png",
+        "componentId": 1
     },
     {
         "type": "Graphic Card",
@@ -99,10 +104,11 @@
             "Graphic Card23.png",
             "Graphic Card24.png"
         ],
-        "cover": "https://images.anandtech.com/doci/17007/RX6600_Car2_678x452.png"
+        "cover": "https://images.anandtech.com/doci/17007/RX6600_Car2_678x452.png",
+        "componentId": 1
     },
     {
-        "type": "GGraphic Card",
+        "type": "Graphic Card",
         "name": "NVIDIA GeForce GTX 1660 Super",
         "manufacturer": "NVIDIA",
         "shortdescription": "Budget-friendly graphics card for 1080p gaming.",
@@ -116,7 +122,8 @@
             "Graphic Card27.png",
             "Graphic Card28.png"
         ],
-        "cover": "https://asset.msi.com/resize/image/global/product/product_4_20191016165654_5da6db5683982.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
+        "cover": "https://asset.msi.com/resize/image/global/product/product_4_20191016165654_5da6db5683982.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "componentId": 1
     },
     {
         "type": "Graphic Card",
@@ -133,7 +140,8 @@
             "Graphic Card31.png",
             "Graphic Card32.png"
         ],
-        "cover": "https://dlcdnwebimgs.asus.com/gain/27460038-5a52-466d-9037-7677f903ab2e/"
+        "cover": "https://dlcdnwebimgs.asus.com/gain/27460038-5a52-466d-9037-7677f903ab2e/",
+        "componentId": 1
     },
     {
         "type": "Graphic Card",
@@ -150,7 +158,8 @@
             "Graphic Card35.png",
             "Graphic Card36.png"
         ],
-        "cover": "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ampere/rtx-3090/geforce-rtx-3090-shop-630-d@2x.png"
+        "cover": "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ampere/rtx-3090/geforce-rtx-3090-shop-630-d@2x.png",
+        "componentId": 1
     },
     {
         "type": "Graphic Card",
@@ -167,7 +176,8 @@
             "Graphic Card39.png",
             "Graphic Card40.png"
         ],
-        "cover": "https://www.amd.com/system/files/2020-10/579976-amd-radeon-6800-1260x709.png"
+        "cover": "https://www.amd.com/system/files/2020-10/579976-amd-radeon-6800-1260x709.png",
+        "componentId": 1
     },
     {
         "type": "Graphic Card",
@@ -184,7 +194,8 @@
             "Graphic Card43.png",
             "Graphic Card44.png"
         ],
-        "cover": "https://asset.msi.com/resize/image/global/product/product_10_20180411113818_5acd832ad9d87.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
+        "cover": "https://asset.msi.com/resize/image/global/product/product_10_20180411113818_5acd832ad9d87.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "componentId": 1
     },
     {
         "type": "Processor",
@@ -201,7 +212,8 @@
             "cpu3.png",
             "cpu4.png"
         ],
-        "cover": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png"
+        "cover": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png",
+        "componentId": 2
     },
     {
         "type": "Processor",
@@ -218,7 +230,8 @@
             "cpu7.png",
             "cpu8.png"
         ],
-        "cover": "https://cdn.originpc.com/img/landing/2021/intel-core-11th-gen-processors-desktop/intel-core-processor.png"
+        "cover": "https://cdn.originpc.com/img/landing/2021/intel-core-11th-gen-processors-desktop/intel-core-processor.png",
+        "componentId": 2
     },
     {
         "type": "Processor",
@@ -235,7 +248,8 @@
             "cpu11.png",
             "cpu12.png"
         ],
-        "cover": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png"
+        "cover": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png",
+        "componentId": 2
     },
     {
         "type": "Processor",
@@ -252,7 +266,8 @@
             "cpu15.png",
             "cpu16.png"
         ],
-        "cover": "https://cdn.originpc.com/img/landing/2021/intel-core-11th-gen-processors-desktop/intel-core-processor.png"
+        "cover": "https://cdn.originpc.com/img/landing/2021/intel-core-11th-gen-processors-desktop/intel-core-processor.png",
+        "componentId": 2
     },
     {
         "type": "Processor",
@@ -269,7 +284,8 @@
             "cpu19.png",
             "cpu20.png"
         ],
-        "cover": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png"
+        "cover": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png",
+        "componentId": 2
     },
     {
         "type": "Processor",
@@ -286,7 +302,8 @@
             "cpu23.png",
             "cpu24.png"
         ],
-        "cover": "https://cdn.originpc.com/img/landing/2021/intel-core-11th-gen-processors-desktop/intel-core-processor.png"
+        "cover": "https://cdn.originpc.com/img/landing/2021/intel-core-11th-gen-processors-desktop/intel-core-processor.png",
+        "componentId": 2
     },
     {
         "type": "Processor",
@@ -303,7 +320,8 @@
             "cpu27.png",
             "cpu28.png"
         ],
-        "cover": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png"
+        "cover": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png",
+        "componentId": 2
     },
     {
         "type": "Processor",
@@ -320,7 +338,8 @@
             "cpu31.png",
             "cpu32.png"
         ],
-        "cover": "https://cdn.originpc.com/img/landing/2021/intel-core-11th-gen-processors-desktop/intel-core-processor.png"
+        "cover": "https://cdn.originpc.com/img/landing/2021/intel-core-11th-gen-processors-desktop/intel-core-processor.png",
+        "componentId": 2
     },
     {
         "type": "Processor",
@@ -337,7 +356,8 @@
             "cpu35.png",
             "cpu36.png"
         ],
-        "cover": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png"
+        "cover": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png",
+        "componentId": 2
     },
     {
         "type": "Processor",
@@ -354,7 +374,8 @@
             "cpu39.png",
             "cpu40.png"
         ],
-        "cover": "https://cdn.originpc.com/img/landing/2021/intel-core-11th-gen-processors-desktop/intel-core-processor.png"
+        "cover": "https://cdn.originpc.com/img/landing/2021/intel-core-11th-gen-processors-desktop/intel-core-processor.png",
+        "componentId": 2
     },
     {
         "type": "Processor",
@@ -371,7 +392,8 @@
             "cpu43.png",
             "cpu44.png"
         ],
-        "cover": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png"
+        "cover": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png",
+        "componentId": 2
     },
     {
         "type": "Motherboard",
@@ -388,7 +410,8 @@
             "Motherboard3.png",
             "Motherboard4.png"
         ],
-        "cover": "https://thumbor.arvutitark.ee/oqMGAGRIMi0_7W6xFjVoDYV5xtI=/trim/fit-in/800x800/https%3A%2F%2Fstorage.googleapis.com%2Farvutitark-prod%2Fpublic%2Fmedia-hub-olev%2F2023%2F01%2F336312%2Foriginal.png"
+        "cover": "https://thumbor.arvutitark.ee/oqMGAGRIMi0_7W6xFjVoDYV5xtI=/trim/fit-in/800x800/https%3A%2F%2Fstorage.googleapis.com%2Farvutitark-prod%2Fpublic%2Fmedia-hub-olev%2F2023%2F01%2F336312%2Foriginal.png",
+        "componentId": 3
     },
     {
         "type": "Motherboard",
@@ -405,7 +428,8 @@
             "Motherboard7.png",
             "Motherboard8.png"
         ],
-        "cover": "https://static.gigabyte.com/StaticFile/Image/Global/265ff2afea56bc84d7d6af0ab6c605df/Product/25234"
+        "cover": "https://static.gigabyte.com/StaticFile/Image/Global/265ff2afea56bc84d7d6af0ab6c605df/Product/25234",
+        "componentId": 3
     },
     {
         "type": "Motherboard",
@@ -422,7 +446,8 @@
             "Motherboard11.png",
             "Motherboard12.png"
         ],
-        "cover": "https://asset.msi.com/resize/image/global/product/product_161183470830a6e5d4f07ec005a35be58464d9f1d3.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
+        "cover": "https://asset.msi.com/resize/image/global/product/product_161183470830a6e5d4f07ec005a35be58464d9f1d3.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "componentId": 3
     },
     {
         "type": "Motherboard",
@@ -439,7 +464,8 @@
             "Motherboard15.png",
             "Motherboard16.png"
         ],
-        "cover": "https://www.asrock.com/mb/photo/B450M%20Pro4(M1).png"
+        "cover": "https://www.asrock.com/mb/photo/B450M%20Pro4(M1).png",
+        "componentId": 3
     },
     {
         "type": "Motherboard",
@@ -456,7 +482,8 @@
             "Motherboard19.png",
             "Motherboard20.png"
         ],
-        "cover": "https://dlcdnwebimgs.asus.com/gain/08413d73-0bc2-4ec4-9b0e-1631143c38f9/w800"
+        "cover": "https://dlcdnwebimgs.asus.com/gain/08413d73-0bc2-4ec4-9b0e-1631143c38f9/w800",
+        "componentId": 3
     },
     {
         "type": "Motherboard",
@@ -473,7 +500,8 @@
             "Motherboard23.png",
             "Motherboard24.png"
         ],
-        "cover": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/1739/innergigabyteimages/Motherboard.png"
+        "cover": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/1739/innergigabyteimages/Motherboard.png",
+        "componentId": 3
     },
     {
         "type": "Motherboard",
@@ -490,7 +518,8 @@
             "Motherboard31.png",
             "Motherboard32.png"
         ],
-        "cover": "https://pg.asrock.com/mb/photo/X570%20Phantom%20Gaming%204(L4).png"
+        "cover": "https://pg.asrock.com/mb/photo/X570%20Phantom%20Gaming%204(L4).png",
+        "componentId": 3
     },
     {
         "type": "Motherboard",
@@ -507,7 +536,8 @@
             "Motherboard35.png",
             "Motherboard36.png"
         ],
-        "cover": "https://asset.msi.com/resize/image/global/product/product_2_20190704114826_5d1d770a68811.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
+        "cover": "https://asset.msi.com/resize/image/global/product/product_2_20190704114826_5d1d770a68811.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "componentId": 3
     },
     {
         "type": "Motherboard",
@@ -524,7 +554,8 @@
             "Motherboard39.png",
             "Motherboard40.png"
         ],
-        "cover": "https://www.asus.com/media/global/gallery/vd7pofnyusetrpeq_setting_xxx_0_90_end_2000.png"
+        "cover": "https://www.asus.com/media/global/gallery/vd7pofnyusetrpeq_setting_xxx_0_90_end_2000.png",
+        "componentId": 3
     },
     {
         "type": "Motherboard",
@@ -541,7 +572,8 @@
             "Motherboard43.png",
             "Motherboard44.png"
         ],
-        "cover": "https://procomp.ba/11879-thickbox_default/gigabyte-b450-aorus-elite-socket-am4-4x-ddr4.jpg"
+        "cover": "https://procomp.ba/11879-thickbox_default/gigabyte-b450-aorus-elite-socket-am4-4x-ddr4.jpg",
+        "componentId": 3
     },
     {
         "type": "Hard Drive",
@@ -558,7 +590,8 @@
             "hdd4.png"
         ],
         "price": 79.99,
-        "cover": "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/internal-products/desktop%20hard/barracuda-3-5/barracuda-2tb-dm008-hero-left-270x270.png"
+        "cover": "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/internal-products/desktop%20hard/barracuda-3-5/barracuda-2tb-dm008-hero-left-270x270.png",
+        "componentId": 4
     },
     {
         "type": "Hard Drive",
@@ -575,7 +608,8 @@
             "hdd8.png"
         ],
         "price": 49.99,
-        "cover": "https://pcscomputers.com.ph/wp-content/uploads/2022/01/wd-blue-pc-desktop-hard-drive-1tb.png.wdthumb.1280.1280.webp"
+        "cover": "https://pcscomputers.com.ph/wp-content/uploads/2022/01/wd-blue-pc-desktop-hard-drive-1tb.png.wdthumb.1280.1280.webp",
+        "componentId": 4
     },
     {
         "type": "Hard Drive",
@@ -592,7 +626,8 @@
             "hdd12.png"
         ],
         "price": 89.99,
-        "cover": "https://images.samsung.com/is/image/samsung/p6pim/za/mz-77e500bw/gallery/za-870-evo-sata-3-2-5-ssd-mz-77e500bw-thumb-380737363?$480_480_PNG$"
+        "cover": "https://images.samsung.com/is/image/samsung/p6pim/za/mz-77e500bw/gallery/za-870-evo-sata-3-2-5-ssd-mz-77e500bw-thumb-380737363?$480_480_PNG$",
+        "componentId": 4
     },
     {
         "type": "Hard Drive",
@@ -609,7 +644,8 @@
             "hdd16.png"
         ],
         "price": 99.99,
-        "cover": "https://eu.crucial.com/content/dam/crucial/marketing-assets/china-etail/12_12/products/crucial-mx500-2-5inch-product-dynamic-2-v2-image.psd.transform/small-png/img.png"
+        "cover": "https://eu.crucial.com/content/dam/crucial/marketing-assets/china-etail/12_12/products/crucial-mx500-2-5inch-product-dynamic-2-v2-image.psd.transform/small-png/img.png",
+        "componentId": 4
     },
     {
         "type": "Hard Drive",
@@ -626,7 +662,8 @@
             "hdd20.png"
         ],
         "price": 109.99,
-        "cover": "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/internal-products/desktop%20hard/firecuda-3-5/firecuda-3-5-sshd-left-hero-270x270.png"
+        "cover": "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/internal-products/desktop%20hard/firecuda-3-5/firecuda-3-5-sshd-left-hero-270x270.png",
+        "componentId": 4
     },
     {
         "type": "Hard Drive",
@@ -643,7 +680,8 @@
             "hdd24.png"
         ],
         "price": 159.99,
-        "cover": "https://images.anandtech.com/doci/13760/heatsink-comp.png"
+        "cover": "https://images.anandtech.com/doci/13760/heatsink-comp.png",
+        "componentId": 4
     },
     {
         "type": "Hard Drive",
@@ -660,7 +698,8 @@
             "hdd28.png"
         ],
         "price": 129.99,
-        "cover": "https://images.samsung.com/is/image/samsung/sg-980-pro-nvme-m2-ssd-mz-v8p500bw-frontblack-293274400?$650_519_PNG$"
+        "cover": "https://images.samsung.com/is/image/samsung/sg-980-pro-nvme-m2-ssd-mz-v8p500bw-frontblack-293274400?$650_519_PNG$",
+        "componentId": 4
     },
     {
         "type": "Hard Drive",
@@ -677,7 +716,8 @@
             "hdd32.png"
         ],
         "price": 94.99,
-        "cover": "https://content.crucial.com/content/dam/crucial/ssd-products/P2/images/product/crucial-p2-flat-front-1000GB-image.psd.transform/medium-png/image.png"
+        "cover": "https://content.crucial.com/content/dam/crucial/ssd-products/P2/images/product/crucial-p2-flat-front-1000GB-image.psd.transform/medium-png/image.png",
+        "componentId": 4
     },
     {
         "type": "Hard Drive",
@@ -694,7 +734,8 @@
             "hdd36.png"
         ],
         "price": 129.99,
-        "cover": "https://intellcom.net/files/product_imgs/big/1539091653446.png"
+        "cover": "https://intellcom.net/files/product_imgs/big/1539091653446.png",
+        "componentId": 4
     },
     {
         "type": "Hard Drive",
@@ -711,7 +752,8 @@
             "hdd40.png"
         ],
         "price": 189.99,
-        "cover": "https://cdn.cs.1worldsync.com/syndication/feeds/wd/inline-content/10/B8E585C237164C9038E44B1E938D71441C58F3FA_WDRED356TB_w_400_hero.png"
+        "cover": "https://cdn.cs.1worldsync.com/syndication/feeds/wd/inline-content/10/B8E585C237164C9038E44B1E938D71441C58F3FA_WDRED356TB_w_400_hero.png",
+        "componentId": 4
     },
     {
         "type": "Ram Memory",
@@ -728,7 +770,8 @@
             "ram4.png"
         ],
         "price": 129.99,
-        "cover": "https://cwsmgmt.corsair.com/pdp/vengeance-rgb-pro/Content/Vengeance_RGB_Pro_PDP_White_04.png"
+        "cover": "https://cwsmgmt.corsair.com/pdp/vengeance-rgb-pro/Content/Vengeance_RGB_Pro_PDP_White_04.png",
+        "componentId": 5
     },
     {
         "type": "Ram Memory",
@@ -745,7 +788,8 @@
             "ram8.png"
         ],
         "price": 199.99,
-        "cover": "https://a-power.com/app/uploads/2021/04/86188870_8936272881.png"
+        "cover": "https://a-power.com/app/uploads/2021/04/86188870_8936272881.png",
+        "componentId": 5
     },
     {
         "type": "Ram Memory",
@@ -762,7 +806,8 @@
             "ram12.png"
         ],
         "price": 349.99,
-        "cover": "https://www.gskill.com/_upload/images/156283985713.png"
+        "cover": "https://www.gskill.com/_upload/images/156283985713.png",
+        "componentId": 5
     },
     {
         "type": "Ram Memory",
@@ -779,7 +824,8 @@
             "ram16.png"
         ],
         "price": 59.99,
-        "cover": "https://sltechie.lk/wp-content/uploads/2021/05/1441-20200722231459-Untitled-1-2.png"
+        "cover": "https://sltechie.lk/wp-content/uploads/2021/05/1441-20200722231459-Untitled-1-2.png",
+        "componentId": 5
     },
     {
         "type": "Ram Memory",
@@ -796,7 +842,8 @@
             "ram20.png"
         ],
         "price": 179.99,
-        "cover": "https://cwsmgmt.corsair.com/pdp/vengeance-rgb-pro/tuff/Vengeance_RGB_PRO_TUF_03_1UP.png"
+        "cover": "https://cwsmgmt.corsair.com/pdp/vengeance-rgb-pro/tuff/Vengeance_RGB_PRO_TUF_03_1UP.png",
+        "componentId": 5
     },
     {
         "type": "Ram Memory",
@@ -813,7 +860,8 @@
             "ram24.png"
         ],
         "price": 499.99,
-        "cover": "https://cwsmgmt.corsair.com/pdp/vengeance-rgb-pro/tuff/Vengeance_RGB_PRO_TUF_03_1UP.png"
+        "cover": "https://cwsmgmt.corsair.com/pdp/vengeance-rgb-pro/tuff/Vengeance_RGB_PRO_TUF_03_1UP.png",
+        "componentId": 5
     },
     {
         "type": "Ram Memory",
@@ -830,7 +878,8 @@
             "ram28.png"
         ],
         "price": 89.99,
-        "cover": "https://content.crucial.com/content/dam/crucial/dram-products/desktop/images/product/crucial-ddr3-4gb-dimm-kit2-image.psd.transform/medium-png/image.png"
+        "cover": "https://content.crucial.com/content/dam/crucial/dram-products/desktop/images/product/crucial-ddr3-4gb-dimm-kit2-image.psd.transform/medium-png/image.png",
+        "componentId": 5
     },
     {
         "type": "Ram Memory",
@@ -847,7 +896,8 @@
             "ram32.png"
         ],
         "price": 149.99,
-        "cover": "https://www.gskill.com/_upload/images/153611092211.png"
+        "cover": "https://www.gskill.com/_upload/images/153611092211.png",
+        "componentId": 5
     },
     {
         "type": "Ram Memory",
@@ -864,7 +914,8 @@
             "ram36.png"
         ],
         "price": 319.99,
-        "cover": "https://rebelgaming.co.za/wp-content/uploads/2021/08/ME-KD4836RF17X2-KINGSTON-HYPERX-FURY-RGB-16GB-2X-8GB-3600MHZ-DDR4-RAM.png"
+        "cover": "https://rebelgaming.co.za/wp-content/uploads/2021/08/ME-KD4836RF17X2-KINGSTON-HYPERX-FURY-RGB-16GB-2X-8GB-3600MHZ-DDR4-RAM.png",
+        "componentId": 5
     },
     {
         "type": "Ram Memory",
@@ -881,7 +932,8 @@
             "ram40.png"
         ],
         "price": 109.99,
-        "cover": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/content/CML4GX3M1A1600C9-VENGLP-B-01.png"
+        "cover": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/content/CML4GX3M1A1600C9-VENGLP-B-01.png",
+        "componentId": 5
     },
     {
         "type": "Headset",
@@ -898,7 +950,8 @@
             "Headset4.png"
         ],
         "price": 99.99,
-        "cover": "https://www.pngall.com/wp-content/uploads/5/Hyperx-Cloud-II-Gaming-Headset-PNG-Picture.png"
+        "cover": "https://www.pngall.com/wp-content/uploads/5/Hyperx-Cloud-II-Gaming-Headset-PNG-Picture.png",
+        "componentId": 6
     },
     {
         "type": "Headset",
@@ -915,7 +968,8 @@
             "Headset8.png"
         ],
         "price": 179.99,
-        "cover": "https://media.steelseriescdn.com/thumbs/catalogue/products/00946-arctis-pro-wireless/a41ddd67a5d84418b0a7e1fa2e13488f.png.500x400_q100_crop-fit_optimize.png"
+        "cover": "https://media.steelseriescdn.com/thumbs/catalogue/products/00946-arctis-pro-wireless/a41ddd67a5d84418b0a7e1fa2e13488f.png.500x400_q100_crop-fit_optimize.png",
+        "componentId": 6
     },
     {
         "type": "Headset",
@@ -932,7 +986,8 @@
             "Headset12.png"
         ],
         "price": 99.99,
-        "cover": "https://i5.walmartimages.com/asr/0487185b-b599-45b2-bfa2-c01f2f725b84_9.ef821a96a6a63dfce8d3b5940453fb74.png"
+        "cover": "https://i5.walmartimages.com/asr/0487185b-b599-45b2-bfa2-c01f2f725b84_9.ef821a96a6a63dfce8d3b5940453fb74.png",
+        "componentId": 6
     },
     {
         "type": "Headset",
@@ -949,7 +1004,8 @@
             "Headset16.png"
         ],
         "price": 129.99,
-        "cover": "https://resource.logitech.com/content/dam/gaming/en/products/pro-x/pro-Headset-gallery-1.png"
+        "cover": "https://resource.logitech.com/content/dam/gaming/en/products/pro-x/pro-Headset-gallery-1.png",
+        "componentId": 6
     },
     {
         "type": "Headset",
@@ -966,7 +1022,8 @@
             "Headset20.png"
         ],
         "price": 99.99,
-        "cover": "https://res.cloudinary.com/corsair-pwa/image/upload/akamai/pdp/hs-pro/hs70-pro/images/hs70_pro_crm_mic.png"
+        "cover": "https://res.cloudinary.com/corsair-pwa/image/upload/akamai/pdp/hs-pro/hs70-pro/images/hs70_pro_crm_mic.png",
+        "componentId": 6
     },
     {
         "type": "Headset",
@@ -983,7 +1040,8 @@
             "Headset24.png"
         ],
         "price": 299.99,
-        "cover": "https://resource.astrogaming.com/content/dam/astro/en/products/a50-Headset-with-base-station-gen4/a50-gallery-xbox-01.png"
+        "cover": "https://resource.astrogaming.com/content/dam/astro/en/products/a50-Headset-with-base-station-gen4/a50-gallery-xbox-01.png",
+        "componentId": 6
     },
     {
         "type": "Headset",
@@ -1000,7 +1058,8 @@
             "Headset28.png"
         ],
         "price": 249.99,
-        "cover": "https://www.eposaudio.com/globalassets/__pim/products/gsp-series/gsp-600/45508f88-19b4-460f-b6e0-dba6f52a27fe_21130_gsp-600_a7_3d-view_fullsizepng.png?width=860"
+        "cover": "https://www.eposaudio.com/globalassets/__pim/products/gsp-series/gsp-600/45508f88-19b4-460f-b6e0-dba6f52a27fe_21130_gsp-600_a7_3d-view_fullsizepng.png?width=860",
+        "componentId": 6
     },
     {
         "type": "Headset",
@@ -1017,7 +1076,8 @@
             "Headset32.png"
         ],
         "price": 139.99,
-        "cover": "https://www.pngall.com/wp-content/uploads/5/Hyperx-Cloud-II-Gaming-Headset-PNG-Picture.png"
+        "cover": "https://www.pngall.com/wp-content/uploads/5/Hyperx-Cloud-II-Gaming-Headset-PNG-Picture.png",
+        "componentId": 6
     },
     {
         "type": "Headset",
@@ -1034,7 +1094,8 @@
             "Headset36.png"
         ],
         "price": 99.99,
-        "cover": "https://res.cloudinary.com/dvv9fvblr/image/upload/v1571217290/qz9hlvhonzcy7l4hhc0x.png"
+        "cover": "https://res.cloudinary.com/dvv9fvblr/image/upload/v1571217290/qz9hlvhonzcy7l4hhc0x.png",
+        "componentId": 6
     },
     {
         "type": "Headset",
@@ -1051,7 +1112,8 @@
             "Headset40.png"
         ],
         "price": 149.99,
-        "cover": "https://sm.ign.com/ign_me/screenshot/default/g533-prodigy-wireless-gaming-Headset-1_4c5s.png"
+        "cover": "https://sm.ign.com/ign_me/screenshot/default/g533-prodigy-wireless-gaming-Headset-1_4c5s.png",
+        "componentId": 6
     },
     {
         "type": "Monitor",
@@ -1068,7 +1130,8 @@
             "Monitor4.png"
         ],
         "price": 699.99,
-        "cover": "https://images10.newegg.com/BizIntell/item/24/236/24-236-660/c0.png"
+        "cover": "https://images10.newegg.com/BizIntell/item/24/236/24-236-660/c0.png",
+        "componentId": 7
     },
     {
         "type": "Monitor",
@@ -1085,7 +1148,8 @@
             "Monitor8.png"
         ],
         "price": 999.99,
-        "cover": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/peripherals/output-devices/dell/Monitors/alienware-aw3418dw/spi/Monitor-alienware-aw3418dw-relsize-500-ng.psd?fmt=png-alpha&wid=500&hei=500&fit=constrain%2C1&qlt=95"
+        "cover": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/peripherals/output-devices/dell/Monitors/alienware-aw3418dw/spi/Monitor-alienware-aw3418dw-relsize-500-ng.psd?fmt=png-alpha&wid=500&hei=500&fit=constrain%2C1&qlt=95",
+        "componentId": 7
     },
     {
         "type": "Monitor",
@@ -1102,7 +1166,8 @@
             "Monitor12.png"
         ],
         "price": 1299.99,
-        "cover": "https://media.croma.com/image/upload/v1683209610/Croma%20Assets/Computers%20Peripherals/Monitor/Images/263396_0_hepaqw.png"
+        "cover": "https://media.croma.com/image/upload/v1683209610/Croma%20Assets/Computers%20Peripherals/Monitor/Images/263396_0_hepaqw.png",
+        "componentId": 7
     },
     {
         "type": "Monitor",
@@ -1119,7 +1184,8 @@
             "Monitor16.png"
         ],
         "price": 1799.99,
-        "cover": "https://images.samsung.com/is/image/samsung/p6pim/uk/ls49ag950nuxxu/gallery/uk-odyssey-neo-g9-g95na-ls49ag950nuxxu-469786311?$650_519_PNG$"
+        "cover": "https://images.samsung.com/is/image/samsung/p6pim/uk/ls49ag950nuxxu/gallery/uk-odyssey-neo-g9-g95na-ls49ag950nuxxu-469786311?$650_519_PNG$",
+        "componentId": 7
     },
     {
         "type": "Monitor",
@@ -1136,7 +1202,8 @@
             "Monitor20.png"
         ],
         "price": 1499.99,
-        "cover": "https://cdn.vox-cdn.com/thumbor/tOVhjlUY_kfIIJfdoYIiDjIAKTk=/0x0:1000x954/1000x954/filters:focal(500x477:501x478)/cdn1.vox-cdn.com/uploads/chorus_asset/file/8419397/Predator_Z1_03.png"
+        "cover": "https://cdn.vox-cdn.com/thumbor/tOVhjlUY_kfIIJfdoYIiDjIAKTk=/0x0:1000x954/1000x954/filters:focal(500x477:501x478)/cdn1.vox-cdn.com/uploads/chorus_asset/file/8419397/Predator_Z1_03.png",
+        "componentId": 7
     },
     {
         "type": "Monitor",
@@ -1153,7 +1220,8 @@
             "Monitor24.png"
         ],
         "price": 499.99,
-        "cover": "https://image.benq.com/is/image/benqco/ex2780q-thumb-3?$ResponsivePreset$&fmt=png-alpha"
+        "cover": "https://image.benq.com/is/image/benqco/ex2780q-thumb-3?$ResponsivePreset$&fmt=png-alpha",
+        "componentId": 7
     },
     {
         "type": "Monitor",
@@ -1170,7 +1238,8 @@
             "Monitor28.png"
         ],
         "price": 699.99,
-        "cover": "https://www.viewsonic.com/vsAssetFile/hk-en/img/product-rc/_lcd_display_(new)/XG270QG/kv.png"
+        "cover": "https://www.viewsonic.com/vsAssetFile/hk-en/img/product-rc/_lcd_display_(new)/XG270QG/kv.png",
+        "componentId": 7
     },
     {
         "type": "Monitor",
@@ -1187,7 +1256,8 @@
             "Monitor32.png"
         ],
         "price": 349.99,
-        "cover": "https://storage.eu.aoc.com/assets/2022/11/asset-bxo0xn-large.png"
+        "cover": "https://storage.eu.aoc.com/assets/2022/11/asset-bxo0xn-large.png",
+        "componentId": 7
     },
     {
         "type": "Monitor",
@@ -1204,7 +1274,8 @@
             "Monitor36.png"
         ],
         "price": 449.99,
-        "cover": "https://asset.msi.com/resize/image/global/product/product_7_20181015114810_5bc40dfaef8ca.png62405b38c58fe0f07fcef2367d8a9ba1/600.png"
+        "cover": "https://asset.msi.com/resize/image/global/product/product_7_20181015114810_5bc40dfaef8ca.png62405b38c58fe0f07fcef2367d8a9ba1/600.png",
+        "componentId": 7
     },
     {
         "type": "Monitor",
@@ -1221,7 +1292,8 @@
             "Monitor40.png"
         ],
         "price": 999.99,
-        "cover": "https://media.croma.com/image/upload/v1683209610/Croma%20Assets/Computers%20Peripherals/Monitor/Images/263396_0_hepaqw.png"
+        "cover": "https://media.croma.com/image/upload/v1683209610/Croma%20Assets/Computers%20Peripherals/Monitor/Images/263396_0_hepaqw.png",
+        "componentId": 7
     },
     {
         "type": "Laptop",
@@ -1238,7 +1310,8 @@
             "Laptop4.png"
         ],
         "price": 1799.99,
-        "cover": "https://upload.wikimedia.org/wikipedia/commons/d/df/Dell_XPS_15_%282017%29.png"
+        "cover": "https://upload.wikimedia.org/wikipedia/commons/d/df/Dell_XPS_15_%282017%29.png",
+        "componentId": 8
     },
     {
         "type": "Laptop",
@@ -1255,7 +1328,8 @@
             "Laptop8.png"
         ],
         "price": 2399.99,
-        "cover": "https://assets.stickpng.com/images/5ec26e0b6c295800046c81db.png"
+        "cover": "https://assets.stickpng.com/images/5ec26e0b6c295800046c81db.png",
+        "componentId": 8
     },
     {
         "type": "Laptop",
@@ -1272,7 +1346,8 @@
             "Laptop12.png"
         ],
         "price": 1599.99,
-        "cover": "https://mobilnitelefoni.ba/wp-content/uploads/2021/08/90NR05S6-M03550_3.png"
+        "cover": "https://mobilnitelefoni.ba/wp-content/uploads/2021/08/90NR05S6-M03550_3.png",
+        "componentId": 8
     },
     {
         "type": "Laptop",
@@ -1289,7 +1364,8 @@
             "Laptop16.png"
         ],
         "price": 1299.99,
-        "cover": "https://store.hp.com/app/assets/images/uploads/prod/hp-spectre-x360-13t-Laptop-review-hero1540422566596.png"
+        "cover": "https://store.hp.com/app/assets/images/uploads/prod/hp-spectre-x360-13t-Laptop-review-hero1540422566596.png",
+        "componentId": 8
     },
     {
         "type": "Laptop",
@@ -1306,7 +1382,8 @@
             "Laptop20.png"
         ],
         "price": 1299.99,
-        "cover": "https://www.lenovo.com/medias/lenovo-Laptop-thinkpad-x1-carbon-gen-9-14-series-thumbnail.png?context=bWFzdGVyfHJvb3R8ODExMzV8aW1hZ2UvcG5nfGhjZC9oMGYvMTQwNzA2NzQ1ODc2NzgucG5nfDg2NTMzNzNlMThiMDI3ZGU0NzY1YmViNmQ4YmU2YjJjNjE3MmU2NDRmNWZlMTczMmY4Mzk5NTUwMGM1NzdjNDM"
+        "cover": "https://www.lenovo.com/medias/lenovo-Laptop-thinkpad-x1-carbon-gen-9-14-series-thumbnail.png?context=bWFzdGVyfHJvb3R8ODExMzV8aW1hZ2UvcG5nfGhjZC9oMGYvMTQwNzA2NzQ1ODc2NzgucG5nfDg2NTMzNzNlMThiMDI3ZGU0NzY1YmViNmQ4YmU2YjJjNjE3MmU2NDRmNWZlMTczMmY4Mzk5NTUwMGM1NzdjNDM",
+        "componentId": 8
     },
     {
         "type": "Laptop",
@@ -1323,7 +1400,8 @@
             "Laptop24.png"
         ],
         "price": 2099.99,
-        "cover": "https://assets3.razerzone.com/X_JIbJcZVdafCqHrPaAzvh_qaew=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh2d%2Fhe5%2F9392073998366%2Fblade15-ch8-fhd-2-500x500.png"
+        "cover": "https://assets3.razerzone.com/X_JIbJcZVdafCqHrPaAzvh_qaew=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh2d%2Fhe5%2F9392073998366%2Fblade15-ch8-fhd-2-500x500.png",
+        "componentId": 8
     },
     {
         "type": "Laptop",
@@ -1340,7 +1418,8 @@
             "Laptop28.png"
         ],
         "price": 1499.99,
-        "cover": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4LiWr?ver=4aed"
+        "cover": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4LiWr?ver=4aed",
+        "componentId": 8
     },
     {
         "type": "Laptop",
@@ -1357,7 +1436,8 @@
             "Laptop32.png"
         ],
         "price": 1499.99,
-        "cover": "https://images.acer.com/is/image/acer/Helios-300-PH315-53-BlRGB-01a-1?$Product-Cards-XL$"
+        "cover": "https://images.acer.com/is/image/acer/Helios-300-PH315-53-BlRGB-01a-1?$Product-Cards-XL$",
+        "componentId": 8
     },
     {
         "type": "Laptop",
@@ -1374,7 +1454,8 @@
             "Laptop36.png"
         ],
         "price": 2499.99,
-        "cover": "https://www.notebookcheck.net/uploads/tx_nbc2/Alienwarem15R6__1__06.png"
+        "cover": "https://www.notebookcheck.net/uploads/tx_nbc2/Alienwarem15R6__1__06.png",
+        "componentId": 8
     },
     {
         "type": "Laptop",
@@ -1391,7 +1472,8 @@
             "Laptop40.png"
         ],
         "price": 2599.99,
-        "cover": "https://static.gigabyte.com/StaticFile/Image/Global/47a9cc6b9d82498b6d2645406488bc39/Product/24324/png/500"
+        "cover": "https://static.gigabyte.com/StaticFile/Image/Global/47a9cc6b9d82498b6d2645406488bc39/Product/24324/png/500",
+        "componentId": 8
     },
     {
         "type": "Mouse",
@@ -1408,7 +1490,8 @@
             "Mouse4.png"
         ],
         "price": 79.99,
-        "cover": "https://resource.logitech.com/content/dam/gaming/en/non-braid/hyjal-g502-hero/g502-hero-gallery-1-nb.png"
+        "cover": "https://resource.logitech.com/content/dam/gaming/en/non-braid/hyjal-g502-hero/g502-hero-gallery-1-nb.png",
+        "componentId": 9
     },
     {
         "type": "Mouse",
@@ -1425,7 +1508,8 @@
             "Mouse8.png"
         ],
         "price": 69.99,
-        "cover": "https://assets2.razerzone.com/images/da10m/carousel/razer-death-adder-gallery-24.png"
+        "cover": "https://assets2.razerzone.com/images/da10m/carousel/razer-death-adder-gallery-24.png",
+        "componentId": 9
     },
     {
         "type": "Mouse",
@@ -1442,7 +1526,8 @@
             "Mouse12.png"
         ],
         "price": 79.99,
-        "cover": "https://cdn.salla.sa/BvdpA/arvp71d7e1nrvQgsfQLScZGyjfYw7FXFaziPQsi4.png"
+        "cover": "https://cdn.salla.sa/BvdpA/arvp71d7e1nrvQgsfQLScZGyjfYw7FXFaziPQsi4.png",
+        "componentId": 9
     },
     {
         "type": "Mouse",
@@ -1459,7 +1544,8 @@
             "Mouse16.png"
         ],
         "price": 59.99,
-        "cover": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/CH_9309111_NA_Gallery_M65_RGB_ELITE_WHT_04_0.png"
+        "cover": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/CH_9309111_NA_Gallery_M65_RGB_ELITE_WHT_04_0.png",
+        "componentId": 9
     },
     {
         "type": "Mouse",
@@ -1476,7 +1562,8 @@
             "Mouse20.png"
         ],
         "price": 99.99,
-        "cover": "https://resource.logitech.com/content/dam/logitech/en/products/mice/mx-master-3-mac/gallery/mx-master-3-for-mac-gallery-top.png"
+        "cover": "https://resource.logitech.com/content/dam/logitech/en/products/mice/mx-master-3-mac/gallery/mx-master-3-for-mac-gallery-top.png",
+        "componentId": 9
     },
     {
         "type": "Mouse",
@@ -1493,7 +1580,8 @@
             "Mouse24.png"
         ],
         "price": 79.99,
-        "cover": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1FJWY?ver=0545"
+        "cover": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1FJWY?ver=0545",
+        "componentId": 9
     },
     {
         "type": "Mouse",
@@ -1510,7 +1598,8 @@
             "Mouse28.png"
         ],
         "price": 59.99,
-        "cover": "https://xprs.s3.eu-west-3.amazonaws.com/media/product_images/Razer_Basilisk_X_HyperSpeed_Wireless_Gaming_Mouse_2.png"
+        "cover": "https://xprs.s3.eu-west-3.amazonaws.com/media/product_images/Razer_Basilisk_X_HyperSpeed_Wireless_Gaming_Mouse_2.png",
+        "componentId": 9
     },
     {
         "type": "Mouse",
@@ -1527,7 +1616,8 @@
             "Mouse32.png"
         ],
         "price": 49.99,
-        "cover": "https://res.cloudinary.com/corsair-pwa/image/upload/akamai/pdp/harpoon-rgb-pro/images/harpoon_rgb_pro_play_your_way.png"
+        "cover": "https://res.cloudinary.com/corsair-pwa/image/upload/akamai/pdp/harpoon-rgb-pro/images/harpoon_rgb_pro_play_your_way.png",
+        "componentId": 9
     },
     {
         "type": "Mouse",
@@ -1544,7 +1634,8 @@
             "Mouse36.png"
         ],
         "price": 39.99,
-        "cover": "https://resource.logitech.com/content/dam/gaming/en/products/refreshed-g203/g203-black-gallery-1.png"
+        "cover": "https://resource.logitech.com/content/dam/gaming/en/products/refreshed-g203/g203-black-gallery-1.png",
+        "componentId": 9
     },
     {
         "type": "Mouse",
@@ -1561,7 +1652,8 @@
             "Mouse40.png"
         ],
         "price": 69.99,
-        "cover": "https://media.steelseriescdn.com/thumbs/catalogue/products/01124-sensei-ten/77cd3ab65eca48eaa7aae3f24d81b083.png.500x400_q100_crop-fit_optimize.png"
+        "cover": "https://media.steelseriescdn.com/thumbs/catalogue/products/01124-sensei-ten/77cd3ab65eca48eaa7aae3f24d81b083.png.500x400_q100_crop-fit_optimize.png",
+        "componentId": 9
     },
     {
         "type": "Keyboard",
@@ -1578,7 +1670,8 @@
             "Keyboard4.png"
         ],
         "price": 249.99,
-        "cover": "https://resource.logitech.com/content/dam/gaming/en/products/g915/g915-gallery/uk-g915-wireless-gallery-topdown.png"
+        "cover": "https://resource.logitech.com/content/dam/gaming/en/products/g915/g915-gallery/uk-g915-wireless-gallery-topdown.png",
+        "componentId": 10
     },
     {
         "type": "Keyboard",
@@ -1595,7 +1688,8 @@
             "Keyboard8.png"
         ],
         "price": 199.99,
-        "cover": "https://dl.razerzone.com/src/2040-1-EN-v1.png"
+        "cover": "https://dl.razerzone.com/src/2040-1-EN-v1.png",
+        "componentId": 10
     },
     {
         "type": "Keyboard",
@@ -1612,7 +1706,8 @@
             "Keyboard12.png"
         ],
         "price": 199.99,
-        "cover": "https://media.steelseriescdn.com/thumbs/filer_public/b1/d1/b1d1b0d3-30d5-4477-bb8f-bad442cfb894/webprim_apexpro.png__1200x627_crop-fit_optimize_subsampling-2.png"
+        "cover": "https://media.steelseriescdn.com/thumbs/filer_public/b1/d1/b1d1b0d3-30d5-4477-bb8f-bad442cfb894/webprim_apexpro.png__1200x627_crop-fit_optimize_subsampling-2.png",
+        "componentId": 10
     },
     {
         "type": "Keyboard",
@@ -1629,7 +1724,8 @@
             "Keyboard16.png"
         ],
         "price": 199.99,
-        "cover": "https://content.invisioncic.com/p313717/monthly_2017_07/blog_K95RGBPLATINUM_CABLEMANAGEMENT-Content-1.png.ad0b4df00d73ce6aac7427d424a694ec.png"
+        "cover": "https://content.invisioncic.com/p313717/monthly_2017_07/blog_K95RGBPLATINUM_CABLEMANAGEMENT-Content-1.png.ad0b4df00d73ce6aac7427d424a694ec.png",
+        "componentId": 10
     },
     {
         "type": "Keyboard",
@@ -1646,7 +1742,8 @@
             "Keyboard20.png"
         ],
         "price": 119.99,
-        "cover": "https://www.duckychannel.com.tw/upload/2019_05_112/20190511120502dgnhbl7NU1.png"
+        "cover": "https://www.duckychannel.com.tw/upload/2019_05_112/20190511120502dgnhbl7NU1.png",
+        "componentId": 10
     },
     {
         "type": "Keyboard",
@@ -1663,7 +1760,8 @@
             "Keyboard24.png"
         ],
         "price": 149.99,
-        "cover": "https://resource.logitech.com/content/dam/gaming/en/products/g513/g513-carbon-gallery-1.png"
+        "cover": "https://resource.logitech.com/content/dam/gaming/en/products/g513/g513-carbon-gallery-1.png",
+        "componentId": 10
     },
     {
         "type": "Keyboard",
@@ -1680,7 +1778,8 @@
             "Keyboard28.png"
         ],
         "price": 129.99,
-        "cover": "https://assets.razerzone.com/eeimages/support/products/1398/1398_blackwidowelite.png"
+        "cover": "https://assets.razerzone.com/eeimages/support/products/1398/1398_blackwidowelite.png",
+        "componentId": 10
     },
     {
         "type": "Keyboard",
@@ -1697,7 +1796,8 @@
             "Keyboard32.png"
         ],
         "price": 159.99,
-        "cover": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/v1/akamai/pdp/k70-rgb-mk2/img/interest-Keyboard-front.png"
+        "cover": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/v1/akamai/pdp/k70-rgb-mk2/img/interest-Keyboard-front.png",
+        "componentId": 10
     },
     {
         "type": "Keyboard",
@@ -1714,7 +1814,8 @@
             "Keyboard36.png"
         ],
         "price": 69.99,
-        "cover": "https://i0.wp.com/pcmarket.uz/wp-content/uploads/2021/06/HyperX-Alloy-FPS-Pro-Mechanical-Gaming-KeyboardMX-Red-RU-kopiya.png?fit=650%2C650&ssl=1"
+        "cover": "https://i0.wp.com/pcmarket.uz/wp-content/uploads/2021/06/HyperX-Alloy-FPS-Pro-Mechanical-Gaming-KeyboardMX-Red-RU-kopiya.png?fit=650%2C650&ssl=1",
+        "componentId": 10
     },
     {
         "type": "Keyboard",
@@ -1731,6 +1832,7 @@
             "Keyboard40.png"
         ],
         "price": 159.99,
-        "cover": "https://media.steelseriescdn.com/thumbs/filer_public/1d/02/1d02dcec-68df-4427-a7ef-58d4c967ada7/buyimg_apex7tkl_006_uk.png__1920x1080_crop-fit_optimize_subsampling-2.png"
+        "cover": "https://media.steelseriescdn.com/thumbs/filer_public/1d/02/1d02dcec-68df-4427-a7ef-58d4c967ada7/buyimg_apex7tkl_006_uk.png__1920x1080_crop-fit_optimize_subsampling-2.png",
+        "componentId": 10
     }
 ]

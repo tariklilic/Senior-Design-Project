@@ -21,12 +21,12 @@
             class="z-10 hidden bg-lime text-black text-center shadow w-fit fixed">
             <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                 <li>
-                    <a (click)="orderByName('ASC')"
-                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick">ASC</a>
+                    <a class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick"
+                        (click)="setSort('nameAsc')">ASC</a>
                 </li>
                 <li>
-                    <a (click)="orderByName('DESC')"
-                        class="w-22 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick">DESC</a>
+                    <a class="w-22 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick"
+                        (click)="setSort('nameDesc')">DESC</a>
                 </li>
             </ul>
         </div>
@@ -48,12 +48,12 @@
             class="z-10 hidden bg-lime text-black text-center fixed shadow w-fit ">
             <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                 <li>
-                    <a (click)="orderByRating('ASC')"
-                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick">ASC</a>
+                    <a class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick"
+                        (click)="setSort('ratingAsc')">ASC</a>
                 </li>
                 <li>
-                    <a (click)="orderByRating('DESC')"
-                        class="w-22 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick">DESC</a>
+                    <a class="w-22 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick"
+                        (click)="setSort('ratingDesc')">DESC</a>
                 </li>
             </ul>
         </div>
@@ -75,12 +75,12 @@
             class="z-10 hidden bg-lime text-black text-center fixed shadow w-fit ">
             <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                 <li>
-                    <a (click)="orderByPrice('ASC')"
-                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick">ASC</a>
+                    <a class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick"
+                        (click)="setSort('priceAsc')">ASC</a>
                 </li>
                 <li>
-                    <a (click)="orderByPrice('DESC')"
-                        class="w-22 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick">DESC</a>
+                    <a class="w-22 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick"
+                        (click)="setSort('priceDesc')">DESC</a>
                 </li>
             </ul>
         </div>
@@ -92,68 +92,66 @@
     </div>
     <div class="xl:col-span-1">
         <div class=" flex items-center ml-auto">
-            <input (input)="updateMinPrice($event)" type="number" class="bg-gray h-8 w-24 text-black text-xs"
-                placeholder="Price From" min="0" max="9999">
+            <input type="number" class="bg-gray h-8 w-24 text-black text-xs" placeholder="Price From" min="0"
+                max="9999">
         </div>
     </div>
     <div class="xl:col-span-1">
         <div class=" flex items-center ml-auto">
-            <input (input)="updateMaxPrice($event)" type="number" class="bg-gray h-8 w-24 text-black text-xs"
-                placeholder="Price To" min="0" max="9999">
+            <input type="number" class="bg-gray h-8 w-24 text-black text-xs" placeholder="Price To" min="0" max="9999">
         </div>
     </div>
     <div class="xl:col-span-1">
         <div class="flex items-center ml-auto group">
             <button id="dropdownType" (click)="toggleDropdownType()"
                 class="h-8 w-22 bg-lime text-black flex items-center justify-center group-hover:bg-black">
-                <span
-                    class="mr-auto ml-auto relative text-xs group-hover:text-lime group-active:text-limeclick">{{activeComponent}}</span>
+                <span class="mr-auto ml-auto relative text-xs group-hover:text-lime group-active:text-limeclick"></span>
             </button>
         </div>
         <div id="typedatadropdown" [ngClass]="{'hidden': isDropdownHiddenType}"
             class="z-10 hidden bg-lime text-black text-center fixed shadow w-fit ">
             <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                 <li>
-                    <a (click)="getComponent('Graphic Card')"
+                    <a
                         class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">GRAPHIC
                         CARD</a>
                 </li>
                 <li>
-                    <a (click)="getComponent('Processor')"
+                    <a
                         class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">PROCESSOR</a>
                 </li>
                 <li>
-                    <a (click)="getComponent('Motherboard')"
+                    <a
                         class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">MOTHERBOARD</a>
                 </li>
                 <li>
-                    <a (click)="getComponent('Ram Memory')"
+                    <a
                         class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">RAM
                         MEMORY</a>
                 </li>
                 <li>
-                    <a (click)="getComponent('Hard Drive')"
+                    <a
                         class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">HARD
                         DRIVE</a>
                 </li>
                 <li>
-                    <a (click)="getComponent('Headset')"
+                    <a
                         class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">HEADSET</a>
                 </li>
                 <li>
-                    <a (click)="getComponent('Monitor')"
+                    <a
                         class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">MONITOR</a>
                 </li>
                 <li>
-                    <a (click)="getComponent('Laptop')"
+                    <a
                         class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">LAPTOP</a>
                 </li>
                 <li>
-                    <a (click)="getComponent('Mouse')"
+                    <a
                         class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">MOUSE</a>
                 </li>
                 <li>
-                    <a (click)="getComponent('Keyboard')"
+                    <a
                         class="w-22 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">KEYBOARD</a>
                 </li>
             </ul>

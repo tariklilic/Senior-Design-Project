@@ -9,15 +9,9 @@ import { ProductsService } from 'src/app/services/products.service';
 })
 export class SortFilterComponent implements OnInit {
 
-  selectedOption: string = '';
-  activeComponent: string = "Type";
-
   constructor(private productsService: ProductsService, private router: Router) { }
 
   ngOnInit(): void {
-    this.productsService.activeComponent.subscribe(result => {
-      this.activeComponent = result;
-    })
   }
 
   isDropdownHiddenName: boolean = true;
@@ -44,47 +38,9 @@ export class SortFilterComponent implements OnInit {
     this.isDropdownHiddenType = !this.isDropdownHiddenType;
   }
 
-  orderByName(option: string) {
-    this.productsService.orderBy = 'name'
-    this.productsService.orderDirection = option;
-    this.productsService.getSearchedProducts();
-  }
-
-  orderByRating(option: string) {
-    this.productsService.orderBy = 'rating'
-    this.productsService.orderDirection = option;
-    this.productsService.getSearchedProducts();
-  }
-
-  orderByPrice(option: string) {
-    this.productsService.orderBy = 'price'
-    this.productsService.orderDirection = option;
-    this.productsService.getSearchedProducts();
-  }
-
-  getComponent(component: string) {
-    this.productsService.activeComponent.next(component);
-    this.productsService.getSearchedProducts();
-    this.router.navigate(['/search']);
-
-  }
-
-  updateMinPrice(event: Event) {
-    if ((event.target as HTMLInputElement).value !== '') {
-      this.productsService.minPrice = parseInt((event.target as HTMLInputElement).value);
-    } else {
-      this.productsService.minPrice = 0
-    }
-    this.productsService.getSearchedProducts();
-  }
-
-  updateMaxPrice(event: Event) {
-    if ((event.target as HTMLInputElement).value !== '') {
-      this.productsService.maxPrice = parseInt((event.target as HTMLInputElement).value);
-    } else {
-      this.productsService.maxPrice = 0
-    }
-    this.productsService.getSearchedProducts();
+  setSort(sort: string) {
+    this.productsService.sort = sort;
+    this.productsService.getSortedProducts();
   }
 
 

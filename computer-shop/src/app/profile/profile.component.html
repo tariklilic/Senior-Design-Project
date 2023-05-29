@@ -10,8 +10,8 @@
         </div>
     </div>
     <div class="mb-3 ml-3 mr-3 grid grid-cols-1 xl:grid-cols-2 gap-5">
-        <div *ngFor="let item of purchaseHistory" routerLink="/product" class="hover:cursor-pointer">
-            <app-profile-item [item]="item"></app-profile-item>
+        <div *ngFor="let item of appItems" routerLink="/product" class="hover:cursor-pointer">
+            <app-profile-item></app-profile-item>
         </div>
     </div>
 </div>
