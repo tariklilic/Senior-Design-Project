@@ -2,23 +2,21 @@
     <h1 class="font-base text-2xl text-white">REGISTER</h1>
     <form class="flex flex-col bg-rect-black border-2 border-light-gray shadow-lg p-12 mt-12 mr-5 ml-5 sm:mr-0 sm:ml-0"
         action="">
-        <label class="font-base text-lg text-lime" for="email">EMAIL</label>
-        <input class="flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
-            type="email" id="email" name="email" placeholder="Enter your email">
         <label class="font-base text-lg  text-lime mt-5" for="username">USERNAME</label>
-        <input class="flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
-            type="text" id="username" name="username" placeholder="Enter your username">
-        <label class="font-base text-lg  text-lime mt-5" for="phone">PHONE NUMBER</label>
-        <input class="flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
-            type="number" id="phone" name="phone" placeholder="Enter your phone number">
+        <input [(ngModel)]="username"
+            class="flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2" type="text"
+            id="username" name="username" placeholder="Enter your username">
+        <label class="font-base text-lg text-lime mt-5" for="email">EMAIL</label>
+        <input [(ngModel)]="email"
+            class="flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
+            type="email" id="email" name="email" placeholder="Enter your email">
         <label class="font-base text-lg  text-lime mt-5" for="password">PASSWORD</label>
-        <input class="flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
+        <input [(ngModel)]="password"
+            class="flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
             type="password" id="password" name="password" placeholder="Enter your password">
-        <label class="font-base text-lg  text-lime mt-5" for="confirmpassword">CONFIRM PASSWORD</label>
-        <input class="flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
-            type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm your password">
         <div class="sm:flex sm:items-center ml-auto mr-auto mt-5 mb-5 group">
-            <button class="w-22 h-8 bg-lime text-black flex items-center justify-center group-hover:bg-black">
+            <button class="w-22 h-8 bg-lime text-black flex items-center justify-center group-hover:bg-black"
+                (click)="register()">
                 <span class="mx-auto relative text-xs group-hover:text-lime group-active:text-limeclick">REGISTER</span>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="black"
@@ -34,7 +32,7 @@
                 stroke="currentColor" class="w-5 h-5">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
             </svg>
-            <a href="#" class="text-lime text-lg hover:text-white active:text-limeclick">
+            <a routerLink="/login" class="text-lime text-lg hover:text-white active:text-limeclick">
                 LOGIN
             </a>
         </div>

@@ -2,6 +2,14 @@
     background: linear-gradient(180deg, #000000 48.85%, #585858 167.47%);
 }
 
+.card:hover {
+    background: linear-gradient(180deg, #84CC16 0%, #000000 126.47%);
+}
+
+.card:active {
+    background: linear-gradient(180deg, #4C7808 0%, #000000 136.07%);
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;

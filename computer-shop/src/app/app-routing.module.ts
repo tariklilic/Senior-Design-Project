@@ -12,15 +12,15 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
-  { path: 'register', component: RegisterComponent },
+  { path: 'homepage', component: HomepageComponent },
   { path: 'about-us', component: AboutusComponent },
   { path: 'search', component: SearchResultsComponent },
   { path: 'cart', component: CartComponent },
   { path: 'profile', component: ProfileComponent },
   { path: 'product', component: ProductDetailsComponent },
   { path: 'faq', component: FaqComponent },
-  { path: '', redirectTo: 'homepage', pathMatch: 'full' },
-  { path: 'homepage', component: HomepageComponent },
+  { path: '', redirectTo: 'register', pathMatch: 'full' },
+  { path: 'register', component: RegisterComponent },
 ];
 
 @NgModule({
