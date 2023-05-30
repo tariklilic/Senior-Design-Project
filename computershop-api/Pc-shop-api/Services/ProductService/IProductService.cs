@@ -1,6 +1,7 @@
 ﻿using computershopAPI.Dtos.ProductDtos;
 using computershopAPI.Helper;
 using computershopAPI.Models;
+using computershopAPI.Models.Models;
 
 namespace computershopAPI.Services.ProductService
 {
@@ -11,5 +12,6 @@ namespace computershopAPI.Services.ProductService
         Task<ServiceResponse<GetProductsDto>> GetProductById(int id);
         Task<ServiceResponse<List<GetProductsDto>>> DeleteProduct(int id);
         Task<PaginationResponse> GetProductsSorted(int componentId, string? searchName, string? sort, int? priceLowest, int? priceHighest, int page);
-    }
+        Task<Product> GetProductByIdModel(int id);
+            }
 }

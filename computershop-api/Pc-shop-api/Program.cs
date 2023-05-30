@@ -11,6 +11,8 @@ using Microsoft.IdentityModel.Tokens;
 using computershopAPI.Services.Auth;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
+using computershopAPI.Services.CartService;
+using computershopAPI.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 ConfigurationManager configuration = builder.Configuration;
@@ -67,6 +69,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IComponentService, ComponentService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddTransient<ICartService, CartService>();
+builder.Services.AddTransient<ICartItemRepository, CartItemRepository>();
 
 builder.Services.AddCors(options => options.AddPolicy(name: "ApplicationOrigins",
     policy => {

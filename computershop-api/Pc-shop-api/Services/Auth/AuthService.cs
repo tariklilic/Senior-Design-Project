@@ -19,15 +19,21 @@ namespace computershopAPI.Services.Auth
         private readonly UserManager<IdentityUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IConfiguration _configuration;
+        private readonly DataContext _context;
+
+
         public AuthService(UserManager<IdentityUser> userManager,
             RoleManager<IdentityRole> roleManager,
-            IConfiguration configuration)
+            IConfiguration configuration,
+            DataContext context)
         {
             _userManager = userManager;
 
             _roleManager = roleManager;
 
             _configuration = configuration;
+
+            _context = context; 
         }
 
         public async Task<Boolean> UserExists(string username)
@@ -108,6 +114,15 @@ namespace computershopAPI.Services.Auth
                 );
 
             return token;
+        }
+
+        public async Task<User> GetUserById(string id)
+        {
+            var user = await _context.Users
+                .FirstOrDefaultAsync(a => a.Id == id);
+
+
+            return user;
         }
 
 

@@ -52,7 +52,7 @@ namespace computershopAPI.Migrations
                         new
                         {
                             Id = "e91e639c-27b9-44de-9fd8-efd62be07517",
-                            ConcurrencyStamp = "5d4609d8-dcdc-490b-b22c-f1d35959de4c",
+                            ConcurrencyStamp = "d70ea7b3-5893-42ba-8e81-24c35faceab3",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -160,15 +160,15 @@ namespace computershopAPI.Migrations
                         {
                             Id = "044fd6d7-e011-4d9d-b050-6302884a975d",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "aecbf0c5-cdb5-400f-9bdf-c4cf737ab1dd",
+                            ConcurrencyStamp = "62356531-dda9-4daf-ac32-1cceaaddf2b9",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEPSMbLzuXkWSliKI5O/QRvLiSJgSD4LGp7GGcpSyOevMbwEgnWHNIawU8gJ4m9bojQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEEs1r4hWU4+37MipQwCvOCyHrGRAm85IUlLv60EMD10qab6f1hu25HdfIn3ZHGnuvA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "2f95f38e-a9cd-4c2b-a9be-a5853a07a9a0",
+                            SecurityStamp = "5d15e14e-b65b-4c13-9cf3-e5e1a404e8d5",
                             TwoFactorEnabled = false,
                             UserName = "Admin"
                         });
@@ -260,6 +260,33 @@ namespace computershopAPI.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("computershopAPI.Models.CartItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("CartItems");
                 });
 
             modelBuilder.Entity("computershopAPI.Models.Component", b =>
@@ -388,6 +415,25 @@ namespace computershopAPI.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("computershopAPI.Models.CartItem", b =>
+                {
+                    b.HasOne("computershopAPI.Models.Models.Product", "Product")
+                        .WithMany("cartItems")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("computershopAPI.Models.User", "User")
+                        .WithMany("cartItems")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("computershopAPI.Models.Models.Product", b =>
                 {
                     b.HasOne("computershopAPI.Models.Component", null)
@@ -400,6 +446,16 @@ namespace computershopAPI.Migrations
             modelBuilder.Entity("computershopAPI.Models.Component", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("computershopAPI.Models.Models.Product", b =>
+                {
+                    b.Navigation("cartItems");
+                });
+
+            modelBuilder.Entity("computershopAPI.Models.User", b =>
+                {
+                    b.Navigation("cartItems");
                 });
 #pragma warning restore 612, 618
         }

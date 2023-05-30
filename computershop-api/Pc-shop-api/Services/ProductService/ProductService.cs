@@ -78,6 +78,15 @@ namespace computershopAPI.Services.ProductService
             return serviceResponse;
         }
 
+        public async Task<Product> GetProductByIdModel(int id)
+        {
+            var dbProducts = await _context.Products
+                .FirstOrDefaultAsync(a => a.Id == id);
+
+
+            return dbProducts;
+        }
+
         public Task<PaginationResponse> GetProducts(int page)
         {
             IQueryable<Product> products = _context.Products;

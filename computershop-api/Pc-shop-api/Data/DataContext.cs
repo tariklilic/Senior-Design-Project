@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using computershopAPI.Models.Models;
+﻿using computershopAPI.Models.Models;
 using ComputerShopApi.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+
 
 namespace computershopAPI.Data
 {
@@ -24,10 +21,26 @@ namespace computershopAPI.Data
             SeedData.SeedAdminRole(modelBuilder);
             SeedData.SeedAdminUser(modelBuilder);
             SeedData.SeedUserRoleRelationship(modelBuilder);
+
+            modelBuilder.Entity<CartItem>()
+                .HasKey(x=> x.Id);
+
+            modelBuilder.Entity<CartItem>()
+                .HasOne(x =>x.User)
+            .WithMany(x => x.cartItems)
+                .HasForeignKey(x => x.UserId);
+
+            modelBuilder.Entity<CartItem>()
+                .HasOne(x => x.Product)
+                .WithMany(x => x.cartItems)
+                .HasForeignKey(x => x.ProductId);
+
+
         }
 
         public DbSet<Product> Products { get; set; }
         public DbSet<Component> Components { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<CartItem> CartItems { get; set; }
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace computershopAPI.Models.Models
+﻿using System.Text.Json.Serialization;
+
+namespace computershopAPI.Models.Models
 {
     public class Product
 {
@@ -12,6 +14,8 @@
     public double Rating { get; set; }
     public string Cover { get; set; } = string.Empty;
     public int ComponentId { get; set; }
+    [JsonIgnore]
+    public List<CartItem> cartItems { get; set; }
     
 
 }
