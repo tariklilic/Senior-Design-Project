@@ -114,10 +114,20 @@ namespace computershopAPI.Services.ProductService
             if (priceHighest == null) priceHighest = 10000;
             if (priceLowest == null) priceLowest = 0;
 
-            IQueryable<Product> products = _context.Products
-                .Where(a => a.ComponentId == componentId && a.Price >= priceLowest && a.Price <= priceHighest);
+            IQueryable<Product> products;
 
-            if (searchName != null) products = products.Where(s => s.Name.ToLower().StartsWith(searchName.ToLower()));
+            if (componentId == 0)
+            {
+                products = _context.Products
+                .Where(a => a.Price >= priceLowest && a.Price <= priceHighest);
+            } else
+            {
+                products = _context.Products
+                .Where(a => a.ComponentId == componentId && a.Price >= priceLowest && a.Price <= priceHighest);
+            }
+
+
+            if (searchName != null) products = products.Where(s => s.Name.ToLower().Contains(searchName.ToLower()));
 
 
 
@@ -147,7 +157,7 @@ namespace computershopAPI.Services.ProductService
             
 
             var pageResults = 10f;
-            var pageCount = Math.Ceiling(products.Where(a => componentId == a.ComponentId && a.Price >= priceLowest && a.Price <= priceHighest).Count() / pageResults);
+            var pageCount = Math.Ceiling(products.Count() / pageResults);
             products = products
                 .Skip((page - 1) * (int)pageResults)
                 .Take((int)pageResults);

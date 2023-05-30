@@ -1,4 +1,5 @@
 export class Product {
+    public id: number;
     public name: string;
     public manufacturer: string;
     public shortDesc: string;
@@ -10,7 +11,8 @@ export class Product {
     public componentId: number;
     public images: string[];
 
-    constructor(name: string, manufacturer: string, shortDesc: string, price: number, rating: number, quantity: number, longDesc: string, cover: string, componentId: number, images: string[]) {
+    constructor(id: number, name: string, manufacturer: string, shortDesc: string, price: number, rating: number, quantity: number, longDesc: string, cover: string, componentId: number, images: string[]) {
+        this.id = id;
         this.name = name;
         this.manufacturer = manufacturer;
         this.shortDesc = shortDesc;

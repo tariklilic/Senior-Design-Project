@@ -1,6 +1,6 @@
 <div class="card col-span-1 h-37">
     <div class="grid grid-cols-6 gap-5 h-full">
-        <div class="col-span-2 max-h-37 max-w-40 flex justify-center items-center">
+        <div class="col-span-2 max-h-37 max-w-40 flex justify-center items-center" routerLink="/product">
             <img rel="component image" src="{{product.cover}}" class="max-h-32">
         </div>
         <div class="col-span-2">
@@ -24,7 +24,7 @@
                 </div>
                 <div class="mt-2">
                     <div class="group">
-                        <button routerLink='/cart'
+                        <button (click)="addToCart()"
                             class="w-20 sm:h-8 sm:w-22 bg-lime text-black flex items-center justify-center group-hover:bg-black">
                             <span class="mx-auto relative text-xs group-hover:text-lime group-active:text-limeclick">ADD
                                 TO CART</span>

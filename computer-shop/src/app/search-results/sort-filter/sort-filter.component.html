@@ -18,7 +18,7 @@
             </button>
         </div>
         <div id="namedatadropdown" [ngClass]="{'hidden': isDropdownHiddenName}"
-            class="z-10 hidden bg-lime text-black text-center shadow w-fit fixed">
+            class="z-10 hidden bg-lime text-black text-center shadow w-fit absolute">
             <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                 <li>
                     <a class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick"
@@ -45,7 +45,7 @@
             </button>
         </div>
         <div id="ratingdatadropdown" [ngClass]="{'hidden': isDropdownHiddenRating}"
-            class="z-10 hidden bg-lime text-black text-center fixed shadow w-fit ">
+            class="z-10 hidden bg-lime text-black text-center absolute shadow w-fit ">
             <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                 <li>
                     <a class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick"
@@ -72,7 +72,7 @@
             </button>
         </div>
         <div id="pricedatadropdown" [ngClass]="{'hidden': isDropdownHiddenPrice}"
-            class="z-10 hidden bg-lime text-black text-center fixed shadow w-fit ">
+            class="z-10 hidden bg-lime text-black text-center absolute shadow w-fit ">
             <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                 <li>
                     <a class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick"
@@ -92,67 +92,73 @@
     </div>
     <div class="xl:col-span-1">
         <div class=" flex items-center ml-auto">
-            <input type="number" class="bg-gray h-8 w-24 text-black text-xs" placeholder="Price From" min="0"
-                max="9999">
+            <input type="number" class="bg-gray h-8 w-24 text-black text-xs" placeholder="Price From" min="0" max="9999"
+                (change)="setPriceLowest()" [(ngModel)]="priceLowest">
         </div>
     </div>
     <div class="xl:col-span-1">
         <div class=" flex items-center ml-auto">
-            <input type="number" class="bg-gray h-8 w-24 text-black text-xs" placeholder="Price To" min="0" max="9999">
+            <input type="number" class="bg-gray h-8 w-24 text-black text-xs" placeholder="Price To" min="0" max="10000"
+                (change)="setPriceHighest()" [(ngModel)]="priceHighest">
         </div>
     </div>
     <div class="xl:col-span-1">
         <div class="flex items-center ml-auto group">
             <button id="dropdownType" (click)="toggleDropdownType()"
                 class="h-8 w-22 bg-lime text-black flex items-center justify-center group-hover:bg-black">
-                <span class="mr-auto ml-auto relative text-xs group-hover:text-lime group-active:text-limeclick"></span>
+                <span
+                    class="mr-auto ml-auto relative text-xs group-hover:text-lime group-active:text-limeclick">TYPE</span>
             </button>
         </div>
         <div id="typedatadropdown" [ngClass]="{'hidden': isDropdownHiddenType}"
-            class="z-10 hidden bg-lime text-black text-center fixed shadow w-fit ">
+            class="z-10 hidden bg-lime text-black text-center absolute shadow w-fit ">
             <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                 <li>
-                    <a
-                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">GRAPHIC
+                    <a class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick"
+                        (click)="setComponent(0)">ALL</a>
+                </li>
+                <li>
+                    <a class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick"
+                        (click)="setComponent(1)">GRAPHIC
                         CARD</a>
                 </li>
                 <li>
-                    <a
-                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">PROCESSOR</a>
+                    <a class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick"
+                        (click)="setComponent(2)">PROCESSOR</a>
                 </li>
                 <li>
-                    <a
-                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">MOTHERBOARD</a>
+                    <a class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick"
+                        (click)="setComponent(3)">MOTHERBOARD</a>
                 </li>
                 <li>
-                    <a
-                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">RAM
+                    <a class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick"
+                        (click)="setComponent(4)">RAM
                         MEMORY</a>
                 </li>
                 <li>
-                    <a
-                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">HARD
+                    <a class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick"
+                        (click)="setComponent(5)">HARD
                         DRIVE</a>
                 </li>
                 <li>
-                    <a
-                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">HEADSET</a>
+                    <a class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick"
+                        (click)="setComponent(6)">HEADSET</a>
                 </li>
                 <li>
-                    <a
-                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">MONITOR</a>
+                    <a class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick"
+                        (click)="setComponent(7)">MONITOR</a>
                 </li>
                 <li>
-                    <a
-                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">LAPTOP</a>
+                    <a class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick"
+                        (click)="setComponent(8)">LAPTOP</a>
                 </li>
                 <li>
-                    <a
-                        class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">MOUSE</a>
+                    <a class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick"
+                        (click)="setComponent(9)">MOUSE</a>
                 </li>
                 <li>
-                    <a
-                        class="w-22 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick">KEYBOARD</a>
+                    <a class="w-22 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick"
+                        (click)="setComponent(10)">KEYBOARD</a>
                 </li>
             </ul>
         </div>

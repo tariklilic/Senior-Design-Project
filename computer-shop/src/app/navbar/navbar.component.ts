@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
+  searchParam: string = '';
 
   constructor(private productsService: ProductsService, private router: Router) { }
 
@@ -15,7 +16,9 @@ export class NavbarComponent implements OnInit {
   }
 
   searchProducts() {
-
+    this.productsService.searchParam = this.searchParam;
+    this.productsService.getSortedProducts();
+    this.router.navigate(['/search']);
   }
 
 }

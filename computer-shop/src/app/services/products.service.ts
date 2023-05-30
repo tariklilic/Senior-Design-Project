@@ -11,7 +11,7 @@ export class ProductsService {
   public products = new BehaviorSubject<Product[]>([]);
   public currentPage = new BehaviorSubject<number>(1);
   public pages = new BehaviorSubject<number>(1);
-  public componentId = new BehaviorSubject<number>(1);
+  public componentId = new BehaviorSubject<number>(0);
   public searchParam = '';
   public sort = '';
   public priceLowest = 0;
@@ -32,6 +32,4 @@ export class ProductsService {
       this.pages.next(result.pages);
     })
   }
-
-
 }

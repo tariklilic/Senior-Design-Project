@@ -8,8 +8,8 @@
             <div class="hidden sm:flex sm:items-center relative mx-auto text-gray-600">
                 <input
                     class="border-2 border-gray-300 sm:ml-20 md:ml-20 bg-gray sm:w-40 md:w-60 sm:h-8 lg:h-8 lg:w-80 xl:w-112 px-3 pr-16 text-sm focus:outline-none"
-                    type="search" name="search" placeholder="Search">
-                <button type="submit" class="absolute right-0 top-0 sm:mt-2 lg:mt-2 mr-4">
+                    type="search" name="search" placeholder="Search" [(ngModel)]="searchParam">
+                <button type="submit" class="absolute right-0 top-0 sm:mt-2 lg:mt-2 mr-4" (click)="searchProducts()">
                     <svg class="text-gray-600 h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
                         viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;"

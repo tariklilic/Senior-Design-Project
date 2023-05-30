@@ -2,15 +2,18 @@
     <h1 class="font-base text-2xl text-white">LOGIN</h1>
     <form class="flex flex-col bg-rect-black border-2 border-light-gray shadow-lg p-12 mt-12 mr-5 ml-5 sm:mr-0 sm:ml-0"
         action="">
-        <label class="font-base text-lg  text-lime" for="EMAIL">EMAIL</label>
-        <input class="flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
-            type="email" id="email" type="email" placeholder="Enter your email">
+        <label class="font-base text-lg  text-lime" for="username">USERNAME</label>
+        <input [(ngModel)]="username"
+            class="flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2" type="text"
+            id="username" name="username" placeholder="Enter your username">
         <label class="font-base text-lg  text-lime mt-5" for="password">PASSWORD</label>
-        <input class="flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
+        <input [(ngModel)]="password"
+            class="flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
             type="password" id="password" name="password" placeholder="Enter your password">
         <div class="sm:flex sm:items-center ml-auto mr-auto mt-5 mb-5 group">
             <button class="w-22 h-8 bg-lime text-black flex items-center justify-center group-hover:bg-black">
-                <span class="mx-auto relative text-xs group-hover:text-lime group-active:text-limeclick">REGISTER</span>
+                <span class="mx-auto relative text-xs group-hover:text-lime group-active:text-limeclick"
+                    (click)="login()">LOGIN</span>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="black"
                     class="md:ml-14 w-12 h-10 ml-12 absolute opacity-10 group-hover:opacity-20 group-hover:stroke-lime group-active:stroke-limeclick">

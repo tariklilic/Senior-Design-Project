@@ -8,6 +8,8 @@ import { ProductsService } from 'src/app/services/products.service';
   styleUrls: ['./sort-filter.component.css']
 })
 export class SortFilterComponent implements OnInit {
+  priceLowest!: number;
+  priceHighest!: number;
 
   constructor(private productsService: ProductsService, private router: Router) { }
 
@@ -40,6 +42,29 @@ export class SortFilterComponent implements OnInit {
 
   setSort(sort: string) {
     this.productsService.sort = sort;
+    this.productsService.getSortedProducts();
+  }
+
+  setPriceLowest() {
+    if (this.priceLowest !== null) {
+      this.productsService.priceLowest = this.priceLowest;
+    } else {
+      this.productsService.priceLowest = 0;
+    }
+    this.productsService.getSortedProducts();
+  }
+
+  setPriceHighest() {
+    if (this.priceHighest !== null) {
+      this.productsService.priceHighest = this.priceHighest;
+    } else {
+      this.productsService.priceHighest = 10000;
+    }
+    this.productsService.getSortedProducts();
+  }
+
+  setComponent(componentId: number) {
+    this.productsService.componentId.next(componentId);
     this.productsService.getSortedProducts();
   }
 
