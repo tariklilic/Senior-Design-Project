@@ -3,6 +3,8 @@ import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { UserRegister } from '../models/UserRegister.model';
 import { UserLogin } from '../models/UserLogin.model';
+import { PurchaseHistory } from '../models/PurchaseHistory.model';
+import { CartItemPrice } from '../models/CartItemPrice.model';
 @Injectable({
   providedIn: 'root'
 })
@@ -10,6 +12,7 @@ export class UserService {
   public loggedUser = new BehaviorSubject<boolean>(false);
   public userRole = new BehaviorSubject<any>({});
   public loggedUserId = new BehaviorSubject<any>({});
+  public purchaseHistory = new BehaviorSubject<PurchaseHistory>(new PurchaseHistory([], 0));
 
   constructor(private http: HttpClient) { }
 
@@ -67,6 +70,16 @@ export class UserService {
   getLoggedUserRole() {
     var token = this.getTokenData();
     this.userRole.next(Object.values(token)[0]);
+  }
+
+  getPurchaseHistory() {
+    const requestOptions: Object = {
+      headers: new HttpHeaders().append('Authorization', localStorage.getItem('token')!)
+    }
+    this.http.get<PurchaseHistory>('https://localhost:7153/History?id=' + this.loggedUserId.getValue(), requestOptions).subscribe(result => {
+      console.log(result);
+      this.purchaseHistory.next(result);
+    })
   }
 
 

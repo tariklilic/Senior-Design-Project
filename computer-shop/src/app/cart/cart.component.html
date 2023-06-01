@@ -3,13 +3,13 @@
         <div class="text-left ml-2">YOUR CART</div>
     </div>
     <div class="mb-3 ml-3 mr-3 grid grid-cols-1 xl:grid-cols-2 gap-5">
-        <div *ngFor="let item of cart" class="hover:cursor-pointer">
+        <div *ngFor="let item of cart.cartItems" class="hover:cursor-pointer">
             <app-cart-item [product]="item"></app-cart-item>
         </div>
     </div>
     <div class="text-base mb-8 sm:text-xl ml-0 sm:ml-3 flex items-center justify-end">
         <div class="text-right ml-0 sm:ml-2 mr-2">TOTAL PRICE:</div>
-        <div class="text-right mr-10 text-xl sm:text-2xl">$
+        <div class="text-right mr-10 text-xl sm:text-2xl">$ {{cart.total | number : '1.2-2'}}
         </div>
         <div class="text-right mr-5">
             <div class="flex items-center ml-auto group">

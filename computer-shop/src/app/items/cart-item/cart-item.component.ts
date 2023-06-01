@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CartItem } from 'src/app/models/CartItem.model';
 import { CartService } from 'src/app/services/cart.service';
+import { ProductsService } from 'src/app/services/products.service';
 import { UserService } from 'src/app/services/user.service';
 
 @Component({
@@ -12,7 +13,7 @@ export class CartItemComponent implements OnInit {
   @Input() product!: CartItem;
   quantity!: number;
 
-  constructor(private cartService: CartService) { }
+  constructor(private cartService: CartService, private productService: ProductsService) { }
 
   ngOnInit(): void {
     this.quantity = this.product.quantity;
@@ -47,5 +48,9 @@ export class CartItemComponent implements OnInit {
 
   removeFromCart() {
     this.cartService.removeFromCart(this.product.id);
+  }
+
+  viewProduct() {
+    this.productService.getProductById(this.product.product.id);
   }
 }

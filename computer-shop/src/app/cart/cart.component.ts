@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { UserService } from '../services/user.service';
 import { CartItem } from '../models/CartItem.model';
 import { CartService } from '../services/cart.service';
+import { CartItemPrice } from '../models/CartItemPrice.model';
 
 @Component({
   selector: 'app-cart',
@@ -9,7 +10,7 @@ import { CartService } from '../services/cart.service';
   styleUrls: ['./cart.component.css']
 })
 export class CartComponent implements OnInit {
-  cart: CartItem[] = [];
+  cart!: CartItemPrice;
 
   constructor(private cartService: CartService, private userService: UserService) { }
 
@@ -19,6 +20,7 @@ export class CartComponent implements OnInit {
     this.cartService.getCartProducts(loggedUser);
 
     this.cartService.cart.subscribe(result => {
+      console.log(result);
       this.cart = result;
     })
   }

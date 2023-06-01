@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UserService } from '../services/user.service';
-import { CartItem } from '../models/CartItem.model';
+import { PurchaseHistory } from '../models/PurchaseHistory.model';
 
 @Component({
   selector: 'app-profile',
@@ -8,13 +8,15 @@ import { CartItem } from '../models/CartItem.model';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-
-  appItems: any[] = Array(10).fill({});
+  purchaseHistory!: PurchaseHistory;
 
   constructor(private userService: UserService) { }
 
   ngOnInit(): void {
-
+    this.userService.getPurchaseHistory();
+    this.userService.purchaseHistory.subscribe(result => {
+      this.purchaseHistory = result;
+    })
   }
 
 }

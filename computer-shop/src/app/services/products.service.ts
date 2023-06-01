@@ -12,6 +12,7 @@ export class ProductsService {
   public currentPage = new BehaviorSubject<number>(1);
   public pages = new BehaviorSubject<number>(1);
   public componentId = new BehaviorSubject<number>(0);
+  public product = new BehaviorSubject<Product>(new Product(0, '', '', '', 0, 0, 0, '', '', 0, []));
   public searchParam = '';
   public sort = '';
   public priceLowest = 0;
@@ -30,6 +31,12 @@ export class ProductsService {
     this.http.get<PaginatedProduct>('https://localhost:7153/api/Product/GetSorted/' + this.currentPage.getValue() + '?componentId= ' + this.componentId.getValue() + '&searchName=' + this.searchParam + '&sort=' + this.sort + '&priceLowest=' + this.priceLowest + '&priceHighest=' + this.priceHighest).subscribe(result => {
       this.products.next(result.products);
       this.pages.next(result.pages);
+    })
+  }
+
+  getProductById(productId: number) {
+    this.http.get<any>('https://localhost:7153/api/Product/item/' + productId).subscribe(result => {
+      this.product.next(result.data);
     })
   }
 }

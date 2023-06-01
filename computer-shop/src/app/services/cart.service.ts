@@ -2,12 +2,13 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { CartItem } from '../models/CartItem.model';
 import { BehaviorSubject } from 'rxjs';
+import { CartItemPrice } from '../models/CartItemPrice.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class CartService {
-  public cart = new BehaviorSubject<CartItem[]>([]);
+  public cart = new BehaviorSubject<CartItemPrice>(new CartItemPrice([], 0));
 
   constructor(private http: HttpClient) { }
 
@@ -15,7 +16,8 @@ export class CartService {
     const requestOptions: Object = {
       headers: new HttpHeaders().append('Authorization', localStorage.getItem('token')!)
     }
-    this.http.get<CartItem[]>('https://localhost:7153/Cart?id=' + userId, requestOptions).subscribe(result => {
+    this.http.get<CartItemPrice>('https://localhost:7153/Cart?id=' + userId, requestOptions).subscribe(result => {
+      console.log(result);
       this.cart.next(result);
     })
   }
@@ -24,9 +26,9 @@ export class CartService {
     const requestOptions: Object = {
       headers: new HttpHeaders().append('Authorization', localStorage.getItem('token')!)
     }
-    this.http.put('https://localhost:7153/Cart?cartItemId=' + cartItemId + '&quantity=' + quantity, null, requestOptions).subscribe({
+    this.http.put<CartItemPrice>('https://localhost:7153/Cart?cartItemId=' + cartItemId + '&quantity=' + quantity, null, requestOptions).subscribe({
       next: (result) => {
-        console.log('Quantity updated');
+        this.cart.next(result);
       },
       error: (err) => {
         console.log(err.message);
@@ -43,8 +45,9 @@ export class CartService {
       productId: productId,
       quantity: quantity
     }
-    this.http.post<CartItem[]>('https://localhost:7153/Cart', body, requestOptions).subscribe({
+    this.http.post<CartItemPrice>('https://localhost:7153/Cart', body, requestOptions).subscribe({
       next: (result) => {
+        console.log(result);
         this.cart.next(result);
       },
       error: (err) => {
@@ -57,7 +60,7 @@ export class CartService {
     const requestOptions: Object = {
       headers: new HttpHeaders().append('Authorization', localStorage.getItem('token')!)
     }
-    this.http.put<CartItem[]>('https://localhost:7153/Cart/RemoveFromCart?cartItemId=' + cartItemId, null, requestOptions).subscribe({
+    this.http.put<CartItemPrice>('https://localhost:7153/Cart/RemoveFromCart?cartItemId=' + cartItemId, null, requestOptions).subscribe({
       next: (result) => {
         this.cart.next(result);
       },

@@ -131,7 +131,7 @@ namespace computershopAPI.Services.CartService
             var product = await this.productService.GetProductByIdModel(cartItem.ProductId);
             if (quantity <= product.Quantity && quantity > 0)
             {
-                this.cartItemRepository.UpdateProductQuantity(id, quantity);
+                await this.cartItemRepository.UpdateProductQuantity(id, quantity);
                 return await GetUserProducts(cartItem.UserId);
             }
             throw new Exception("Invalid quantity");
