@@ -27,6 +27,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { ProfileItemComponent } from './items/profile-item/profile-item.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { AddProductComponent } from './auth/add-product/add-product.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     ProfileComponent,
     ProductDetailsComponent,
     ProfileItemComponent,
+    AddProductComponent,
   ],
   imports: [
     BrowserModule,

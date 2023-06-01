@@ -11,6 +11,7 @@ import { UserService } from '../services/user.service';
 export class NavbarComponent implements OnInit {
   searchParam: string = '';
   userLoggedIn: boolean = false;
+  userAdmin: boolean = false;
 
   constructor(private productsService: ProductsService, private router: Router, private userService: UserService) { }
 

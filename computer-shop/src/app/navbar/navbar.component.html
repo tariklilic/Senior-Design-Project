@@ -49,8 +49,15 @@
                     </button>
                 </div>
             </div>
-            <div class="hidden sm:flex sm:items-center w-72 mr-5" *ngIf="userLoggedIn">
-                <div class="hidden sm:flex sm:items-center ml-auto group">
+            <div class="hidden sm:flex sm:items-center w-fit mr-5" *ngIf="userLoggedIn">
+                <div class="hidden sm:flex sm:items-center ml-auto group" *ngIf="userAdmin">
+                    <button routerLink="/profile"
+                        class="w-20 sm:h-8 sm:w-22 bg-lime text-black flex items-center justify-center group-hover:bg-black">
+                        <span class="mx-auto relative text-sm group-hover:text-lime group-active:text-limeclick">ADD
+                            ITEM</span>
+                    </button>
+                </div>
+                <div class="hidden sm:flex sm:items-center ml-2 md:ml-5 group">
                     <button routerLink="/cart"
                         class="w-20 sm:h-8 sm:w-22 bg-lime text-black flex items-center justify-center group-hover:bg-black">
                         <span

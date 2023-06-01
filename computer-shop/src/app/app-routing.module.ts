@@ -9,8 +9,10 @@ import { SearchResultsComponent } from './search-results/search-results.componen
 import { CartComponent } from './cart/cart.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
+import { AddProductComponent } from './auth/add-product/add-product.component';
 
 const routes: Routes = [
+  { path: 'add-product', component: AddProductComponent },
   { path: 'login', component: LoginComponent },
   { path: 'homepage', component: HomepageComponent },
   { path: 'about-us', component: AboutusComponent },
