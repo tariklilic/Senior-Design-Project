@@ -225,15 +225,42 @@ namespace computershopAPI.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "PurchaseHistory",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    ProductId = table.Column<int>(type: "int", nullable: false),
+                    Quantity = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_PurchaseHistory", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_PurchaseHistory_AspNetUsers_UserId",
+                        column: x => x.UserId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_PurchaseHistory_Products_ProductId",
+                        column: x => x.ProductId,
+                        principalTable: "Products",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { "e91e639c-27b9-44de-9fd8-efd62be07517", "d70ea7b3-5893-42ba-8e81-24c35faceab3", "Admin", "ADMIN" });
+                values: new object[] { "e91e639c-27b9-44de-9fd8-efd62be07517", "a660a12d-8f7a-4633-bc09-e65d791ede72", "Admin", "ADMIN" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Discriminator", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "044fd6d7-e011-4d9d-b050-6302884a975d", 0, "62356531-dda9-4daf-ac32-1cceaaddf2b9", "IdentityUser", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAEAACcQAAAAEEs1r4hWU4+37MipQwCvOCyHrGRAm85IUlLv60EMD10qab6f1hu25HdfIn3ZHGnuvA==", null, false, "5d15e14e-b65b-4c13-9cf3-e5e1a404e8d5", false, "Admin" });
+                values: new object[] { "044fd6d7-e011-4d9d-b050-6302884a975d", 0, "e5f08168-f184-4a0a-b457-995cec392080", "IdentityUser", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAEAACcQAAAAEI8OhpOM/VWv3nKcmAJKCTxJ6d6dlu7kclx6batlKLrecklnkuggN1CQKfTiDwNWiQ==", null, false, "352960f9-1d71-470e-b7b8-2715fea13183", false, "Admin" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
@@ -293,6 +320,16 @@ namespace computershopAPI.Migrations
                 name: "IX_Products_ComponentId",
                 table: "Products",
                 column: "ComponentId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_PurchaseHistory_ProductId",
+                table: "PurchaseHistory",
+                column: "ProductId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_PurchaseHistory_UserId",
+                table: "PurchaseHistory",
+                column: "UserId");
         }
 
         /// <inheritdoc />
@@ -315,6 +352,9 @@ namespace computershopAPI.Migrations
 
             migrationBuilder.DropTable(
                 name: "CartItems");
+
+            migrationBuilder.DropTable(
+                name: "PurchaseHistory");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");

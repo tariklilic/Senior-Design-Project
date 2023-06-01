@@ -12,5 +12,6 @@ namespace computershopAPI.Repository
         Task DeleteAllCartItemsByProductId(int productId);
         Task<List<CartItem>> GetAllCartItems();
         DataContext GetCartItemContext();
+        Task DeleteAllCartItemsByUserId(string id);
     }
 }

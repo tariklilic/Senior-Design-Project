@@ -16,7 +16,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace computershopAPI.Controllers
 {
-    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class CartController : ControllerBase

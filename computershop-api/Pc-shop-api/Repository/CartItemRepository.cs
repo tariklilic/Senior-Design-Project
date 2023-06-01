@@ -84,6 +84,17 @@ namespace computershopAPI.Repository
             }
         }
 
+        public async Task DeleteAllCartItemsByUserId(string id)
+        {
+            var cartItems = await context.CartItems.Where(x => x.UserId.Equals(id)).ToListAsync();
+
+            for (int i = 0; i < cartItems.Count; i++)
+            {
+                await RemoveUserProduct(cartItems[i]);
+            }
+        }
+
+
         public async Task<List<CartItem>> GetAllCartItems()
         {
             return await context.CartItems.ToListAsync();

@@ -35,6 +35,19 @@ namespace computershopAPI.Data
                 .WithMany(x => x.cartItems)
                 .HasForeignKey(x => x.ProductId);
 
+            modelBuilder.Entity<PurchaseHistory>()
+                .HasKey(x => x.Id);
+
+            modelBuilder.Entity<PurchaseHistory>()
+                .HasOne(x => x.User)
+            .WithMany(x => x.purchaseHistories)
+                .HasForeignKey(x => x.UserId);
+
+            modelBuilder.Entity<PurchaseHistory>()
+                .HasOne(x => x.Product)
+                .WithMany(x => x.purchaseHistories)
+                .HasForeignKey(x => x.ProductId);
+
 
         }
 
@@ -42,5 +55,6 @@ namespace computershopAPI.Data
         public DbSet<Component> Components { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<CartItem> CartItems { get; set; }
+        public DbSet<PurchaseHistory> PurchaseHistory { get; set; }
     }
 }

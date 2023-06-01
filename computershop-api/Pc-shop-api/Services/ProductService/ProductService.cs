@@ -120,17 +120,14 @@ namespace computershopAPI.Services.ProductService
             {
                 products = _context.Products
                 .Where(a => a.Price >= priceLowest && a.Price <= priceHighest);
-            } else
+            }
+            else
             {
                 products = _context.Products
                 .Where(a => a.ComponentId == componentId && a.Price >= priceLowest && a.Price <= priceHighest);
             }
 
-
             if (searchName != null) products = products.Where(s => s.Name.ToLower().Contains(searchName.ToLower()));
-
-
-
             switch (sort)
             {
                 case "ratingDesc":
@@ -157,7 +154,7 @@ namespace computershopAPI.Services.ProductService
             
 
             var pageResults = 10f;
-            var pageCount = Math.Ceiling(products.Count() / pageResults);
+            var pageCount = Math.Ceiling(products.Count() / pageResults );
             products = products
                 .Skip((page - 1) * (int)pageResults)
                 .Take((int)pageResults);

@@ -16,7 +16,9 @@ namespace computershopAPI.Models.Models
     public int ComponentId { get; set; }
     [JsonIgnore]
     public List<CartItem> cartItems { get; set; }
-    
+    [JsonIgnore]
+    public List<PurchaseHistory> purchaseHistories { get; set; }
 
-}
+
+    }
 }
