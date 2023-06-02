@@ -56,5 +56,6 @@ namespace computershopAPI.Data
         public DbSet<User> Users { get; set; }
         public DbSet<CartItem> CartItems { get; set; }
         public DbSet<PurchaseHistory> PurchaseHistory { get; set; }
+        public DbSet<ImageArray> ImageArrays { get; set; }
     }
 }

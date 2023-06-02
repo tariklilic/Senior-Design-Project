@@ -10,6 +10,7 @@
         public double Price { get; set; } = 100;
         public double Rating { get; set; } = 3.0;
         public string Cover { get; set; } = string.Empty;
+        public List<ImageArrayDto> Images { get; set; }
         public int ComponentId { get; set; }
 
     }

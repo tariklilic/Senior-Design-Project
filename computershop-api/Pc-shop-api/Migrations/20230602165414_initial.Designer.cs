@@ -12,7 +12,7 @@ using computershopAPI.Data;
 namespace computershopAPI.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230531183808_initial")]
+    [Migration("20230602165414_initial")]
     partial class initial
     {
         /// <inheritdoc />
@@ -55,7 +55,7 @@ namespace computershopAPI.Migrations
                         new
                         {
                             Id = "e91e639c-27b9-44de-9fd8-efd62be07517",
-                            ConcurrencyStamp = "a660a12d-8f7a-4633-bc09-e65d791ede72",
+                            ConcurrencyStamp = "dc629dab-51c1-465d-a840-9677f9e8f94d",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -163,15 +163,15 @@ namespace computershopAPI.Migrations
                         {
                             Id = "044fd6d7-e011-4d9d-b050-6302884a975d",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e5f08168-f184-4a0a-b457-995cec392080",
+                            ConcurrencyStamp = "0cd86e43-caec-44f1-ae12-c4344112b13e",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEI8OhpOM/VWv3nKcmAJKCTxJ6d6dlu7kclx6batlKLrecklnkuggN1CQKfTiDwNWiQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELttHQlCVaP6ynYeSdZRDQRmhx2962p9KV7VFeboarpVt8th742NrNnSt/6iTcHtnw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "352960f9-1d71-470e-b7b8-2715fea13183",
+                            SecurityStamp = "876508f4-44b2-4b37-b678-9cf54a6450f7",
                             TwoFactorEnabled = false,
                             UserName = "Admin"
                         });
@@ -311,6 +311,40 @@ namespace computershopAPI.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Components");
+                });
+
+            modelBuilder.Entity("computershopAPI.Models.ImageArray", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Image1")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Image2")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Image3")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Image4")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ImageArrays");
                 });
 
             modelBuilder.Entity("computershopAPI.Models.Models.Product", b =>
@@ -464,6 +498,13 @@ namespace computershopAPI.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("computershopAPI.Models.ImageArray", b =>
+                {
+                    b.HasOne("computershopAPI.Models.Models.Product", null)
+                        .WithMany("Images")
+                        .HasForeignKey("ProductId");
+                });
+
             modelBuilder.Entity("computershopAPI.Models.Models.Product", b =>
                 {
                     b.HasOne("computershopAPI.Models.Component", null)
@@ -499,6 +540,8 @@ namespace computershopAPI.Migrations
 
             modelBuilder.Entity("computershopAPI.Models.Models.Product", b =>
                 {
+                    b.Navigation("Images");
+
                     b.Navigation("cartItems");
 
                     b.Navigation("purchaseHistories");

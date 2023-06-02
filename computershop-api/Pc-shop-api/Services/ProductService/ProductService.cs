@@ -28,6 +28,7 @@ namespace computershopAPI.Services.ProductService
             _context.Products.Add(newProd);
             await _context.SaveChangesAsync();
             serviceResponse.Data = await _context.Products
+                .Include(x => x.Images)
                 .Select(a => _mapper.Map<GetProductsDto>(a))
                 .ToListAsync();
 
@@ -42,6 +43,7 @@ namespace computershopAPI.Services.ProductService
             try
             {
                 Product product = await _context.Products
+                    .Include(x => x.Images)
                     .FirstOrDefaultAsync(c => c.Id == id);
                 if (product != null)
                 {
@@ -71,6 +73,7 @@ namespace computershopAPI.Services.ProductService
             var serviceResponse = new ServiceResponse<GetProductsDto>();
 
             var dbProducts = await _context.Products
+                .Include(x => x.Images)
                 .FirstOrDefaultAsync(a => a.Id == id);
 
             serviceResponse.Data = _mapper.Map<GetProductsDto>(dbProducts);
@@ -81,6 +84,7 @@ namespace computershopAPI.Services.ProductService
         public async Task<Product> GetProductByIdModel(int id)
         {
             var dbProducts = await _context.Products
+                .Include(x => x.Images)
                 .FirstOrDefaultAsync(a => a.Id == id);
 
 
@@ -89,7 +93,7 @@ namespace computershopAPI.Services.ProductService
 
         public Task<PaginationResponse> GetProducts(int page)
         {
-            IQueryable<Product> products = _context.Products;
+            IQueryable<Product> products = _context.Products.Include(x => x.Images);
 
             var pageResults = 10f;
             var pageCount = Math.Ceiling(products.Count() / pageResults);
@@ -118,12 +122,12 @@ namespace computershopAPI.Services.ProductService
 
             if (componentId == 0)
             {
-                products = _context.Products
+                products = _context.Products.Include(x => x.Images)
                 .Where(a => a.Price >= priceLowest && a.Price <= priceHighest);
             }
             else
             {
-                products = _context.Products
+                products = _context.Products.Include(x => x.Images)
                 .Where(a => a.ComponentId == componentId && a.Price >= priceLowest && a.Price <= priceHighest);
             }
 
