@@ -5,41 +5,42 @@
         <div class="grid xl:grid-cols-3 gap-10">
             <div class="col-span-1">
                 <label class="font-base text-lg  text-lime mt-5" for="name">NAME</label>
-                <input
+                <input [(ngModel)]="name"
                     class="mb-3 flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
                     type="text" id="name" name="name" placeholder="Enter product name">
                 <label class="font-base text-lg text-lime mt-5" for="manufacturer">MANUFACTURER</label>
-                <input
+                <input [(ngModel)]="manufacturer"
                     class="mb-3 flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
                     type="text" id="manufacturer" name="manufacturer" placeholder="Enter manufacturer">
                 <label class="font-base text-lg  text-lime mt-5" for="shortDesc">SHORT DESCRIPTION</label>
-                <input
+                <input [(ngModel)]="shortDesc"
                     class="mb-3 flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
                     type="text" id="shortDesc" name="shortDesc" placeholder="Enter short description">
                 <label class="font-base text-lg  text-lime mt-5" for="longDesc">DESCRIPTION</label>
-                <textarea
+                <textarea [(ngModel)]="longDesc"
                     class="mb-3 flex items-center h-32 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
                     type="text" id="longDesc" name="longDesc" placeholder="Enter description"></textarea>
             </div>
             <div class="col-span-1">
                 <label class="font-base text-lg  text-lime mt-5" for="quantity">QUANTITY</label>
-                <input
+                <input [(ngModel)]="quantity"
                     class="mb-3 flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
                     type="number" id="quantity" name="quantity" placeholder="Enter products quantity">
                 <label class="font-base text-lg text-lime mt-5" for="price">PRICE</label>
-                <input
+                <input [(ngModel)]="price"
                     class="mb-3 flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
                     type="number" id="price" name="price" placeholder="Enter price">
                 <label class="font-base text-lg  text-lime mt-5" for="rating">RATING</label>
-                <input
+                <input [(ngModel)]="rating"
                     class="mb-3 flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
                     type="number" id="rating" name="rating" placeholder="Enter rating">
                 <label class="font-base text-lg  text-lime mt-5" for="componentId">COMPONENT</label>
-                <input
+                <input [(ngModel)]="componentId"
                     class="mb-3 flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
                     type="number" id="componentId" name="componentId" placeholder="Enter component Id">
-                <div class="sm:flex sm:items-center mt-8 mb-5 group justify-center">
-                    <button class="w-24 h-10 bg-lime text-black flex items-center justify-center group-hover:bg-black">
+                <div class="hidden xl:flex items-center mt-8 mb-5 group justify-center">
+                    <button class="w-24 h-10 bg-lime text-black flex items-center justify-center group-hover:bg-black"
+                        (click)="addProduct()">
                         <span class="mx-auto relative text-sm group-hover:text-lime group-active:text-limeclick">ADD
                             PRODUCT</span>
                     </button>
@@ -47,26 +48,33 @@
             </div>
             <div class="col-span-1">
                 <label class="font-base text-lg  text-lime mt-5" for="cover">COVER</label>
-                <input
+                <input [(ngModel)]="cover"
                     class="mb-3 flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
                     type="text" id="cover" name="cover" placeholder="Enter cover image">
                 <label class="font-base text-lg text-lime mt-5" for="image1">IMAGE 1</label>
-                <input
+                <input [(ngModel)]="image1"
                     class="mb-3 flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
                     type="text" id="image1" name="image1" placeholder="Enter image 1">
                 <label class="font-base text-lg  text-lime mt-5" for="shortDesc">IMAGE 2</label>
-                <input
+                <input [(ngModel)]="image2"
                     class="mb-3 flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
                     type="text" id="image2" name="image2" placeholder="Enter image 2">
                 <label class="font-base text-lg  text-lime mt-5" for="shortDesc">IMAGE 3</label>
-                <input
+                <input [(ngModel)]="image3"
                     class="mb-3 flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
                     type="text" id="image3" name="image3" placeholder="Enter image 3">
                 <label class="font-base text-lg  text-lime mt-5" for="shortDesc">IMAGE 4</label>
-                <input
+                <input [(ngModel)]="image4"
                     class="mb-3 flex items-center h-10 px-2 w-70 sm:w-96 bg-gray text-sm focus:outline-none focus:ring-2"
                     type="text" id="image4" name="image4" placeholder="Enter image 4">
             </div>
+        </div>
+        <div class="flex xl:hidden items-center mt-8 mb-5 group justify-center">
+            <button class="w-24 h-10 bg-lime text-black flex items-center justify-center group-hover:bg-black"
+                (click)="addProduct()">
+                <span class="mx-auto relative text-sm group-hover:text-lime group-active:text-limeclick">ADD
+                    PRODUCT</span>
+            </button>
         </div>
     </form>
 </div>

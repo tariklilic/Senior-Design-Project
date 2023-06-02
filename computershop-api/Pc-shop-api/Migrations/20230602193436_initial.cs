@@ -66,6 +66,22 @@ namespace computershopAPI.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "ImageArrays",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Image1 = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Image2 = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Image3 = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Image4 = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ImageArrays", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "AspNetRoleClaims",
                 columns: table => new
                 {
@@ -185,6 +201,7 @@ namespace computershopAPI.Migrations
                     Price = table.Column<double>(type: "float", nullable: false),
                     Rating = table.Column<double>(type: "float", nullable: false),
                     Cover = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ImagesId = table.Column<int>(type: "int", nullable: false),
                     ComponentId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -194,6 +211,12 @@ namespace computershopAPI.Migrations
                         name: "FK_Products_Components_ComponentId",
                         column: x => x.ComponentId,
                         principalTable: "Components",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Products_ImageArrays_ImagesId",
+                        column: x => x.ImagesId,
+                        principalTable: "ImageArrays",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -226,28 +249,6 @@ namespace computershopAPI.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "ImageArrays",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Image1 = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Image2 = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Image3 = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Image4 = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ProductId = table.Column<int>(type: "int", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_ImageArrays", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_ImageArrays_Products_ProductId",
-                        column: x => x.ProductId,
-                        principalTable: "Products",
-                        principalColumn: "Id");
-                });
-
-            migrationBuilder.CreateTable(
                 name: "PurchaseHistory",
                 columns: table => new
                 {
@@ -277,12 +278,12 @@ namespace computershopAPI.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { "e91e639c-27b9-44de-9fd8-efd62be07517", "dc629dab-51c1-465d-a840-9677f9e8f94d", "Admin", "ADMIN" });
+                values: new object[] { "e91e639c-27b9-44de-9fd8-efd62be07517", "ff4d2c83-1340-460e-b453-708801bd2979", "Admin", "ADMIN" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Discriminator", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "044fd6d7-e011-4d9d-b050-6302884a975d", 0, "0cd86e43-caec-44f1-ae12-c4344112b13e", "IdentityUser", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAEAACcQAAAAELttHQlCVaP6ynYeSdZRDQRmhx2962p9KV7VFeboarpVt8th742NrNnSt/6iTcHtnw==", null, false, "876508f4-44b2-4b37-b678-9cf54a6450f7", false, "Admin" });
+                values: new object[] { "044fd6d7-e011-4d9d-b050-6302884a975d", 0, "4d20ff53-9922-4fbc-bd9c-ed28fee9cdfb", "IdentityUser", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAEAACcQAAAAEFRFImt5PqOCafr7KFxMNZHVE/3ursYagu6DdqPUywOZCKMArZtDJd3PL+LAHdbRGA==", null, false, "5cdda44a-c9c3-4da8-861c-0b2935215ed8", false, "Admin" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
@@ -339,14 +340,14 @@ namespace computershopAPI.Migrations
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ImageArrays_ProductId",
-                table: "ImageArrays",
-                column: "ProductId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Products_ComponentId",
                 table: "Products",
                 column: "ComponentId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Products_ImagesId",
+                table: "Products",
+                column: "ImagesId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_PurchaseHistory_ProductId",
@@ -381,9 +382,6 @@ namespace computershopAPI.Migrations
                 name: "CartItems");
 
             migrationBuilder.DropTable(
-                name: "ImageArrays");
-
-            migrationBuilder.DropTable(
                 name: "PurchaseHistory");
 
             migrationBuilder.DropTable(
@@ -397,6 +395,9 @@ namespace computershopAPI.Migrations
 
             migrationBuilder.DropTable(
                 name: "Components");
+
+            migrationBuilder.DropTable(
+                name: "ImageArrays");
         }
     }
 }

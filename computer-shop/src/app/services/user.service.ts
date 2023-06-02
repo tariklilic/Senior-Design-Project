@@ -69,7 +69,8 @@ export class UserService {
 
   getLoggedUserRole() {
     var token = this.getTokenData();
-    this.userRole.next(Object.values(token)[0]);
+    this.userRole.next(Object.values(token)[2]);
+    console.log(this.userRole.getValue())
   }
 
   getPurchaseHistory() {

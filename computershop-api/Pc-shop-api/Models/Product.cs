@@ -13,7 +13,7 @@ namespace computershopAPI.Models.Models
     public double Price { get; set; }
     public double Rating { get; set; }
     public string Cover { get; set; } = string.Empty;
-        public List<ImageArray> Images { get; set; } = new List<ImageArray>();
+    public ImageArray Images { get; set; } = new ImageArray();
     public int ComponentId { get; set; }
     [JsonIgnore]
     public List<CartItem> cartItems { get; set; }

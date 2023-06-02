@@ -52,7 +52,7 @@ namespace computershopAPI.Migrations
                         new
                         {
                             Id = "e91e639c-27b9-44de-9fd8-efd62be07517",
-                            ConcurrencyStamp = "dc629dab-51c1-465d-a840-9677f9e8f94d",
+                            ConcurrencyStamp = "ff4d2c83-1340-460e-b453-708801bd2979",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -160,15 +160,15 @@ namespace computershopAPI.Migrations
                         {
                             Id = "044fd6d7-e011-4d9d-b050-6302884a975d",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "0cd86e43-caec-44f1-ae12-c4344112b13e",
+                            ConcurrencyStamp = "4d20ff53-9922-4fbc-bd9c-ed28fee9cdfb",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAELttHQlCVaP6ynYeSdZRDQRmhx2962p9KV7VFeboarpVt8th742NrNnSt/6iTcHtnw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFRFImt5PqOCafr7KFxMNZHVE/3ursYagu6DdqPUywOZCKMArZtDJd3PL+LAHdbRGA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "876508f4-44b2-4b37-b678-9cf54a6450f7",
+                            SecurityStamp = "5cdda44a-c9c3-4da8-861c-0b2935215ed8",
                             TwoFactorEnabled = false,
                             UserName = "Admin"
                         });
@@ -334,12 +334,7 @@ namespace computershopAPI.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("ProductId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
 
                     b.ToTable("ImageArrays");
                 });
@@ -358,6 +353,9 @@ namespace computershopAPI.Migrations
                     b.Property<string>("Cover")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ImagesId")
+                        .HasColumnType("int");
 
                     b.Property<string>("LongDesc")
                         .IsRequired()
@@ -387,6 +385,8 @@ namespace computershopAPI.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("ComponentId");
+
+                    b.HasIndex("ImagesId");
 
                     b.ToTable("Products");
                 });
@@ -495,13 +495,6 @@ namespace computershopAPI.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("computershopAPI.Models.ImageArray", b =>
-                {
-                    b.HasOne("computershopAPI.Models.Models.Product", null)
-                        .WithMany("Images")
-                        .HasForeignKey("ProductId");
-                });
-
             modelBuilder.Entity("computershopAPI.Models.Models.Product", b =>
                 {
                     b.HasOne("computershopAPI.Models.Component", null)
@@ -509,6 +502,14 @@ namespace computershopAPI.Migrations
                         .HasForeignKey("ComponentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("computershopAPI.Models.ImageArray", "Images")
+                        .WithMany()
+                        .HasForeignKey("ImagesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Images");
                 });
 
             modelBuilder.Entity("computershopAPI.Models.PurchaseHistory", b =>
@@ -537,8 +538,6 @@ namespace computershopAPI.Migrations
 
             modelBuilder.Entity("computershopAPI.Models.Models.Product", b =>
                 {
-                    b.Navigation("Images");
-
                     b.Navigation("cartItems");
 
                     b.Navigation("purchaseHistories");

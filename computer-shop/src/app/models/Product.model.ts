@@ -1,3 +1,5 @@
+import { ProductImages } from "./ProductImages.model";
+
 export class Product {
     public id: number;
     public name: string;
@@ -9,9 +11,10 @@ export class Product {
     public longDesc: string;
     public cover: string;
     public componentId: number;
-    public images: string[];
+    public images: ProductImages;
 
-    constructor(id: number, name: string, manufacturer: string, shortDesc: string, price: number, rating: number, quantity: number, longDesc: string, cover: string, componentId: number, images: string[]) {
+
+    constructor(id: number, name: string, manufacturer: string, shortDesc: string, price: number, rating: number, quantity: number, longDesc: string, cover: string, componentId: number, images: ProductImages) {
         this.id = id;
         this.name = name;
         this.manufacturer = manufacturer;

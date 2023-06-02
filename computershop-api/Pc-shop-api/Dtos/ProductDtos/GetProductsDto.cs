@@ -12,6 +12,6 @@
         public double Rating { get; set; } = 3.0;
         public string Cover { get; set; } = string.Empty;
         public int ComponentId { get; set; }
-        public List<ImageArray> Images { get; set; } = new List<ImageArray>();
+        public ImageArray Images { get; set; } = new ImageArray();
     }
 }

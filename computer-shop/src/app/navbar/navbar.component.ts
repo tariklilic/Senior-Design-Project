@@ -21,6 +21,13 @@ export class NavbarComponent implements OnInit {
       this.userService.loggedUser.next(true);
       this.userService.getLoggedUserId();
     }
+    this.userService.userRole.subscribe(result => {
+      if (result === 'Admin') {
+        this.userAdmin = true;
+      } else {
+        this.userAdmin = false;
+      }
+    })
     this.userService.loggedUser.subscribe(result => {
       this.userLoggedIn = result;
     })

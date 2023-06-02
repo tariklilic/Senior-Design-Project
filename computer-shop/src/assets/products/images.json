@@ -1,0 +1,716 @@
+[
+    {
+        "Image1": "https://storage-asset.msi.com/global/picture/image/feature/vga/NVIDIA/VGA-2020/image/KV-3080X.png",
+        "Image2": "https://a-power.com/app/uploads/2022/06/97933896_3036457615.png",
+        "Image3": "https://images.evga.com/products/gallery/png/12G-P5-3967-KR_XL_1.png",
+        "Image4": "https://www.gainward.com/main/product/vga/pro/p01088/p01088_pic2_18035f4eea98dfc79.png",
+        "ProductId": 1
+    },
+    {
+        "Image1": "https://www.amd.com/system/files/2020-10/579976-amd-radeon-6800-1260x709.png",
+        "Image2": "https://static.gigabyte.com/StaticFile/Image/Global/c0bbcfc26864fe03dcc9b32d285d77d5/Product/26410/Png",
+        "Image3": "https://pg.asrock.com/Graphics-Card/photo/Radeon%20RX%206800%20XT%20Phantom%20Gaming%20D%2016G%20OC(L4).png",
+        "Image4": "https://images.squarespace-cdn.com/content/v1/63f0295d5bb3d06bb9c60976/1678836069873-YFG7YH65NBQVGG0FQRH9/Radeon+RX+6800+XT+Phantom+Gaming+D+16G+OC%28L1%29.png?format=1500w",
+        "ProductId": 2
+    },
+    {
+        "Image1": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/1635/innergigabyteimages/kf-img.png",
+        "Image2": "https://a-power.com/app/uploads/2022/06/97933896_3036457615.png",
+        "Image3": "https://images.evga.com/products/gallery/png/12G-P5-3967-KR_XL_1.png",
+        "Image4": "https://www.gainward.com/main/product/vga/pro/p01088/p01088_pic2_18035f4eea98dfc79.png",
+        "ProductId": 3
+    },
+    {
+        "Image1": "https://www.asrock.com/Graphics-Card/photo/Radeon%20RX%206700%20XT%20Challenger%20D%2012GB(M1).png",
+        "Image2": "https://static.gigabyte.com/StaticFile/Image/Global/c0bbcfc26864fe03dcc9b32d285d77d5/Product/26410/Png",
+        "Image3": "https://pg.asrock.com/Graphics-Card/photo/Radeon%20RX%206800%20XT%20Phantom%20Gaming%20D%2016G%20OC(L4).png",
+        "Image4": "https://images.squarespace-cdn.com/content/v1/63f0295d5bb3d06bb9c60976/1678836069873-YFG7YH65NBQVGG0FQRH9/Radeon+RX+6800+XT+Phantom+Gaming+D+16G+OC%28L1%29.png?format=1500w",
+        "ProductId": 4
+    },
+    {
+        "Image1": "https://static.gigabyte.com/StaticFile/Image/Global/30100f4ad87002ca4b484e32d5ee3929/Product/29348/Png",
+        "Image2": "https://static.gigabyte.com/StaticFile/Image/Global/267ede27f872e26d1ab905eddb27e7f4/Product/26735/png/300",
+        "Image3": "https://asset.msi.com/resize/image/global/product/product_16116534710dd02d3c11c17a018c9e28ed83b1cf80.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "Image4": "https://storage-asset.msi.com/global/picture/image/feature/vga/NVIDIA/RTX3060Ti/GAMING-X/KV-3060-Ti-GAMING.png",
+        "ProductId": 5
+    },
+    {
+        "Image1": "https://asset.msi.com/resize/image/global/product/product_162761041853b534486be297dc55c4bc40ffe92b45.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "Image2": "https://asset.msi.com/resize/image/global/product/product_162761041853b534486be297dc55c4bc40ffe92b45.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "Image3": "https://www.asrock.com/Graphics-Card/photo/Radeon%20RX%206600%20XT%20Phantom%20Gaming%20D%208GB%20OC(M1).png",
+        "Image4": "https://cdn11.bigcommerce.com/s-8e755/images/stencil/1280x1280/products/203454/260516/VCM-RX6600XTGMX_2__38543.1655901047.png?c=2&imbypass=on",
+        "ProductId": 6
+    },
+    {
+        "Image1": "https://asset.msi.com/resize/image/global/product/product_4_20191016165654_5da6db5683982.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "Image2": "https://asset.msi.com/resize/image/global/product/product_9_20191024090506_5db0f8c2ee3a7.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "Image3": "https://asset.msi.com/resize/image/global/product/product_2_20191025104618_5db261fa8e4c7.png62405b38c58fe0f07fcef2367d8a9ba1/600.png",
+        "Image4": "https://www.gainward.com/main/product/vga/pro/p01109/p01109_pic2_3746336501ae5b84.png",
+        "ProductId": 7
+    },
+    {
+        "Image1": "https://dlcdnwebimgs.asus.com/gain/27460038-5a52-466d-9037-7677f903ab2e/",
+        "Image2": "https://dlcdnwebimgs.asus.com/gain/8cda1e96-aced-4ef7-a918-626cba9c7145/",
+        "Image3": "https://dlcdnwebimgs.asus.com/gain/bba67d97-c8ba-4402-b9e3-ca111e0d403a/",
+        "Image4": "https://asset.msi.com/resize/image/global/product/product_1612246857c49d73912c2b9287cb878c8c07578c96.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "ProductId": 8
+    },
+    {
+        "Image1": "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ampere/rtx-3090/geforce-rtx-3090-shop-630-d@2x.png",
+        "Image2": "https://www.palit.com/product/vga/picture/p03731/p03731_propng_7025f487a74d95c5.png",
+        "Image3": "https://asset.msi.com/resize/image/global/product/product_1648779789e2ad4204facc0ea0469f45c5fa07c051.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "Image4": "https://storage-asset.msi.com/global/picture/image/feature/vga/NVIDIA/VGA-2020/image/vga-body.png",
+        "ProductId": 9
+    },
+    {
+        "Image1": "https://www.amd.com/system/files/2020-10/579976-amd-radeon-6800-1260x709.png",
+        "Image2": "https://static.gigabyte.com/StaticFile/Image/Global/c0bbcfc26864fe03dcc9b32d285d77d5/Product/26410/Png",
+        "Image3": "https://pg.asrock.com/Graphics-Card/photo/Radeon%20RX%206800%20XT%20Phantom%20Gaming%20D%2016G%20OC(L4).png",
+        "Image4": "https://images.squarespace-cdn.com/content/v1/63f0295d5bb3d06bb9c60976/1678836069873-YFG7YH65NBQVGG0FQRH9/Radeon+RX+6800+XT+Phantom+Gaming+D+16G+OC%28L1%29.png?format=1500w",
+        "ProductId": 10
+    },
+    {
+        "Image1": "https://asset.msi.com/resize/image/global/product/product_10_20180411113818_5acd832ad9d87.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "Image2": "https://e7.pngegg.com/pngimages/483/69/png-clipart-graphics-cards-video-adapters-gddr5-sdram-nvidia-geforce-gtx-1050-ti-nvidia-electronics-electronic-device.png",
+        "Image3": "https://asset.msi.com/resize/image/global/product/product_4_20161013154432_57ff3b602ad48.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "Image4": "https://w7.pngwing.com/pngs/41/741/png-transparent-graphics-cards-video-adapters-nvidia-geforce-gtx-1050-ti-gddr5-sdram-geforce-go-electronic-device-asus-geforce.png",
+        "ProductId": 11
+    },
+    {
+        "Image1": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png",
+        "Image2": "https://www.amd.com/system/files/2022-11/1761310-amd-ryzen-9-7000-series-PIB-angle-1260x709.png",
+        "Image3": "https://www.amd.com/system/files/2020-09/616656-amd-ryzen-9-5000-series-PIB-1260x709_0.png",
+        "Image4": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/AMD_Ryzen_5000_Series_Lidded_2.png",
+        "ProductId": 12
+    },
+    {
+        "Image1": "https://cdn.originpc.com/img/landing/2021/intel-core-11th-gen-processors-desktop/intel-core-processor.png",
+        "Image2": "https://www.autonetpc.com/wp-content/uploads/2021/10/Box_i9K_12th_T2_Special_Box_Ang01_Right_1280x1280.png",
+        "Image3": "https://e7.pngegg.com/pngimages/270/863/png-clipart-list-of-intel-core-i9-microprocessors-lga-2066-gulftown-intel-intel-electronic-device-thumbnail.png",
+        "Image4": "https://www.vhv.rs/dpng/d/155-1551447_intel-core-i9-9900kf-hd-png-download.png",
+        "ProductId": 13
+    },
+    {
+        "Image1": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png",
+        "Image2": "https://www.amd.com/system/files/2020-06/450039-amd-ryzen-7-3rd-gen-PIB-left-facing-1260x709.png",
+        "Image3": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/AMD_Ryzen_5000_Series_Lidded_2.png",
+        "Image4": "https://www.amd.com/system/files/2022-12/1728141-amd-ryzen-65w-7-pib-right-1260x709.png",
+        "ProductId": 14
+    },
+    {
+        "Image1": "https://cdn.originpc.com/img/landing/2021/intel-core-11th-gen-processors-desktop/intel-core-processor.png",
+        "Image2": "https://storage-asset.msi.com/event/2020/mb/intel-z490-promotion/images/intel-core-i7.png",
+        "Image3": "https://www.intel.com/content/dam/www/central-libraries/us/en/images/2022-11/badge-ci7-10th.png",
+        "Image4": "https://w7.pngwing.com/pngs/443/164/png-transparent-intel-core-i7-laptop-central-processing-unit-intel-computer-intel-electronic-device.png",
+        "ProductId": 15
+    },
+    {
+        "Image1": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png",
+        "Image2": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/AA207C23_2FFE_48DA_9581_DDA96F2C42AC.png",
+        "Image3": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/AMD_Ryzen_5000_Series_Lidded_2.png",
+        "Image4": "https://www.amd.com/system/files/2020-06/450039-amd-ryzen-5-3rd-gen-PIB-1260x709_0.png",
+        "ProductId": 16
+    },
+    {
+        "Image1": "https://cdn.originpc.com/img/landing/2021/intel-core-11th-gen-processors-desktop/intel-core-processor.png",
+        "Image2": "https://vision-techno.com/assets/images/sliders/~product266/mobilI510400/49765.png",
+        "Image3": "https://e7.pngegg.com/pngimages/313/455/png-clipart-intel-core-i7-central-processing-unit-multi-core-processor-intel-core-i5-text-rectangle.png",
+        "Image4": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Intel_Core_i5_Logo_2020.png",
+        "ProductId": 17
+    },
+    {
+        "Image1": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png",
+        "Image2": "https://www.amd.com/system/files/2022-11/1761310-amd-ryzen-9-7000-series-PIB-angle-1260x709.png",
+        "Image3": "https://www.amd.com/system/files/2020-09/616656-amd-ryzen-9-5000-series-PIB-1260x709_0.png",
+        "Image4": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/AMD_Ryzen_5000_Series_Lidded_2.png",
+        "ProductId": 18
+    },
+    {
+        "Image1": "https://cdn.originpc.com/img/landing/2021/intel-core-11th-gen-processors-desktop/intel-core-processor.png",
+        "Image2": "https://www.autonetpc.com/wp-content/uploads/2021/10/Box_i9K_12th_T2_Special_Box_Ang01_Right_1280x1280.png",
+        "Image3": "https://e7.pngegg.com/pngimages/270/863/png-clipart-list-of-intel-core-i9-microprocessors-lga-2066-gulftown-intel-intel-electronic-device-thumbnail.png",
+        "Image4": "https://www.vhv.rs/dpng/d/155-1551447_intel-core-i9-9900kf-hd-png-download.png",
+        "ProductId": 19
+    },
+    {
+        "Image1": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png",
+        "Image2": "https://www.amd.com/system/files/2020-06/450039-amd-ryzen-7-3rd-gen-PIB-left-facing-1260x709.png",
+        "Image3": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/AMD_Ryzen_5000_Series_Lidded_2.png",
+        "Image4": "https://www.amd.com/system/files/2022-12/1728141-amd-ryzen-65w-7-pib-right-1260x709.png",
+        "ProductId": 20
+    },
+    {
+        "Image1": "https://cdn.originpc.com/img/landing/2021/intel-core-11th-gen-processors-desktop/intel-core-processor.png",
+        "Image2": "https://storage-asset.msi.com/event/2020/mb/intel-z490-promotion/images/intel-core-i7.png",
+        "Image3": "https://www.intel.com/content/dam/www/central-libraries/us/en/images/2022-11/badge-ci7-10th.png",
+        "Image4": "https://w7.pngwing.com/pngs/443/164/png-transparent-intel-core-i7-laptop-central-processing-unit-intel-computer-intel-electronic-device.png",
+        "ProductId": 21
+    },
+    {
+        "Image1": "https://www.amd.com/system/files/2018-11/10788-ryzen-chip-left-angle-960x548.png",
+        "Image2": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/AA207C23_2FFE_48DA_9581_DDA96F2C42AC.png",
+        "Image3": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/AMD_Ryzen_5000_Series_Lidded_2.png",
+        "Image4": "https://www.amd.com/system/files/2020-06/450039-amd-ryzen-5-3rd-gen-PIB-1260x709_0.png",
+        "ProductId": 22
+    },
+    {
+        "Image1": "https://thumbor.arvutitark.ee/oqMGAGRIMi0_7W6xFjVoDYV5xtI=/trim/fit-in/800x800/https%3A%2F%2Fstorage.googleapis.com%2Farvutitark-prod%2Fpublic%2Fmedia-hub-olev%2F2023%2F01%2F336312%2Foriginal.png",
+        "Image2": "https://dlcdnwebimgs.asus.com/gain/9933BC53-A3CA-46C5-8A90-93081D37D907/w1000/h732",
+        "Image3": "https://dlcdnwebimgs.asus.com/files/media/4465c6c5-6894-41bd-ae94-6dc0a885efcf/v1/img/style/customization-front.png",
+        "Image4": "https://rog.asus.com/websites/global/products/xlQ4iKfiVURLAgq3/img/kv_porduct_bg.png",
+        "ProductId": 23
+    },
+    {
+        "Image1": "https://static.gigabyte.com/StaticFile/Image/Global/265ff2afea56bc84d7d6af0ab6c605df/Product/25234",
+        "Image2": "https://static.gigabyte.com/StaticFile/Image/Global/f60552e87ec758b8570184180b4a3489/Product/25671/Png",
+        "Image3": "https://static.gigabyte.com/StaticFile/Image/Global/a7074c8312728ee749e1a76d948ef980/Product/25792/png/1000",
+        "Image4": "https://static.gigabyte.com/StaticFile/Image/Global/d1693ca90c7e4bbbb2959c229f30fb54/Product/25358/Png",
+        "ProductId": 24
+    },
+    {
+        "Image1": "https://asset.msi.com/resize/image/global/product/product_161183470830a6e5d4f07ec005a35be58464d9f1d3.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "Image2": "https://asset.msi.com/resize/image/global/product/product_16123508161dad7b9b456fd5531f59275c56921fad.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "Image3": "https://storage-asset.msi.com/global/picture/image/feature/mb/Z590/MPG/gaming-edge-wifi/images/story_img.png",
+        "Image4": "https://asset.msi.com/resize/image/global/product/product_1611834708c4fed1667aa6d14cd756822da2cf3e3a.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "ProductId": 25
+    },
+    {
+        "Image1": "https://www.asrock.com/mb/photo/B450M%20Pro4(M1).png",
+        "Image2": "https://www.techspot.com/images/products/2018/motherboards/org/2018-08-03-product-7.png",
+        "Image3": "https://i.ebayimg.com/images/g/tZwAAOSwq39fkv4p/s-l1600.png",
+        "Image4": "https://www.dadducharger.com/public/uploads/all/SNdteh2bwucpGNK4Hhpsih5ZRhwGCmfjdmI6IeA0.png",
+        "ProductId": 26
+    },
+    {
+        "Image1": "https://dlcdnwebimgs.asus.com/gain/08413d73-0bc2-4ec4-9b0e-1631143c38f9/w800",
+        "Image2": "https://www.asus.com/media/global/products/zlyA4jyi61TpX74V/P_setting_xxx_0_90_end_692.png",
+        "Image3": "https://logg.api.cygnus.market/static/logg/Global/Motherboard%20Asus%20Prime%20xX570-P%20Prime%20AMD%20AM4%20ZEN%202/618c89f3110a4635985b5844bb7be4a3.png",
+        "Image4": "https://dlcdnwebimgs.asus.com/gain/0e561b81-90bc-4b95-bdba-65d9a4d80b55/",
+        "ProductId": 27
+    },
+    {
+        "Image1": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/1739/innergigabyteimages/Motherboard.png",
+        "Image2": "https://static.gigabyte.com/StaticFile/Image/Global/e918d85f101b8aa4239369d9769a2efc/Product/27130/png/1000",
+        "Image3": "https://static.gigabyte.com/StaticFile/Image/Global/22664b89af65c79e96b0cb9a13162b31/Product/28143",
+        "Image4": "https://elbadrgroupeg.store/image/cache/catalog/Gigabyte/cusFZztEscx37pPyAVvB8QUqPAPTox-320x320.png",
+        "ProductId": 28
+    },
+    {
+        "Image1": "https://pg.asrock.com/mb/photo/X570%20Phantom%20Gaming%204(L4).png",
+        "Image2": "https://www.asrock.com/mb/photo/X570%20Phantom%20Gaming%204(M1).png",
+        "Image3": "https://pg.asrock.com/mb/photo/X570%20Phantom%20Gaming%204(L3).png",
+        "Image4": "https://pg.asrock.com/mb/photo/X570%20Phantom%20Gaming%20X(L4).png",
+        "ProductId": 29
+    },
+    {
+        "Image1": "https://asset.msi.com/resize/image/global/product/product_2_20190704114826_5d1d770a68811.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "Image2": "https://asset.msi.com/resize/image/global/product/product_9_20180716111703_5b4c0e2fc4a17.png62405b38c58fe0f07fcef2367d8a9ba1/600.png",
+        "Image3": "https://asset.msi.com/resize/image/global/product/product_8_20200923153958_5f6afbce49799.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "Image4": "https://asset.msi.com/resize/image/global/product/product_9_20200923153955_5f6afbcbb09b0.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "ProductId": 30
+    },
+    {
+        "Image1": "https://www.asus.com/media/global/gallery/vd7pofnyusetrpeq_setting_xxx_0_90_end_2000.png",
+        "Image2": "https://www.asus.com/media/global/products/i8494vnng05ywle1/P_setting_xxx_0_90_end_692.png",
+        "Image3": "https://www.asus.com/media/global/gallery/h4e5jsilpcxxbfrc_setting_xxx_0_90_end_2000.png",
+        "Image4": "https://img.overclockers.co.uk/images/MB-6DS-AS/d94a3d918120dd89a86e34473dd38e03.jpg",
+        "ProductId": 31
+    },
+    {
+        "Image1": "https://procomp.ba/11879-thickbox_default/gigabyte-b450-aorus-elite-socket-am4-4x-ddr4.jpg",
+        "Image2": "https://static.gigabyte.com/StaticFile/Image/Global/1c2c7d7166a573fc2b5609e345422fdf/Product/19957/png/1000",
+        "Image3": "https://static.gigabyte.com/StaticFile/Image/Global/a7a08eab6445c9c2d616d9a76df11889/Product/19973/png/1000",
+        "Image4": "https://static.gigabyte.com/StaticFile/Image/Global/a7a08eab6445c9c2d616d9a76df11889/Product/19991/png/1000",
+        "ProductId": 32
+    },
+    {
+        "Image1": "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/internal-products/desktop%20hard/barracuda-3-5/barracuda-2tb-dm008-hero-left-270x270.png",
+        "Image2": "https://cdn.shopify.com/s/files/1/0554/2346/7713/products/2TBBARRACUDA3.5HDD_580x.png?v=1619664854",
+        "Image3": "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/products/hard-drives/barracuda-hard-drive/_shared/images/barra-cuda-hdd-512x512.png",
+        "Image4": "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/products/hard-drives/barracuda-hard-drive/_shared/images/barracuda-2-5-1tb-front-600x600.png",
+        "ProductId": 33
+    },
+    {
+        "Image1": "https://pcscomputers.com.ph/wp-content/uploads/2022/01/wd-blue-pc-desktop-hard-drive-1tb.png.wdthumb.1280.1280.webp",
+        "Image2": "https://goldenbytecenter.com/wp-content/uploads/2022/07/WD-1TB-BLUE-64MB-7200RPM-INT-DP-HDD.png",
+        "Image3": "https://cdn.shopify.com/s/files/1/2227/7667/products/81ML1zhVHrL._AC_SL1500_grande.jpg?v=1577528448",
+        "Image4": "https://w7.pngwing.com/pngs/973/328/png-transparent-laptop-wd-blue-desktop-hdd-serial-ata-western-digital-hard-drives-laptop-electronics-hard-disk-drive-laptop.png",
+        "ProductId": 34
+    },
+    {
+        "Image1": "https://images.samsung.com/is/image/samsung/p6pim/za/mz-77e500bw/gallery/za-870-evo-sata-3-2-5-ssd-mz-77e500bw-thumb-380737363?$480_480_PNG$",
+        "Image2": "https://images.samsung.com/is/image/samsung/p6pim/za/mz-77e500bw/gallery/za-870-evo-sata-3-2-5-ssd-mz-77e500bw-thumb-380737362?$480_480_PNG$",
+        "Image3": "https://tech-laptop.com/img/980e.png",
+        "Image4": "https://www.nanotek.lk/uploads/product/667-20210201095939-Untitled-4.png",
+        "ProductId": 35
+    },
+    {
+        "Image1": "https://eu.crucial.com/content/dam/crucial/marketing-assets/china-etail/12_12/products/crucial-mx500-2-5inch-product-dynamic-2-v2-image.psd.transform/small-png/img.png",
+        "Image2": "https://www.crucial.com/content/dam/crucial/marketing-assets/china-etail/12_12/products/crucial-mx500-2-5inch-product-dynamic-2-v2-image.psd.transform/small-png/img.png",
+        "Image3": "https://www.techpowerup.com/review/crucial-mx500-1-tb/images/small.png",
+        "Image4": "https://content.crucial.com/content/dam/crucial/ssd-products/mx500/images/product/crucial-mx500-2-5inch-product-front-image.psd.transform/medium-png/image.png",
+        "ProductId": 36
+    },
+    {
+        "Image1": "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/internal-products/desktop%20hard/firecuda-3-5/firecuda-3-5-sshd-left-hero-270x270.png",
+        "Image2": "https://www.seagate.com/www-content/product-content/firecuda-family/firecuda/images/seagate-firecuda-laptop-sshd-2tb-front.png",
+        "Image3": "https://m.media-amazon.com/images/I/81xMdjOIxtL._AC_UF894,1000_QL80_.jpg",
+        "Image4": "https://www.cclonline.com/content/blog/2018/ccl-computers-firecuda-drive-engine.png?width=1250",
+        "ProductId": 37
+    },
+    {
+        "Image1": "https://images.anandtech.com/doci/13760/heatsink-comp.png",
+        "Image2": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-black-sn750-nvme-ssd/gallery/without-heatsink/wd-black-sn750-nvme-ssd-noheatsink1.png",
+        "Image3": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-black-sn750-nvme-ssd/gallery/with-heatsink/wd-black-sn750-nvme-ssd-down.png.thumb.1280.1280.png",
+        "Image4": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-black-sn750-nvme-ssd/gallery/with-heatsink/wd-black-sn750-nvme-ssd-flat.png",
+        "ProductId": 38
+    },
+    {
+        "Image1": "https://images.samsung.com/is/image/samsung/sg-980-pro-nvme-m2-ssd-mz-v8p500bw-frontblack-293274400?$650_519_PNG$",
+        "Image2": "https://ggshop.ba/wp-content/uploads/2023/02/Samsung-SSD-980-PRO-500GBNVMe-M.2PCIe-Gen-4.0-x46900MB_s-read5000MB_s-write.png",
+        "Image3": "https://www.scan.co.uk/images/infopages/samsung_980_pro/topimage.png",
+        "Image4": "https://media.bechtle.com/is/180712/1c4b3d4ee288fc9434f5175bf56070570/c3/gallery/798a9a59736940aba4a386d3e40ae71a?version=0",
+        "ProductId": 39
+    },
+    {
+        "Image1": "https://content.crucial.com/content/dam/crucial/ssd-products/P2/images/product/crucial-p2-flat-front-1000GB-image.psd.transform/medium-png/image.png",
+        "Image2": "https://www.crucial.com/content/dam/crucial/ssd-products/P2/images/product/crucial-p2-ssd-2000GB-dynamic-wshadow-image.psd.transform/small-png/img.png",
+        "Image3": "https://www.storagereview.com/wp-content/uploads/2020/06/StorageReview-Crucial-P2.jpg",
+        "Image4": "https://assetsio.reedpopcdn.com/crucial-p2-2tb-ssd-02.png?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
+        "ProductId": 40
+    },
+    {
+        "Image1": "https://intellcom.net/files/product_imgs/big/1539091653446.png",
+        "Image2": "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/products/nas-drives/ironwolf-hard-drive/_shared/images/ironwolf-pro-4tb-hero-left.png",
+        "Image3": "https://www.smartech.ee/image_files/img_62e3c1c92902d2_346490-2056x2888.jpeg",
+        "Image4": "https://sltechie.lk/wp-content/uploads/2021/06/1644-20201029115006-Untitled-2-3.png",
+        "ProductId": 41
+    },
+    {
+        "Image1": "https://cdn.cs.1worldsync.com/syndication/feeds/wd/inline-content/10/B8E585C237164C9038E44B1E938D71441C58F3FA_WDRED356TB_w_400_hero.png",
+        "Image2": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-red-sata-hdd/gallery/wd-red-3-5-6tb.png",
+        "Image3": "https://computergeeks.com.cy/image/cache/catalog/SSD/WD%20HDD%20NAS%20RED%206TB-550x550h.png",
+        "Image4": "https://pcmarket.ba/wp-content/uploads/2022/05/220518160018623760.jpg",
+        "ProductId": 42
+    },
+    {
+        "Image1": "https://cwsmgmt.corsair.com/pdp/vengeance-rgb-pro/Content/Vengeance_RGB_Pro_PDP_White_04.png",
+        "Image2": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/v1/akamai/pdp/vengeance-rgb-pro/tuff/Vengeance_RGB_PRO_TUF_01_2UP.png",
+        "Image3": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/v1/akamai/pdp/vengeance-rgb-pro/tuff/Vengeance_RGB_PRO_TUF_03_1UP.png",
+        "Image4": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/v1/akamai/pdp/vengeance-rgb-pro/Content/Vengeance_RGB_Pro_PDP_Black_01.png",
+        "ProductId": 43
+    },
+    {
+        "Image1": "https://a-power.com/app/uploads/2021/04/86188870_8936272881.png",
+        "Image2": "https://computecheg.com/wp-content/uploads/2021/10/image-3.png",
+        "Image3": "https://assets.micronbrands.com/content/dam/crucial/dram-products/ballistix-family/images/web/crucial-ballistix-stacked-image.psd.transform/large-png/img.722.png",
+        "Image4": "https://microless.com/cdn/products/6e71ef2cbb3da9ba47c54767ff1a9f70-hi.jpg",
+        "ProductId": 44
+    },
+    {
+        "Image1": "https://www.gskill.com/_upload/images/156283985713.png",
+        "Image2": "https://www.gskill.com/_upload/images/158226590813.png",
+        "Image3": "https://www.gskill.com/_upload/images/158226590812.png",
+        "Image4": "https://www.gskill.com/_upload/images/160430584510.png",
+        "ProductId": 45
+    },
+    {
+        "Image1": "https://sltechie.lk/wp-content/uploads/2021/05/1441-20200722231459-Untitled-1-2.png",
+        "Image2": "https://rebelgaming.co.za/wp-content/uploads/2021/08/ME-KD4836RF17X2-KINGSTON-HYPERX-FURY-RGB-16GB-2X-8GB-3600MHZ-DDR4-RAM.png",
+        "Image3": "https://www.pngkey.com/png/detail/929-9292987_kingston-8gb-kit-hyperx-fury-ddr4-2666mhz-cl15.png",
+        "Image4": "https://ae01.alicdn.com/kf/S25493bfcc5dd4208912660894271ba72J/Kingston-FURY-Beast-RAM-RGB-8GB-16GB-3200MHz-DDR4-RAMs-CL16-Desktop-Memory-Single-Stick-KF432C16BBA.jpg",
+        "ProductId": 46
+    },
+    {
+        "Image1": "https://cwsmgmt.corsair.com/pdp/vengeance-rgb-pro/tuff/Vengeance_RGB_PRO_TUF_03_1UP.png",
+        "Image2": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/v1/akamai/pdp/vengeance-rgb-pro/tuff/Vengeance_RGB_PRO_TUF_01_2UP.png",
+        "Image3": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/v1/akamai/pdp/vengeance-rgb-pro/tuff/Vengeance_RGB_PRO_TUF_03_1UP.png",
+        "Image4": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/v1/akamai/pdp/vengeance-rgb-pro/Content/Vengeance_RGB_Pro_PDP_Black_01.png",
+        "ProductId": 47
+    },
+    {
+        "Image1": "https://cwsmgmt.corsair.com/pdp/vengeance-rgb-pro/tuff/Vengeance_RGB_PRO_TUF_03_1UP.png",
+        "Image2": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/v1/akamai/pdp/vengeance-rgb-pro/tuff/Vengeance_RGB_PRO_TUF_01_2UP.png",
+        "Image3": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/v1/akamai/pdp/vengeance-rgb-pro/tuff/Vengeance_RGB_PRO_TUF_03_1UP.png",
+        "Image4": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/v1/akamai/pdp/vengeance-rgb-pro/Content/Vengeance_RGB_Pro_PDP_Black_01.png",
+        "ProductId": 48
+    },
+    {
+        "Image1": "https://content.crucial.com/content/dam/crucial/dram-products/desktop/images/product/crucial-ddr3-4gb-dimm-kit2-image.psd.transform/medium-png/image.png",
+        "Image2": "https://content.crucial.com/content/dam/crucial/dram-products/laptop/images/product/crucial-ddr3-204-pin-sodimm-kit2-image.psd.transform/medium-png/image.png",
+        "Image3": "https://content.crucial.com/content/dam/crucial/dram-products/laptop/images/product/crucial-ddr3-204-pin-sodimm-image.psd.transform/medium-png/image.png",
+        "Image4": "https://content.crucial.com/content/dam/crucial/dram-products/desktop/images/product/crucial-ddr3-4gb-dimm-image.psd.transform/medium-png/image.png",
+        "ProductId": 49
+    },
+    {
+        "Image1": "https://www.gskill.com/_upload/images/153611092211.png",
+        "Image2": "https://www.gskill.com/_upload/images/153611092210.png",
+        "Image3": "https://www.gskill.com/_upload/images/157173385810.png",
+        "Image4": "https://www.gskill.com/_upload/images/157173385811.png",
+        "ProductId": 50
+    },
+    {
+        "Image1": "https://rebelgaming.co.za/wp-content/uploads/2021/08/ME-KD4836RF17X2-KINGSTON-HYPERX-FURY-RGB-16GB-2X-8GB-3600MHZ-DDR4-RAM.png",
+        "Image2": "https://www.nexthardware.com/recensioni/ram-memorie-flash/1470/hyperx-predator-rgb-3600mhz-c17-64gb/immagini/HyperX-Predator-3600MHz-64GB.png",
+        "Image3": "https://i5.walmartimages.com/asr/555a9ef3-24cc-42e3-b862-938ebbd2f036_1.8e6eb6510cd74edb9e196d78816f66f6.jpeg",
+        "Image4": "https://m.media-amazon.com/images/I/71ByxNpW9GL._AC_UF894,1000_QL80_.jpg",
+        "ProductId": 51
+    },
+    {
+        "Image1": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/content/CML4GX3M1A1600C9-VENGLP-B-01.png",
+        "Image2": "https://cdn.mos.cms.futurecdn.net/ADkm7hViehBEnWw5qgRpvG-480-80.jpg",
+        "Image3": "https://mpecomputers.com.au/wp-content/uploads/2023/03/image-17.png",
+        "Image4": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6412/6412826_sd.jpg",
+        "ProductId": 52
+    },
+    {
+        "Image1": "https://www.pngall.com/wp-content/uploads/5/Hyperx-Cloud-II-Gaming-Headset-PNG-Picture.png",
+        "Image2": "https://e7.pngegg.com/pngimages/833/918/png-clipart-kingston-hyperx-cloud-ii-headset-7-1-surround-sound-headphones-headphones-electronics-cloud.png",
+        "Image3": "https://www.pngall.com/wp-content/uploads/5/Hyperx-Cloud-II-Gaming-Headset-PNG-Picture.png",
+        "Image4": "https://au-media.apjonlinecdn.com/catalog/product/4/P/4P5D4AA-1_T1678928446.png",
+        "ProductId": 53
+    },
+    {
+        "Image1": "https://media.steelseriescdn.com/thumbs/catalogue/products/00946-arctis-pro-wireless/a41ddd67a5d84418b0a7e1fa2e13488f.png.500x400_q100_crop-fit_optimize.png",
+        "Image2": "https://media.steelseriescdn.com/thumbs/filer_public/6e/0e/6e0e5ad5-b83c-46af-bd9b-b632e9fd0c18/purchase-gallery-apro-hero.png__1920x1080_crop-fit_optimize_subsampling-2.png",
+        "Image3": "https://cdn.shoplightspeed.com/shops/638151/files/28652056/1500x4000x3/steelseries-steelseries-arctis-pro-headset-white-w.jpg",
+        "Image4": "https://media.steelseriescdn.com/thumbs/filer_public/c0/74/c0744b22-3a95-49b4-b8f5-e0b247730f9b/purchase-gallery-apro-gamedac-hero.png__1920x1080_crop-fit_optimize_subsampling-2.png",
+        "ProductId": 54
+    },
+    {
+        "Image1": "https://i5.walmartimages.com/asr/0487185b-b599-45b2-bfa2-c01f2f725b84_9.ef821a96a6a63dfce8d3b5940453fb74.png",
+        "Image2": "https://assets.razerzone.com/press/kraken/razer-kraken-pro-v2.png",
+        "Image3": "https://assets2.razerzone.com/images/pnx.assets/a261310930e05496d0f372160361523c/razer-kraken-kitty-edition.png",
+        "Image4": "https://www.hitech-gamer.com/out/pictures/generated/product/1/665_665_75/razer-kraken-v3-x_1_500px.png",
+        "ProductId": 55
+    },
+    {
+        "Image1": "https://resource.logitech.com/content/dam/gaming/en/products/pro-x/pro-Headset-gallery-1.png",
+        "Image2": "https://resource.logitechg.com/w_692,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/pro-wireless/pro-wireless-headset-gallery-4.png?v=1",
+        "Image3": "https://resource.logitechg.com/w_692,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/lol-pro-x-headset/gallery/league-of-legends-pro-x-gaming-headset-gallery-1.png?v=1",
+        "Image4": "https://resource.logitechg.com/w_692,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/pro-wireless/pro-wireless-headset-gallery-2.png?v=1",
+        "ProductId": 56
+    },
+    {
+        "Image1": "https://res.cloudinary.com/corsair-pwa/image/upload/akamai/pdp/hs-pro/hs70-pro/images/hs70_pro_crm_mic.png",
+        "Image2": "https://res.cloudinary.com/corsair-pwa/image/upload/akamai/pdp/hs-pro/hs70-pro/images/interest_hs70_pro_blk.png",
+        "Image3": "https://i5.walmartimages.com/asr/8aaba5aa-7d16-4296-aa60-907153d61757_2.9f48a18563ee5b42d435e7ad76c63452.png",
+        "Image4": "https://res.cloudinary.com/corsair-pwa/image/upload/akamai/pdp/hs70-bluetooth/images/superbsound.png",
+        "ProductId": 57
+    },
+    {
+        "Image1": "https://resource.astrogaming.com/content/dam/astro/en/products/a50-Headset-with-base-station-gen4/a50-gallery-xbox-01.png",
+        "Image2": "https://resource.astrogaming.com/w_800,c_lpad,ar_16:9,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/astro/en/products/a50-headset-with-base-station-gen4/a50-gallery-xbox-01.png?v=1",
+        "Image3": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3oT4n?ver=f55b",
+        "Image4": "https://www.dolby.com/siteassets/xf-products/headphones/astro-50/a50-gallery-xbox-03.png?width=1440&mode=crop&heightratio=0.5625",
+        "ProductId": 58
+    },
+    {
+        "Image1": "https://www.eposaudio.com/globalassets/__pim/products/gsp-series/gsp-600/45508f88-19b4-460f-b6e0-dba6f52a27fe_21130_gsp-600_a7_3d-view_fullsizepng.png?width=860",
+        "Image2": "https://www.eposaudio.com/globalassets/__pim/products/gsp-series/gsp-600/45508f88-19b4-460f-b6e0-dba6f52a27fe_21130_gsp-600_a7_3d-view_fullsizepng.png",
+        "Image3": "https://www.psegameshop.com/wp-content/uploads/2021/04/EPOS-I-Sennheiser-GSP-600-Professional-Noise-Canceling-Gaming-Headset-Black-250x250.png",
+        "Image4": "https://www.eposaudio.com/globalassets/__pim/products/gsp-series/gsp-600/b1420eb3-6321-4cba-a98a-8d8934553dba_21128_gsp-600_a5_side-view_fullsizepng.png",
+        "ProductId": 59
+    },
+    {
+        "Image1": "https://www.pngall.com/wp-content/uploads/5/Hyperx-Cloud-II-Gaming-Headset-PNG-Picture.png",
+        "Image2": "https://e7.pngegg.com/pngimages/833/918/png-clipart-kingston-hyperx-cloud-ii-headset-7-1-surround-sound-headphones-headphones-electronics-cloud.png",
+        "Image3": "https://www.pngall.com/wp-content/uploads/5/Hyperx-Cloud-II-Gaming-Headset-PNG-Picture.png",
+        "Image4": "https://au-media.apjonlinecdn.com/catalog/product/4/P/4P5D4AA-1_T1678928446.png",
+        "ProductId": 60
+    },
+    {
+        "Image1": "https://res.cloudinary.com/dvv9fvblr/image/upload/v1571217290/qz9hlvhonzcy7l4hhc0x.png",
+        "Image2": "https://cdn.shopify.com/s/files/1/0576/9992/6189/products/image_370bf34b-9aaa-44c9-95f4-054b257e16a6_700x700.png?v=1638984635",
+        "Image3": "https://www.titan-ice.co.za/images/detailed/13/-CA-9011202-AP-Gallery-VOID-RGB-ELITE-WIRELESS-WHITE-16.png",
+        "Image4": "https://cdn.shopify.com/s/files/1/3103/0230/products/CA-9011203-AP-Gallery-VOID-RGB-ELITE-USB-CARBON-09_1200x1200.webp?v=1678896790",
+        "ProductId": 61
+    },
+    {
+        "Image1": "https://sm.ign.com/ign_me/screenshot/default/g533-prodigy-wireless-gaming-Headset-1_4c5s.png",
+        "Image2": "https://www.topmarket.co.il/images/detailed/147/36649024_3459286653.png",
+        "Image3": "https://www.microstoreve.com/wp-content/uploads/2021/08/png-web-3.png",
+        "Image4": "https://depot230.com/wp-content/uploads/2021/11/Logitech_G533_04.png",
+        "ProductId": 62
+    },
+    {
+        "Image1": "https://images10.newegg.com/BizIntell/item/24/236/24-236-660/c0.png",
+        "Image2": "https://dlcdnwebimgs.asus.com/gain/680B8211-ED67-4C72-BA97-1772BF5C5D19/w717/h525",
+        "Image3": "https://rog.asus.com/websites/global/products/yUqf81thTG70si2c/images/PG27_net/PG27.net.Beauty_00000.png",
+        "Image4": "https://rog.asus.com/websites/global/products/yUqf81thTG70si2c/images/bpc.png",
+        "ProductId": 63
+    },
+    {
+        "Image1": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/peripherals/output-devices/dell/Monitors/alienware-aw3418dw/spi/Monitor-alienware-aw3418dw-relsize-500-ng.psd?fmt=png-alpha&wid=500&hei=500&fit=constrain%2C1&qlt=95",
+        "Image2": "https://static.bhphoto.com/images/multiple_images/images500x500/1511893090_IMG_909157.jpg",
+        "Image3": "https://www.technocratng.com/wp-content/uploads/2021/08/DELL-ALIENWARE-AW3418DW-MONITOR-1.png",
+        "Image4": "https://www.technocratng.com/wp-content/uploads/2021/08/DELL-ALIENWARE-AW3418DW-MONITOR-.png",
+        "ProductId": 64
+    },
+    {
+        "Image1": "https://media.croma.com/image/upload/v1683209610/Croma%20Assets/Computers%20Peripherals/Monitor/Images/263396_0_hepaqw.png",
+        "Image2": "https://www.mymbt.net/pub/media/catalog/product/cache/8a59274a72317ffdf6ff3193238efca6/l/g/lg_27gn950-b_27_uhd_nano_ips_1ms_gaming_monitor_4_.png",
+        "Image3": "https://www.lg.com/us/images/monitors/md07500042/gallery/desktop-03.jpg",
+        "Image4": "https://assets-prd.ignimgs.com/2021/03/04/lg-ultragear-34gn-1614834468095.png",
+        "ProductId": 65
+    },
+    {
+        "Image1": "https://images.samsung.com/is/image/samsung/p6pim/uk/ls49ag950nuxxu/gallery/uk-odyssey-neo-g9-g95na-ls49ag950nuxxu-469786311?$650_519_PNG$",
+        "Image2": "https://www.scan.co.uk/images/infopages/samsung_odd_g9/topimage.png",
+        "Image3": "https://cdn.shopify.com/s/files/1/1700/9937/products/ph-odyssey-g9-lc49g95tssexxp-tiltwhite-307877990.png?v=1676513781&width=684",
+        "Image4": "https://www.scan.co.uk/images/infopages/samsung_monitor/Odyssey_Neo_G9/topimg.png",
+        "ProductId": 66
+    },
+    {
+        "Image1": "https://cdn.vox-cdn.com/thumbor/tOVhjlUY_kfIIJfdoYIiDjIAKTk=/0x0:1000x954/1000x954/filters:focal(500x477:501x478)/cdn1.vox-cdn.com/uploads/chorus_asset/file/8419397/Predator_Z1_03.png",
+        "Image2": "https://cdn.vox-cdn.com/thumbor/m_RmA8UR4LNWivAkjsNqI8omUVw=/0x0:900x762/1200x628/filters:focal(450x381:451x382)/cdn0.vox-cdn.com/uploads/chorus_asset/file/8419399/Predator_X27_02.png",
+        "Image3": "https://images.acer.com/is/image/acer/X_X38P_wp-01-2?$Product-Cards-XL$",
+        "Image4": "https://tadviser.com/images/thumb/4/4a/Predator_Monitor_CG7_CG437KP_logo-wp-01.png/840px-Predator_Monitor_CG7_CG437KP_logo-wp-01.png",
+        "ProductId": 67
+    },
+    {
+        "Image1": "https://image.benq.com/is/image/benqco/ex2780q-thumb-3?$ResponsivePreset$&fmt=png-alpha",
+        "Image2": "https://www.scan.co.uk/images/infopages/benq_monitor/EX2780Q/topimage.png",
+        "Image3": "https://5.imimg.com/data5/SELLER/Default/2022/2/YP/IA/SL/9039032/benq-ex2780q-27-inch-144hz-gaming-monitor-with-freesync-hdri-technology-500x500.png",
+        "Image4": "https://mskcomputers.lk/uploads/media/2021/2869-removebg-preview.png",
+        "ProductId": 68
+    },
+    {
+        "Image1": "https://www.viewsonic.com/vsAssetFile/hk-en/img/product-rc/_lcd_display_(new)/XG270QG/kv.png",
+        "Image2": "https://www.viewsonic.com/vsAssetFile/eu/img/slides/0lcd/XG270QG/XG270QG_preview.png",
+        "Image3": "https://www.touchpoint.com.au/wp-content/uploads/2021/01/xg270qg-kv1.png",
+        "Image4": "https://www.viewsonic.com/media/catalog/product/cache/6ac2f2696af0a9c8d64ecd5a049b0a0f/x/g/xg270qg_front_hires_4.png",
+        "ProductId": 69
+    },
+    {
+        "Image1": "https://storage.eu.aoc.com/assets/2022/11/asset-bxo0xn-large.png",
+        "Image2": "https://mmd-aoc2.oss-cn-hongkong.aliyuncs.com/Products/Monitors/G%20Line/G1/CQ32G1/CQ32G1_F.png",
+        "Image3": "https://mmd-aoc2.oss-cn-hongkong.aliyuncs.com/Products/Monitors/G%20Line/G1/CQ32G1/CQ32G1_B.png",
+        "Image4": "https://mmd-aoc2.oss-cn-hongkong.aliyuncs.com/Products/Monitors/G%20Line/G1/CQ32G1/CQ32G1_S.png",
+        "ProductId": 70
+    },
+    {
+        "Image1": "https://asset.msi.com/resize/image/global/product/product_7_20181015114810_5bc40dfaef8ca.png62405b38c58fe0f07fcef2367d8a9ba1/600.png",
+        "Image2": "https://asset.msi.com/resize/image/global/product/product_1_20181015114811_5bc40dfb81caa.png62405b38c58fe0f07fcef2367d8a9ba1/600.png",
+        "Image3": "https://asset.msi.com/resize/image/global/product/product_2_20181015114811_5bc40dfb299b6.png62405b38c58fe0f07fcef2367d8a9ba1/600.png",
+        "Image4": "https://asset.msi.com/resize/image/global/product/product_16040261217971f6a70ef5c17d8b15c8c6a55e2d84.png62405b38c58fe0f07fcef2367d8a9ba1/600.png",
+        "ProductId": 71
+    },
+    {
+        "Image1": "https://media.croma.com/image/upload/v1683209610/Croma%20Assets/Computers%20Peripherals/Monitor/Images/263396_0_hepaqw.png",
+        "Image2": "https://asset.msi.com/resize/image/global/product/product_1_20181015114811_5bc40dfb81caa.png62405b38c58fe0f07fcef2367d8a9ba1/600.png",
+        "Image3": "https://asset.msi.com/resize/image/global/product/product_2_20181015114811_5bc40dfb299b6.png62405b38c58fe0f07fcef2367d8a9ba1/600.png",
+        "Image4": "https://asset.msi.com/resize/image/global/product/product_16040261217971f6a70ef5c17d8b15c8c6a55e2d84.png62405b38c58fe0f07fcef2367d8a9ba1/600.png",
+        "ProductId": 72
+    },
+    {
+        "Image1": "https://upload.wikimedia.org/wikipedia/commons/d/df/Dell_XPS_15_%282017%29.png",
+        "Image2": "https://i.dell.com/is/image/DellContent//content/dam/images/products/laptops-and-2-in-1s/xps/15-7590-touch/xp7590t-cnb-00055rf110-gy.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=402&qlt=100,1&resMode=sharp2&size=402,402&chrss=full",
+        "Image3": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/XPS_15_front_view_of_display.png",
+        "Image4": "https://upload.wikimedia.org/wikipedia/commons/1/18/Dell_XPS_15_%282015%29.png",
+        "ProductId": 73
+    },
+    {
+        "Image1": "https://assets.stickpng.com/images/5ec26e0b6c295800046c81db.png",
+        "Image2": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP858/mbp16-gray.png",
+        "Image3": "https://res-4.cloudinary.com/grover/image/upload/v1574070089/au3wzird4kjy6bofy3vn.png",
+        "Image4": "https://macfinder.co.uk/wp-content/uploads/2021/12/macbookpro-16-catalina.png",
+        "ProductId": 74
+    },
+    {
+        "Image1": "https://mobilnitelefoni.ba/wp-content/uploads/2021/08/90NR05S6-M03550_3.png",
+        "Image2": "https://dlcdnwebimgs.asus.com/gain/87C641FC-4E5F-4073-B739-1C41E2783B96/w1000/h732",
+        "Image3": "https://dlcdnwebimgs.asus.com/gain/7583764C-92E3-413D-A5AD-4CB7D9713802/w1000/h732",
+        "Image4": "https://dlcdnwebimgs.asus.com/gain/32FAE412-5A2C-400C-96C3-23B291BDCE65/w250",
+        "ProductId": 75
+    },
+    {
+        "Image1": "https://store.hp.com/app/assets/images/uploads/prod/hp-spectre-x360-13t-Laptop-review-hero1540422566596.png",
+        "Image2": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06166558.png",
+        "Image3": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08227880.png",
+        "Image4": "https://www.notebookcheck.net/uploads/tx_nbc2/spectre1.png",
+        "ProductId": 76
+    },
+    {
+        "Image1": "https://www.lenovo.com/medias/lenovo-Laptop-thinkpad-x1-carbon-gen-9-14-series-thumbnail.png?context=bWFzdGVyfHJvb3R8ODExMzV8aW1hZ2UvcG5nfGhjZC9oMGYvMTQwNzA2NzQ1ODc2NzgucG5nfDg2NTMzNzNlMThiMDI3ZGU0NzY1YmViNmQ4YmU2YjJjNjE3MmU2NDRmNWZlMTczMmY4Mzk5NTUwMGM1NzdjNDM",
+        "Image2": "https://p2-ofp.static.pub/fes/cms/2022/05/31/puzsg5zfcdk84msp3h5hmcwamoyaaq683873.png",
+        "Image3": "https://cdn.shopify.com/s/files/1/0944/0000/products/x1carbonmain_57b94520-aa02-457b-bb2a-204933b7723a_1200x.png?v=1668438172",
+        "Image4": "https://www.lenovo.com/medias/lenovo-laptop-thinkpad-x1-carbon-3-main.png?context=bWFzdGVyfGltYWdlc3w0OTU2OHxpbWFnZS9wbmd8aW1hZ2VzL2hkYi9oMTgvOTQxODY1NDQ0OTY5NC5wbmd8MzE1MWYzYTEyOWExZWU2MGJjMTQzZjYxNzlmY2YyMDYwNDRjN2Y4YmU1ZDRlNzdhMjQ1ZTAzMDAxOWIwNWU0Nw",
+        "ProductId": 77
+    },
+    {
+        "Image1": "https://assets3.razerzone.com/X_JIbJcZVdafCqHrPaAzvh_qaew=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh2d%2Fhe5%2F9392073998366%2Fblade15-ch8-fhd-2-500x500.png",
+        "Image2": "https://assets3.razerzone.com/eBJ9wkaQHIIvMGWM2JDDrid3kv4=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh25%2Fhf8%2F9135865626654%2Frazer-blade-15-early2021-base-500x500.png",
+        "Image3": "https://dl.razerzone.com/src/2630/2630-1-en-v2.png",
+        "Image4": "https://basic-tutorials.de/wp-content/uploads/2022/11/Razer_Blade_15_CH8_021.png",
+        "ProductId": 78
+    },
+    {
+        "Image1": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4LiWr?ver=4aed",
+        "Image2": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4LqQX?ver=1f00",
+        "Image3": "https://techcommunity.microsoft.com/t5/image/serverpage/image-id/272446iD38206F9C7E0D71F/image-size/large?v=v2&px=999",
+        "Image4": "https://assets.stickpng.com/images/588526fb6f293bbfae451a3a.png",
+        "ProductId": 79
+    },
+    {
+        "Image1": "https://images.acer.com/is/image/acer/Helios-300-PH315-53-BlRGB-01a-1?$Product-Cards-XL$",
+        "Image2": "https://images.acer.com/is/image/acer/Predator-Helios-300-PH-315-54-Backliton-Black-01a-1?$Product-Cards-XL$",
+        "Image3": "https://images.acer.com/is/image/acer/Predator-Helios-300-PH-317-55-Backliton-Black-01a-1?$Visual-Filter-XL$",
+        "Image4": "https://res-4.cloudinary.com/grover/image/upload/v1583750199/q0nknuzgay2enhtqgo0q.png",
+        "ProductId": 80
+    },
+    {
+        "Image1": "https://www.notebookcheck.net/uploads/tx_nbc2/Alienwarem15R6__1__06.png",
+        "Image2": "https://i.dell.com/sites/csimages/App-Merchandizing_Images/all/awm15_r5_570x428.png",
+        "Image3": "https://www.gizmodo.com.au/wp-content/uploads/sites/2/2021/01/13/uehowqoeuxpwwdoqye2k.png?quality=80&w=1280",
+        "Image4": "https://www.notebookcheck.net/uploads/tx_nbc2/Alienwarem15R6__1__06.png",
+        "ProductId": 81
+    },
+    {
+        "Image1": "https://static.gigabyte.com/StaticFile/Image/Global/47a9cc6b9d82498b6d2645406488bc39/Product/24324/png/500",
+        "Image2": "https://static.gigabyte.com/StaticFile/Image/Global/40f70fadd94bb749718d6a48183baa4c/Product/24325/Png",
+        "Image3": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/1191/images/Visual-pic01-960.png",
+        "Image4": "https://cdn.vox-cdn.com/thumbor/ixOozfohOcx2YM2bPrjrg5D74Ws=/0x0:3462x3462/1400x1400/filters:focal(1731x1731:1732x1732)/cdn.vox-cdn.com/uploads/chorus_asset/file/22229226/AERO_17VC_P0.png",
+        "ProductId": 82
+    },
+    {
+        "Image1": "https://resource.logitech.com/content/dam/gaming/en/non-braid/hyjal-g502-hero/g502-hero-gallery-1-nb.png",
+        "Image2": "https://resource.logitech.com/content/dam/gaming/en/products/g502-hero-kda/g502-hero-kda-gallery-01.png",
+        "Image3": "https://resource.logitechg.com/w_692,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/non-braid/hyjal-g502-hero/g502-hero-gallery-3-nb.png?v=1",
+        "Image4": "https://www.matcomputersystem.com/wp-content/uploads/2020/12/Logitech-G502-2.png",
+        "ProductId": 83
+    },
+    {
+        "Image1": "https://assets2.razerzone.com/images/da10m/carousel/razer-death-adder-gallery-24.png",
+        "Image2": "https://assets2.razerzone.com/images/da10m/carousel/razer-death-adder-gallery-29.png",
+        "Image3": "https://bestware.com/media/catalog/product/cache/a1476565477a7ed2bcc6655d68359ecf/r/w/rwthwrth.png",
+        "Image4": "https://assets2.razerzone.com/images/da10m/carousel/razer-death-adder-gallery-15.png",
+        "ProductId": 84
+    },
+    {
+        "Image1": "https://cdn.salla.sa/BvdpA/arvp71d7e1nrvQgsfQLScZGyjfYw7FXFaziPQsi4.png",
+        "Image2": "https://media.steelseriescdn.com/thumbs/filer_public/4f/ec/4fec8ad0-451b-4b73-87c5-e365e33a02e7/05_rival600_kv_top_hero.png__1920x1080_crop-fit_optimize_subsampling-2.png",
+        "Image3": "https://www.pngkit.com/png/full/941-9410948_steelseries-rival-600-gaming-mouse-steelseries-rival-600.png",
+        "Image4": "https://www.matcomputersystem.com/wp-content/uploads/2020/10/1-106.png",
+        "ProductId": 85
+    },
+    {
+        "Image1": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/CH_9309111_NA_Gallery_M65_RGB_ELITE_WHT_04_0.png",
+        "Image2": "https://www.scan.co.uk/images/infopages/corsair_mouse/m65-rgb-elite/topimage.png",
+        "Image3": "https://ggshop.ba/wp-content/uploads/2023/02/CORSAIR-M65-ELITE-RGB-18K-DPI-Gaming-Mouse-Wired.png",
+        "Image4": "https://www.techpowerup.com/review/corsair-m65-rgb-elite/images/small.png",
+        "ProductId": 86
+    },
+    {
+        "Image1": "https://resource.logitech.com/content/dam/logitech/en/products/mice/mx-master-3-mac/gallery/mx-master-3-for-mac-gallery-top.png",
+        "Image2": "https://www.bechtle.com/dam/jcr:925206be-4d70-45f5-915a-7f773c351082/image_logitech_mx_master_3s_side.png",
+        "Image3": "https://resource.logitech.com/w_1206,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/mx-master-3s-mac-bluetooth-mouse/mx-master-3s-for-mac-mouse-shortcuts-2-items-desktop-tablet.png?v=1",
+        "Image4": "https://resource.logitech.com/w_692,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/mx-master-3s/gallery/mx-master-3s-mouse-3-4-view-black.png?v=1",
+        "ProductId": 87
+    },
+    {
+        "Image1": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1FJWY?ver=0545",
+        "Image2": "https://news.microsoft.com/wp-content/uploads/prod/sites/328/2017/10/MSSurface_Vail_SideView_RGB_FY18-59e6017c0cd8c.png",
+        "Image3": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE2l5Q4?ver=3cda",
+        "Image4": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1FGQz?ver=e9bf",
+        "ProductId": 88
+    },
+    {
+        "Image1": "https://xprs.s3.eu-west-3.amazonaws.com/media/product_images/Razer_Basilisk_X_HyperSpeed_Wireless_Gaming_Mouse_2.png",
+        "Image2": "https://dl.razerzone.com/OSvC/974-1-en-v1.png",
+        "Image3": "https://assets2.razerzone.com/pages/basilisk-v3-4D578898E8144Le8da21dde32b7a9f5f/basilisk.png",
+        "Image4": "https://assets3.razerzone.com/bA21-Kgu0zGiJs_MI_zzTTlbZMs=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh22%2Fh08%2F9447199080478%2Fbasilisk-v3-pro-white-500x500.png",
+        "ProductId": 89
+    },
+    {
+        "Image1": "https://res.cloudinary.com/corsair-pwa/image/upload/akamai/pdp/harpoon-rgb-pro/images/harpoon_rgb_pro_play_your_way.png",
+        "Image2": "https://assets-prd.ignimgs.com/2023/04/01/harpoon-rbg-1680360105694.png",
+        "Image3": "https://mesajilgamer.com/wp-content/uploads/sites/7/2021/04/022420-1.png",
+        "Image4": "https://scidata.dk/media/cache/product_original/product-images/11/26/CH-9311011-EU%20%285%291631111508.1235.png.png?1631111509",
+        "ProductId": 90
+    },
+    {
+        "Image1": "https://resource.logitech.com/content/dam/gaming/en/products/refreshed-g203/g203-black-gallery-1.png",
+        "Image2": "https://resource.logitech.com/content/dam/gaming/en/products/g203/g203-gallery-1.png",
+        "Image3": "https://resource.logitechg.com/w_692,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g203/g203-gallery-5.png?v=1",
+        "Image4": "https://resource.logitech.com/content/dam/gaming/en/products/refreshed-g203/g203-blue-gallery-1.png",
+        "ProductId": 91
+    },
+    {
+        "Image1": "https://media.steelseriescdn.com/thumbs/catalogue/products/01124-sensei-ten/77cd3ab65eca48eaa7aae3f24d81b083.png.500x400_q100_crop-fit_optimize.png",
+        "Image2": "https://media.steelseriescdn.com/thumbs/filer_public/4f/e3/4fe3d6ee-5bef-4083-943c-30b9722612f4/buyimg_senseiten_003.png__1920x1080_crop-fit_optimize_subsampling-2.png",
+        "Image3": "https://www.matcomputersystem.com/wp-content/uploads/2020/10/1-109.png",
+        "Image4": "https://bestware.com/media/catalog/product/cache/a1476565477a7ed2bcc6655d68359ecf/o/r/original_9_1.png",
+        "ProductId": 92
+    },
+    {
+        "Image1": "https://resource.logitech.com/content/dam/gaming/en/products/g915/g915-gallery/uk-g915-wireless-gallery-topdown.png",
+        "Image2": "https://resource.logitech.com/content/dam/gaming/en/products/g915-tkl/g915-tkl-gallery/esp-g915-tkl-carbon-gallery-topdown.png",
+        "Image3": "https://technomediatrade.com/wp-content/uploads/2023/03/transparent-G915-front.png",
+        "Image4": "https://digital-keys.com.sa/wp-content/uploads/2021/02/g915-gallery-hero.png",
+        "ProductId": 93
+    },
+    {
+        "Image1": "https://dl.razerzone.com/src/2040-1-EN-v1.png",
+        "Image2": "https://assets.razerzone.com/eeimages/support/products/1361/1361_huntsman_elite.png",
+        "Image3": "https://www.hitech-gamer.com/out/pictures/generated/product/1/665_665_75/razerhuntsmaneliterazerclickyopticalpurple_1_500px.png",
+        "Image4": "https://specials-images.forbesimg.com/imageserve/5d49b4c737f1f90008ec6eed/SteelSeries-Apex-Pro/960x0.png?fit=scale",
+        "ProductId": 94
+    },
+    {
+        "Image1": "https://media.steelseriescdn.com/thumbs/filer_public/b1/d1/b1d1b0d3-30d5-4477-bb8f-bad442cfb894/webprim_apexpro.png__1200x627_crop-fit_optimize_subsampling-2.png",
+        "Image2": "https://cdn.shopify.com/s/files/1/0044/3911/3762/products/ApexPro_1024x1024@2x.png?v=1623276189",
+        "Image3": "https://media.steelseriescdn.com/thumbs/catalogue/products/01057-apex-pro-tkl/623ce3f69cee4c109abd5ff939dd4921.png.500x400_q100_crop-fit_optimize.png",
+        "Image4": "https://bestware.com/media/catalog/product/cache/a1476565477a7ed2bcc6655d68359ecf/o/r/original_10.png",
+        "ProductId": 95
+    },
+    {
+        "Image1": "https://content.invisioncic.com/p313717/monthly_2017_07/blog_K95RGBPLATINUM_CABLEMANAGEMENT-Content-1.png.ad0b4df00d73ce6aac7427d424a694ec.png",
+        "Image2": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/content/CH-9127114-NA-K95-GUNMETAL-003.png",
+        "Image3": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/v1/akamai/pdp/k95-rgb-xt/images/k95_rgb_xt_front.png",
+        "Image4": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/content/CH-9000220-NA-CGK95-RGB-NA-008.png",
+        "ProductId": 96
+    },
+    {
+        "Image1": "https://www.duckychannel.com.tw/upload/2019_05_112/20190511120502dgnhbl7NU1.png",
+        "Image2": "https://www.duckychannel.com.tw/upload/2019_06_042/201906041806076h41f2D9T1.png",
+        "Image3": "https://www.duckychannel.com.tw/upload/2019_05_112/201905111526559g71tpMOD1.png",
+        "Image4": "https://www.duckychannel.com.tw/upload/2019_08_222/20190822174945b9ll89bt71.png",
+        "ProductId": 97
+    },
+    {
+        "Image1": "https://resource.logitech.com/content/dam/gaming/en/products/g513/g513-carbon-gallery-1.png",
+        "Image2": "https://resource.logitechg.com/w_1800,c_limit,f_auto,q_auto,f_auto,dpr_auto/d_transparent.gif/content/dam/gaming/en/products/g513/g513-intro-image.png?v=1",
+        "Image3": "https://resource.logitechg.com/w_692,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g513/g513-carbon-gallery-3.png?v=1",
+        "Image4": "https://resource.logitechg.com/w_692,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g513/g513-carbon-gallery-5.png?v=1",
+        "ProductId": 98
+    },
+    {
+        "Image1": "https://assets.razerzone.com/eeimages/support/products/1398/1398_blackwidowelite.png",
+        "Image2": "https://cdn.wccftech.com/wp-content/uploads/2018/10/Razer-Blackwidow-Elite-Render.png",
+        "Image3": "https://40bc23136fbccfbfd16a-d1efe2f0adbefb811760622b90eef2d8.ssl.cf5.rackcdn.com/2-QHRIcis6-large.png",
+        "Image4": "https://cdn.wccftech.com/wp-content/uploads/2018/10/Razer-Blackwidow-Elite-Render.png",
+        "ProductId": 99
+    },
+    {
+        "Image1": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/v1/akamai/pdp/k70-rgb-mk2/img/interest-Keyboard-front.png",
+        "Image2": "https://a-power.com/app/uploads/2020/11/58511471_0110132388-600x600.png",
+        "Image3": "https://redtech.lk/wp-content/uploads/2019/11/CH-9109012-NA-Gallery-K70-RGB-MK2-04.png",
+        "Image4": "https://cdn.originpc.com/opc/product/opc-blob-d530fea9-bfc2-48d5-be63-7faea95e480e.png",
+        "ProductId": 100
+    },
+    {
+        "Image1": "https://i0.wp.com/pcmarket.uz/wp-content/uploads/2021/06/HyperX-Alloy-FPS-Pro-Mechanical-Gaming-KeyboardMX-Red-RU-kopiya.png?fit=650%2C650&ssl=1",
+        "Image2": "https://boiling-machine.ru/wp-content/uploads/hyperx-alloy-fps-pro_5e53fd1-1.png",
+        "Image3": "https://w7.pngwing.com/pngs/118/612/png-transparent-computer-keyboard-kingston-hyperx-alloy-gaming-keyb-red-hyperx-alloy-fps-pro-mechanical-gaming-keyboard-hyperx-alloy-fps-mechanical-gaming-hypex-electronics.png",
+        "Image4": "https://i0.wp.com/pcmarket.uz/wp-content/uploads/2021/06/HyperX-Alloy-FPS-Pro-Mechanical-Gaming-KeyboardMX-Red-RU-kopiya.png?fit=650%2C650&ssl=1",
+        "ProductId": 101
+    },
+    {
+        "Image1": "https://media.steelseriescdn.com/thumbs/filer_public/1d/02/1d02dcec-68df-4427-a7ef-58d4c967ada7/buyimg_apex7tkl_006_uk.png__1920x1080_crop-fit_optimize_subsampling-2.png",
+        "Image2": "https://media.steelseriescdn.com/thumbs/catalogue/products/01083-apex-7-tkl-red-switch/defe1754acdf43df9620415d3827d5d7.png.500x400_q100_crop-fit_optimize.png",
+        "Image3": "https://media.steelseriescdn.com/thumbs/filer_public/c9/3b/c93b8889-ca56-4088-820e-60130845aefa/webprim_apexpro_tkl.png__1200x627_crop-fit_optimize_subsampling-2.png",
+        "Image4": "https://media.steelseriescdn.com/thumbs/catalog/items/64656/da3bca0152ed4d1480d14bb4e0ef2810.png.1400x1120_q100_crop-fit_optimize.png",
+        "ProductId": 102
+    }
+]

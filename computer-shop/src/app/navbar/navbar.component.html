@@ -50,8 +50,8 @@
                 </div>
             </div>
             <div class="hidden sm:flex sm:items-center w-fit mr-5" *ngIf="userLoggedIn">
-                <div class="hidden sm:flex sm:items-center ml-auto group">
-                    <button routerLink="/profile"
+                <div class="hidden sm:flex sm:items-center ml-auto group" *ngIf="userAdmin">
+                    <button routerLink="/add-product"
                         class="w-20 sm:h-8 sm:w-22 bg-lime text-black flex items-center justify-center group-hover:bg-black">
                         <span class="mx-auto relative text-sm group-hover:text-lime group-active:text-limeclick">ADD
                             ITEM</span>
