@@ -5,6 +5,7 @@ import { UserRegister } from '../models/UserRegister.model';
 import { UserLogin } from '../models/UserLogin.model';
 import { PurchaseHistory } from '../models/PurchaseHistory.model';
 import { CartItemPrice } from '../models/CartItemPrice.model';
+import { CartService } from './cart.service';
 @Injectable({
   providedIn: 'root'
 })
@@ -14,7 +15,7 @@ export class UserService {
   public loggedUserId = new BehaviorSubject<any>({});
   public purchaseHistory = new BehaviorSubject<PurchaseHistory>(new PurchaseHistory([], 0));
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private cartService: CartService) { }
 
   register(user: UserRegister) {
     const requestOptions: Object = {
@@ -80,6 +81,20 @@ export class UserService {
     this.http.get<PurchaseHistory>('https://localhost:7153/History?id=' + this.loggedUserId.getValue(), requestOptions).subscribe(result => {
       console.log(result);
       this.purchaseHistory.next(result);
+    })
+  }
+
+  purchaseProducts() {
+    const requestOptions: Object = {
+      headers: new HttpHeaders().append('Authorization', localStorage.getItem('token')!)
+    }
+    this.http.post('https://localhost:7153/History?id=' + this.loggedUserId.getValue(), requestOptions).subscribe({
+      next: () => {
+        this.cartService.getCartProducts(this.loggedUserId.getValue());
+      },
+      error: (err) => {
+        console.log(err.message);
+      }
     })
   }
 

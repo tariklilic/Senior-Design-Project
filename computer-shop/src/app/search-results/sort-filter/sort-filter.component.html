@@ -19,7 +19,8 @@
         </div>
         <div id="namedatadropdown" [ngClass]="{'hidden': isDropdownHiddenName}"
             class="z-10 hidden bg-lime text-black text-center shadow w-fit absolute">
-            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200 hover:cursor-pointer"
+                aria-labelledby="dropdownDefaultButton">
                 <li>
                     <a class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick"
                         (click)="setSort('nameAsc')">ASC</a>
@@ -46,7 +47,8 @@
         </div>
         <div id="ratingdatadropdown" [ngClass]="{'hidden': isDropdownHiddenRating}"
             class="z-10 hidden bg-lime text-black text-center absolute shadow w-fit ">
-            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200 hover:cursor-pointer"
+                aria-labelledby="dropdownDefaultButton">
                 <li>
                     <a class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick"
                         (click)="setSort('ratingAsc')">ASC</a>
@@ -73,7 +75,8 @@
         </div>
         <div id="pricedatadropdown" [ngClass]="{'hidden': isDropdownHiddenPrice}"
             class="z-10 hidden bg-lime text-black text-center absolute shadow w-fit ">
-            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200 hover:cursor-pointer"
+                aria-labelledby="dropdownDefaultButton">
                 <li>
                     <a class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs group-hover:text-lime group-active:text-limeclick"
                         (click)="setSort('priceAsc')">ASC</a>
@@ -112,7 +115,8 @@
         </div>
         <div id="typedatadropdown" [ngClass]="{'hidden': isDropdownHiddenType}"
             class="z-10 hidden bg-lime text-black text-center absolute shadow w-fit ">
-            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200 hover:cursor-pointer"
+                aria-labelledby="dropdownDefaultButton">
                 <li>
                     <a class="w-22 mb-2 block mr-auto lg:ml-0 relative text-xs hover:text-white hover:cursor-pointer group-active:text-limeclick"
                         (click)="setComponent(0)">ALL</a>

@@ -25,4 +25,10 @@ export class CartComponent implements OnInit {
     })
   }
 
+  purchaseProducts() {
+    this.userService.purchaseProducts()
+  }
+
+
+
 }
