@@ -1,4 +1,5 @@
 ﻿using computershopAPI.Data;
+using computershopAPI.Models.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace computershopAPI.Repository
@@ -40,6 +41,11 @@ namespace computershopAPI.Repository
             return cartItem;
         }
 
+        public async Task<Product> getProductById(int productId)
+        {
+            return await _context.Products.Include(x => x.Images).Where(x => x.Id == productId).FirstOrDefaultAsync();
+        }
+
         public async Task<List<PurchaseHistory>> AddToHistory(PurchaseHistory cartItem)
         {
             _context.PurchaseHistory.Add(cartItem);
@@ -69,5 +75,21 @@ namespace computershopAPI.Repository
             return await GetSingleProduct(id);
         }
 
+        public async Task UpdateProductQuantity(int productId, int quantity)
+        {
+            var product = await _context.Products
+                .Where(x => x.Id == productId)
+                .FirstOrDefaultAsync();
+
+            if(product.Quantity - quantity >= 0)
+            {
+                product.Quantity -= quantity;
+            } else
+            {
+                throw new Exception("Invalid quantity for " + product.Name);
+            }
+
+            await _context.SaveChangesAsync();
+        } 
     }
 }

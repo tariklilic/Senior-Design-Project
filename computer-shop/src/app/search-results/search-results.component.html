@@ -6,7 +6,7 @@
         </div>
     </div>
     <div class="mb-3 ml-3 mr-3 grid grid-cols-1 xl:grid-cols-2 gap-5">
-        <div *ngFor="let product of searchedProduct" routerLink="/product" class="hover:cursor-pointer">
+        <div *ngFor="let product of searchedProduct" class="hover:cursor-pointer">
             <app-item [product]="product"></app-item>
         </div>
     </div>

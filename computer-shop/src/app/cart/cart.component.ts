@@ -15,12 +15,10 @@ export class CartComponent implements OnInit {
   constructor(private cartService: CartService, private userService: UserService) { }
 
   ngOnInit(): void {
-    console.log(this.userService.loggedUserId.getValue());
     var loggedUser = this.userService.loggedUserId.getValue();
     this.cartService.getCartProducts(loggedUser);
 
     this.cartService.cart.subscribe(result => {
-      console.log(result);
       this.cart = result;
     })
   }
@@ -28,7 +26,4 @@ export class CartComponent implements OnInit {
   purchaseProducts() {
     this.userService.purchaseProducts()
   }
-
-
-
 }

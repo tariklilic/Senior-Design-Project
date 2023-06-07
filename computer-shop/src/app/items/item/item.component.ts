@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Product } from 'src/app/models/Product.model';
 import { CartService } from 'src/app/services/cart.service';
 import { ProductsService } from 'src/app/services/products.service';
@@ -12,7 +13,7 @@ import { UserService } from 'src/app/services/user.service';
 export class ItemComponent implements OnInit {
   @Input() product!: Product;
 
-  constructor(private userService: UserService, private cartService: CartService, private productService: ProductsService) { }
+  constructor(private userService: UserService, private cartService: CartService, private productService: ProductsService, private router: Router) { }
 
   ngOnInit(): void {
 
@@ -25,5 +26,6 @@ export class ItemComponent implements OnInit {
 
   viewProduct() {
     this.productService.getProductById(this.product.id);
+    this.router.navigate(['/product']);
   }
 }

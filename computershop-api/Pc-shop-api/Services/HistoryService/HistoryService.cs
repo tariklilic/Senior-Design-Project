@@ -27,16 +27,9 @@ namespace computershopAPI.Services.HistoryService
             for (int i = 0; i < userProducts.Count; i++)
             {
                 total = total + (userProducts[i].Product.Price * userProducts[i].Quantity);
-                if (userProducts[i].Quantity > userProducts[i].Product.Quantity)
-                {
-                    userProducts[i].Quantity = userProducts[i].Product.Quantity;
-                    newUserProducts.Add(userProducts[i]);
-                }
-                else
-                {
 
-                    newUserProducts.Add(userProducts[i]);
-                }
+                newUserProducts.Add(userProducts[i]);
+                
             }
             response.HistoryItems = newUserProducts;
             response.Total = total;
@@ -51,6 +44,12 @@ namespace computershopAPI.Services.HistoryService
 
             for (int i = 0; i < userProducts.Count; i++)
             {
+                var product = await _historyRepository.getProductById(userProducts[i].Product.Id);
+                if (product.Quantity < userProducts[i].Quantity)
+                {
+                    throw new Exception("Invalid Quantity");
+                }
+
                 var checkExists = await _historyRepository.GetHistorySingle(userProducts[i].UserId, userProducts[i].ProductId);
                 if (checkExists == null)
                 {
@@ -69,6 +68,8 @@ namespace computershopAPI.Services.HistoryService
                 {
                     await _historyRepository.UpdateHistoryQuantity(checkExists.Id, userProducts[i].Quantity);
                 }
+
+                await _historyRepository.UpdateProductQuantity(userProducts[i].Product.Id, userProducts[i].Quantity);
 
             }
             await _cartItemRepository.DeleteAllCartItemsByUserId(id);

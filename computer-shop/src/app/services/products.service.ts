@@ -37,7 +37,6 @@ export class ProductsService {
 
   getProductById(productId: number) {
     this.http.get<any>('https://localhost:7153/api/Product/item/' + productId).subscribe(result => {
-      console.log(result.data);
       this.product.next(result.data);
     })
   }

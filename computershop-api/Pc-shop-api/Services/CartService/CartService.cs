@@ -44,17 +44,8 @@ namespace computershopAPI.Services.CartService
             for (int i = 0; i < userProducts.Count; i++)
             {
                 total = total + (userProducts[i].Product.Price*userProducts[i].Quantity);
-                if (userProducts[i].Quantity > userProducts[i].Product.Quantity)
-                {
-                    await UpdateUserProductQuantity(userProducts[i].Id, userProducts[i].Product.Quantity);
-                    userProducts[i].Quantity = userProducts[i].Product.Quantity;
-                    newUserProducts.Add(userProducts[i]);
-                }
-                else
-                {
-                    
-                    newUserProducts.Add(userProducts[i]);
-                }
+
+                newUserProducts.Add(userProducts[i]);
             }
             response.CartItems = newUserProducts;
             response.Total = total;

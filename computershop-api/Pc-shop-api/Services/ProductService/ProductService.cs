@@ -93,7 +93,7 @@ namespace computershopAPI.Services.ProductService
 
         public Task<PaginationResponse> GetProducts(int page)
         {
-            IQueryable<Product> products = _context.Products.Include(x => x.Images);
+            IQueryable<Product> products = _context.Products.Include(x => x.Images).Where(a => a.Quantity > 0);
 
             var pageResults = 10f;
             var pageCount = Math.Ceiling(products.Count() / pageResults);
@@ -123,12 +123,12 @@ namespace computershopAPI.Services.ProductService
             if (componentId == 0)
             {
                 products = _context.Products.Include(x => x.Images)
-                .Where(a => a.Price >= priceLowest && a.Price <= priceHighest);
+                .Where(a => a.Price >= priceLowest && a.Price <= priceHighest && a.Quantity > 0);
             }
             else
             {
                 products = _context.Products.Include(x => x.Images)
-                .Where(a => a.ComponentId == componentId && a.Price >= priceLowest && a.Price <= priceHighest);
+                .Where(a => a.ComponentId == componentId && a.Price >= priceLowest && a.Price <= priceHighest && a.Quantity > 0);
             }
 
             if (searchName != null) products = products.Where(s => s.Name.ToLower().Contains(searchName.ToLower()));
@@ -155,8 +155,6 @@ namespace computershopAPI.Services.ProductService
                 
             }
 
-            
-
             var pageResults = 10f;
             var pageCount = Math.Ceiling(products.Count() / pageResults );
             products = products
@@ -171,11 +169,6 @@ namespace computershopAPI.Services.ProductService
             };
             return Task.FromResult(paginationResponse);
 
-
         }
-
-        
-
-
     }
 }
