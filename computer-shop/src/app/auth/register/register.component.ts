@@ -20,7 +20,6 @@ export class RegisterComponent implements OnInit {
   register() {
     var user = { username: this.username, email: this.email, password: this.password };
     this.userService.register(user);
-    this.router.navigate(['/login']);
   }
 
 }

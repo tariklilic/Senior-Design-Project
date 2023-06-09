@@ -41,4 +41,8 @@ export class ProductDetailsComponent implements OnInit {
     this.router.navigate(['/homepage'])
   }
 
+  changeCoverImage(imageUrl: string): void {
+    this.product.cover = imageUrl;
+  }
+
 }

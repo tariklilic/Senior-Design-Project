@@ -6,6 +6,7 @@ import { UserLogin } from '../models/UserLogin.model';
 import { PurchaseHistory } from '../models/PurchaseHistory.model';
 import { CartItemPrice } from '../models/CartItemPrice.model';
 import { CartService } from './cart.service';
+import { Router } from '@angular/router';
 @Injectable({
   providedIn: 'root'
 })
@@ -15,7 +16,7 @@ export class UserService {
   public loggedUserId = new BehaviorSubject<any>({});
   public purchaseHistory = new BehaviorSubject<PurchaseHistory>(new PurchaseHistory([], 0));
 
-  constructor(private http: HttpClient, private cartService: CartService) { }
+  constructor(private http: HttpClient, private cartService: CartService, private router: Router) { }
 
   register(user: UserRegister) {
     const requestOptions: Object = {
@@ -24,6 +25,7 @@ export class UserService {
     this.http.post('https://localhost:7153/Auth/register', user).subscribe({
       next: () => {
         console.log("You have successfully registered!");
+        this.router.navigate(['/login']);
       },
       error: (err) => {
         console.log(err.message);
@@ -44,6 +46,7 @@ export class UserService {
         this.loggedUser.next(true);
         this.getLoggedUserId();
         this.getLoggedUserRole();
+        this.router.navigate(['/homepage']);
       },
       error: (err) => {
         console.log(err.message);

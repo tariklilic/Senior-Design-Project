@@ -19,7 +19,6 @@ export class LoginComponent implements OnInit {
   login() {
     var user = { username: this.username, password: this.password };
     this.userService.login(user);
-    this.router.navigate(['/homepage']);
   }
 
 }
