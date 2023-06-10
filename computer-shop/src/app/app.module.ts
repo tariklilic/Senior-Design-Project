@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -28,6 +27,9 @@ import { ProfileItemComponent } from './items/profile-item/profile-item.componen
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { AddProductComponent } from './auth/add-product/add-product.component';
+import { ToastrModule } from 'ngx-toastr';
+
+
 
 @NgModule({
   declarations: [
@@ -61,6 +63,7 @@ import { AddProductComponent } from './auth/add-product/add-product.component';
     FormsModule,
     BrowserAnimationsModule,
     MatPaginatorModule,
+    ToastrModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

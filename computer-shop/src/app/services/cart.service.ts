@@ -1,6 +1,6 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { CartItem } from '../models/CartItem.model';
+import { ToastrService } from 'ngx-toastr';
 import { BehaviorSubject } from 'rxjs';
 import { CartItemPrice } from '../models/CartItemPrice.model';
 
@@ -10,7 +10,7 @@ import { CartItemPrice } from '../models/CartItemPrice.model';
 export class CartService {
   public cart = new BehaviorSubject<CartItemPrice>(new CartItemPrice([], 0));
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private toastr: ToastrService) { }
 
   getCartProducts(userId: string) {
     const requestOptions: Object = {
@@ -47,11 +47,11 @@ export class CartService {
     }
     this.http.post<CartItemPrice>('https://localhost:7153/Cart', body, requestOptions).subscribe({
       next: (result) => {
-        console.log(result);
         this.cart.next(result);
+        this.toastr.success("Product added to cart");
       },
-      error: (err) => {
-        console.log(err.message);
+      error: () => {
+        this.toastr.error("Error while adding product to cart");
       }
     })
   }
@@ -63,9 +63,10 @@ export class CartService {
     this.http.put<CartItemPrice>('https://localhost:7153/Cart/RemoveFromCart?cartItemId=' + cartItemId, null, requestOptions).subscribe({
       next: (result) => {
         this.cart.next(result);
+        this.toastr.success("Product removed from cart");
       },
-      error: (err) => {
-        console.log(err.message);
+      error: () => {
+        this.toastr.error("Error while removing product from cart");
       }
     })
   }

@@ -4,6 +4,7 @@ import { BehaviorSubject } from 'rxjs';
 import { PaginatedProduct } from '../models/PaginatedProduct.model';
 import { Product } from '../models/Product.model';
 import { ProductImages } from '../models/ProductImages.model';
+import { ToastrService } from 'ngx-toastr';
 
 @Injectable({
   providedIn: 'root'
@@ -19,7 +20,7 @@ export class ProductsService {
   public priceLowest = 0;
   public priceHighest = 10000;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private toastr: ToastrService) { }
 
   getAllProducts() {
     this.http.get<PaginatedProduct>('https://localhost:7153/api/Product/' + this.currentPage.getValue()).subscribe(result => {
@@ -47,10 +48,10 @@ export class ProductsService {
     }
     this.http.post('https://localhost:7153/api/Product', JSON.stringify(addProduct), requestOptions).subscribe({
       next: () => {
-        console.log("You have successfully added Product!");
+        this.toastr.success("Product added");
       },
-      error: (err) => {
-        console.log(err.message);
+      error: () => {
+        this.toastr.error("Error while adding product");
       }
     });
   }
@@ -62,9 +63,10 @@ export class ProductsService {
     this.http.delete('https://localhost:7153/api/Product/' + productId, requestOptions).subscribe({
       next: () => {
         this.getAllProducts();
+        this.toastr.success("Product deleted");
       },
-      error: (err) => {
-        console.log(err.message);
+      error: () => {
+        this.toastr.error("Error while deleting product");
       }
     });
   }

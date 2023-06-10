@@ -7,6 +7,7 @@ import { PurchaseHistory } from '../models/PurchaseHistory.model';
 import { CartItemPrice } from '../models/CartItemPrice.model';
 import { CartService } from './cart.service';
 import { Router } from '@angular/router';
+import { ToastrService } from 'ngx-toastr';
 @Injectable({
   providedIn: 'root'
 })
@@ -16,7 +17,7 @@ export class UserService {
   public loggedUserId = new BehaviorSubject<any>({});
   public purchaseHistory = new BehaviorSubject<PurchaseHistory>(new PurchaseHistory([], 0));
 
-  constructor(private http: HttpClient, private cartService: CartService, private router: Router) { }
+  constructor(private http: HttpClient, private cartService: CartService, private router: Router, private toastr: ToastrService) { }
 
   register(user: UserRegister) {
     const requestOptions: Object = {
@@ -24,11 +25,11 @@ export class UserService {
     }
     this.http.post('https://localhost:7153/Auth/register', user).subscribe({
       next: () => {
-        console.log("You have successfully registered!");
+        this.toastr.success("You have successfully registered");
         this.router.navigate(['/login']);
       },
-      error: (err) => {
-        console.log(err.message);
+      error: () => {
+        this.toastr.error("Error while registering, please try again !");
       }
     });
   }
@@ -42,14 +43,14 @@ export class UserService {
     this.http.post('https://localhost:7153/Auth/login', user, requestOptions).subscribe({
       next: (token) => {
         localStorage.setItem("token", "bearer " + JSON.parse(token.toString()).token);
-        console.log("Successfully logged in");
+        this.toastr.success("You have successfully logged in");
         this.loggedUser.next(true);
         this.getLoggedUserId();
         this.getLoggedUserRole();
         this.router.navigate(['/homepage']);
       },
-      error: (err) => {
-        console.log(err.message);
+      error: () => {
+        this.toastr.error("Wrong credentials, please try again !");
       }
     });
   }
@@ -59,6 +60,7 @@ export class UserService {
     this.loggedUser.next(false);
     this.loggedUserId.next(0);
     this.userRole.next(1);
+    this.toastr.success("You have successfully logged out");
   }
 
   getTokenData() {
@@ -94,9 +96,10 @@ export class UserService {
     this.http.post('https://localhost:7153/History?id=' + this.loggedUserId.getValue(), requestOptions).subscribe({
       next: () => {
         this.cartService.getCartProducts(this.loggedUserId.getValue());
+        this.toastr.success("You have successfully made a purchase");
       },
-      error: (err) => {
-        console.log(err.message);
+      error: () => {
+        this.toastr.error("Error with purchase, please try again !");
       }
     })
   }

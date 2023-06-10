@@ -12,3 +12,7 @@ body {
   bottom: 0;
   width: 100%;
 }
+
+.ngx-toastr {
+  width: 1250px !important;
+}
