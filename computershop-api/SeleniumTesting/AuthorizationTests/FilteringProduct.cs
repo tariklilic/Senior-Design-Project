@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SeleniumTesting.AuthorizationTests
 {
-    internal class FilteringProduct
+    internal class ApplicationFlow
     {
         IWebDriver webDriver = new ChromeDriver("C:\\Users\\dina3\\Desktop");
 
@@ -33,7 +33,7 @@ namespace SeleniumTesting.AuthorizationTests
         }
 
         [Test]
-        public void FilteringProductTest()
+        public void ApplicationFlowTest()
         {
             var component = this.webDriver.FindElement(By.XPath("/html/body/app-root/body/div/app-homepage/app-responsive-carousel/div/ngx-slick-carousel/div/div/div[8]/app-carousel-item"));
             component.Click();
@@ -55,12 +55,15 @@ namespace SeleniumTesting.AuthorizationTests
             var processor = this.webDriver.FindElement(By.XPath("/html/body/app-root/body/div/app-search-results/div/div[2]/div/app-item/div/div/div[3]/div/div[3]/div/button"));
             processor.Click();
 
+            Thread.Sleep(1000);
             var cart = this.webDriver.FindElement(By.XPath("/html/body/app-root/body/div/div/app-navbar/div/div/div[1]/div[3]/div[2]/button"));
             cart.Click();
 
+            Thread.Sleep(1000);
             var purchase = this.webDriver.FindElement(By.XPath("/html/body/app-root/body/div/app-cart/div/div[3]/div[3]/div/button"));
             purchase.Click();
 
+            Thread.Sleep(5000);
             var profile = this.webDriver.FindElement(By.XPath("/html/body/app-root/body/div/div/app-navbar/div/div/div[1]/div[3]/div[3]/button"));
             profile.Click();
         }

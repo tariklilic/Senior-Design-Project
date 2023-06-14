@@ -1,7 +1,7 @@
 [
     {
         "type": "Graphic Card",
-        "name": "ANVIDIA GeForce RTX 3080",
+        "name": "NVIDIA GeForce RTX 3080",
         "manufacturer": "NVIDIA",
         "shortdescription": "Powerful graphics card for gaming enthusiasts.",
         "price": 1499.99,
@@ -20,7 +20,7 @@
     },
     {
         "type": "Graphic Card",
-        "name": "BAMD Radeon RX 6800 XT",
+        "name": "AMD Radeon RX 6800 XT",
         "manufacturer": "AMD",
         "shortdescription": "High-performance graphics card for gaming and content creation.",
         "price": 999.99,
@@ -39,7 +39,7 @@
     },
     {
         "type": "Graphic Card",
-        "name": "CNVIDIA GeForce RTX 3070",
+        "name": "NVIDIA GeForce RTX 3070",
         "manufacturer": "NVIDIA",
         "shortdescription": "Mid-range graphics card with excellent performance-to-price ratio.",
         "price": 799.99,
@@ -58,7 +58,7 @@
     },
     {
         "type": "Graphic Card",
-        "name": "DAMD Radeon RX 6700 XT",
+        "name": "AMD Radeon RX 6700 XT",
         "manufacturer": "AMD",
         "shortdescription": "High-performance graphics card for 1440p gaming.",
         "price": 549.99,
@@ -77,7 +77,7 @@
     },
     {
         "type": "Graphic Card",
-        "name": "ENVIDIA GeForce RTX 3060 Ti",
+        "name": "NVIDIA GeForce RTX 3060 Ti",
         "manufacturer": "NVIDIA",
         "shortdescription": "Value-oriented graphics card for 1080p gaming.",
         "price": 699.99,
@@ -96,7 +96,7 @@
     },
     {
         "type": "Graphic Card",
-        "name": "FAMD Radeon RX 6600 XT",
+        "name": "AMD Radeon RX 6600 XT",
         "manufacturer": "AMD",
         "shortdescription": "Entry-level graphics card for 1080p gaming.",
         "price": 349.99,
@@ -114,7 +114,7 @@
         "imagesId": 6
     },
     {
-        "type": "GGraphic Card",
+        "type": "Graphic Card",
         "name": "NVIDIA GeForce GTX 1660 Super",
         "manufacturer": "NVIDIA",
         "shortdescription": "Budget-friendly graphics card for 1080p gaming.",
@@ -134,7 +134,7 @@
     },
     {
         "type": "Graphic Card",
-        "name": "HAMD Radeon RX 6900 XT",
+        "name": "AMD Radeon RX 6900 XT",
         "manufacturer": "AMD",
         "shortdescription": "Flagship graphics card for extreme gaming and content creation.",
         "price": 999.99,
@@ -153,7 +153,7 @@
     },
     {
         "type": "Graphic Card",
-        "name": "INVIDIA GeForce RTX 3090",
+        "name": "NVIDIA GeForce RTX 3090",
         "manufacturer": "NVIDIA",
         "shortdescription": "Extreme-performance graphics card for gaming and creative work.",
         "price": 1999.99,
@@ -172,7 +172,7 @@
     },
     {
         "type": "Graphic Card",
-        "name": "JAMD Radeon RX 6800",
+        "name": "AMD Radeon RX 6800",
         "manufacturer": "AMD",
         "shortdescription": "High-performance graphics card for enthusiast gamers.",
         "price": 1299.99,
@@ -191,7 +191,7 @@
     },
     {
         "type": "Graphic Card",
-        "name": "KNVIDIA GeForce GTX 1050 Ti",
+        "name": "NVIDIA GeForce GTX 1050 Ti",
         "manufacturer": "NVIDIA",
         "shortdescription": "Entry-level graphics card for casual gaming and multimedia tasks.",
         "price": 199.99,
@@ -608,196 +608,6 @@
         "imagesId": 32
     },
     {
-        "type": "Hard Drive",
-        "name": "Seagate BarraCuda 2TB",
-        "manufacturer": "Seagate",
-        "shortdescription": "2TB 3.5-inch internal hard drive with 7200 RPM and SATA 6Gb/s interface.",
-        "rating": 4.7,
-        "quantity": 20,
-        "longdescription": "The Seagate BarraCuda 2TB is a popular internal hard drive known for its reliability and storage capacity. With its 2TB (terabyte) capacity, it offers ample space for storing a wide range of files, including documents, photos, videos, games, and more. The BarraCuda series is known for its fast data transfer speeds, making it suitable for tasks such as data backup, multimedia storage, and gaming. It utilizes a 3.5-inch form factor, which is compatible with most desktop computers. Whether you need additional storage for your personal computer or a work-related setup, the Seagate BarraCuda 2TB provides a cost-effective and efficient solution.",
-        "images": [
-            "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/internal-products/desktop%20hard/barracuda-3-5/barracuda-2tb-dm008-hero-left-270x270.png",
-            "https://cdn.shopify.com/s/files/1/0554/2346/7713/products/2TBBARRACUDA3.5HDD_580x.png?v=1619664854",
-            "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/products/hard-drives/barracuda-hard-drive/_shared/images/barra-cuda-hdd-512x512.png",
-            "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/products/hard-drives/barracuda-hard-drive/_shared/images/barracuda-2-5-1tb-front-600x600.png"
-        ],
-        "price": 79.99,
-        "cover": "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/internal-products/desktop%20hard/barracuda-3-5/barracuda-2tb-dm008-hero-left-270x270.png",
-        "componentId": 4,
-        "imagesId": 33
-    },
-    {
-        "type": "Hard Drive",
-        "name": "WD Blue 1TB",
-        "manufacturer": "Western Digital",
-        "shortdescription": "1TB 2.5-inch internal hard drive with 5400 RPM and SATA 6Gb/s interface.",
-        "rating": 4.6,
-        "quantity": 18,
-        "longdescription": "The WD Blue 1TB is a reliable and popular internal hard drive from Western Digital. With its 1TB (terabyte) storage capacity, it offers a decent amount of space for storing various files, including documents, photos, videos, and applications. The WD Blue series is known for its reliability, durability, and consistent performance. It utilizes a 3.5-inch form factor, making it compatible with most desktop computers. The drive operates at 7200 RPM (rotations per minute) for fast data access and transfer speeds. Whether you need additional storage for your personal or professional needs, the WD Blue 1TB is a dependable choice that delivers reliable performance at an affordable price.",
-        "images": [
-            "https://pcscomputers.com.ph/wp-content/uploads/2022/01/wd-blue-pc-desktop-hard-drive-1tb.png.wdthumb.1280.1280.webp",
-            "https://goldenbytecenter.com/wp-content/uploads/2022/07/WD-1TB-BLUE-64MB-7200RPM-INT-DP-HDD.png",
-            "https://cdn.shopify.com/s/files/1/2227/7667/products/81ML1zhVHrL._AC_SL1500_grande.jpg?v=1577528448",
-            "https://w7.pngwing.com/pngs/973/328/png-transparent-laptop-wd-blue-desktop-hdd-serial-ata-western-digital-hard-drives-laptop-electronics-hard-disk-drive-laptop.png"
-        ],
-        "price": 49.99,
-        "cover": "https://pcscomputers.com.ph/wp-content/uploads/2022/01/wd-blue-pc-desktop-hard-drive-1tb.png.wdthumb.1280.1280.webp",
-        "componentId": 4,
-        "imagesId": 34
-    },
-    {
-        "type": "Hard Drive",
-        "name": "Samsung 870 EVO 500GB",
-        "manufacturer": "Samsung",
-        "shortdescription": "500GB 2.5-inch SATA SSD with fast read/write speeds and reliable performance.",
-        "rating": 4.9,
-        "quantity": 25,
-        "longdescription": "The Samsung 870 EVO 500GB is a high-performance solid-state drive (SSD) designed for fast and reliable storage. With its 500GB capacity, it offers a decent amount of space for storing your files, applications, and operating system. The 870 EVO series from Samsung is known for its exceptional performance and durability. It utilizes the SATA III interface and features Samsung's V-NAND technology, which enhances the drive's speed and endurance. The SSD delivers faster boot times, quicker file transfers, and improved overall system responsiveness compared to traditional hard drives. It is also equipped with advanced data encryption features for enhanced security. If you're looking to upgrade your system with a reliable and high-performing SSD, the Samsung 870 EVO 500GB is an excellent choice.",
-        "images": [
-            "https://images.samsung.com/is/image/samsung/p6pim/za/mz-77e500bw/gallery/za-870-evo-sata-3-2-5-ssd-mz-77e500bw-thumb-380737363?$480_480_PNG$",
-            "https://images.samsung.com/is/image/samsung/p6pim/za/mz-77e500bw/gallery/za-870-evo-sata-3-2-5-ssd-mz-77e500bw-thumb-380737362?$480_480_PNG$",
-            "https://tech-laptop.com/img/980e.png",
-            "https://www.nanotek.lk/uploads/product/667-20210201095939-Untitled-4.png"
-        ],
-        "price": 89.99,
-        "cover": "https://images.samsung.com/is/image/samsung/p6pim/za/mz-77e500bw/gallery/za-870-evo-sata-3-2-5-ssd-mz-77e500bw-thumb-380737363?$480_480_PNG$",
-        "componentId": 4,
-        "imagesId": 35
-    },
-    {
-        "type": "Hard Drive",
-        "name": "Crucial MX500 1TB",
-        "manufacturer": "Crucial",
-        "shortdescription": "1TB 2.5-inch SATA SSD with sequential read/write speeds and advanced features.",
-        "rating": 4.8,
-        "quantity": 30,
-        "longdescription": "The Crucial MX500 1TB is a reliable and high-performance solid-state drive (SSD) that offers generous storage capacity and fast data transfer speeds. With its 1TB capacity, it provides ample space for storing your files, applications, and operating system. The MX500 series from Crucial is known for its excellent performance and reliability. It utilizes the SATA III interface and features Micron 3D NAND technology, which enhances both speed and endurance. The SSD delivers faster boot times, quicker file transfers, and improved overall system responsiveness compared to traditional hard drives. It also incorporates advanced features like hardware-based encryption for data security. If you're looking for a dependable and efficient SSD upgrade, the Crucial MX500 1TB is a solid choice.",
-        "images": [
-            "https://eu.crucial.com/content/dam/crucial/marketing-assets/china-etail/12_12/products/crucial-mx500-2-5inch-product-dynamic-2-v2-image.psd.transform/small-png/img.png",
-            "https://www.crucial.com/content/dam/crucial/marketing-assets/china-etail/12_12/products/crucial-mx500-2-5inch-product-dynamic-2-v2-image.psd.transform/small-png/img.png",
-            "https://www.techpowerup.com/review/crucial-mx500-1-tb/images/small.png",
-            "https://content.crucial.com/content/dam/crucial/ssd-products/mx500/images/product/crucial-mx500-2-5inch-product-front-image.psd.transform/medium-png/image.png"
-        ],
-        "price": 99.99,
-        "cover": "https://eu.crucial.com/content/dam/crucial/marketing-assets/china-etail/12_12/products/crucial-mx500-2-5inch-product-dynamic-2-v2-image.psd.transform/small-png/img.png",
-        "componentId": 4,
-        "imagesId": 36
-    },
-    {
-        "type": "Hard Drive",
-        "name": "Seagate FireCuda 2TB",
-        "manufacturer": "Seagate",
-        "shortdescription": "2TB 2.5-inch hybrid hard drive with SSD cache and 5400 RPM.",
-        "rating": 4.7,
-        "quantity": 22,
-        "longdescription": "The Seagate FireCuda 2TB is a hybrid solid-state drive (SSHD) that combines the speed of an SSD with the capacity of a traditional hard drive. It offers a storage capacity of 2TB, providing ample space for storing your files, games, and multimedia content. The FireCuda series from Seagate is designed specifically for gaming and high-performance applications. It utilizes flash memory technology for faster data access and improved performance compared to traditional hard drives. The drive also features an integrated 8GB NAND flash cache, which dynamically stores frequently accessed data for faster load times. With its combination of speed and capacity, the Seagate FireCuda 2TB is an excellent choice for gamers and users who require both storage space and enhanced performance.",
-        "images": [
-            "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/internal-products/desktop%20hard/firecuda-3-5/firecuda-3-5-sshd-left-hero-270x270.png",
-            "https://www.seagate.com/www-content/product-content/firecuda-family/firecuda/images/seagate-firecuda-laptop-sshd-2tb-front.png",
-            "https://m.media-amazon.com/images/I/81xMdjOIxtL._AC_UF894,1000_QL80_.jpg",
-            "https://www.cclonline.com/content/blog/2018/ccl-computers-firecuda-drive-engine.png?width=1250"
-        ],
-        "price": 109.99,
-        "cover": "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/internal-products/desktop%20hard/firecuda-3-5/firecuda-3-5-sshd-left-hero-270x270.png",
-        "componentId": 4,
-        "imagesId": 37
-    },
-    {
-        "type": "Hard Drive",
-        "name": "WD Black SN750 1TB",
-        "manufacturer": "Western Digital",
-        "shortdescription": "1TB M.2 NVMe SSD with fast read/write speeds and gaming-focused features.",
-        "rating": 4.9,
-        "quantity": 20,
-        "longdescription": "The WD Black SN750 1TB is a high-performance NVMe solid-state drive (SSD) designed for gamers and content creators. It offers a 1TB capacity, providing ample space for storing your games, applications, and multimedia files. The WD Black series is known for its exceptional speed and reliability. The SN750 utilizes NVMe technology, which delivers blazing-fast read and write speeds for quicker load times and seamless performance. It is built with a PCIe Gen3 interface and supports the M.2 2280 form factor. The drive also incorporates WD's proprietary SSD Dashboard software for Monitoring and optimizing performance. With its impressive speed and capacity, the WD Black SN750 1TB is an excellent choice for users seeking high-performance storage solutions for demanding workloads and gaming experiences.",
-        "images": [
-            "https://images.anandtech.com/doci/13760/heatsink-comp.png",
-            "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-black-sn750-nvme-ssd/gallery/without-heatsink/wd-black-sn750-nvme-ssd-noheatsink1.png",
-            "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-black-sn750-nvme-ssd/gallery/with-heatsink/wd-black-sn750-nvme-ssd-down.png.thumb.1280.1280.png",
-            "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-black-sn750-nvme-ssd/gallery/with-heatsink/wd-black-sn750-nvme-ssd-flat.png"
-        ],
-        "price": 159.99,
-        "cover": "https://images.anandtech.com/doci/13760/heatsink-comp.png",
-        "componentId": 4,
-        "imagesId": 38
-    },
-    {
-        "type": "Hard Drive",
-        "name": "Samsung 980 PRO 500GB",
-        "manufacturer": "Samsung",
-        "shortdescription": "500GB M.2 NVMe SSD with PCIe 4.0 interface and exceptional performance.",
-        "rating": 4.9,
-        "quantity": 18,
-        "longdescription": "The Samsung 980 PRO 500GB is a cutting-edge NVMe solid-state drive (SSD) that offers blazing-fast speed and exceptional performance. With its 500GB capacity, it provides ample storage space for your files, applications, and games. The 980 PRO series from Samsung is designed for high-end users and enthusiasts who demand top-tier performance. It utilizes PCIe 4.0 interface and features Samsung's V-NAND and Elpis controller technology, enabling lightning-fast read and write speeds. This drive delivers significantly faster load times, quicker data transfers, and improved overall system responsiveness compared to previous-generation SSDs. It also incorporates advanced features such as hardware-based encryption for data security. If you're looking for uncompromising speed and performance, the Samsung 980 PRO 500GB is an excellent choice for your storage needs.",
-        "images": [
-            "https://images.samsung.com/is/image/samsung/sg-980-pro-nvme-m2-ssd-mz-v8p500bw-frontblack-293274400?$650_519_PNG$",
-            "https://ggshop.ba/wp-content/uploads/2023/02/Samsung-SSD-980-PRO-500GBNVMe-M.2PCIe-Gen-4.0-x46900MB_s-read5000MB_s-write.png",
-            "https://www.scan.co.uk/images/infopages/samsung_980_pro/topimage.png",
-            "https://media.bechtle.com/is/180712/1c4b3d4ee288fc9434f5175bf56070570/c3/gallery/798a9a59736940aba4a386d3e40ae71a?version=0"
-        ],
-        "price": 129.99,
-        "cover": "https://images.samsung.com/is/image/samsung/sg-980-pro-nvme-m2-ssd-mz-v8p500bw-frontblack-293274400?$650_519_PNG$",
-        "componentId": 4,
-        "imagesId": 39
-    },
-    {
-        "type": "Hard Drive",
-        "name": "Crucial P2 1TB",
-        "manufacturer": "Crucial",
-        "shortdescription": "1TB M.2 NVMe SSD with fast read/write speeds and reliable performance.",
-        "rating": 4.8,
-        "quantity": 25,
-        "longdescription": "The Crucial P2 1TB is a high-performance NVMe solid-state drive (SSD) that offers fast storage and ample capacity. With its 1TB storage capacity, it provides plenty of space for storing your files, games, and applications. The Crucial P2 series is designed to deliver speedy performance at an affordable price point. It utilizes the NVMe PCIe Gen3 interface, which enables faster data transfer speeds compared to traditional SATA-based SSDs. The P2 SSD delivers rapid read and write speeds, ensuring quick system boot times and snappy application loading. It also supports features like dynamic write acceleration and error correction technology for enhanced reliability. If you're looking for a cost-effective SSD upgrade that offers both speed and capacity, the Crucial P2 1TB is a solid choice.",
-        "images": [
-            "https://content.crucial.com/content/dam/crucial/ssd-products/P2/images/product/crucial-p2-flat-front-1000GB-image.psd.transform/medium-png/image.png",
-            "https://www.crucial.com/content/dam/crucial/ssd-products/P2/images/product/crucial-p2-ssd-2000GB-dynamic-wshadow-image.psd.transform/small-png/img.png",
-            "https://www.storagereview.com/wp-content/uploads/2020/06/StorageReview-Crucial-P2.jpg",
-            "https://assetsio.reedpopcdn.com/crucial-p2-2tb-ssd-02.png?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp"
-        ],
-        "price": 94.99,
-        "cover": "https://content.crucial.com/content/dam/crucial/ssd-products/P2/images/product/crucial-p2-flat-front-1000GB-image.psd.transform/medium-png/image.png",
-        "componentId": 4,
-        "imagesId": 40
-    },
-    {
-        "type": "Hard Drive",
-        "name": "Seagate IronWolf 4TB",
-        "manufacturer": "Seagate",
-        "shortdescription": "4TB 3.5-inch internal hard drive designed for NAS systems with enhanced reliability.",
-        "rating": 4.7,
-        "quantity": 22,
-        "longdescription": "The Seagate IronWolf 4TB is a high-capacity hard disk drive (HDD) specifically designed for use in NAS (Network Attached Storage) systems. With its 4TB storage capacity, it offers ample space for storing and accessing large amounts of data. The IronWolf series from Seagate is built for NAS environments, offering enhanced reliability, durability, and performance for 24/7 operation. The drive features rotational vibration (RV) sensors, which help maintain optimal performance and minimize potential disruptions in multi-drive NAS setups. It also comes equipped with AgileArray technology, which ensures efficient data management and power utilization. The IronWolf 4TB is an ideal choice for users seeking a robust and reliable storage solution for their home or small business NAS system.",
-        "images": [
-            "https://intellcom.net/files/product_imgs/big/1539091653446.png",
-            "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/products/nas-drives/ironwolf-hard-drive/_shared/images/ironwolf-pro-4tb-hero-left.png",
-            "https://www.smartech.ee/image_files/img_62e3c1c92902d2_346490-2056x2888.jpeg",
-            "https://sltechie.lk/wp-content/uploads/2021/06/1644-20201029115006-Untitled-2-3.png"
-        ],
-        "price": 129.99,
-        "cover": "https://intellcom.net/files/product_imgs/big/1539091653446.png",
-        "componentId": 4,
-        "imagesId": 41
-    },
-    {
-        "type": "Hard Drive",
-        "name": "WD Red 6TB",
-        "manufacturer": "Western Digital",
-        "shortdescription": "6TB 3.5-inch internal hard drive designed for NAS systems with NASware technology.",
-        "rating": 4.8,
-        "quantity": 20,
-        "longdescription": "The WD Red 6TB is a high-capacity hard disk drive (HDD) designed specifically for network-attached storage (NAS) systems. With its 6TB storage capacity, it offers ample space for storing and accessing large amounts of data in a NAS environment. The WD Red series from Western Digital is optimized for 24/7 operation, providing reliability, durability, and efficient power management. It features NASware technology, which enhances compatibility, reliability, and performance in NAS systems. The drive is designed to handle multiple simultaneous users, data-intensive tasks, and RAID configurations commonly used in NAS setups. Whether you're building a home or small business NAS, the WD Red 6TB is a reliable choice that provides efficient and dependable storage for your networked devices.",
-        "images": [
-            "https://cdn.cs.1worldsync.com/syndication/feeds/wd/inline-content/10/B8E585C237164C9038E44B1E938D71441C58F3FA_WDRED356TB_w_400_hero.png",
-            "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-red-sata-hdd/gallery/wd-red-3-5-6tb.png",
-            "https://computergeeks.com.cy/image/cache/catalog/SSD/WD%20HDD%20NAS%20RED%206TB-550x550h.png",
-            "https://pcmarket.ba/wp-content/uploads/2022/05/220518160018623760.jpg"
-        ],
-        "price": 189.99,
-        "cover": "https://cdn.cs.1worldsync.com/syndication/feeds/wd/inline-content/10/B8E585C237164C9038E44B1E938D71441C58F3FA_WDRED356TB_w_400_hero.png",
-        "componentId": 4,
-        "imagesId": 42
-    },
-    {
         "type": "Ram Memory",
         "name": "Corsair Vengeance RGB Pro 16GB",
         "manufacturer": "Corsair",
@@ -813,7 +623,7 @@
         ],
         "price": 129.99,
         "cover": "https://cwsmgmt.corsair.com/pdp/vengeance-rgb-pro/Content/Vengeance_RGB_Pro_PDP_White_04.png",
-        "componentId": 5,
+        "componentId": 4,
         "imagesId": 43
     },
     {
@@ -832,7 +642,7 @@
         ],
         "price": 199.99,
         "cover": "https://a-power.com/app/uploads/2021/04/86188870_8936272881.png",
-        "componentId": 5,
+        "componentId": 4,
         "imagesId": 44
     },
     {
@@ -851,7 +661,7 @@
         ],
         "price": 349.99,
         "cover": "https://www.gskill.com/_upload/images/156283985713.png",
-        "componentId": 5,
+        "componentId": 4,
         "imagesId": 45
     },
     {
@@ -870,7 +680,7 @@
         ],
         "price": 59.99,
         "cover": "https://sltechie.lk/wp-content/uploads/2021/05/1441-20200722231459-Untitled-1-2.png",
-        "componentId": 5,
+        "componentId": 4,
         "imagesId": 46
     },
     {
@@ -889,7 +699,7 @@
         ],
         "price": 179.99,
         "cover": "https://cwsmgmt.corsair.com/pdp/vengeance-rgb-pro/tuff/Vengeance_RGB_PRO_TUF_03_1UP.png",
-        "componentId": 5,
+        "componentId": 4,
         "imagesId": 47
     },
     {
@@ -908,7 +718,7 @@
         ],
         "price": 499.99,
         "cover": "https://cwsmgmt.corsair.com/pdp/vengeance-rgb-pro/tuff/Vengeance_RGB_PRO_TUF_03_1UP.png",
-        "componentId": 5,
+        "componentId": 4,
         "imagesId": 48
     },
     {
@@ -927,7 +737,7 @@
         ],
         "price": 89.99,
         "cover": "https://content.crucial.com/content/dam/crucial/dram-products/desktop/images/product/crucial-ddr3-4gb-dimm-kit2-image.psd.transform/medium-png/image.png",
-        "componentId": 5,
+        "componentId": 4,
         "imagesId": 49
     },
     {
@@ -946,7 +756,7 @@
         ],
         "price": 149.99,
         "cover": "https://www.gskill.com/_upload/images/153611092211.png",
-        "componentId": 5,
+        "componentId": 4,
         "imagesId": 50
     },
     {
@@ -965,7 +775,7 @@
         ],
         "price": 319.99,
         "cover": "https://rebelgaming.co.za/wp-content/uploads/2021/08/ME-KD4836RF17X2-KINGSTON-HYPERX-FURY-RGB-16GB-2X-8GB-3600MHZ-DDR4-RAM.png",
-        "componentId": 5,
+        "componentId": 4,
         "imagesId": 51
     },
     {
@@ -984,8 +794,198 @@
         ],
         "price": 109.99,
         "cover": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/content/CML4GX3M1A1600C9-VENGLP-B-01.png",
-        "componentId": 5,
+        "componentId": 4,
         "imagesId": 52
+    },
+    {
+        "type": "Hard Drive",
+        "name": "Seagate BarraCuda 2TB",
+        "manufacturer": "Seagate",
+        "shortdescription": "2TB 3.5-inch internal hard drive with 7200 RPM and SATA 6Gb/s interface.",
+        "rating": 4.7,
+        "quantity": 20,
+        "longdescription": "The Seagate BarraCuda 2TB is a popular internal hard drive known for its reliability and storage capacity. With its 2TB (terabyte) capacity, it offers ample space for storing a wide range of files, including documents, photos, videos, games, and more. The BarraCuda series is known for its fast data transfer speeds, making it suitable for tasks such as data backup, multimedia storage, and gaming. It utilizes a 3.5-inch form factor, which is compatible with most desktop computers. Whether you need additional storage for your personal computer or a work-related setup, the Seagate BarraCuda 2TB provides a cost-effective and efficient solution.",
+        "images": [
+            "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/internal-products/desktop%20hard/barracuda-3-5/barracuda-2tb-dm008-hero-left-270x270.png",
+            "https://cdn.shopify.com/s/files/1/0554/2346/7713/products/2TBBARRACUDA3.5HDD_580x.png?v=1619664854",
+            "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/products/hard-drives/barracuda-hard-drive/_shared/images/barra-cuda-hdd-512x512.png",
+            "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/products/hard-drives/barracuda-hard-drive/_shared/images/barracuda-2-5-1tb-front-600x600.png"
+        ],
+        "price": 79.99,
+        "cover": "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/internal-products/desktop%20hard/barracuda-3-5/barracuda-2tb-dm008-hero-left-270x270.png",
+        "componentId": 5,
+        "imagesId": 33
+    },
+    {
+        "type": "Hard Drive",
+        "name": "WD Blue 1TB",
+        "manufacturer": "Western Digital",
+        "shortdescription": "1TB 2.5-inch internal hard drive with 5400 RPM and SATA 6Gb/s interface.",
+        "rating": 4.6,
+        "quantity": 18,
+        "longdescription": "The WD Blue 1TB is a reliable and popular internal hard drive from Western Digital. With its 1TB (terabyte) storage capacity, it offers a decent amount of space for storing various files, including documents, photos, videos, and applications. The WD Blue series is known for its reliability, durability, and consistent performance. It utilizes a 3.5-inch form factor, making it compatible with most desktop computers. The drive operates at 7200 RPM (rotations per minute) for fast data access and transfer speeds. Whether you need additional storage for your personal or professional needs, the WD Blue 1TB is a dependable choice that delivers reliable performance at an affordable price.",
+        "images": [
+            "https://pcscomputers.com.ph/wp-content/uploads/2022/01/wd-blue-pc-desktop-hard-drive-1tb.png.wdthumb.1280.1280.webp",
+            "https://goldenbytecenter.com/wp-content/uploads/2022/07/WD-1TB-BLUE-64MB-7200RPM-INT-DP-HDD.png",
+            "https://cdn.shopify.com/s/files/1/2227/7667/products/81ML1zhVHrL._AC_SL1500_grande.jpg?v=1577528448",
+            "https://w7.pngwing.com/pngs/973/328/png-transparent-laptop-wd-blue-desktop-hdd-serial-ata-western-digital-hard-drives-laptop-electronics-hard-disk-drive-laptop.png"
+        ],
+        "price": 49.99,
+        "cover": "https://pcscomputers.com.ph/wp-content/uploads/2022/01/wd-blue-pc-desktop-hard-drive-1tb.png.wdthumb.1280.1280.webp",
+        "componentId": 5,
+        "imagesId": 34
+    },
+    {
+        "type": "Hard Drive",
+        "name": "Samsung 870 EVO 500GB",
+        "manufacturer": "Samsung",
+        "shortdescription": "500GB 2.5-inch SATA SSD with fast read/write speeds and reliable performance.",
+        "rating": 4.9,
+        "quantity": 25,
+        "longdescription": "The Samsung 870 EVO 500GB is a high-performance solid-state drive (SSD) designed for fast and reliable storage. With its 500GB capacity, it offers a decent amount of space for storing your files, applications, and operating system. The 870 EVO series from Samsung is known for its exceptional performance and durability. It utilizes the SATA III interface and features Samsung's V-NAND technology, which enhances the drive's speed and endurance. The SSD delivers faster boot times, quicker file transfers, and improved overall system responsiveness compared to traditional hard drives. It is also equipped with advanced data encryption features for enhanced security. If you're looking to upgrade your system with a reliable and high-performing SSD, the Samsung 870 EVO 500GB is an excellent choice.",
+        "images": [
+            "https://images.samsung.com/is/image/samsung/p6pim/za/mz-77e500bw/gallery/za-870-evo-sata-3-2-5-ssd-mz-77e500bw-thumb-380737363?$480_480_PNG$",
+            "https://images.samsung.com/is/image/samsung/p6pim/za/mz-77e500bw/gallery/za-870-evo-sata-3-2-5-ssd-mz-77e500bw-thumb-380737362?$480_480_PNG$",
+            "https://tech-laptop.com/img/980e.png",
+            "https://www.nanotek.lk/uploads/product/667-20210201095939-Untitled-4.png"
+        ],
+        "price": 89.99,
+        "cover": "https://images.samsung.com/is/image/samsung/p6pim/za/mz-77e500bw/gallery/za-870-evo-sata-3-2-5-ssd-mz-77e500bw-thumb-380737363?$480_480_PNG$",
+        "componentId": 5,
+        "imagesId": 35
+    },
+    {
+        "type": "Hard Drive",
+        "name": "Crucial MX500 1TB",
+        "manufacturer": "Crucial",
+        "shortdescription": "1TB 2.5-inch SATA SSD with sequential read/write speeds and advanced features.",
+        "rating": 4.8,
+        "quantity": 30,
+        "longdescription": "The Crucial MX500 1TB is a reliable and high-performance solid-state drive (SSD) that offers generous storage capacity and fast data transfer speeds. With its 1TB capacity, it provides ample space for storing your files, applications, and operating system. The MX500 series from Crucial is known for its excellent performance and reliability. It utilizes the SATA III interface and features Micron 3D NAND technology, which enhances both speed and endurance. The SSD delivers faster boot times, quicker file transfers, and improved overall system responsiveness compared to traditional hard drives. It also incorporates advanced features like hardware-based encryption for data security. If you're looking for a dependable and efficient SSD upgrade, the Crucial MX500 1TB is a solid choice.",
+        "images": [
+            "https://eu.crucial.com/content/dam/crucial/marketing-assets/china-etail/12_12/products/crucial-mx500-2-5inch-product-dynamic-2-v2-image.psd.transform/small-png/img.png",
+            "https://www.crucial.com/content/dam/crucial/marketing-assets/china-etail/12_12/products/crucial-mx500-2-5inch-product-dynamic-2-v2-image.psd.transform/small-png/img.png",
+            "https://www.techpowerup.com/review/crucial-mx500-1-tb/images/small.png",
+            "https://content.crucial.com/content/dam/crucial/ssd-products/mx500/images/product/crucial-mx500-2-5inch-product-front-image.psd.transform/medium-png/image.png"
+        ],
+        "price": 99.99,
+        "cover": "https://eu.crucial.com/content/dam/crucial/marketing-assets/china-etail/12_12/products/crucial-mx500-2-5inch-product-dynamic-2-v2-image.psd.transform/small-png/img.png",
+        "componentId": 5,
+        "imagesId": 36
+    },
+    {
+        "type": "Hard Drive",
+        "name": "Seagate FireCuda 2TB",
+        "manufacturer": "Seagate",
+        "shortdescription": "2TB 2.5-inch hybrid hard drive with SSD cache and 5400 RPM.",
+        "rating": 4.7,
+        "quantity": 22,
+        "longdescription": "The Seagate FireCuda 2TB is a hybrid solid-state drive (SSHD) that combines the speed of an SSD with the capacity of a traditional hard drive. It offers a storage capacity of 2TB, providing ample space for storing your files, games, and multimedia content. The FireCuda series from Seagate is designed specifically for gaming and high-performance applications. It utilizes flash memory technology for faster data access and improved performance compared to traditional hard drives. The drive also features an integrated 8GB NAND flash cache, which dynamically stores frequently accessed data for faster load times. With its combination of speed and capacity, the Seagate FireCuda 2TB is an excellent choice for gamers and users who require both storage space and enhanced performance.",
+        "images": [
+            "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/internal-products/desktop%20hard/firecuda-3-5/firecuda-3-5-sshd-left-hero-270x270.png",
+            "https://www.seagate.com/www-content/product-content/firecuda-family/firecuda/images/seagate-firecuda-laptop-sshd-2tb-front.png",
+            "https://m.media-amazon.com/images/I/81xMdjOIxtL._AC_UF894,1000_QL80_.jpg",
+            "https://www.cclonline.com/content/blog/2018/ccl-computers-firecuda-drive-engine.png?width=1250"
+        ],
+        "price": 109.99,
+        "cover": "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/internal-products/desktop%20hard/firecuda-3-5/firecuda-3-5-sshd-left-hero-270x270.png",
+        "componentId": 5,
+        "imagesId": 37
+    },
+    {
+        "type": "Hard Drive",
+        "name": "WD Black SN750 1TB",
+        "manufacturer": "Western Digital",
+        "shortdescription": "1TB M.2 NVMe SSD with fast read/write speeds and gaming-focused features.",
+        "rating": 4.9,
+        "quantity": 20,
+        "longdescription": "The WD Black SN750 1TB is a high-performance NVMe solid-state drive (SSD) designed for gamers and content creators. It offers a 1TB capacity, providing ample space for storing your games, applications, and multimedia files. The WD Black series is known for its exceptional speed and reliability. The SN750 utilizes NVMe technology, which delivers blazing-fast read and write speeds for quicker load times and seamless performance. It is built with a PCIe Gen3 interface and supports the M.2 2280 form factor. The drive also incorporates WD's proprietary SSD Dashboard software for Monitoring and optimizing performance. With its impressive speed and capacity, the WD Black SN750 1TB is an excellent choice for users seeking high-performance storage solutions for demanding workloads and gaming experiences.",
+        "images": [
+            "https://images.anandtech.com/doci/13760/heatsink-comp.png",
+            "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-black-sn750-nvme-ssd/gallery/without-heatsink/wd-black-sn750-nvme-ssd-noheatsink1.png",
+            "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-black-sn750-nvme-ssd/gallery/with-heatsink/wd-black-sn750-nvme-ssd-down.png.thumb.1280.1280.png",
+            "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-black-sn750-nvme-ssd/gallery/with-heatsink/wd-black-sn750-nvme-ssd-flat.png"
+        ],
+        "price": 159.99,
+        "cover": "https://images.anandtech.com/doci/13760/heatsink-comp.png",
+        "componentId": 5,
+        "imagesId": 38
+    },
+    {
+        "type": "Hard Drive",
+        "name": "Samsung 980 PRO 500GB",
+        "manufacturer": "Samsung",
+        "shortdescription": "500GB M.2 NVMe SSD with PCIe 4.0 interface and exceptional performance.",
+        "rating": 4.9,
+        "quantity": 18,
+        "longdescription": "The Samsung 980 PRO 500GB is a cutting-edge NVMe solid-state drive (SSD) that offers blazing-fast speed and exceptional performance. With its 500GB capacity, it provides ample storage space for your files, applications, and games. The 980 PRO series from Samsung is designed for high-end users and enthusiasts who demand top-tier performance. It utilizes PCIe 4.0 interface and features Samsung's V-NAND and Elpis controller technology, enabling lightning-fast read and write speeds. This drive delivers significantly faster load times, quicker data transfers, and improved overall system responsiveness compared to previous-generation SSDs. It also incorporates advanced features such as hardware-based encryption for data security. If you're looking for uncompromising speed and performance, the Samsung 980 PRO 500GB is an excellent choice for your storage needs.",
+        "images": [
+            "https://images.samsung.com/is/image/samsung/sg-980-pro-nvme-m2-ssd-mz-v8p500bw-frontblack-293274400?$650_519_PNG$",
+            "https://ggshop.ba/wp-content/uploads/2023/02/Samsung-SSD-980-PRO-500GBNVMe-M.2PCIe-Gen-4.0-x46900MB_s-read5000MB_s-write.png",
+            "https://www.scan.co.uk/images/infopages/samsung_980_pro/topimage.png",
+            "https://media.bechtle.com/is/180712/1c4b3d4ee288fc9434f5175bf56070570/c3/gallery/798a9a59736940aba4a386d3e40ae71a?version=0"
+        ],
+        "price": 129.99,
+        "cover": "https://images.samsung.com/is/image/samsung/sg-980-pro-nvme-m2-ssd-mz-v8p500bw-frontblack-293274400?$650_519_PNG$",
+        "componentId": 5,
+        "imagesId": 39
+    },
+    {
+        "type": "Hard Drive",
+        "name": "Crucial P2 1TB",
+        "manufacturer": "Crucial",
+        "shortdescription": "1TB M.2 NVMe SSD with fast read/write speeds and reliable performance.",
+        "rating": 4.8,
+        "quantity": 25,
+        "longdescription": "The Crucial P2 1TB is a high-performance NVMe solid-state drive (SSD) that offers fast storage and ample capacity. With its 1TB storage capacity, it provides plenty of space for storing your files, games, and applications. The Crucial P2 series is designed to deliver speedy performance at an affordable price point. It utilizes the NVMe PCIe Gen3 interface, which enables faster data transfer speeds compared to traditional SATA-based SSDs. The P2 SSD delivers rapid read and write speeds, ensuring quick system boot times and snappy application loading. It also supports features like dynamic write acceleration and error correction technology for enhanced reliability. If you're looking for a cost-effective SSD upgrade that offers both speed and capacity, the Crucial P2 1TB is a solid choice.",
+        "images": [
+            "https://content.crucial.com/content/dam/crucial/ssd-products/P2/images/product/crucial-p2-flat-front-1000GB-image.psd.transform/medium-png/image.png",
+            "https://www.crucial.com/content/dam/crucial/ssd-products/P2/images/product/crucial-p2-ssd-2000GB-dynamic-wshadow-image.psd.transform/small-png/img.png",
+            "https://www.storagereview.com/wp-content/uploads/2020/06/StorageReview-Crucial-P2.jpg",
+            "https://assetsio.reedpopcdn.com/crucial-p2-2tb-ssd-02.png?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp"
+        ],
+        "price": 94.99,
+        "cover": "https://content.crucial.com/content/dam/crucial/ssd-products/P2/images/product/crucial-p2-flat-front-1000GB-image.psd.transform/medium-png/image.png",
+        "componentId": 5,
+        "imagesId": 40
+    },
+    {
+        "type": "Hard Drive",
+        "name": "Seagate IronWolf 4TB",
+        "manufacturer": "Seagate",
+        "shortdescription": "4TB 3.5-inch internal hard drive designed for NAS systems with enhanced reliability.",
+        "rating": 4.7,
+        "quantity": 22,
+        "longdescription": "The Seagate IronWolf 4TB is a high-capacity hard disk drive (HDD) specifically designed for use in NAS (Network Attached Storage) systems. With its 4TB storage capacity, it offers ample space for storing and accessing large amounts of data. The IronWolf series from Seagate is built for NAS environments, offering enhanced reliability, durability, and performance for 24/7 operation. The drive features rotational vibration (RV) sensors, which help maintain optimal performance and minimize potential disruptions in multi-drive NAS setups. It also comes equipped with AgileArray technology, which ensures efficient data management and power utilization. The IronWolf 4TB is an ideal choice for users seeking a robust and reliable storage solution for their home or small business NAS system.",
+        "images": [
+            "https://intellcom.net/files/product_imgs/big/1539091653446.png",
+            "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/products/nas-drives/ironwolf-hard-drive/_shared/images/ironwolf-pro-4tb-hero-left.png",
+            "https://www.smartech.ee/image_files/img_62e3c1c92902d2_346490-2056x2888.jpeg",
+            "https://sltechie.lk/wp-content/uploads/2021/06/1644-20201029115006-Untitled-2-3.png"
+        ],
+        "price": 129.99,
+        "cover": "https://intellcom.net/files/product_imgs/big/1539091653446.png",
+        "componentId": 5,
+        "imagesId": 41
+    },
+    {
+        "type": "Hard Drive",
+        "name": "WD Red 6TB",
+        "manufacturer": "Western Digital",
+        "shortdescription": "6TB 3.5-inch internal hard drive designed for NAS systems with NASware technology.",
+        "rating": 4.8,
+        "quantity": 20,
+        "longdescription": "The WD Red 6TB is a high-capacity hard disk drive (HDD) designed specifically for network-attached storage (NAS) systems. With its 6TB storage capacity, it offers ample space for storing and accessing large amounts of data in a NAS environment. The WD Red series from Western Digital is optimized for 24/7 operation, providing reliability, durability, and efficient power management. It features NASware technology, which enhances compatibility, reliability, and performance in NAS systems. The drive is designed to handle multiple simultaneous users, data-intensive tasks, and RAID configurations commonly used in NAS setups. Whether you're building a home or small business NAS, the WD Red 6TB is a reliable choice that provides efficient and dependable storage for your networked devices.",
+        "images": [
+            "https://cdn.cs.1worldsync.com/syndication/feeds/wd/inline-content/10/B8E585C237164C9038E44B1E938D71441C58F3FA_WDRED356TB_w_400_hero.png",
+            "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-red-sata-hdd/gallery/wd-red-3-5-6tb.png",
+            "https://computergeeks.com.cy/image/cache/catalog/SSD/WD%20HDD%20NAS%20RED%206TB-550x550h.png",
+            "https://pcmarket.ba/wp-content/uploads/2022/05/220518160018623760.jpg"
+        ],
+        "price": 189.99,
+        "cover": "https://cdn.cs.1worldsync.com/syndication/feeds/wd/inline-content/10/B8E585C237164C9038E44B1E938D71441C58F3FA_WDRED356TB_w_400_hero.png",
+        "componentId": 5,
+        "imagesId": 42
     },
     {
         "type": "Headset",

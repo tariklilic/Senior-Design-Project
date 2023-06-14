@@ -6,7 +6,7 @@
                     class="ml-3 sm:ml-0 h-7 sm:h-7 md:h-8 hover:cursor-pointer">
             </div>
             <div class="flex sm:items-center relative mx-auto text-gray-600">
-                <div *ngIf="userLoggedIn">
+                <div>
                     <input
                         class="border-2 border-gray-300 w-32 h-8 sm:ml-20 md:ml-20 bg-gray sm:w-40 md:w-60 sm:h-8 lg:h-8 lg:w-80 xl:w-112 px-3 pr-16 text-sm focus:outline-none"
                         type="search" name="search" placeholder="Search" [(ngModel)]="searchParam">
@@ -112,7 +112,9 @@
                     routerLink="/login">LOGIN</a>
                 <a href="#" class="text-lime text-lg font-semibold ml-3 mb-1" *ngIf="!userLoggedIn"
                     routerLink="/register">REGISTER</a>
-                <a href="#" class="text-lime text-lg font-semibold mb-1" *ngIf="userLoggedIn"
+                <a href="#" class="text-lime text-lg font-semibold ml-3 mb-1" *ngIf="userAdmin"
+                    routerLink="/add-product">ADD ITEM</a>
+                <a href="#" class="text-lime text-lg font-semibold ml-3 mb-1" *ngIf="userLoggedIn"
                     routerLink="/cart">CART</a>
                 <a href="#" class="text-lime text-lg font-semibold ml-3 mb-1" *ngIf="userLoggedIn"
                     routerLink="/profile">PROFILE</a>
